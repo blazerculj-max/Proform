@@ -1,0 +1,662 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-11T06:23:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2062402778,
+  "lat": 47.9068808,
+  "lon": 11.4013898,
+  "tags": {
+    "craft": "boatbuilder",
+    "name": "Tim Lenz, Bootsbau"
+  }
+},
+{
+  "type": "node",
+  "id": 3653851161,
+  "lat": 45.8402717,
+  "lon": 13.4927339,
+  "tags": {
+    "addr:city": "Ronchi dei Legionari",
+    "addr:housenumber": "163",
+    "addr:postcode": "34077",
+    "addr:street": "Via Redipuglia",
+    "check_date": "2023-07-21",
+    "craft": "boatbuilder",
+    "name": "Marine Interiors",
+    "website": "http://www.marineinteriors.com"
+  }
+},
+{
+  "type": "node",
+  "id": 3729191128,
+  "lat": 45.7915408,
+  "lon": 13.5113695,
+  "tags": {
+    "addr:city": "Staranzano",
+    "addr:housenumber": "4",
+    "addr:postcode": "34079",
+    "addr:street": "Via Divisione Alpina Julia",
+    "craft": "boatbuilder",
+    "name": "Conit Solutions S.r.l.",
+    "website": "http://www.conitsolutions.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4794803337,
+  "lat": 44.1531626,
+  "lon": 12.4311875,
+  "tags": {
+    "addr:city": "San Mauro Pascoli",
+    "addr:housenumber": "913",
+    "addr:postcode": "47030",
+    "addr:street": "Via Cagnona Nuova",
+    "craft": "boatbuilder",
+    "name": "C.n.a. Cantiere Nautico S.r.l."
+  }
+},
+{
+  "type": "node",
+  "id": 5053102004,
+  "lat": 45.7242753,
+  "lon": 13.8229635,
+  "tags": {
+    "addr:city": "Dutovlje",
+    "addr:housenumber": "1",
+    "addr:postcode": "6221",
+    "addr:street": "Vrhovlje",
+    "craft": "boatbuilder",
+    "name": "Blumar d.o.o.",
+    "ref:gurs:hs_mid": "14753354",
+    "source:addr": "GURS",
+    "website": "https://www.blumar.si/"
+  }
+},
+{
+  "type": "node",
+  "id": 11652687672,
+  "lat": 48.1336993,
+  "lon": 11.6594159,
+  "tags": {
+    "addr:housenumber": "23",
+    "addr:street": "Am Moosfeld",
+    "craft": "boatbuilder",
+    "mobile": "+49 172 8558100",
+    "name": "Schreinerei Helmut Fischer",
+    "website": "https://www.woodensailboat.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 12383430376,
+  "lat": 45.6937101,
+  "lon": 13.0718129,
+  "tags": {
+    "craft": "boatbuilder",
+    "name": "Officina nautica Ennio Tagliarolo"
+  }
+},
+{
+  "type": "node",
+  "id": 12825305324,
+  "lat": 48.2897678,
+  "lon": 11.5944106,
+  "tags": {
+    "addr:city": "Eching",
+    "addr:housenumber": "1",
+    "addr:postcode": "85386",
+    "addr:street": "Gut Hollern",
+    "check_date": "2026-02-24",
+    "craft": "boatbuilder",
+    "email": "info@bootsbau-merlin.de",
+    "name": "Merlin Bootsbau & Winterlager",
+    "operator": "Merlin Meidinger",
+    "phone": "+49 89 262036620",
+    "website": "https://bootsbau-merlin.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 13384142814,
+  "lat": 45.4996167,
+  "lon": 13.5896545,
+  "tags": {
+    "craft": "boatbuilder",
+    "name": "Škver",
+    "operator": "DRUŠTVO BRACERA - Associazione Bracera"
+  }
+},
+{
+  "type": "node",
+  "id": 13851803511,
+  "lat": 44.8001213,
+  "lon": 14.7308481,
+  "tags": {
+    "boat:repair": "yes",
+    "craft": "boatbuilder",
+    "name": "Bracol"
+  }
+},
+{
+  "type": "way",
+  "id": 36689666,
+  "center": {
+    "lat": 45.7616091,
+    "lon": 13.1698542
+  },
+  "tags": {
+    "building": "industrial",
+    "craft": "boatbuilder",
+    "height": "7 m",
+    "it:fvg:ctrn:code": "4AIN",
+    "it:fvg:ctrn:revision": "1AN",
+    "seamark:small_craft_facility:category": "boatyard",
+    "seamark:type": "small_craft_facility"
+  }
+},
+{
+  "type": "way",
+  "id": 68693362,
+  "center": {
+    "lat": 47.8755248,
+    "lon": 12.4267217
+  },
+  "tags": {
+    "addr:city": "Chiemsee",
+    "addr:country": "DE",
+    "addr:housenumber": "7",
+    "addr:place": "Frauenchiemsee",
+    "addr:postcode": "83256",
+    "building": "industrial",
+    "craft": "boatbuilder",
+    "name": "Bootswerft Heistracher",
+    "website": "https://heistracher.de"
+  }
+},
+{
+  "type": "way",
+  "id": 104380430,
+  "center": {
+    "lat": 47.8400692,
+    "lon": 12.4791528
+  },
+  "tags": {
+    "addr:city": "Übersee",
+    "addr:country": "DE",
+    "addr:housenumber": "4",
+    "addr:postcode": "83236",
+    "addr:street": "Seestraße",
+    "building": "yes",
+    "craft": "boatbuilder",
+    "description": "Bootswerft",
+    "name": "Madl am Chiemsee"
+  }
+},
+{
+  "type": "way",
+  "id": 129801454,
+  "center": {
+    "lat": 45.3372705,
+    "lon": 14.3943802
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište 3. Maj",
+    "name:it": "Cantieri Navali 3 Maggio",
+    "website": "https://www.uljanik.hr/uljanik-group/3-maj-shipyard-jsc/contact",
+    "wikidata": "Q2297404",
+    "wikipedia": "hr:3. Maj"
+  }
+},
+{
+  "type": "way",
+  "id": 129801563,
+  "center": {
+    "lat": 45.2715565,
+    "lon": 14.5668201
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište Kraljevica",
+    "name:hr": "Brodogradilište Kraljevica",
+    "name:it": "Cantiere navale di Porto Re",
+    "website": "http://www.dalmont.hr",
+    "wikidata": "Q3655753",
+    "wikipedia": "hr:Brodogradilište Kraljevica"
+  }
+},
+{
+  "type": "way",
+  "id": 148450177,
+  "center": {
+    "lat": 45.3121992,
+    "lon": 14.4814737
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište Viktor Lenac",
+    "name:en": "Viktor Lenac shipyard",
+    "name:it": "Bacino di carenaggio 'Viktor Lenac'",
+    "website": "https://www.lenac.hr"
+  }
+},
+{
+  "type": "way",
+  "id": 149074210,
+  "center": {
+    "lat": 45.5997678,
+    "lon": 12.8719686
+  },
+  "tags": {
+    "building": "yes",
+    "craft": "boatbuilder"
+  }
+},
+{
+  "type": "way",
+  "id": 149075065,
+  "center": {
+    "lat": 45.5903378,
+    "lon": 12.8520785
+  },
+  "tags": {
+    "addr:city": "Porto Santa Margherita",
+    "addr:housenumber": "12",
+    "addr:street": "Via Antonio Gritti",
+    "building": "yes",
+    "craft": "boatbuilder",
+    "name": "Stil Nautica Di Bincoletto Giulio"
+  }
+},
+{
+  "type": "way",
+  "id": 149075788,
+  "center": {
+    "lat": 45.5997142,
+    "lon": 12.8720741
+  },
+  "tags": {
+    "building": "yes",
+    "craft": "boatbuilder"
+  }
+},
+{
+  "type": "way",
+  "id": 152987995,
+  "center": {
+    "lat": 48.2063996,
+    "lon": 16.3313463
+  },
+  "tags": {
+    "craft": "boatbuilder",
+    "name": "Parallelwelt"
+  }
+},
+{
+  "type": "way",
+  "id": 159308359,
+  "center": {
+    "lat": 44.4576730,
+    "lon": 12.2580700
+  },
+  "tags": {
+    "addr:city": "Ravenna",
+    "addr:housenumber": "68",
+    "addr:postcode": "48122",
+    "addr:street": "Via Classicana",
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "man_made": "works",
+    "name": "Ferretti Group - Ravenna",
+    "operator": "Ferretti Group S.p.A.",
+    "produce": "ships"
+  }
+},
+{
+  "type": "way",
+  "id": 218421896,
+  "center": {
+    "lat": 45.4771966,
+    "lon": 16.3871879
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodocentar"
+  }
+},
+{
+  "type": "way",
+  "id": 224296946,
+  "center": {
+    "lat": 45.0490001,
+    "lon": 12.0650559
+  },
+  "tags": {
+    "addr:housenumber": "47",
+    "addr:street": "Via Leonardo da Vinci",
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Cantieri Navali Vittoria",
+    "website": "https://www.vittoria.biz/",
+    "wikidata": "Q28670596",
+    "wikipedia": "it:Cantiere Navale Vittoria"
+  }
+},
+{
+  "type": "way",
+  "id": 245372274,
+  "center": {
+    "lat": 47.9028151,
+    "lon": 12.2227281
+  },
+  "tags": {
+    "addr:city": "Söchtenau",
+    "addr:housenumber": "2",
+    "addr:postcode": "83139",
+    "addr:street": "Gewerbegebiet",
+    "boat:repair": "boatbuilder",
+    "building": "yes",
+    "craft": "boatbuilder",
+    "email": "office@flyer-cat.de",
+    "name": "Flyer Catamarans",
+    "operator": "Aicher-Egner GmbH",
+    "phone": "+49 8053 798888",
+    "sport": "sailing",
+    "website": "https://flyer-cat.de"
+  }
+},
+{
+  "type": "way",
+  "id": 295468335,
+  "center": {
+    "lat": 47.9710127,
+    "lon": 13.1232189
+  },
+  "tags": {
+    "addr:city": "Mattsee",
+    "addr:country": "AT",
+    "addr:housenumber": "7",
+    "addr:postcode": "5163",
+    "addr:street": "Köstendorfer Landesstraße",
+    "alt_name": "Schöchl Werft GmbH",
+    "at_bev:addr_date": "2025-04-01",
+    "building": "yes",
+    "craft": "boatbuilder",
+    "description": "Als österreichisches Familienunternehmen steht SUNBEAM Yachts seit über 75 Jahren für die Entwicklung und den Bau von hochwertigen Segelbooten und Segelyachten, die Tradition und Innovation vereinen.",
+    "email": "sunbeam@sunbeam.at",
+    "fax": "+43 6217 5581-10",
+    "image": "https://www.sunbeam-yachts.com/wp-content/uploads/sunbeam-32-1-home-hero.jpg",
+    "name": "SUNBEAM Yachts",
+    "opening_hours": "Mo-Th 07:00-16:30; Fr 07:00-13:00",
+    "operator": "Sunbeam Watersports GmbH",
+    "phone": "+43 6217 5581-0",
+    "product": "yacht",
+    "website": "https://www.sunbeam-yachts.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 320982423,
+  "center": {
+    "lat": 47.8756954,
+    "lon": 12.4269227
+  },
+  "tags": {
+    "building": "boathouse",
+    "craft": "boatbuilder",
+    "name": "Bootswerft Heistracher"
+  }
+},
+{
+  "type": "way",
+  "id": 335602086,
+  "center": {
+    "lat": 47.9727772,
+    "lon": 13.1050937
+  },
+  "tags": {
+    "building": "yes",
+    "check_date": "2023-08-22",
+    "craft": "boatbuilder",
+    "name": "Bootswerft Steiner Nautic"
+  }
+},
+{
+  "type": "way",
+  "id": 375212648,
+  "center": {
+    "lat": 45.6952486,
+    "lon": 13.0662213
+  },
+  "tags": {
+    "boatyard:type": "general",
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Cantieri di Aprilia"
+  }
+},
+{
+  "type": "way",
+  "id": 619438578,
+  "center": {
+    "lat": 44.9574592,
+    "lon": 14.4107420
+  },
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Peškera",
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište Cres",
+    "website": "http://www.brodogradiliste-cres.hr"
+  }
+},
+{
+  "type": "way",
+  "id": 619454158,
+  "center": {
+    "lat": 45.3400971,
+    "lon": 14.3758307
+  },
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Podkoludricu",
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište Kantrida"
+  }
+},
+{
+  "type": "way",
+  "id": 619460906,
+  "center": {
+    "lat": 45.0232832,
+    "lon": 14.5731542
+  },
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:street": "Ulica Lukobran",
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište Krk",
+    "website": "https://brodogradiliste-krk.hr/"
+  }
+},
+{
+  "type": "way",
+  "id": 619543976,
+  "center": {
+    "lat": 45.0263127,
+    "lon": 14.6296339
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište Punat",
+    "name:de": "Schiffswerft Punat",
+    "name:en": "Punat Shipyard",
+    "website": "https://www.marina-punat.hr/brodogradiliste-servis/49"
+  }
+},
+{
+  "type": "way",
+  "id": 619550924,
+  "center": {
+    "lat": 44.5414530,
+    "lon": 14.4632539
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište Lošinj",
+    "name:en": "Lošinj Shipyard",
+    "seamark:small_craft_facility:category": "boatyard",
+    "seamark:type": "small_craft_facility",
+    "waterway": "boatyard",
+    "website": "https://www.shipyard-losinj.com.hr"
+  }
+},
+{
+  "type": "way",
+  "id": 627518522,
+  "center": {
+    "lat": 45.7710124,
+    "lon": 12.8343707
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Cantiere navale Camuffo",
+    "website": "https://www.camuffo.it/",
+    "wikipedia": "it:Cantiere navale Camuffo"
+  }
+},
+{
+  "type": "way",
+  "id": 683027135,
+  "center": {
+    "lat": 45.5989597,
+    "lon": 12.8689105
+  },
+  "tags": {
+    "building": "yes",
+    "craft": "boatbuilder",
+    "name": "Cantiere dell'orologio"
+  }
+},
+{
+  "type": "way",
+  "id": 683027139,
+  "center": {
+    "lat": 45.5996976,
+    "lon": 12.8706654
+  },
+  "tags": {
+    "building": "yes",
+    "craft": "boatbuilder",
+    "name": "Tessari Caorle Snc Di Milan Bruno & C."
+  }
+},
+{
+  "type": "way",
+  "id": 683246496,
+  "center": {
+    "lat": 45.6002155,
+    "lon": 12.8716239
+  },
+  "tags": {
+    "building": "yes",
+    "craft": "boatbuilder",
+    "name": "Cantieri Navali Caorle Srl - Rimessaggio e manutenzione imbarcazioni"
+  }
+},
+{
+  "type": "way",
+  "id": 793589001,
+  "center": {
+    "lat": 45.2783005,
+    "lon": 16.9028877
+  },
+  "tags": {
+    "addr:housenumber": "89C",
+    "addr:street": "Ulica Vladimira Nazora",
+    "building": "industrial",
+    "industrial": "shipyard",
+    "man_made": "works",
+    "name": "Remia plast",
+    "source:addr": "DGU",
+    "source:addr:date": "2021-01-01",
+    "website": "http://remia-plast.hr/"
+  }
+},
+{
+  "type": "way",
+  "id": 1104780786,
+  "center": {
+    "lat": 45.7064563,
+    "lon": 13.0548385
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Centro Nautico Lignano"
+  }
+},
+{
+  "type": "way",
+  "id": 1132960328,
+  "center": {
+    "lat": 45.7183862,
+    "lon": 13.0417684
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Nautica Buffon Celestino"
+  }
+},
+{
+  "type": "way",
+  "id": 1317979618,
+  "center": {
+    "lat": 45.1223276,
+    "lon": 14.5238408
+  },
+  "tags": {
+    "craft": "boatbuilder",
+    "operator": "Franko Kraljić",
+    "waterway": "boatyard"
+  }
+},
+{
+  "type": "relation",
+  "id": 15017549,
+  "center": {
+    "lat": 44.8690833,
+    "lon": 13.8383181
+  },
+  "tags": {
+    "industrial": "shipyard",
+    "landuse": "industrial",
+    "name": "Brodogradilište Uljanik",
+    "name:de": "Uljanik Werft",
+    "name:it": "Cantiere di Pola",
+    "type": "multipolygon",
+    "website": "https://www.uljanik.hr/uljanik-group/uljanik-shipyard-jsc/contact",
+    "wikidata": "Q1817824"
+  }
+}
+
+  ]
+}

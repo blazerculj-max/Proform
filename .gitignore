@@ -1,0 +1,11 @@
+# Surovi podatki, ki jih skripte ponovno prenesejo (niso za objavo)
+data/pn/all.json
+data/pn/geo.json
+data/geo_dl/
+data/map_dl/
+data/crawl/
+data/signals.txt
+__pycache__/
+.DS_Store
+data/verify_todo.json
+data/crawl_todo.json
