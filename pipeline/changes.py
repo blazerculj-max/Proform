@@ -60,10 +60,19 @@ if __name__ == "__main__":
         newm = [m for m in cur["mo"] if m not in set(p.get("mo", []))]
         if newm: ev(i, "model", "Omenja nov model: " + ", ".join(newm[:3]))
         if cur["jobs"] and not p.get("jobs"): ev(i, "jobs", "Nov oglas za delo: «" + cur["jobs"][:140] + "»")
-        if p.get("v") and v and p["v"] != v:
-            if v == "D": ev(i, "down", "Spletna stran ne deluje več (prej: " + VERDICT.get(p["v"], p["v"]) + ").")
-            elif p["v"] == "D": ev(i, "up", "Spletna stran spet deluje – " + VERDICT.get(v, v) + ".")
-            else: ev(i, "verdict", "Ocena strani: " + VERDICT.get(p["v"], p["v"]) + " → " + VERDICT.get(v, v) + ".")
+        # stanje strani: sprememba velja šele, ko se ponovi dva zagona zapored (izpadi in časovne omejitve so pogosti)
+        stable = p.get("v")
+        if v == stable or not v:
+            cur["pend"] = None
+        elif p.get("pend") != v:
+            cur["v"], cur["pend"] = stable, v
+        else:
+            quiet = {stable, v} <= {"N", "X"}
+            if stable and not quiet:
+                if v == "D": ev(i, "down", "Spletna stran ne deluje več (prej: " + VERDICT.get(stable, stable) + ").")
+                elif stable == "D": ev(i, "up", "Spletna stran spet deluje – " + VERDICT.get(v, v) + ".")
+                else: ev(i, "verdict", "Ocena strani: " + VERDICT.get(stable, stable) + " → " + VERDICT.get(v, v) + ".")
+            cur["pend"] = None
         if cur["web"] and not p.get("web"): ev(i, "web", "Najdena spletna stran: " + cur["web"])
     # združi z zgodovino brez podvajanja
     seen = {(e["d"], e["id"], e["ty"], e["tx"]) for e in hist}

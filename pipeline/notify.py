@@ -1,6 +1,7 @@
 """Po tedenskem zagonu odpre GitHub issue s seznamom novosti (dobiš e-poštno obvestilo GitHuba)."""
 import json, os, subprocess
 ev = json.load(open("data/run_events.json")) if os.path.exists("data/run_events.json") else []
+ev = [e for e in ev if e.get("t") in ("1", "2", "K")]   # obvestilo samo za P1, P2 in konkurente
 meta = json.load(open("docs/meta.json")) if os.path.exists("docs/meta.json") else {}
 if not ev:
     print("Ni novosti – issue ne odpiram."); raise SystemExit(0)
