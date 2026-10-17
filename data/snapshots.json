@@ -501,12 +501,6 @@
 "jobs": "",
 "web": "https://www.itama-yacht.com/en-us/"
 },
-"fbfa3e3a1a": {
-"v": "m",
-"mo": [],
-"jobs": "",
-"web": "https://adriasail.it/"
-},
 "3f0105b444": {
 "v": "m",
 "mo": [],
@@ -651,6 +645,12 @@
 "jobs": "",
 "web": "http://www.stylejacht.hu/hu/"
 },
+"fbfa3e3a1a": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "https://adriasail.it/"
+},
 "50309cc251": {
 "v": "N",
 "mo": [],
@@ -692,6 +692,18 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.ethosboats.com/"
+},
+"5c21c9523c": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.bootsbaudomenig.at/"
+},
+"a882bf757e": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.tyachts.it/"
 },
 "6c6a8aad76": {
 "v": "D",
@@ -830,11 +842,53 @@
 "jobs": "",
 "web": "https://brodogradiliste-krk.hr/"
 },
+"a67af826d4": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.italiayachts.it/"
+},
+"5ebba22830": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://nextmarine.it/"
+},
+"229ea319de": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.cantierebaruffaldi.it/"
+},
+"c1324bcf81": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.blumartin.com/"
+},
+"c80522c16e": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.replicraft.cz/"
+},
+"694178d5b9": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.custom-f-line.com/"
+},
 "da011d6700": {
 "v": "D",
 "mo": [],
 "jobs": "",
 "web": "https://www.sly-yachts.com/"
+},
+"b0582e08a6": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.dinamicayachts.com/"
 },
 "fbe0a486e2": {
 "v": "D",
@@ -842,11 +896,71 @@
 "jobs": "",
 "web": "https://raffaelliyacht.com/"
 },
+"4ab99cb628": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.stefini.com/"
+},
+"4f7090a62f": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.costadellestyachting.com/"
+},
 "a54c37d883": {
 "v": "D",
 "mo": [],
 "jobs": "",
 "web": "http://albatrointernational.com/"
+},
+"64dc3d8e0f": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.vryacht.it/"
+},
+"9fa85f4ddb": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://planundtatbootsbau.de/"
+},
+"0e52292dc9": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://insidiasmarine.com/"
+},
+"582622bdd5": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://more-boats.hr/"
+},
+"6deb6339ff": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.antares-patrol690.com/"
+},
+"2713a0118a": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://venzor.hr/"
+},
+"8c80cc7203": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.manikela.hr/"
+},
+"64d2cb5b8f": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.salonayachts.com/"
 },
 "a1927954fa": {
 "v": "M",
@@ -854,11 +968,41 @@
 "jobs": "",
 "web": "https://www.nautica-cab.it/"
 },
+"e37ee5f9b9": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.queensyachts.it/"
+},
 "3376f46fdb": {
 "v": "M",
 "mo": [],
 "jobs": "",
 "web": "https://www.lomac.it/en/"
+},
+"843b5f0794": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.admiralyachts.it/"
+},
+"0e296a4a35": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.cerricantierinavali.it/"
+},
+"a1a1f93ea6": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.cantieri-navali.com/"
+},
+"3a9bdb9285": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.piolti.it/"
 },
 "443bd03af2": {
 "v": "m",
@@ -958,18 +1102,6 @@
 "mo": [],
 "jobs": "",
 "web": "http://brioniyachts.com/"
-},
-"5c21c9523c": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.bootsbaudomenig.at/"
-},
-"a882bf757e": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.tyachts.it/"
 },
 "87d01c4c93": {
 "v": "X",
@@ -1073,6 +1205,12 @@
 "jobs": "",
 "web": "https://www.austinparker.it/"
 },
+"27e85d3708": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://segel.de/dyas"
+},
 "8fffc4cf35": {
 "v": "N",
 "mo": [],
@@ -1145,6 +1283,12 @@
 "jobs": "",
 "web": "https://www.costruzioni-navali.it/"
 },
+"ab5b87e54c": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://futura-yachtsystems.de/"
+},
 "abe40f6fe3": {
 "v": "N",
 "mo": [],
@@ -1158,7 +1302,7 @@
 "web": "https://www.stocherkahnbau.de/"
 },
 "92ea0c6523": {
-"v": "N",
+"v": "X",
 "mo": [],
 "jobs": "",
 "web": "https://tankoa.it/"
@@ -1185,10 +1329,10 @@
 "v": "D",
 "mo": [],
 "jobs": "",
-"web": "https://www.feeditali.it/"
+"web": "https://www.matuzianasanremo.it/"
 },
 "87bafe5769": {
-"v": "N",
+"v": "X",
 "mo": [],
 "jobs": "",
 "web": "http://yfdabv11.com/?dn=www.motorcat.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504"
@@ -1198,6 +1342,12 @@
 "mo": [],
 "jobs": "",
 "web": "http://www.xosailers.com/"
+},
+"a06d488855": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.dallapieta.it/"
 },
 "aa56113984": {
 "v": "D",
@@ -1235,6 +1385,12 @@
 "jobs": "",
 "web": "https://azimutyachts.com/en/"
 },
+"33f3b04c83": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://www.sibma.it/index.php/it/"
+},
 "a27d6b7a30": {
 "v": "D",
 "mo": [],
@@ -1264,6 +1420,12 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.rizzardiyachts.com/en"
+},
+"4a3b4264fc": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://ameryachts.it/"
 },
 "9441c2d084": {
 "v": "N",
@@ -1409,6 +1571,12 @@
 "jobs": "",
 "web": "https://www.seacamper.net/"
 },
+"675143b32d": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://www.folkeboot-centrale.de/"
+},
 "6ebf7b904e": {
 "v": "N",
 "mo": [],
@@ -1459,6 +1627,18 @@
 "jobs": "",
 "web": "https://yacht-focus.pl/"
 },
+"5caf54850c": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://www.sailart.de/"
+},
+"a01d04f766": {
+"v": "X",
+"mo": [],
+"jobs": "",
+"web": "http://www.mantra-yachts.de/"
+},
 "c204a00109": {
 "v": "X",
 "mo": [],
@@ -1470,6 +1650,12 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.nexoyachts.eu/"
+},
+"1ce8b6fbec": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "http://www.okiboats.com/pl/"
 },
 "6784f55dcc": {
 "v": "D",
@@ -1502,7 +1688,7 @@
 "web": "http://parkerpoland.com/"
 },
 "49b38e0758": {
-"v": "N",
+"v": "D",
 "mo": [],
 "jobs": "",
 "web": "https://www.vts-yachts.com/pl/"
@@ -1562,10 +1748,16 @@
 "web": "https://www.tes-yacht.pl/"
 },
 "860021db7a": {
-"v": "X",
+"v": "N",
 "mo": [],
 "jobs": "",
 "web": "http://www.polyesteryacht.pl/"
+},
+"53d88881de": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://www.feltz-werft.de/"
 },
 "d520fac7ee": {
 "v": "D",
@@ -1813,24 +2005,6 @@
 "jobs": "",
 "web": "https://www.bootbau-haitzinger.at/"
 },
-"a67af826d4": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.italiayachts.it/"
-},
-"5ebba22830": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://nextmarine.it/"
-},
-"229ea319de": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.cantierebaruffaldi.it/"
-},
 "f187de66bb": {
 "v": "X",
 "mo": [],
@@ -1843,23 +2017,11 @@
 "jobs": "",
 "web": "https://www.flyer-cat.de/"
 },
-"c1324bcf81": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.blumartin.com/"
-},
 "8fc4f8fa0c": {
 "v": "X",
 "mo": [],
 "jobs": "",
 "web": "http://www.enavigo.hr/"
-},
-"c80522c16e": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.replicraft.cz/"
 },
 "54f14ee5f4": {
 "v": "N",
@@ -1873,29 +2035,11 @@
 "jobs": "",
 "web": "http://www.rimaryachts.it/"
 },
-"694178d5b9": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.custom-f-line.com/"
-},
-"b0582e08a6": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.dinamicayachts.com/"
-},
 "3ef2acb83a": {
 "v": "N",
 "mo": [],
 "jobs": "",
 "web": "https://www.mochicraft-yacht.com/en-us/"
-},
-"4ab99cb628": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.stefini.com/"
 },
 "f19d5ec016": {
 "v": "N",
@@ -1908,12 +2052,6 @@
 "mo": [],
 "jobs": "",
 "web": "http://www.dlyachtsdreamline.com/"
-},
-"4f7090a62f": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.costadellestyachting.com/"
 },
 "d884627286": {
 "v": "N",
@@ -1939,12 +2077,6 @@
 "jobs": "",
 "web": "https://www.persico.com/en"
 },
-"64dc3d8e0f": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.vryacht.it/"
-},
 "8779f49675": {
 "v": "N",
 "mo": [],
@@ -1963,59 +2095,17 @@
 "jobs": "",
 "web": "http://stavbalodi.cz/index.php"
 },
-"9fa85f4ddb": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://planundtatbootsbau.de/"
-},
-"0e52292dc9": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://insidiasmarine.com/"
-},
 "8c76da7caf": {
 "v": "X",
 "mo": [],
 "jobs": "",
 "web": "https://www.folliboats.com/"
 },
-"582622bdd5": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://more-boats.hr/"
-},
 "d245306040": {
 "v": "N",
 "mo": [],
 "jobs": "",
 "web": "http://www.motorboat.cz/"
-},
-"6deb6339ff": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.antares-patrol690.com/"
-},
-"2713a0118a": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://venzor.hr/"
-},
-"8c80cc7203": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.manikela.hr/"
-},
-"64d2cb5b8f": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.salonayachts.com/"
 },
 "6c7c3b3c60": {
 "v": "N",
@@ -2029,29 +2119,11 @@
 "jobs": "",
 "web": "https://www.international-performance-yachting.eu/"
 },
-"e37ee5f9b9": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.queensyachts.it/"
-},
-"843b5f0794": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.admiralyachts.it/"
-},
 "f76d45529f": {
 "v": "N",
 "mo": [],
 "jobs": "",
 "web": "https://www.hausbot.info/"
-},
-"0e296a4a35": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.cerricantierinavali.it/"
 },
 "59cf7061fc": {
 "v": "N",
@@ -2060,12 +2132,6 @@
 ],
 "jobs": "",
 "web": "https://www.pirelli.com/global/en-ww/homepage/"
-},
-"a1a1f93ea6": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.cantieri-navali.com/"
 },
 "1373cd594e": {
 "v": "N",
@@ -2078,12 +2144,6 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.giorgimarine.com/"
-},
-"3a9bdb9285": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.piolti.it/"
 },
 "d3d400be70": {
 "v": "T",
@@ -2098,10 +2158,34 @@
 "web": "http://www.aquawatt.at/"
 },
 "09ba560c56": {
-"v": "T",
+"v": "D",
 "mo": [],
 "jobs": "",
 "web": "https://www.marina-punat.hr/brodogradiliste-servis/49"
+},
+"a45a8adf21": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.brodogradiliste-cres.hr/"
+},
+"010deff93a": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://www.yacht.co.at/"
+},
+"d2ee391846": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "https://www.weilandboats.at/"
+},
+"b3c0fe7531": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "https://www.vittoria.biz/"
 },
 "f387545680": {
 "v": "T",
@@ -2109,11 +2193,29 @@
 "jobs": "",
 "web": "https://witti-zille.com/"
 },
+"1fa29ffc5f": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "http://remia-plast.hr/"
+},
+"658f1f6e5f": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "https://bootsbau-merlin.de/"
+},
 "7299ffcc61": {
 "v": "S",
 "mo": [],
 "jobs": "",
 "web": "https://www.cantierearchettiercole.it/"
+},
+"a572686173": {
+"v": "S",
+"mo": [],
+"jobs": "",
+"web": "http://www.gruben.de/"
 },
 "db7baf45d8": {
 "v": "M",
@@ -2235,6 +2337,12 @@
 "jobs": "",
 "web": "https://pedrazziniyacht.com/"
 },
+"daad272e13": {
+"v": "X",
+"mo": [],
+"jobs": "",
+"web": "https://www.baglietto.com/"
+},
 "f277348b32": {
 "v": "S",
 "mo": [],
@@ -2270,6 +2378,12 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.cantierenavalecastiglione.it/"
+},
+"4842cafaa4": {
+"v": "S",
+"mo": [],
+"jobs": "",
+"web": "https://www.nadirbattelli.it/"
 },
 "db28bb282c": {
 "v": "S",
@@ -2318,6 +2432,12 @@
 "mo": [],
 "jobs": "",
 "web": "https://rollyboot.de/"
+},
+"58bc63044a": {
+"v": "T",
+"mo": [],
+"jobs": "",
+"web": "https://www.solarwaterworld.de/"
 },
 "eb0e2a22a9": {
 "v": "T",
@@ -2403,6 +2523,12 @@
 "jobs": "",
 "web": "https://holzbootsbau.de.tl/"
 },
+"ed87a0df4b": {
+"v": "S",
+"mo": [],
+"jobs": "",
+"web": "https://scalaryachten.de/"
+},
 "cac562b752": {
 "v": "M",
 "mo": [],
@@ -2434,42 +2560,6 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.balticat.de/"
-},
-"27e85d3708": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://segel.de/dyas"
-},
-"ab5b87e54c": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://futura-yachtsystems.de/"
-},
-"a06d488855": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.dallapieta.it/"
-},
-"33f3b04c83": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://www.sibma.it/index.php/it/"
-},
-"4a3b4264fc": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://ameryachts.it/"
-},
-"675143b32d": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://www.folkeboot-centrale.de/"
 },
 "aa769f7cdc": {
 "v": "m",
@@ -2598,30 +2688,6 @@
 "mo": [],
 "jobs": "",
 "web": "https://lavamarine.com/"
-},
-"5caf54850c": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://www.sailart.de/"
-},
-"a01d04f766": {
-"v": "X",
-"mo": [],
-"jobs": "",
-"web": "http://www.mantra-yachts.de/"
-},
-"1ce8b6fbec": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "http://www.okiboats.com/pl/"
-},
-"53d88881de": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://www.feltz-werft.de/"
 },
 "8aae05928c": {
 "v": "M",
@@ -2922,13 +2988,13 @@
 "web": "https://www.sbm-boote.de/"
 },
 "70d599d0bb": {
-"v": "X",
+"v": "D",
 "mo": [],
 "jobs": "",
 "web": "http://www.pontonboot.de/"
 },
 "0999d57ec2": {
-"v": "N",
+"v": "D",
 "mo": [],
 "jobs": "",
 "web": "https://sun-marine.de/"
@@ -3116,14 +3182,6 @@
 "jobs": "",
 "web": "https://www.codecasayachts.com/"
 },
-"daad272e13": {
-"v": "m",
-"mo": [
-"Project53"
-],
-"jobs": "",
-"web": "https://www.baglietto.com/"
-},
 "e6b247fba1": {
 "v": "m",
 "mo": [],
@@ -3160,35 +3218,11 @@
 "jobs": "",
 "web": "https://www.siemer-werft.de/"
 },
-"a45a8adf21": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.brodogradiliste-cres.hr/"
-},
-"010deff93a": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://www.yacht.co.at/"
-},
 "517febad31": {
 "v": "X",
 "mo": [],
 "jobs": "",
 "web": "https://www.uljanik.hr/uljanik-group/uljanik-shipyard-jsc/contact"
-},
-"d2ee391846": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "https://www.weilandboats.at/"
-},
-"b3c0fe7531": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "https://www.vittoria.biz/"
 },
 "59e063272d": {
 "v": "N",
@@ -3196,23 +3230,11 @@
 "jobs": "",
 "web": "https://www.zille.at/"
 },
-"1fa29ffc5f": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "http://remia-plast.hr/"
-},
 "7c94b67822": {
 "v": "N",
 "mo": [],
 "jobs": "",
 "web": "http://woodenboat.at/"
-},
-"658f1f6e5f": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "https://bootsbau-merlin.de/"
 },
 "2c121c9255": {
 "v": "N",
@@ -3234,35 +3256,17 @@
 "jobs": "",
 "web": "https://www.gumotex.cz/"
 },
-"a572686173": {
-"v": "S",
-"mo": [],
-"jobs": "",
-"web": "http://www.gruben.de/"
-},
 "2ad2ec5aeb": {
 "v": "N",
 "mo": [],
 "jobs": "",
 "web": "https://www.marlinboat.it/"
 },
-"4842cafaa4": {
-"v": "S",
+"18273c85d9": {
+"v": "N",
 "mo": [],
 "jobs": "",
-"web": "https://www.nadirbattelli.it/"
-},
-"58bc63044a": {
-"v": "T",
-"mo": [],
-"jobs": "",
-"web": "https://www.solarwaterworld.de/"
-},
-"ed87a0df4b": {
-"v": "S",
-"mo": [],
-"jobs": "",
-"web": "https://scalaryachten.de/"
+"web": "https://eurovinil.it/it/"
 },
 "44e2a4cf3e": {
 "v": "D",
@@ -3275,12 +3279,6 @@
 "mo": [],
 "jobs": "",
 "web": "http://www.jokerboatgommoni.com/"
-},
-"18273c85d9": {
-"v": "X",
-"mo": [],
-"jobs": "",
-"web": "https://eurovinil.it/"
 },
 "0bc283513a": {
 "v": "S",

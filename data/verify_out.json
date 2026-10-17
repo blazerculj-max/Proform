@@ -2046,7 +2046,7 @@
 "id": "b40c4cd4c9",
 "v": "M",
 "u": "https://www.akrapovic.com/",
-"s": 4,
+"s": 5,
 "m": 5,
 "t": 0,
 "r": 0,
@@ -2064,8 +2064,8 @@
 "…e than 35 years of experience working with titanium, stainless steel, carbon fibre, aluminium alloys, and more recently ceramics matrix composites, Akrapovič sources only t…"
 ],
 [
-"proizvodnja",
-"…foundry and then to production, before evaluation and completion—the manufacture of an Akrapovič exhaust is an internal journey with many facets that are all completed a…"
+"obrat",
+"…cess on two and four wheels at world level for first time 2014 Second factory and Red Dot Award: expansion and celebration 2015 100 world championship titles and new g…"
 ]
 ],
 "neg": [],
@@ -2099,6 +2099,45 @@
 "mix": 0
 },
 {
+"id": "453a2dd491",
+"v": "m",
+"u": "https://www.grginic-mirakul.hr/",
+"s": 3,
+"m": 1,
+"t": 4,
+"r": 0,
+"ev": [
+[
+"proizvodnja",
+"…Toggle navigation Početna Plovila Charter Apartmani O nama Što radimo Proizvodnja Press Kontakt hr | en Stvoreni za more. Inspirirani luksuzom. Doživite performanse bez k…"
+],
+[
+"gradimo",
+"…Certificirani procesi i individualan pristup svakom modelu Što i kako proizvodimo? Pogledaj ponudu naših plovila Shark serija Čvrsti i brzi gumenjaci za avanturiste i prof…"
+],
+[
+"gradnja čolnov",
+"…ervirati luksuzni apartman na Viru. Pošalji upit Obiteljska tradicija brodogradnje i vrhunskog gostoprimstva na hrvatskoj obali. Grginić Jahte proizvodi i prodaje luksuzna…"
+]
+],
+"neg": [
+[
+"charter",
+"…Grginić Jahte – Plovila, charter usluge i luksuzni apartmani Toggle navigation Početna Plovila Charter Apartmani O nama Št…"
+],
+[
+"najem",
+"…i. Grginić Jahte proizvodi i prodaje luksuzna plovila te pruža usluge iznajmljivanja plovila i apartmana za nezaboravne trenutke na moru. Odaberite nas s povjerenjem za svoj…"
+],
+[
+"izleti",
+"…i i brzi gumenjaci za avanturiste i profesionalce – idealni za dnevne izlete i transfer. Mirakul serija Elegantni motorni brodovi za duža krstarenja i udoban boravak…"
+]
+],
+"pages": 2,
+"mix": 1
+},
+{
 "id": "83feb86396",
 "v": "m",
 "u": "https://www.itama-yacht.com/en-us/",
@@ -2122,21 +2161,9 @@
 },
 {
 "id": "fbfa3e3a1a",
-"v": "m",
+"v": "D",
 "u": "https://adriasail.it/",
-"s": 1,
-"m": 3,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"kalupi",
-"…uttivo consiste nella realizzazione completa dell'imbarcazione, dagli stampi fino al momento più emozionante, il varo. Adria Sail si riassume in tre parole chiave: qu…"
-]
-],
-"neg": [],
-"pages": 2,
-"mix": 0
+"n": 0
 },
 {
 "id": "3f0105b444",
@@ -2272,6 +2299,85 @@
 ]
 ],
 "pages": 3,
+"mix": 0
+},
+{
+"id": "c8ee58bae6",
+"v": "M",
+"u": "https://www.intermarine.it/",
+"s": 4,
+"m": 2,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"steklena vlakna",
+"…Established as a shipyard specialized in the design and production of fibreglass ships, INTERMARINE was initially dedicated to the production of recreational crafts. As e…"
+],
+[
+"kompoziti",
+"…Fast Ferries Contattaci Highly specialised vessels built in advanced composite materials, designed for Mine Warfare and Seabed Surveillance, expressing a significant m…"
+],
+[
+"gradimo",
+"…ary technology and through cutting edge and disruptive breakthroughs, we build high-performance naval platforms designed to ensure operational advantage, deterrence, re…"
+]
+],
+"neg": [],
+"pages": 5,
+"mix": 0
+},
+{
+"id": "22cfcf2cb6",
+"v": "M",
+"u": "https://www.intermarine.it/",
+"s": 4,
+"m": 2,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"steklena vlakna",
+"…Established as a shipyard specialized in the design and production of fibreglass ships, INTERMARINE was initially dedicated to the production of recreational crafts. As e…"
+],
+[
+"kompoziti",
+"…Fast Ferries Contattaci Highly specialised vessels built in advanced composite materials, designed for Mine Warfare and Seabed Surveillance, expressing a significant m…"
+],
+[
+"gradimo",
+"…ary technology and through cutting edge and disruptive breakthroughs, we build high-performance naval platforms designed to ensure operational advantage, deterrence, re…"
+]
+],
+"neg": [],
+"pages": 5,
+"mix": 0
+},
+{
+"id": "88d27d2341",
+"v": "M",
+"u": "https://www.charles.cz/",
+"s": 3,
+"m": 2,
+"t": 0,
+"r": 1,
+"ev": [
+[
+"kompoziti",
+"…ka zaměstnání Kde nás najdete Napište nám Kontakt Mapa stránek Výroba kompozitů Auto / Moto Zdravotnictví Letectví Designový nábytek Exteriérové instalace Interiérové i…"
+],
+[
+"vinilester",
+"…ndvičů, voštin, balzy, korku, různé typy epoxidových, polyesterových, vinylesterových a fenolických pryskyřic a nejrůznější další jiné kompozitní materiály. Laminujeme, v…"
+]
+],
+"neg": [
+[
+"servis",
+"…ny, nádrže a jímky, formy na umělý kámen atd... Nabízíme také odborný servis a opravy kompozitních výrobků. Zkrátka a dobře nabízíme snad vše, co je z kompozitních ma…"
+]
+],
+"pages": 1,
 "mix": 0
 },
 {
@@ -2606,45 +2712,6 @@
 "neg": [],
 "pages": 2,
 "mix": 0
-},
-{
-"id": "453a2dd491",
-"v": "m",
-"u": "https://www.grginic-mirakul.hr/",
-"s": 3,
-"m": 1,
-"t": 4,
-"r": 0,
-"ev": [
-[
-"proizvodnja",
-"…Toggle navigation Početna Plovila Charter Apartmani O nama Što radimo Proizvodnja Press Kontakt hr | en Stvoreni za more. Inspirirani luksuzom. Doživite performanse bez k…"
-],
-[
-"gradimo",
-"…Certificirani procesi i individualan pristup svakom modelu Što i kako proizvodimo? Pogledaj ponudu naših plovila Shark serija Čvrsti i brzi gumenjaci za avanturiste i prof…"
-],
-[
-"gradnja čolnov",
-"…ervirati luksuzni apartman na Viru. Pošalji upit Obiteljska tradicija brodogradnje i vrhunskog gostoprimstva na hrvatskoj obali. Grginić Jahte proizvodi i prodaje luksuzna…"
-]
-],
-"neg": [
-[
-"charter",
-"…Grginić Jahte – Plovila, charter usluge i luksuzni apartmani Toggle navigation Početna Plovila Charter Apartmani O nama Št…"
-],
-[
-"najem",
-"…i. Grginić Jahte proizvodi i prodaje luksuzna plovila te pruža usluge iznajmljivanja plovila i apartmana za nezaboravne trenutke na moru. Odaberite nas s povjerenjem za svoj…"
-],
-[
-"izleti",
-"…i i brzi gumenjaci za avanturiste i profesionalce – idealni za dnevne izlete i transfer. Mirakul serija Elegantni motorni brodovi za duža krstarenja i udoban boravak…"
-]
-],
-"pages": 2,
-"mix": 1
 },
 {
 "id": "c6cee06042",
@@ -3322,33 +3389,6 @@
 "ev": [],
 "neg": [],
 "pages": 3,
-"mix": 0
-},
-{
-"id": "88d27d2341",
-"v": "M",
-"u": "https://www.charles.cz/",
-"s": 3,
-"m": 2,
-"t": 0,
-"r": 1,
-"ev": [
-[
-"kompoziti",
-"…ka zaměstnání Kde nás najdete Napište nám Kontakt Mapa stránek Výroba kompozitů Auto / Moto Zdravotnictví Letectví Designový nábytek Exteriérové instalace Interiérové i…"
-],
-[
-"vinilester",
-"…ndvičů, voštin, balzy, korku, různé typy epoxidových, polyesterových, vinylesterových a fenolických pryskyřic a nejrůznější další jiné kompozitní materiály. Laminujeme, v…"
-]
-],
-"neg": [
-[
-"servis",
-"…ny, nádrže a jímky, formy na umělý kámen atd... Nabízíme také odborný servis a opravy kompozitních výrobků. Zkrátka a dobře nabízíme snad vše, co je z kompozitních ma…"
-]
-],
-"pages": 1,
 "mix": 0
 },
 {
@@ -4317,16 +4357,9 @@
 },
 {
 "id": "92ea0c6523",
-"v": "N",
+"v": "X",
 "u": "https://tankoa.it/",
-"s": 0,
-"m": 2,
-"t": 0,
-"r": 0,
-"ev": [],
-"neg": [],
-"pages": 3,
-"mix": 0
+"n": 16
 },
 {
 "id": "6c76dba51a",
@@ -4373,21 +4406,14 @@
 {
 "id": "5c19ad2bf6",
 "v": "D",
-"u": "https://www.feeditali.it/",
+"u": "https://www.matuzianasanremo.it/",
 "n": 0
 },
 {
 "id": "87bafe5769",
-"v": "N",
+"v": "X",
 "u": "http://yfdabv11.com/?dn=www.motorcat.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504",
-"s": 0,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [],
-"neg": [],
-"pages": 1,
-"mix": 0
+"n": 44
 },
 {
 "id": "6b1e9f5056",
@@ -4649,7 +4675,7 @@
 "neg": [
 [
 "servis",
-"…, la Nautica Massa offre anche il servizio di ricovero invernale e di manutenzione prima e dopo lutilizzo stagionale . leggi tutto >>> 1254 Nautica Massa (c) 2014 | P.Iva 0…"
+"…, la Nautica Massa offre anche il servizio di ricovero invernale e di manutenzione prima e dopo lutilizzo stagionale . leggi tutto >>> 1257 Nautica Massa (c) 2014 | P.Iva 0…"
 ]
 ],
 "pages": 3,
@@ -5038,26 +5064,9 @@
 },
 {
 "id": "49b38e0758",
-"v": "N",
+"v": "D",
 "u": "https://www.vts-yachts.com/pl/",
-"s": 1,
-"m": 0,
-"t": 1,
-"r": 0,
-"ev": [
-[
-"laminiranje",
-"…materiałów, w oparciu o ścisły reżim technologiczny. Wysokiej jakości laminat poliestrowo szklany posiada lustrzany połysk i warstwę zwiększającą odporność na osmozę.…"
-]
-],
-"neg": [
-[
-"turizem",
-"…uchwycić naszą jednostkę na tle sopockiego Mola i eleganckiego Grand Hotelu. Wracamy z Gdyni z pozytywną energią, inspiracjami i wdzięcznością dla wszystkich, którz…"
-]
-],
-"pages": 2,
-"mix": 0
+"n": 0
 },
 {
 "id": "76018f7177",
@@ -5136,9 +5145,16 @@
 },
 {
 "id": "860021db7a",
-"v": "X",
+"v": "N",
 "u": "http://www.polyesteryacht.pl/",
-"n": 142
+"s": 1,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [],
+"neg": [],
+"pages": 1,
+"mix": 0
 },
 {
 "id": "d520fac7ee",
@@ -5533,58 +5549,6 @@
 "mix": 0
 },
 {
-"id": "c8ee58bae6",
-"v": "M",
-"u": "https://www.intermarine.it/",
-"s": 4,
-"m": 2,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"steklena vlakna",
-"…Established as a shipyard specialized in the design and production of fibreglass ships, INTERMARINE was initially dedicated to the production of recreational crafts. As e…"
-],
-[
-"kompoziti",
-"…Fast Ferries Contattaci Highly specialised vessels built in advanced composite materials, designed for Mine Warfare and Seabed Surveillance, expressing a significant m…"
-],
-[
-"gradimo",
-"…ary technology and through cutting edge and disruptive breakthroughs, we build high-performance naval platforms designed to ensure operational advantage, deterrence, re…"
-]
-],
-"neg": [],
-"pages": 5,
-"mix": 0
-},
-{
-"id": "22cfcf2cb6",
-"v": "M",
-"u": "https://www.intermarine.it/",
-"s": 4,
-"m": 2,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"steklena vlakna",
-"…Established as a shipyard specialized in the design and production of fibreglass ships, INTERMARINE was initially dedicated to the production of recreational crafts. As e…"
-],
-[
-"kompoziti",
-"…Fast Ferries Contattaci Highly specialised vessels built in advanced composite materials, designed for Mine Warfare and Seabed Surveillance, expressing a significant m…"
-],
-[
-"gradimo",
-"…ary technology and through cutting edge and disruptive breakthroughs, we build high-performance naval platforms designed to ensure operational advantage, deterrence, re…"
-]
-],
-"neg": [],
-"pages": 5,
-"mix": 0
-},
-{
 "id": "58e6e35e3e",
 "v": "M",
 "u": "https://www.gommorizzo.it/",
@@ -5711,7 +5675,7 @@
 "u": "https://www.neumann-boats.de/",
 "s": 9,
 "m": 2,
-"t": 0,
+"t": 1,
 "r": 0,
 "ev": [
 [
@@ -5724,14 +5688,19 @@
 ],
 [
 "steklena vlakna",
-"…tellbar (Klicksystem), Aluminiumschaft, Paddelblatt aus Polypropylen (Glasfaser verstärkt), ergonomischer Griff Lieferzeit: Auf Lager, 1-3 Werktage UVP 66,50 EUR Nur 59,…"
+"…tellbar (Klicksystem), Aluminiumschaft, Paddelblatt aus Polypropylen (Glasfaser verstärkt), ergonomischer Griff Lieferzeit: Auf Lager, 1-3 Werktage UVP 58,90 EUR Nur 46,…"
 ],
 [
 "vinilester",
 "…fski White Marlin Besonders schnell und widerstandsfähig, aus Gfk mit Vinylester, Pedalsteueranlage für gutes Manövrieren, ein Decknetz am Heck für Gepäck, Debrito Bailer…"
 ]
 ],
-"neg": [],
+"neg": [
+[
+"najem",
+"…kippsicher, sehr einfache Handhabung, auch für Anfänger, Vereine und Verleih auf allen Gewässern Lieferzeit: von nicht vorrätig bis Auf Lager, 1-3 Werktage UVP 510,00…"
+]
+],
 "pages": 2,
 "mix": 0
 },
@@ -6294,34 +6263,9 @@
 },
 {
 "id": "09ba560c56",
-"v": "T",
+"v": "D",
 "u": "https://www.marina-punat.hr/brodogradiliste-servis/49",
-"s": 1,
-"m": 1,
-"t": 2,
-"r": 1,
-"ev": [
-[
-"gradnja čolnov",
-"…ilišta Nikola Zorić na površini od 1654 m2 s 11 radnika kreće u posao brodogradnje. Saznajte više Kapaciteti i oprema Brodogradilište Punat ima odličnu infrastrukturu za p…"
-]
-],
-"neg": [
-[
-"najem",
-"…ija Marina Punat App za rezidente Eko marina Priznanja Čarter baze za najam plovila Vrhunska sigurnost plovila Idealna lokacija za plovila Puni doživljaj za nautički…"
-],
-[
-"turizem",
-"…ik i uvjeti poslovanja Kontakt Galerija Partneri Smještaj i restorani Hotel Kanajt**** Restoran Marina, mediteranski doživljaj uz more Pizzeria 9 bofora zatvara svoj…"
-],
-[
-"servis",
-"…Brodogradilište i servis plovila u Marini Punat na Krku Android App iOS App Informativna cijena veza Vremenska pro…"
-]
-],
-"pages": 1,
-"mix": 0
+"n": 0
 },
 {
 "id": "f387545680",
@@ -7147,7 +7091,7 @@
 "id": "20c5d19cee",
 "v": "X",
 "u": "https://p2-1.afp24.net/true1.php?id=alucia4yhhudzvy3&sv=1",
-"n": 60
+"n": 16
 },
 {
 "id": "636b456295",
@@ -7492,7 +7436,7 @@
 "ev": [
 [
 "proizvodnja",
-"…bellissimi battelli veloci. Battelli da “crociera” e gommoni di lusso Produzione Luxury Rib’s Stilmar Stilmar 34 Commando 9 Maggio 2022 / da Francesco Fiorentino Stilmar…"
+"…bellissimi battelli veloci. Battelli da “crociera” e gommoni di lusso Produzione Luxury Rib’s Stilmar Stilmar 28 Open 24 Maggio 2022 / da Francesco Fiorentino Stilmar 34…"
 ]
 ],
 "neg": [
@@ -8457,6 +8401,28 @@
 "mix": 0
 },
 {
+"id": "b96a600f05",
+"v": "m",
+"u": "http://www.lillia.it/",
+"s": 2,
+"m": 1,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"kalupi",
+"…a acquistò dal Coni un’imbarcazione classe Star dalla quale ricavò lo stampo. Ebbe un grande intuito dato che da lì a poco la Star ritornò ad essere classe olimpica e…"
+],
+[
+"proizvodnja",
+"…ruzione della Star si è affiancata, soprattutto negli ultimi anni, la produzione del Dinghy 12p., dello Snipe e dal 1998 del monotipo Fun. Cantiere Nautico Lillia Lorem i…"
+]
+],
+"neg": [],
+"pages": 1,
+"mix": 0
+},
+{
 "id": "008d617b0f",
 "v": "m",
 "u": "https://lavamarine.com/",
@@ -9091,28 +9057,6 @@
 "mix": 0
 },
 {
-"id": "b96a600f05",
-"v": "m",
-"u": "http://www.lillia.it/",
-"s": 2,
-"m": 1,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"kalupi",
-"…a acquistò dal Coni un’imbarcazione classe Star dalla quale ricavò lo stampo. Ebbe un grande intuito dato che da lì a poco la Star ritornò ad essere classe olimpica e…"
-],
-[
-"proizvodnja",
-"…ruzione della Star si è affiancata, soprattutto negli ultimi anni, la produzione del Dinghy 12p., dello Snipe e dal 1998 del monotipo Fun. Cantiere Nautico Lillia Lorem i…"
-]
-],
-"neg": [],
-"pages": 1,
-"mix": 0
-},
-{
 "id": "282c2e0567",
 "v": "D",
 "u": "http://www.proteusyachts.com/",
@@ -9179,33 +9123,21 @@
 },
 {
 "id": "70d599d0bb",
-"v": "X",
+"v": "D",
 "u": "http://www.pontonboot.de/",
-"n": 34
+"n": 0
 },
 {
 "id": "0999d57ec2",
-"v": "N",
+"v": "D",
 "u": "https://sun-marine.de/",
-"s": 0,
-"m": 0,
-"t": 0,
-"r": 1,
-"ev": [],
-"neg": [
-[
-"zimovanje",
-"…n Marine Wassersport 2026 Errichtung einer neuen Halle für das Kunden-Winterlager. 2020 Aufnahme von Viking Aluminiumbooten. 2019 Einstellung eines neuen Servicetechnikers…"
-]
-],
-"pages": 2,
-"mix": 0
+"n": 0
 },
 {
 "id": "221ef2551d",
 "v": "X",
 "u": "https://p2-1.afp24.net/true1.php?id=nemobg8t004763u8&sv=1",
-"n": 60
+"n": 16
 },
 {
 "id": "0d4c64a3f7",
@@ -9229,7 +9161,7 @@
 "id": "851aa64b37",
 "v": "X",
 "u": "https://p2-1.afp24.net/true1.php?id=booxcvgg6zli33zv&sv=1",
-"n": 60
+"n": 16
 },
 {
 "id": "1848fbab0b",
@@ -9544,21 +9476,9 @@
 },
 {
 "id": "daad272e13",
-"v": "m",
+"v": "X",
 "u": "https://www.baglietto.com/",
-"s": 1,
-"m": 3,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"gradimo",
-"…uomini e donne da tutto il mondo ci affidano i loro sogni, e insieme realizziamo yacht che trascendono il tempo. Attraverso la nostra capacità di entrare perfettamente in…"
-]
-],
-"neg": [],
-"pages": 6,
-"mix": 0
+"n": 16
 },
 {
 "id": "e6b247fba1",
@@ -9819,15 +9739,10 @@
 "s": 0,
 "m": 0,
 "t": 0,
-"r": 1,
+"r": 0,
 "ev": [],
-"neg": [
-[
-"trgovec",
-"…3x Elite >1.000€ 50€ 5x Casino Online Terrybet Il catalogo casino il concessionario si articola in sei categorie: slot machine, giochi da tavolo, casino live con croupier re…"
-]
-],
-"pages": 2,
+"neg": [],
+"pages": 1,
 "mix": 0
 },
 {
@@ -10000,9 +9915,25 @@
 },
 {
 "id": "18273c85d9",
-"v": "X",
-"u": "https://eurovinil.it/",
-"n": 66
+"v": "N",
+"u": "https://eurovinil.it/it/",
+"s": 2,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"proizvodnja",
+"…dard per la salute e la sicurezza sul lavoro ISO 45001 Certificato di produzione ISO9650 RINA La qualità incontra l'esperienza La nostra missione Esistiamo per salvare vi…"
+],
+[
+"gradimo",
+"…Superiamo i limiti individuali, mettiamo insieme le nostre capacità e realizziamo grandi risultati grazie alla forza del gruppo. Innovazione Abbiamo uno spirito pionierist…"
+]
+],
+"neg": [],
+"pages": 6,
+"mix": 0
 },
 {
 "id": "0bc283513a",
