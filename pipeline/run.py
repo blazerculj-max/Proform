@@ -17,6 +17,8 @@ def step(title, *args):
 
 step("GeoNames", "pipeline/geonames.py")
 step("Gradnja baze", "pipeline/build_leads.py")
+step("Ročno znane spletne strani", "pipeline/find_websites.py")
+step("Gradnja baze", "pipeline/build_leads.py")
 step("Seznami strani", "pipeline/make_todo.py")
 step("Preverjanje proizvodnje (vse strani)", "pipeline/verify.py", "data/verify_todo.json", "data/verify_out.json")
 step("Gradnja baze", "pipeline/build_leads.py")

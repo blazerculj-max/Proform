@@ -50,6 +50,8 @@ data/           ročno vzdrževani podatki, vmesni rezultati in zgodovina novost
 | `pn/geo.json`, `pn/websites.json` | imenik izdelovalcev z lokacijami in spletnimi naslovi |
 | `verify_out.json`, `signals.json`, `autocontacts.json` | rezultati preverjanja in branja strani |
 | `addr_fixes.json`, `places.json` | lokacije s spletnih strani in iz Google Places |
+| `web_manual.json`, `web_found.json` | ročno znane in najdene spletne strani (preverjene) |
+| `web_rejected.json`, `web_notes.json` | zavrnjeni napačni zadetki in ugotovitve iskanja (stečaj, prodajalec …) |
 | `snapshots.json`, `changes.json` | stanje za primerjavo in zgodovina novosti |
 
 ## Lokalni zagon
@@ -57,6 +59,14 @@ data/           ročno vzdrževani podatki, vmesni rezultati in zgodovina novost
 ```bash
 python3 pipeline/run.py --refresh
 ```
+
+Iskanje spletnih strani za podjetja brez strani (ročno znane + očitne domene, s preverjanjem vsebine):
+
+```bash
+python3 pipeline/find_websites.py --guess
+```
+
+OpenStreetMap (Nominatim) za iskanje lokacij in strani je bil preizkušen in zavrnjen: na 40 znanih podjetjih je našel 10, od tega 5 s pravilno lokacijo in nobene pravilne spletne strani.
 
 Ponovno zbiranje virov (redko – imenik, register, OpenStreetMap):
 

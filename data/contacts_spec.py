@@ -38,5 +38,6 @@ CONTACTS.update({
  "Nuvolari Lenard": dict(w="https://www.nuvolari-lenard.com/", e=["newprojects@nuvolari-lenard.com","info@nuvolari-lenard.com"], p=["+39 041 584 1888"],
    ppl=[["Carlo Nuvolari","soustanovitelj, ladijski arhitekt","https://www.nuvolari-lenard.com/about-us/"],["Dan Lenard","soustanovitelj, oblikovalec","https://www.nuvolari-lenard.com/about-us/"]],
    n="Via Treviso 77, Scorzè (VE)."),
+ "Cossutti Yacht Design": dict(w="https://www.cossutti.it/", n="Cossutti-Ganz Yacht Design, Videm."),
  "Nauta Design": dict(w="https://www.nautadesign.com/", e=["sales@nautayachts.com"], p=["+39 02 4814317"], n="Corso Sempione 4, Milano. Nova spletna stran je v pripravi."),
 })

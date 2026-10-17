@@ -1,6 +1,33 @@
 [
 {
 "d": "2026-10-17",
+"id": "cc685af5aa",
+"n": "Roto Nautica",
+"ty": "model",
+"tx": "Omenja nov model: Hydra 380, Hydra 460",
+"t": "1",
+"km": 163
+},
+{
+"d": "2026-10-17",
+"id": "cc685af5aa",
+"n": "Roto Nautica",
+"ty": "web",
+"tx": "Najdena spletna stran: https://rotonautica.com/",
+"t": "1",
+"km": 163
+},
+{
+"d": "2026-10-17",
+"id": "daad272e13",
+"n": "Baglietto",
+"ty": "model",
+"tx": "Omenja nov model: Project53",
+"t": "3",
+"km": 420
+},
+{
+"d": "2026-10-17",
 "id": "b22eebc957",
 "n": "Elan",
 "ty": "model",

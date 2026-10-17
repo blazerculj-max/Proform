@@ -15,6 +15,8 @@ def _load(p, default):
     return json.load(open(p)) if os.path.exists(p) else default
 ADDR = _load("data/addr_fixes.json", {})      # naslovi, prebrani s spletnih strani
 PLACES = _load("data/places.json", {})        # Google Places (če je ključ)
+WEBF = _load("data/web_found.json", {})       # ročno najdene in preverjene spletne strani
+WNOTES = _load("data/web_notes.json", {})     # ugotovitve iskanja (ne obstaja več, prodajalec …)
 CHG = _load("data/lead_changes.json", {})     # zadnja sprememba po podjetju
 REVIEWED = set(_load("data/reviewed.json", {}).get("ids", []))  # ročno pregledani 15. 10. 2026 (neocenjeni = P3)
 import datetime
@@ -171,6 +173,7 @@ for l in merged:
     if l["lat"] is None and a:
         l["lat"], l["lon"], l["addr"] = a["lat"], a["lon"], a["town"]
         l["src"] = l["src"] + ["Naslov s spletne strani"]
+    if not l.get("web") and lid in WEBF: l["web"] = WEBF[lid]["url"]
     p = PLACES.get(lid)
     if p and p.get("ok"):
         if l["lat"] is None and p.get("lat") is not None:
@@ -251,6 +254,11 @@ for o in out:
         if not o.get("ct") and (p.get("phone") or p.get("web")) and (o.get("q") or {}).get("t") in ("1", "2", "K"):
             o["ct"] = dict(w=p.get("web", ""), e=[], p=[p["phone"]] if p.get("phone") else [], d=sl_date(p.get("d", RUN_DATE)), n="Kontakt iz Google Places.")
     if o["id"] in CHG: o["ch"] = CHG[o["id"]]
+    wn = WNOTES.get(o["n"])
+    if wn:
+        o["no"] = (o["no"] + " " if o["no"] else "") + wn["note"]
+        if wn.get("t"):
+            o["q"] = dict(t=wn["t"], sz=(o.get("q") or {}).get("sz", "?"), why=wn["note"], ap="")
 missing = [k for k in Q if k not in names]
 if missing: print("Q MISSING", missing)
 rev = {}

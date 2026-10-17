@@ -1,0 +1,1394 @@
+[
+{
+"id": "ed2b1b709f",
+"n": "nlcomp",
+"a": "Monfalcone",
+"cc": "it",
+"km": 81,
+"src": "Ročno preverjeno"
+},
+{
+"id": "8031fb445b",
+"n": "5STORMS, razvoj plovil",
+"a": "Jesenice",
+"cc": "si",
+"km": 1,
+"src": "Ročno preverjeno"
+},
+{
+"id": "9f0f2218b4",
+"n": "VSR Lab, razvoj plovil",
+"a": "Portorož",
+"cc": "si",
+"km": 109,
+"src": "Ročno preverjeno"
+},
+{
+"id": "d1ab5c4443",
+"n": "Exo Boat",
+"a": "Ankaran",
+"cc": "si",
+"km": 99,
+"src": "Ročno preverjeno"
+},
+{
+"id": "b4792456ab",
+"n": "Pinoplast",
+"a": "Pordenone",
+"cc": "it",
+"km": 120,
+"src": "Ročno preverjeno"
+},
+{
+"id": "60a2989b22",
+"n": "MC di Celmeta Meladin",
+"a": "Scorzè",
+"cc": "it",
+"km": 178,
+"src": "Ročno preverjeno"
+},
+{
+"id": "917b2fa79a",
+"n": "Štirje – sestavni deli za plovila",
+"a": "Lesce",
+"cc": "si",
+"km": 12,
+"src": "Ročno preverjeno"
+},
+{
+"id": "aeb2873f51",
+"n": "Triplast",
+"a": "Sp. Pirniče 47, 1133 Brod, Slovenia",
+"cc": "si",
+"km": 55,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "9c9998cf07",
+"n": "Officine TL Compositi",
+"a": "Pradamano",
+"cc": "it",
+"km": 73,
+"src": "Ročno preverjeno"
+},
+{
+"id": "5b099a6156",
+"n": "OMCO Metals Slovenia",
+"a": "Žalec",
+"cc": "si",
+"km": 88,
+"src": "Ročno preverjeno"
+},
+{
+"id": "19d851a378",
+"n": "Murtic Yachts",
+"a": "Ilica 15, 10000 Zagreb, Croatia",
+"cc": "hr",
+"km": 162,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "1fe067fa38",
+"n": "Reful Marine",
+"a": "Kosorova 19, Zagreb, Croatia",
+"cc": "hr",
+"km": 164,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "e6ee89b749",
+"n": "Yaretti",
+"a": "A-1040 Wien, Austria",
+"cc": "at",
+"km": 262,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "4029e6b02b",
+"n": "Astinor Italia",
+"a": "40017 San Giovanni in Persiceto (BO), Italy",
+"cc": "it",
+"km": 300,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "bba9b1f9e5",
+"n": "Antema Yachting",
+"a": "Viale Papa Giovanni XXIII, n. 48, 24121 Bergamo, Italy",
+"cc": "it",
+"km": 348,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "5b19df84b6",
+"n": "Qn-Yachts",
+"a": "Prinz-Eugen Str. 90, 88069 Tettnang, Germany",
+"cc": "de",
+"km": 365,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "bd326f835b",
+"n": "Mattia & Cecco",
+"a": "via Santa Cecilia, 6, 23824 Dervio, Italy",
+"cc": "it",
+"km": 367,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "c2a70ffe69",
+"n": "Maestral (AD Brodovi)",
+"a": "21210 Solin, Croatia",
+"cc": "hr",
+"km": 377,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "39cdd7b28a",
+"n": "Aqua Marine",
+"a": "26203 Nový Knín, Czech Republic",
+"cc": "cz",
+"km": 378,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "c7a3554732",
+"n": "Cantiere Navale Cosca",
+"a": "50053 Empoli (FI), Italy",
+"cc": "it",
+"km": 391,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "6cf9b375da",
+"n": "Hunboat",
+"a": "Cseresznye st. 26/a, 1112 Budapest, Hungary",
+"cc": "hu",
+"km": 396,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "a78a519d49",
+"n": "Didas, izdelava plovil",
+"a": "Tržič",
+"cc": "si",
+"km": 21,
+"src": "Ročno preverjeno"
+},
+{
+"id": "1bf270cd26",
+"n": "Ophion",
+"a": "Most na Soči",
+"cc": "si",
+"km": 40,
+"src": "Ročno preverjeno"
+},
+{
+"id": "a76891def5",
+"n": "Glorius, proizvodnja čolnov",
+"a": "Ljubljana",
+"cc": "si",
+"km": 55,
+"src": "Ročno preverjeno"
+},
+{
+"id": "1802e83947",
+"n": "EJET proizvodnja plovil",
+"a": "Ljubljana",
+"cc": "si",
+"km": 55,
+"src": "Ročno preverjeno"
+},
+{
+"id": "ca46e0f6f7",
+"n": "Genlog, proizvodnja plovil",
+"a": "Šempeter pri Gorici",
+"cc": "si",
+"km": 65,
+"src": "Ročno preverjeno"
+},
+{
+"id": "35b3a7ad9f",
+"n": "Cantiere Navale Vittoria – divizija Yacht",
+"a": "Monfalcone",
+"cc": "it",
+"km": 81,
+"src": "Ročno preverjeno"
+},
+{
+"id": "056f6cecfc",
+"n": "Yachting 2000 Sebastjan Bržan s.p.",
+"a": "Boršt 16, 6273 Marezige",
+"cc": "si",
+"km": 105,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "e37f78edf8",
+"n": "Adria Ribs, Plovila in Posredništvo pri Prodaji, Krištof Amon, s.p.",
+"a": "Korte 5 A, 6310 Izola - Isola",
+"cc": "si",
+"km": 110,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "de3623d96e",
+"n": "Škver",
+"a": "",
+"cc": "hr",
+"km": 110,
+"src": "OpenStreetMap"
+},
+{
+"id": "623e4d46b6",
+"n": "Officina nautica Ennio Tagliarolo",
+"a": "",
+"cc": "it",
+"km": 112,
+"src": "OpenStreetMap"
+},
+{
+"id": "448ed1a447",
+"n": "Magna Steyr",
+"a": "Graz",
+"cc": "at",
+"km": 127,
+"src": "Ročno preverjeno"
+},
+{
+"id": "141b82f57c",
+"n": "Tessari Caorle Snc Di Milan Bruno & C.",
+"a": "",
+"cc": "it",
+"km": 130,
+"src": "OpenStreetMap"
+},
+{
+"id": "6d5532e1c5",
+"n": "Cantiere dell'orologio",
+"a": "",
+"cc": "it",
+"km": 131,
+"src": "OpenStreetMap"
+},
+{
+"id": "74d44940f7",
+"n": "Stil Nautica Di Bincoletto Giulio",
+"a": "Via Antonio Gritti, Porto Santa Margherita",
+"cc": "it",
+"km": 132,
+"src": "OpenStreetMap"
+},
+{
+"id": "770b3465ef",
+"n": "Bracol",
+"a": "",
+"cc": "hr",
+"km": 189,
+"src": "OpenStreetMap"
+},
+{
+"id": "7593d5ba76",
+"n": "Madl am Chiemsee",
+"a": "Seestraße, Übersee",
+"cc": "de",
+"km": 196,
+"src": "OpenStreetMap"
+},
+{
+"id": "39d24f7f16",
+"n": "UL-Jih",
+"a": "Kaplice",
+"cc": "cz",
+"km": 258,
+"src": "Ročno preverjeno"
+},
+{
+"id": "ae4485bb8f",
+"n": "Tim Lenz, Bootsbau",
+"a": "",
+"cc": "de",
+"km": 259,
+"src": "OpenStreetMap"
+},
+{
+"id": "da663e5eb9",
+"n": "Parallelwelt",
+"a": "",
+"cc": "at",
+"km": 261,
+"src": "OpenStreetMap"
+},
+{
+"id": "9d08476e15",
+"n": "Ferretti Group - Ravenna",
+"a": "Via Classicana, Ravenna",
+"cc": "it",
+"km": 261,
+"src": "OpenStreetMap"
+},
+{
+"id": "25b77a3b13",
+"n": "C.n.a. Cantiere Nautico S.r.l.",
+"a": "Via Cagnona Nuova, San Mauro Pascoli",
+"cc": "it",
+"km": 284,
+"src": "OpenStreetMap"
+},
+{
+"id": "f5a2b82ff5",
+"n": "\"Akvasport\" Društvo Sa Ograničenom Odgovornošću Gradačac",
+"a": "Ul. Požaričkih Branilaca Bb, 76250 Gradačac",
+"cc": "ba",
+"km": 389,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "6480e02e70",
+"n": "Solare",
+"a": "Via Paolo Savi 383, 55049 Viareggio, Italy",
+"cc": "it",
+"km": 413,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "208df148ec",
+"n": "Abati Yachts",
+"a": "Via delle Pescine, 196, 57016 Rosignano Marittimo, Italy",
+"cc": "it",
+"km": 442,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "4fdd3f81c7",
+"n": "Ala blu",
+"a": "Via Aurelia Sud, 64/B, 57018 Vada, Italy",
+"cc": "it",
+"km": 445,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "822f8add87",
+"n": "Ortona Navi",
+"a": "Via Cervana, 30, Ortona, Italy",
+"cc": "it",
+"km": 455,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "a7139f5f22",
+"n": "Barkmet, a.s. Stavby lodí",
+"a": "V Zahrádkách 987/22, 40001 Ústí nad Labem, Czech Republic",
+"cc": "cz",
+"km": 469,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "33f66627dd",
+"n": "Kanubau Burgenland",
+"a": "06632 Balgstädt, Germany",
+"cc": "de",
+"km": 558,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "4d00ef9fbf",
+"n": "Cantiere Navale Basilio Postiglione",
+"a": "Via Lucullo, Napoli, Italy",
+"cc": "it",
+"km": 621,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "ef244d7fe9",
+"n": "Air Naval",
+"a": "Via Terragneta n. 90, Torre Annunziata, Italy",
+"cc": "it",
+"km": 633,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "9368afd757",
+"n": "AG Nautica",
+"a": "via C.Colombo, 54, Pontecagnano Faiano, Italy",
+"cc": "it",
+"km": 646,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "c9a2ee73e7",
+"n": "BOOTSWERFT SCHNEIDER",
+"a": "Siebweg 41, 12526 Berlin, Germany",
+"cc": "de",
+"km": 664,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "146106b17b",
+"n": "Hausbootbauer\"waterhus\"",
+"a": "Veilchenweg 136, 14772 Brandenburg an der Havel, Germany",
+"cc": "de",
+"km": 676,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "0a54507c9b",
+"n": "Passion Yacht",
+"a": "Scharfe Lanke 109-131, 13595 Berlin, Germany",
+"cc": "de",
+"km": 678,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "17f043fbb3",
+"n": "Alcyon Yachts",
+"a": "83120 Sainte Maxime, France",
+"cc": "fr",
+"km": 684,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "4b2f7f5188",
+"n": "Gade Bootsbau Kunststofftechnik GmbH",
+"a": "Eilendorferstrasse 153, 52078 Aachen-Brand, Germany",
+"cc": "de",
+"km": 754,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "7dba75d510",
+"n": "Günther Yacht Shipyard",
+"a": "Szczecin, Poland",
+"cc": "pl",
+"km": 778,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "3bf3aa2c28",
+"n": "Caroff-Duflos",
+"a": "20 rue du château, 43270 Allègre, France",
+"cc": "fr",
+"km": 819,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "2416e64563",
+"n": "BALTIC BOATS & SLOEPEN HOBO 790",
+"a": "UL.LUDZI MORZA 2, 72-602 ŚWINOUJSCIE, Poland",
+"cc": "pl",
+"km": 830,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "2d253a3e55",
+"n": "Vennekens",
+"a": "Hoek 40, 2850 Boom - Antwerp, Belgium",
+"cc": "be",
+"km": 877,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "9213fea651",
+"n": "Treffer",
+"a": "de Slof 23, 5107 RH Dongen, Netherlands",
+"cc": "nl",
+"km": 879,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "a39c96b247",
+"n": "Heol",
+"a": "14 rue Pasteur, 77170 Brie Comte Robert, France",
+"cc": "fr",
+"km": 887,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "639db78a14",
+"n": "Pauli Plastics Netherlands",
+"a": "Paul Krugerweg 20, 3851ZJ Ermelo, Netherlands",
+"cc": "nl",
+"km": 892,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "d03713ca35",
+"n": "Jachtwerf De Combinatie",
+"a": "Veerplaat 84, 3313 LJ Dordrecht, Netherlands",
+"cc": "nl",
+"km": 904,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "1414941d8a",
+"n": "Jacabo",
+"a": "3356 LK Papendrecht, Netherlands",
+"cc": "nl",
+"km": 905,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "101c3f5cb7",
+"n": "Balt Yachts",
+"a": "Tczew",
+"cc": "pl",
+"km": 915,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "f73f813f57",
+"n": "Olympus / Drammer Jachtbouw",
+"a": "Zuideinde 176, 2421 AP Nieuwkoop, Netherlands",
+"cc": "nl",
+"km": 924,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "9f565ff06a",
+"n": "Lansart",
+"a": "Saint-Cloud, France",
+"cc": "fr",
+"km": 926,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "1761971ac1",
+"n": "Dutch Yachting Group",
+"a": "Industriewei 7, 9011WH Jirnsum, Netherlands",
+"cc": "nl",
+"km": 946,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "277430b21b",
+"n": "Richter Jachten",
+"a": "Hendrik Bulthuisweg 2, 8606 KB Sneek, Netherlands",
+"cc": "nl",
+"km": 947,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "e2dcaf2941",
+"n": "Jachtbouw Vels",
+"a": "Zeldenrust 11, 1671 GW Medemblik, Netherlands",
+"cc": "nl",
+"km": 953,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "6bda43456c",
+"n": "Geb. van Enkhuizen",
+"a": "Strânwei 11, 8754 HA Makkum, Netherlands",
+"cc": "nl",
+"km": 962,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "825d578205",
+"n": "Icon Yachts",
+"a": "Lange Lijnbaan 11, 8861 NW Harlingen, Netherlands",
+"cc": "nl",
+"km": 970,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "913e147c64",
+"n": "Ribboat",
+"a": "Westerallee 153, 24941 Flensburg, Germany",
+"cc": "de",
+"km": 979,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "a4cf53a827",
+"n": "Moore Formula",
+"a": "27700 TOSNY, France",
+"cc": "fr",
+"km": 994,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "445c5b1eb4",
+"n": "CNC Boats",
+"a": "",
+"cc": "si",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "f3c95e77a8",
+"n": "Mlaka Sport",
+"a": "",
+"cc": "hr",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "9e423ee851",
+"n": "Petuelli",
+"a": "",
+"cc": "at",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "ce8ae80c74",
+"n": "Begré Bootbau",
+"a": "",
+"cc": "ch",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "25164fc2d5",
+"n": "Centreboard",
+"a": "",
+"cc": "hu",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "9218bc8460",
+"n": "Gimi Yachts",
+"a": "",
+"cc": "cz",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "8829e1b16f",
+"n": "Vydra Canoe",
+"a": "",
+"cc": "cz",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "5f078e83b1",
+"n": "Derek - Ing. Josef Průša",
+"a": "",
+"cc": "cz",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "0dec0c6eac",
+"n": "Hans - stavba lodí",
+"a": "",
+"cc": "cz",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "8243affa7d",
+"n": "Gobbi",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "2e12dbb291",
+"n": "Bellingardo",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "c6f2033f4c",
+"n": "Aquamar",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "156da72830",
+"n": "Innovazioni E Progetti",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "59aa981827",
+"n": "Manò Marine",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "8b998b0e96",
+"n": "Cantieri Navali Termoli",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "559532e614",
+"n": "Siar Moschini",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "a84101686b",
+"n": "VZ Yachts",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "b10c96f4a0",
+"n": "Terranova Yachts",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "46d2049c75",
+"n": "Catarsi",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "32f60a3d08",
+"n": "Aqvamarine",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "159273085c",
+"n": "Alfa Yacht Yard",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "e2dbd44ca8",
+"n": "Ilver",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "2e6822a649",
+"n": "Coverline Marine",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "6909b0f5ac",
+"n": "Rascala",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "66a01857fa",
+"n": "Intermare",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "fb9a827970",
+"n": "Nuvari",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "800acf4e27",
+"n": "Cbi Navi",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "1acc23a9c9",
+"n": "Sciallino",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "2bc8692eae",
+"n": "Jantar",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "398c701ae5",
+"n": "Reinke",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "98bf79dd70",
+"n": "PR Marine",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "c77d5674f8",
+"n": "Habeke",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "496b48515a",
+"n": "Burmeister-Werft",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "80724df709",
+"n": "Cytra Werft",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "0f42dbe6c2",
+"n": "Eikboom",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "b65b8d4f4a",
+"n": "Mak Yachten (makTen)",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "51cd5a5421",
+"n": "Rethana",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "143f3a8d65",
+"n": "Asmus",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "b5713b5062",
+"n": "Bützfleth",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "d519ed250e",
+"n": "Brungs Yacht",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "de1a021bc5",
+"n": "Aquatech Waterworld Pixelboote",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "59c7d5007d",
+"n": "ARP Yachtbau",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "d7bb322d16",
+"n": "Hille Boote",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "b67890117b",
+"n": "Race2win",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "d10df4b043",
+"n": "Baron Yachtbau",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "906cc150f6",
+"n": "Grand Azur",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "aae09f0fb8",
+"n": "SunCamper / Balt Yacht",
+"a": "",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "931ecd57ea",
+"n": "Sasanka",
+"a": "",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "f779c066f9",
+"n": "mak7 Yachts",
+"a": "Scharfe Lanke 109-131, 13595 Berlin, Poland",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "f654f5f373",
+"n": "Eol-Boats",
+"a": "",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "36baf75108",
+"n": "Sunhorse Yachting",
+"a": "",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "115ff3eebf",
+"n": "Jawa Yachts",
+"a": "",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "ced3f4d291",
+"n": "Lata Yachts",
+"a": "",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "62489ad0ec",
+"n": "Arvor / Balt Yacht",
+"a": "",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "2ae1bfe1de",
+"n": "Projektowanie i Budowa Jachtów",
+"a": "",
+"cc": "pl",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "08595a3e7c",
+"n": "Izdelava in Popravilo Vodnih Plovil, Emir Ćehajić s.p.",
+"a": "Cesta Železarjev 30, 4270 Jesenice",
+"cc": "si",
+"km": 1,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "b9bcedff02",
+"n": "Nautične Storitve, Aleš Petač s.p.",
+"a": "Partizanska Pot 3, 4270 Jesenice",
+"cc": "si",
+"km": 1,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "af976cc7a7",
+"n": "Proizvodnja Plovil, Armend Sokoli s.p.",
+"a": "Cesta Franceta Prešerna 5 G, 4270 Jesenice",
+"cc": "si",
+"km": 1,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "92b17d5d78",
+"n": "Sarah, Proizvodnja in Popravila Čolnov, Mirzet Ibrahimović s.p.",
+"a": "Cesta 1. Maja 93, 4270 Jesenice",
+"cc": "si",
+"km": 1,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "d4ce148e9e",
+"n": "Gradnja Čolnov za Razvedrilo in Šport, Anja Odorčić, s.p.",
+"a": "Žirovnica 39, 4274 Žirovnica",
+"cc": "si",
+"km": 8,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "c4fcf6aa4b",
+"n": "Mare Navtik, Gradnja Čolnov za Razvedrilo in Šport, Marko Oblak, s.p.",
+"a": "Žirovnica 60 A, 4274 Žirovnica",
+"cc": "si",
+"km": 8,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "a1cb2b47a4",
+"n": "Delmare, Irel Hodžić s.p., Vzdrževanje Plovil",
+"a": "Alpska Cesta 19, 4260 Bled",
+"cc": "si",
+"km": 9,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "f1e7913d73",
+"n": "Jezernik, Gradnja Plovil, Anže Logar s.p.",
+"a": "Savska Cesta 12, 4260 Bled",
+"cc": "si",
+"km": 9,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "d4dda20721",
+"n": "Mm Marine Navtične Storitve in Svetovanje d.o.o.",
+"a": "Triglavska Ulica 14, 4260 Bled",
+"cc": "si",
+"km": 9,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "ccaf768931",
+"n": "Proizvodnja Čolnov Sergey Churkin s.p.",
+"a": "Jermanka 25, 4260 Bled",
+"cc": "si",
+"km": 9,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "aa2982bddc",
+"n": "Proizvodnja Plovil, Anže Repinc s.p.",
+"a": "Rečiška Cesta 37, 4260 Bled",
+"cc": "si",
+"km": 9,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "5473bf03b9",
+"n": "Stanislav Pintar, Navtične Storitve s.p.",
+"a": "Bohinjska Bela 122 A, 4263 Bohinjska Bela",
+"cc": "si",
+"km": 10,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "9cebd8eb9a",
+"n": "Doppel G, Navtične Storitve Gašper Grošelj s.p.",
+"a": "Hraše 36, 4248 Lesce",
+"cc": "si",
+"km": 12,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "e283851d6f",
+"n": "Splošno Mizarstvo, Gradnja in Popravilo Čolnov, Aleš Žmitek s.p.",
+"a": "Stara Fužina 10, 4265 Bohinjsko Jezero",
+"cc": "si",
+"km": 13,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "af23b9378c",
+"n": "Mizarstvo, Proizvodnja in Servis Plovil, Mitja Potočnik s.p.",
+"a": "Brezje 32 A, 4243 Brezje",
+"cc": "si",
+"km": 18,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "2f8e09b912",
+"n": "Proizvodnja in Popravilo Čolnov Rok Dobravec s.p.",
+"a": "Kamnje 5, 4264 Bohinjska Bistrica",
+"cc": "si",
+"km": 20,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "0dc5910540",
+"n": "Tekstilni Izdelki za Plovila, Beti Toporiš s.p.",
+"a": "Brezje pri Tržiču 6, 4290 Tržič",
+"cc": "si",
+"km": 21,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "e77fd495b2",
+"n": "Livarna Titan",
+"a": "Kamnik",
+"cc": "si",
+"km": 49,
+"src": "Ročno preverjeno"
+},
+{
+"id": "1fd43b2989",
+"n": "Lemon Nautics Proizvodnja Gumenjakov in Ostale Navtične Opreme, Miha Mlakar s.p.",
+"a": "Cesta Dr. Tineta Zajca 18 B, 1241 Kamnik",
+"cc": "si",
+"km": 49,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "4967b05cbc",
+"n": "Marinar, Proizvodnja, Servisna in Poslovna Dejavnost, d.o.o.",
+"a": "Dragomerška Cesta 53, 1351 Brezovica pri Ljubljani",
+"cc": "si",
+"km": 52,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "cd77995565",
+"n": "Livarstvo Szilágyi",
+"a": "Ljubljana",
+"cc": "si",
+"km": 55,
+"src": "Ročno preverjeno"
+},
+{
+"id": "9cba9b42ae",
+"n": "Adria Boats, Poslovne Storitve, d.o.o.",
+"a": "Barjanska Cesta 70, 1000 Ljubljana",
+"cc": "si",
+"km": 55,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "fecbe6e7af",
+"n": "J.D.F., Navtične Storitve, d.o.o.",
+"a": "Industrijska Cesta 5, 5000 Nova Gorica",
+"cc": "si",
+"km": 62,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "3939ce1ce6",
+"n": "Modra Pomoč, Servis in Izdelava Plovil d.o.o.",
+"a": "Opekarska Cesta 19, 1360 Vrhnika",
+"cc": "si",
+"km": 90,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "607dd4b9a2",
+"n": "Nautica Yacht Trading GmbH",
+"a": "Hauptstrasse 78, 8740 Zeltweg",
+"cc": "at",
+"km": 97,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "30b530c1a4",
+"n": "Cantieri di Aprilia",
+"a": "",
+"cc": "it",
+"km": 112,
+"src": "OpenStreetMap"
+},
+{
+"id": "6c01f155d1",
+"n": "Interadria SC",
+"a": "Kastav",
+"cc": "hr",
+"km": 120,
+"src": "Ročno preverjeno"
+},
+{
+"id": "b801574a5a",
+"n": "Brodogradilište Kantrida",
+"a": "Podkoludricu",
+"cc": "hr",
+"km": 124,
+"src": "OpenStreetMap"
+},
+{
+"id": "71156afa11",
+"n": "Cantieri Navali Caorle Srl - Rimessaggio e manutenzione imbarcazioni",
+"a": "",
+"cc": "it",
+"km": 130,
+"src": "OpenStreetMap"
+},
+{
+"id": "82b81191aa",
+"n": "M. Matić Društvo S Ograničenom Odgovornošču za Popravak Brodova I Trgovinu",
+"a": "Franje Račkoga 042, 51000 Rijeka",
+"cc": "hr",
+"km": 131,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "97d029f7a9",
+"n": "Pössl",
+"a": "Ainring",
+"cc": "de",
+"km": 175,
+"src": "Ročno preverjeno"
+},
+{
+"id": "f7f3ac770d",
+"n": "Energy Naval GmbH",
+"a": "Schattendorf",
+"cc": "at",
+"km": 234,
+"src": "Ročno preverjeno"
+},
+{
+"id": "4bb8dee94f",
+"n": "Alalunga Cantiere Navale",
+"a": "16033 Lavagna, Italy",
+"cc": "it",
+"km": 437,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "c4b4b182a8",
+"n": "Tomark",
+"a": "Prešov",
+"cc": "sk",
+"km": 608,
+"src": "Ročno preverjeno"
+},
+{
+"id": "78fdc9d73b",
+"n": "BAS aluminium boten & sloepen",
+"a": "Vierlinghstraat 49A-16, 4251LC Werkendam, Netherlands",
+"cc": "nl",
+"km": 894,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "7f33daf27b",
+"n": "Noblesse Yachts (Kroon Yacht Service)",
+"a": "8606kc Sneek, Netherlands",
+"cc": "nl",
+"km": 947,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "51a8e4f8f1",
+"n": "Aluboot",
+"a": "Oosterstrand 6a, 8713 JS Hindeloopen, Netherlands",
+"cc": "nl",
+"km": 953,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "681b51796a",
+"n": "Bat",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "26493c7b7f",
+"n": "AuxMarine",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "6be10d7bc0",
+"n": "Gommonautica",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "36f19bcb2b",
+"n": "ALU-Wind",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "07924ddb79",
+"n": "Gugelwerke",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "73bbc878d4",
+"n": "Yacht- und Möbelbau",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+}
+]

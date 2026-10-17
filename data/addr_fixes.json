@@ -362,5 +362,33 @@
 "town": "Grosseto (58100)",
 "src": "https://eurovinil.it/it/chi-siamo/la-nostra-azienda",
 "n": 7
+},
+"83227d2922": {
+"lat": 38.20372,
+"lon": 15.30666,
+"town": "Giammoro (98040)",
+"src": "https://aiconyachts.com/contacts/",
+"n": 3
+},
+"69d20ea516": {
+"lat": 41.30025,
+"lon": 13.02815,
+"town": "Sabaudia (04016)",
+"src": "https://www.posillipoyachts.com/en/company-info",
+"n": 2
+},
+"98f497af52": {
+"lat": 45.35736,
+"lon": 8.39203,
+"town": "Caresanablot (13030)",
+"src": "https://www.arkosboats.com/",
+"n": 5
+},
+"cb2f560810": {
+"lat": 40.92337,
+"lon": 9.49802,
+"town": "Olbia (07026)",
+"src": "https://www.novamarine.com/en/",
+"n": 5
 }
 }

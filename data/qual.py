@@ -161,6 +161,7 @@ Q = {
  "Livar d.d.": ("2", "srednje", "Livarna litine z modelno orodjarno.", "Modelna orodjarna: prevzem velikih modelov."),
  "OMCO Metals Slovenia": ("2", "srednje", "Livarna z modelarstvom.", "Modelarstvo: prevzem dela."),
  "Croning livarna": ("2", "?", "Jeklolitina in modeli.", "Telefon."),
+ "EJET proizvodnja plovil": ("1", "mikro", "Električni jet tenderji EJET 4X (3,95 m, optimiziran RIB trup), v pripravi večji 9X; Ljubljana.", "Razvoj: trup 9X in serija 4X – kosi do 5 m so idealni za mizo 5000 × 2200 mm. Spletne strani nisem našel – LinkedIn ali register."),
  "Kiska": ("1", "srednje", "Oblikuje Frauscher, Sunbeam, Marian, Performance 120X; prototipe dela sama, modelov za kalupe ne.", "Julian Herget (vodstvo): partner za rezkane modele in kalupe njihovih navtičnih projektov."),
 }
 TIER_SCORE = {"1": 3.0, "2": 1.0, "3": -1.5, "K": -0.5}
