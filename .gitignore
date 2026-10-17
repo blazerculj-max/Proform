@@ -8,3 +8,7 @@ __pycache__/
 .DS_Store
 data/verify_todo.json
 data/crawl_todo.json
+
+# surovi seznami razstavljavcev (vsebujejo osebne kontakte) ostanejo lokalno
+data/fairs/boot*.json
+data/fairs/genova*.json

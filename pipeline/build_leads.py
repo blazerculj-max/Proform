@@ -7,6 +7,7 @@ exec(open("data/contacts.py").read())
 exec(open("data/contacts_spec.py").read())
 exec(open("data/manual_verify.py").read())
 exec(open("data/qual.py").read())
+exec(open("data/fair_review.py").read())
 import os
 SIG = json.load(open("data/signals.json")) if os.path.exists("data/signals.json") else {}
 WEBS = json.load(open("data/pn/websites.json")) if os.path.exists("data/pn/websites.json") else {}
@@ -131,6 +132,18 @@ for c in CURATED + SPEC:
     add(n=c["name"], cc=c["loc"][0], addr=c.get("city") or place.split(" - ")[0].split("/")[0], lat=la, lon=lo, seg=c["seg"], role=c["role"], fit=c["fit"], top=c.get("top", False),
         note=c["note"], types="", models="", src=["Ročno preverjeno"], cl=c.get("cl", []), web=c.get("web", ""))
 
+# 5) razstavljavci na sejmih (pipeline/fairs.py pick): obstoječim doda sejem, novo podjetje le, če stran kaže proizvodnjo
+FAIR_TAG = {}
+for c in _load("data/fairs/cand.json", []):
+    if c["n"] in FAIR_DROP: continue
+    if c["n"] in FAIR_ALIAS:
+        FAIR_TAG.setdefault(FAIR_ALIAS[c["n"]], []).append(c["fair"] + (" · " + c["where"] if c["where"] else "")); continue
+    br = ", ".join(b for b in c.get("brands", []) if norm(b) not in norm(c["n"]))
+    add(n=c["n"], cc=c["cc"], addr=c["city"], lat=c["lat"], lon=c["lon"], seg="boats", role="kupec", fit="A" if c.get("v") == "M" else "B", top=False,
+        note=f"Na sejmu predstavlja znamke: {br}." if br else "",
+        types="", models="", src=[c["src"]], web=c.get("u") or c["web"], fairs=[c["fair"] + (" · " + c["where"] if c["where"] else "")],
+        fkeep=c.get("v") in ("M", "m"), fct=(c["email"], c.get("phone", ""), c["fair"]) if c.get("email") else None)  # samo splošni naslovi (fairs.py)
+
 # OSM country fix by nearest country is not needed for display; fill missing cc from coordinates roughly
 for l in leads:
     if not l["cc"] and l["lat"]:
@@ -147,21 +160,46 @@ PRI = {"Ročno preverjeno": 0, "Imenik izdelovalcev (profinautic)": 1, "Poslovni
 def dist(a, b):
     if a["lat"] is None or b["lat"] is None: return 0 if a["cc"] == b["cc"] else 9999
     return hav(a["lat"], a["lon"], b["lat"], b["lon"])
-leads.sort(key=lambda l: PRI[l["src"][0]])
+leads.sort(key=lambda l: PRI.get(l["src"][0], 4))
+FSTOP = STOP | {"del", "della", "delle", "dei", "der", "die", "und", "and", "van", "yachtbau", "bootswerft", "bootsbau", "shipyard", "srls", "spa", "bv", "sas"}
+def toks(n): return {x for x in norm(n).split() if x not in FSTOP and len(x) > 2}
+def same(fair, a, b):
+    if not fair: return key(a) == key(b)
+    ov = toks(a) & toks(b)  # razstavljavci: vsaj dve skupni besedi (ali vse, če jih ima ime manj)
+    return bool(ov) and len(ov) >= min(2, len(toks(a)), len(toks(b)))
 merged = []
 for l in leads:
-    k = key(l["n"])
+    k = key(l["n"]); fair = l["src"][0].startswith("Sejem ")
     for m in merged:
-        if key(m["n"]) == k and dist(m, l) < 30:
+        if same(fair, l["n"], m["n"]) and dist(m, l) < 30:
             for s in l["src"]:
                 if s not in m["src"]: m["src"].append(s)
             if m["lat"] is None and l["lat"] is not None: m["lat"], m["lon"] = l["lat"], l["lon"]
             if not m.get("web") and l.get("web"): m["web"] = l["web"]
             if not m["types"] and l["types"]: m["types"] = l["types"]
+            if l.get("fairs"): m["fairs"] = m.get("fairs", []) + [f for f in l["fairs"] if f not in m.get("fairs", [])]
+            if l.get("fkeep"): m["fkeep"] = True
+            if l.get("fct") and not m.get("fct"): m["fct"] = l["fct"]
             break
     else:
         merged.append(l)
 
+merged = [l for l in merged if not l["src"][0].startswith("Sejem ") or l.get("fkeep")]
+def fair_labels(lst):  # en zapis na sejem: »Genova 2026 · Motor boats, Inflatable Boats«
+    g = {}
+    for f in lst:
+        name, _, where = f.partition(" · ")
+        w = g.setdefault(name, [])
+        for x in re.split(r",\s*", where):
+            if x.strip() and x.strip() not in w: w.append(x.strip())
+    return [n + (" · " + ", ".join(w) if w else "") for n, w in g.items()]
+for l in merged:
+    if l["n"] in FAIR_TAG: l["fairs"] = l.get("fairs", []) + FAIR_TAG[l["n"]]
+    if l.get("fairs"):
+        l["fairs"] = fair_labels(l["fairs"])
+        sl = {f.split(" · ")[0].split()[0] for f in l["fairs"]}
+        for lab, src in (("boot", "Sejem boot Düsseldorf"), ("Genova", "Sejem Salone Nautico Genova")):
+            if lab in sl and src not in l["src"]: l["src"] = l["src"] + [src]
 for l in merged:
     if l["n"] in LOC_FIX:
         cc, pc, town = LOC_FIX[l["n"]]; g = loc_geo(cc, pc)
@@ -180,6 +218,7 @@ for l in merged:
             l["lat"], l["lon"], l["addr"] = p["lat"], p["lon"], p.get("addr", "")
             l["src"] = l["src"] + ["Google Places"]
         if not l.get("web") and p.get("web"): l["web"] = p["web"]
+FCT = {}
 RINGS = [(150, 0), (400, 1), (700, 2), (1000, 3)]
 FITW = {"A": 3, "B": 2, "C": 0.6}; RINGW = [1.0, 0.75, 0.5, 0.35, 0.3]
 out = []
@@ -198,6 +237,8 @@ for l in merged:
                     x=None if x is None else round(x, 1), y=None if y is None else round(y, 1),
                     s=l["seg"], ro=l["role"], f=l["fit"], t=1 if l["top"] else 0, no=l["note"], ty=l["types"], mo=l["models"][:120],
                     w=l.get("web", ""), src=l["src"], sc=round(sc, 2)))
+    if l.get("fairs"): out[-1]["fa"] = l["fairs"]
+    if l.get("fct"): FCT[lid] = l["fct"]
 names = {o["n"] for o in out}
 for k in list(CONTACTS) + list(NOTE_FIX):
     if k not in names: print("MISSING NAME", k)
@@ -246,6 +287,10 @@ for o in out:
     if o.get("ct") or (o.get("q") or {}).get("t") not in ("1", "2", "K"): continue
     a = AC.get(o["id"])
     if a: o["ct"] = dict(w=a["w"], e=a["e"], p=a["p"], d=sl_date(a.get("d", RUN_DATE)), n="Splošni kontakt s spletne strani podjetja (samodejno). Imena oseb poišči v nakupni skupini.")
+for o in out:  # splošni kontakt s seznama razstavljavcev, če ga na strani ni
+    f = FCT.get(o["id"])
+    if f and not o.get("ct") and (o.get("q") or {}).get("t") in ("1", "2", "K"):
+        o["ct"] = dict(w=o.get("w", ""), e=[f[0]], p=[f[1]] if f[1] else [], d=sl_date(RUN_DATE), n=f"Splošni kontakt s seznama razstavljavcev ({f[2]}). Imena oseb poišči v nakupni skupini.")
 for o in out:
     p = PLACES.get(o["id"])
     if p and p.get("ok"):

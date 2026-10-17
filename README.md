@@ -13,6 +13,8 @@ Sledenje statusa, opombe in nakupna skupina delujejo v različici na claude.ai, 
 - **Novosti** – vsak teden: nov model na strani, oglas za proizvodne delavce, stran ne deluje / spet deluje, sprememba ocene
 - Projektanti in posredniki (J&J Design, Kiska, Felci, Polli …) s povezavo na ladjedelnice, za katere delajo
 - Kontakti, ki jih podjetja objavijo na svojih straneh, in predloge prvega sporočila v SL/HR/IT/DE/EN
+- Razstavljavci na sejmih (boot Düsseldorf, Salone Nautico Genova): oznaka »sejem«, hala ali kategorija, filter po sejmu
+- Filtri po državah (več hkrati), razdalji, panogi, prednosti, preverjanju in statusu
 
 ## Tedenska osvežitev (GitHub Actions)
 
@@ -53,6 +55,8 @@ data/           ročno vzdrževani podatki, vmesni rezultati in zgodovina novost
 | `web_manual.json`, `web_found.json` | ročno znane in najdene spletne strani (preverjene) |
 | `web_rejected.json`, `web_notes.json` | zavrnjeni napačni zadetki in ugotovitve iskanja (stečaj, prodajalec …) |
 | `snapshots.json`, `changes.json` | stanje za primerjavo in zgodovina novosti |
+| `fairs/boot2026.json`, `fairs/genova2026.json` | razstavljavci sejmov (javna seznama) |
+| `fairs/cand.json`, `fairs/verify_out.json` | izdelovalci plovil s sejmov v polmeru 1000 km in preverjanje njihovih strani |
 
 ## Lokalni zagon
 
@@ -68,6 +72,16 @@ python3 pipeline/find_websites.py --guess
 
 OpenStreetMap (Nominatim) za iskanje lokacij in strani je bil preizkušen in zavrnjen: na 40 znanih podjetjih je našel 10, od tega 5 s pravilno lokacijo in nobene pravilne spletne strani.
 
+Razstavljavci na sejmih (enkrat na leto, ko sejem objavi seznam; nato `run.py`):
+
+```bash
+python3 pipeline/fairs.py boot genova pick
+```
+
+`pick` izbere hale in kategorije s plovili, poišče lokacijo, izloči vse nad 1000 km in preveri spletne strani.
+Podjetje, ki je že v bazi, dobi oznako sejma; novo se doda samo, če njegova stran kaže lastno proizvodnjo.
+Preizkušeni, a neuporabni: METSTRADE in JEC (seznam se zgradi šele v brskalniku), Interboot, Biograd Boat Show, Seatec in Boot Tulln (javnega seznama ni).
+
 Ponovno zbiranje virov (redko – imenik, register, OpenStreetMap):
 
 ```bash
@@ -78,4 +92,4 @@ python3 pipeline/geocode.py data/pn/all.json data/pn/geo.json
 
 Ko se podatki spremenijo, je treba stran na claude.ai objaviti znova iz `web/page.html` in datotek v `docs/`.
 
-Viri: imenik profinautic, Poslovni register (SKD 30.120), OpenStreetMap, GeoNames (CC BY 4.0), world-atlas (Natural Earth), spletne strani podjetij, po želji Google Places.
+Viri: imenik profinautic, Poslovni register (SKD 30.120), OpenStreetMap, seznami razstavljavcev (boot Düsseldorf, Salone Nautico Genova), GeoNames (CC BY 4.0), world-atlas (Natural Earth), spletne strani podjetij, po želji Google Places.

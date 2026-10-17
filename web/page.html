@@ -227,15 +227,16 @@ details summary strong{color:var(--ink)}
         <select class="sel" id="ring" aria-label="Doseg">
           <option value="0">Do 150 km</option><option value="1">Do 400 km</option><option value="2" selected>Do 700 km</option><option value="3">Do 1000 km</option><option value="4">Vse, tudi brez lokacije</option>
         </select>
-        <select class="sel" id="cc" aria-label="Država"><option value="all">Vse države</option></select>
       </div>
       <div class="chips" id="segChips" role="group" aria-label="Panoga"></div>
+      <div class="chips" id="ccChips" role="group" aria-label="Države"></div>
       <div class="frow">
         <div class="chips" id="fitChips" role="group" aria-label="Verjetnost"></div>
         <select class="sel" id="status" aria-label="Status"></select>
         <label class="tog"><input type="checkbox" id="topOnly"> Samo ročno izbrani</label>
         <label class="tog"><input type="checkbox" id="ctOnly"> Samo s kontakti</label>
         <label class="tog"><input type="checkbox" id="newOnly"> Samo z novostmi (30 dni)</label>
+        <select class="sel" id="fairSel" aria-label="Sejem"><option value="all">Sejmi: vsi</option></select>
         <select class="sel" id="prSel" aria-label="Prednost">
           <option value="1" selected>Prednost P1 – takoj</option>
           <option value="12">P1 in P2</option>
@@ -325,7 +326,7 @@ const $=s=>document.querySelector(s);
 
 let LEADS=[], CUSTOM=[], MAP=[], statusMap={};
 let db=null, usr=null, canWrite=null, downloads=null, myId=null;
-const st={q:"",ring:2,pr:"1",cc:"all",seg:"all",fit:new Set(["A","B","C"]),status:"all",top:false,ct:false,vf:"all",limit:60,zoom:400,sel:null,mode:"view",lang:null};
+const st={q:"",ring:2,pr:"1",ccs:new Set(),fair:"all",cc:"all",seg:"all",fit:new Set(["A","B","C"]),status:"all",top:false,ct:false,vf:"all",limit:60,zoom:400,sel:null,mode:"view",lang:null};
 // Koga iskati v podjetju, po panogi
 const WHO={
   boats:"Tehnična pisarna ali razvoj (novi modeli), vodja nabave, vodja proizvodnje ali laminiranja. Pri manjših ladjedelnicah lastnik.",
@@ -359,6 +360,7 @@ function tpl(lang,l){
   return T[lang]||T.en;
 }
 try{const z=localStorage.getItem("radar.zoom"); if(z&&ZR.includes(+z)) st.zoom=+z;}catch(e){}
+try{const c=JSON.parse(localStorage.getItem("radar.ccs")||"[]"); if(Array.isArray(c)) c.forEach(x=>st.ccs.add(String(x)));}catch(e){}
 
 function el(tag,attrs,...kids){const e=document.createElement(tag);if(attrs)for(const k in attrs){if(k==="class")e.className=attrs[k];else if(k==="text")e.textContent=attrs[k];else e.setAttribute(k,attrs[k]);}for(const c of kids){if(c==null)continue;e.append(c.nodeType?c:document.createTextNode(c));}return e;}
 function sv(tag,attrs){const e=document.createElementNS(SVGNS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e;}
@@ -384,14 +386,14 @@ Promise.all([fetch("leads.json").then(r=>r.json()),fetch("map.json").then(r=>r.j
   db.collection("team").onSnapshot(snap=>{ const m={}; snap.docs.forEach(d=>{ if(d.exists) m[d.id]=d.data(); }); TEAM=m; render(); if(idleDrawer()) renderDrawer(); }, ()=>{});
   db.collection("custom").onSnapshot(snap=>{
     CUSTOM=snap.docs.filter(d=>d.exists).map(d=>{const v=d.data();return {id:"c_"+d.id,_doc:d.id,n:String(v.n||"Brez imena"),cc:String(v.cc||""),a:String(v.a||""),km:null,r:4,x:null,y:null,s:SEG[v.s]?v.s:"boats",ro:"kupec",f:"B",t:0,no:String(v.no||""),ty:"",mo:"",w:String(v.w||""),src:["Ročno dodano"],sc:2.5};});
-    buildCountryOptions(); render();
+    buildCountryOptions(); buildFairOptions(); render();
   }, ()=>{});
   render();
 })();
 
 /* ---------- filters ---------- */
 function buildFilters(){
-  buildCountryOptions();
+  buildCountryOptions(); buildFairOptions();
   const segC=$("#segChips"); segC.replaceChildren();
   const segs=[["all","Vse panoge"]].concat(Object.entries(SEG));
   for(const [k,v] of segs){ const b=el("button",{type:"button",class:"chip","data-seg":k,"aria-pressed":String(st.seg===k)},v,el("span",{class:"n"})); b.onclick=()=>{st.seg=k;st.limit=60;render();}; segC.append(b); }
@@ -401,7 +403,7 @@ function buildFilters(){
   for(const [k,v] of STATUS) ss.append(el("option",{value:k||"new"},v));
   $("#q").oninput=e=>{st.q=e.target.value.trim().toLowerCase();st.limit=60;render();};
   $("#ring").onchange=e=>{st.ring=+e.target.value;st.limit=60; if(st.ring<4){st.zoom=ZR[st.ring];saveZoom();} render();};
-  $("#cc").onchange=e=>{st.cc=e.target.value;st.limit=60;render();};
+
   ss.onchange=e=>{st.status=e.target.value;st.limit=60;render();};
   $("#topOnly").onchange=e=>{st.top=e.target.checked;st.limit=60;render();};
   $("#ctOnly").onchange=e=>{st.ct=e.target.checked;st.limit=60; if(st.ct){st.ring=4;} render();};
@@ -409,6 +411,7 @@ function buildFilters(){
   $("#newOnly").onchange=e=>{st.news=e.target.checked;st.limit=60; if(st.news){st.ring=4;st.pr="all";$("#prSel").value="all";} render();};
   $("#newsMore").onclick=()=>{newsLimit+=20;renderNews();};
   $("#prSel").onchange=e=>{st.pr=e.target.value;st.limit=60;render();};
+  $("#fairSel").onchange=e=>{st.fair=e.target.value;st.limit=60;render();};
   $("#more").onclick=()=>{st.limit+=80;render();};
   $("#zoom").querySelectorAll("button").forEach(b=>b.onclick=()=>{st.zoom=+b.dataset.z;saveZoom();render();});
   $("#addBtn").onclick=()=>{st.sel=null;st.mode="add";renderDrawer();};
@@ -416,22 +419,41 @@ function buildFilters(){
   $("#dClose").onclick=closeDrawer;
   document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!$("#drawer").hidden) closeDrawer(); });
 }
+// države: več izbir hkrati; prazna izbira = vse države
 function buildCountryOptions(){
-  const s=$("#cc"); const cur=s.value||"all"; const counts={};
-  for(const l of all()) counts[l.cc]=(counts[l.cc]||0)+1;
-  s.replaceChildren(el("option",{value:"all"},"Vse države"));
-  Object.keys(counts).sort((a,b)=>(CC[a]||a).localeCompare(CC[b]||b,"sl")).forEach(k=>s.append(el("option",{value:k},(CC[k]||k.toUpperCase())+" ("+counts[k]+")")));
-  s.value=counts[cur]||cur==="all"?cur:"all";
+  const box=$("#ccChips"); box.replaceChildren();
+  const counts={}; for(const l of all()) if(l.cc) counts[l.cc]=(counts[l.cc]||0)+1;
+  const allB=el("button",{type:"button",class:"chip","data-cc":"*"},"Vse države",el("span",{class:"n"}));
+  allB.onclick=()=>{st.ccs.clear();saveCcs();st.limit=60;render();};
+  box.append(allB);
+  Object.keys(counts).sort((a,b)=>counts[b]-counts[a]||(CC[a]||a).localeCompare(CC[b]||b,"sl")).forEach(k=>{
+    const b=el("button",{type:"button",class:"chip","data-cc":k},CC[k]||k.toUpperCase(),el("span",{class:"n"}));
+    b.onclick=()=>{ if(st.ccs.has(k)) st.ccs.delete(k); else st.ccs.add(k); saveCcs(); st.limit=60; render(); };
+    box.append(b);
+  });
 }
+const fairName=f=>f.split(" · ")[0];
+function buildFairOptions(){
+  const s=$("#fairSel"), counts={}; let any=0;
+  for(const l of all()) if(l.fa){ any++; for(const f of new Set(l.fa.map(fairName))) counts[f]=(counts[f]||0)+1; }
+  s.replaceChildren(el("option",{value:"all"},"Sejmi: vsi"));
+  if(!any){ s.hidden=true; return; }
+  s.hidden=false; s.append(el("option",{value:"any"},"Razstavljavci na sejmih ("+any+")"));
+  Object.keys(counts).sort().forEach(f=>s.append(el("option",{value:f},f+" ("+counts[f]+")")));
+  s.value=st.fair==="any"||counts[st.fair]?st.fair:"all"; st.fair=s.value;
+}
+function saveCcs(){ try{ localStorage.setItem("radar.ccs",JSON.stringify([...st.ccs])); }catch(e){} }
+function baseNoCc(l){ const keep=st.ccs; st.ccs=new Set(); const r=base(l); st.ccs=keep; return r; }
 function saveZoom(){try{localStorage.setItem("radar.zoom",String(st.zoom));}catch(e){}}
 
 function base(l){ // all filters except segment, for chip counts
   if(st.ring<4 && l.r>st.ring) return false;
-  if(st.cc!=="all"&&l.cc!==st.cc) return false;
+  if(st.ccs.size&&!st.ccs.has(l.cc)) return false;
   if(!st.fit.has(l.f)) return false;
   if(st.top&&!l.t) return false;
   if(st.ct&&!l.ct) return false;
   if(st.news&&!isNew(l)) return false;
+  if(st.fair!=="all"){ if(!l.fa) return false; if(st.fair!=="any"&&!l.fa.some(f=>fairName(f)===st.fair)) return false; }
   if(st.pr!=="all"){ const t=l.q?l.q.t:null;
     if(!(l.s==="spec"&&!t&&st.pr!=="K"&&st.pr!=="3")){
       if(st.pr==="12"){ if(t!=="1"&&t!=="2") return false; } else if(t!==st.pr) return false; } }
@@ -454,6 +476,9 @@ function render(){
   const baseRows=all().filter(base);
   document.querySelectorAll("#segChips .chip").forEach(b=>{const k=b.dataset.seg;b.setAttribute("aria-pressed",String(st.seg===k));b.querySelector(".n").textContent=k==="all"?baseRows.length:baseRows.filter(l=>l.s===k).length;});
   document.querySelectorAll("#fitChips .chip").forEach(b=>b.setAttribute("aria-pressed",String(st.fit.has(b.dataset.fit))));
+  const ccRows=all().filter(l=>baseNoCc(l)&&(st.seg==="all"||l.s===st.seg));
+  document.querySelectorAll("#ccChips .chip").forEach(b=>{ const k=b.dataset.cc; const n=k==="*"?ccRows.length:ccRows.filter(l=>l.cc===k).length;
+    b.setAttribute("aria-pressed",String(k==="*"?st.ccs.size===0:st.ccs.has(k))); b.querySelector(".n").textContent=n; b.hidden=(k!=="*"&&n===0&&!st.ccs.has(k)); });
   $("#zoom").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.z===st.zoom)));
   $("#ring").value=String(st.ring);
   $("#addBtn").disabled=!db||canWrite===false;
@@ -470,7 +495,7 @@ function render(){
     const tn=teamCount(l.id);
     const vv=l.vf&&l.vf.v;
     const qt=l.q&&l.q.t;
-    const tags=el("span",{class:"tags"},isNew(l)?el("span",{class:"ntag",text:"novo"}):null,qt?el("span",{class:"ptag p"+qt,text:PL[qt]}):el("span",{class:"fit "+l.f,text:FIT[l.f]}), vv&&"MmTS".includes(vv)?el("span",{class:"vtag v"+vv,text:VF[vv][0]}):null, l.ct?el("span",{class:"ctag",text:"kontakt"}):null, tn?el("span",{class:"ctag",text:"skupina "+tn+"/5"}):null, s?el("span",{class:"pill st-"+s,text:STL[s]}):null);
+    const tags=el("span",{class:"tags"},isNew(l)?el("span",{class:"ntag",text:"novo"}):null,qt?el("span",{class:"ptag p"+qt,text:PL[qt]}):el("span",{class:"fit "+l.f,text:FIT[l.f]}), vv&&"MmTS".includes(vv)?el("span",{class:"vtag v"+vv,text:VF[vv][0]}):null, l.ct?el("span",{class:"ctag",text:"kontakt"}):null, l.fa?el("span",{class:"ctag",title:l.fa.join("; "),text:"sejem"}):null, tn?el("span",{class:"ctag",text:"skupina "+tn+"/5"}):null, s?el("span",{class:"pill st-"+s,text:STL[s]}):null);
     const km=el("span",{class:"km"}, l.km==null?"–":String(l.km), el("small",{text:l.km==null?"lokacija?":"km"}));
     const b=el("button",{type:"button",class:"row"+(st.sel===l.id?" sel":""),"data-id":l.id},km,el("span",null,nm,sub),tags);
     b.onclick=()=>select(l.id);
@@ -546,7 +571,7 @@ function renderDrawer(){
   const kv=el("dl",{class:"kv"});
   const add=(k,v)=>{ if(v) kv.append(el("dt",{text:k}),el("dd",{text:v})); };
   add("Kraj",l.a); add("Panoga",SEG[l.s]); add("Vloga",ROLE[l.ro]); add("Verjetnost",FIT[l.f]+(l.t?" · ročno izbrano":""));
-  add("Izdeluje",l.ty); add("Modeli",l.mo); add("Viri",l.src.join(", "));
+  add("Izdeluje",l.ty); add("Modeli",l.mo); add("Sejmi",(l.fa||[]).join("; ")); add("Viri",l.src.join(", "));
   body.append(kv);
   if(l.vf){
     const v=l.vf.v, vfs=el("fieldset",null,el("legend",{text:"Ali res proizvajajo?"}));
@@ -747,11 +772,11 @@ function copyText(text,btn){
 async function exportCsv(){
   if(!downloads) return;
   const rows=filtered(); const esc=v=>{v=v==null?"":String(v);return /[",\n;]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;};
-  const head=["Ime","Država","Kraj","km","Panoga","Vloga","Verjetnost","Ročno izbrano","Status","Naslednji korak","Opombe sledenja","Opis","Izdeluje","Splet","E-pošta","Telefon","Nabava","Stran za dobavitelje","Osebe (s strani podjetja)","Projektanti","Viri","Prednost","Velikost","Zakaj","Pristop"].concat(TEAMROLES.map(([k,lab])=>"Skupina: "+lab));
+  const head=["Ime","Država","Kraj","km","Panoga","Vloga","Verjetnost","Ročno izbrano","Status","Naslednji korak","Opombe sledenja","Opis","Izdeluje","Splet","E-pošta","Telefon","Nabava","Stran za dobavitelje","Osebe (s strani podjetja)","Projektanti","Sejmi","Viri","Prednost","Velikost","Zakaj","Pristop"].concat(TEAMROLES.map(([k,lab])=>"Skupina: "+lab));
   const lines=[head.join(";")];
   for(const l of rows){ const s=statusMap[l.id]||{}; const c=l.ct||{};
     lines.push([l.n,CC[l.cc]||l.cc,l.a,l.km??"",SEG[l.s],ROLE[l.ro],FIT[l.f],l.t?"da":"",STL[s.st||""],s.next||"",s.note||"",l.no,l.ty,
-      c.w||l.w||"",(c.e||[]).join(", "),(c.p||[]).join(", "),c.b||"",c.s||"",(c.ppl||[]).map(p=>p[0]+" – "+p[1]+(p[3]?" ("+p[3]+")":"")).join("; "),(l.pr||[]).map(p=>p[0]).join(", "),l.src.join(", "),l.q?PL[l.q.t]:"",l.q?l.q.sz:"",l.q?l.q.why:"",l.q?l.q.ap:""]
+      c.w||l.w||"",(c.e||[]).join(", "),(c.p||[]).join(", "),c.b||"",c.s||"",(c.ppl||[]).map(p=>p[0]+" – "+p[1]+(p[3]?" ("+p[3]+")":"")).join("; "),(l.pr||[]).map(p=>p[0]).join(", "),(l.fa||[]).join("; "),l.src.join(", "),l.q?PL[l.q.t]:"",l.q?l.q.sz:"",l.q?l.q.why:"",l.q?l.q.ap:""]
       .concat(TEAMROLES.map(([k])=>{ const v=(TEAM[l.id]&&TEAM[l.id].r&&TEAM[l.id].r[k])||null; return v?[v.n,v.t,v.e,v.p,v.li].filter(Boolean).join(", "):""; })).map(esc).join(";")); }
   const b=$("#csvBtn"); const old=b.textContent;
   try{ await downloads.save({filename:"proform3d-radar-kupcev.csv",data:"﻿"+lines.join("\r\n")}); b.textContent="Izvoženo"; }
