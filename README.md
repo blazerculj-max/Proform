@@ -7,49 +7,65 @@ Sledenje statusa, opombe in nakupna skupina delujejo v različici na claude.ai, 
 
 ## Kaj je na strani
 
-- 927 podjetij na zemljevidu z zračno razdaljo od Jesenic (azimutna projekcija, krogi 150/400/700/1000 km)
+- Podjetja na zemljevidu z zračno razdaljo od Jesenic (azimutna projekcija, krogi 150/400/700/1000 km)
 - **Prednost** po pregledu spletnih strani: P1 (takoj), P2 (kasneje), P3 (ni primerno), konkurent ali partner – z velikostjo, razlogom in predlogom pristopa
-- **Ali res proizvajajo?** – samodejno preverjanje spletnih strani s citati (laminiranje, vetroresina, GFK, kalupi … proti charterju, trgovini, servisu)
+- **Ali res proizvajajo?** – samodejno preverjanje spletnih strani s citati (laminiranje, vetroresina, GFK, kalupi … proti charterju, trgovini, servisu); prepozna tudi prevzete in parkirane domene
+- **Novosti** – vsak teden: nov model na strani, oglas za proizvodne delavce, stran ne deluje / spet deluje, sprememba ocene
 - Projektanti in posredniki (J&J Design, Kiska, Felci, Polli …) s povezavo na ladjedelnice, za katere delajo
 - Kontakti, ki jih podjetja objavijo na svojih straneh, in predloge prvega sporočila v SL/HR/IT/DE/EN
+
+## Tedenska osvežitev (GitHub Actions)
+
+Delovni tok [`.github/workflows/weekly.yml`](.github/workflows/weekly.yml) teče vsak ponedeljek ob 4:00 UTC (ali ročno: zavihek *Actions* → *Tedenska osvežitev podatkov* → *Run workflow*):
+
+1. preveri vse spletne strani in ponovno oceni proizvodnjo,
+2. prebere strani kandidatov (P1, P2, konkurenti, potrjeni proizvajalci, podjetja brez lokacije),
+3. izlušči znake (novi modeli, oglasi za delo, velikost), splošne kontakte in naslove,
+4. po želji dopolni manjkajoče z Google Places,
+5. primerja s prejšnjim tednom, zgradi `docs/` in shrani spremembe v repozitorij,
+6. odpre **issue z novostmi** – GitHub ti pošlje e-pošto.
+
+### Google Places (neobvezno)
+
+Za dopolnitev manjkajočih spletnih strani in lokacij dodaj ključ Google Maps Platform (vklopljen *Places API (New)*):
+*Settings → Secrets and variables → Actions → New repository secret*, ime `GOOGLE_MAPS_API_KEY`.
+Vsako podjetje se poizve le enkrat (shranjeno v `data/places.json`), največ 200 na zagon (`PLACES_MAX`).
+Okvirni strošek: nekaj centov na podjetje, za vse manjkajoče skupaj okoli 20 $.
 
 ## Struktura
 
 ```
-docs/        stran za GitHub Pages (index.html, leads.json, map.json)
-pipeline/    skripte za zbiranje in obdelavo podatkov
-data/        ročno preverjeni podatki in vmesni rezultati
+web/page.html   vir strani (ista datoteka kot na claude.ai)
+docs/           stran za GitHub Pages (index.html se zgradi iz web/page.html)
+pipeline/       skripte; run.py požene vse korake
+data/           ročno vzdrževani podatki, vmesni rezultati in zgodovina novosti
 ```
 
-Ročno vzdrževane datoteke v `data/`:
-
-| Datoteka | Vsebina |
+| Datoteka v `data/` | Vsebina |
 |---|---|
 | `curated.py` | ročno dodana podjetja, projektanti, popravki imenika |
 | `contacts.py`, `contacts_spec.py` | kontakti s spletnih strani podjetij |
 | `manual_verify.py` | ročna potrditev proizvodnje |
 | `qual.py` | prednost, velikost, razlog, pristop |
+| `pn/geo.json`, `pn/websites.json` | imenik izdelovalcev z lokacijami in spletnimi naslovi |
+| `verify_out.json`, `signals.json`, `autocontacts.json` | rezultati preverjanja in branja strani |
+| `addr_fixes.json`, `places.json` | lokacije s spletnih strani in iz Google Places |
+| `snapshots.json`, `changes.json` | stanje za primerjavo in zgodovina novosti |
 
-## Ponovna izdelava
-
-Zaženi iz korena repozitorija (Python 3, curl):
+## Lokalni zagon
 
 ```bash
-# 1. imenik izdelovalcev (profinautic) in spletni naslovi
-python3 pipeline/scrape_pn.py si,hr,at,ch,hu,cz,sk,ba,rs,me,it,de,pl,fr,nl,be,dk,lu,li,mc data/pn/all.json
-python3 pipeline/scrape_pn_ids.py si,hr,at,ch,hu,cz,sk,it,de,pl data/pn/websites.json
-
-# 2. koordinate (GeoNames poštne številke in kraji v data/geo_dl/) in zemljevid
-python3 pipeline/geocode.py data/pn/all.json data/pn/geo.json
-python3 pipeline/build_map.py data/map_dl/countries-50m.json docs/map.json
-
-# 3. baza, preverjanje spletnih strani, ponovna baza
-python3 pipeline/build_leads.py
-python3 pipeline/make_todo.py
-python3 pipeline/verify.py data/verify_todo.json data/verify_out.json
-python3 pipeline/build_leads.py && python3 pipeline/make_todo.py
-python3 pipeline/crawl2.py data/crawl_todo.json && python3 pipeline/extract.py && python3 pipeline/autocontact.py
-python3 pipeline/build_leads.py
+python3 pipeline/run.py --refresh
 ```
 
-Viri: imenik profinautic, Poslovni register (SKD 30.120), OpenStreetMap, GeoNames, world-atlas (Natural Earth), spletne strani podjetij. Stanje: oktober 2026.
+Ponovno zbiranje virov (redko – imenik, register, OpenStreetMap):
+
+```bash
+python3 pipeline/scrape_pn.py si,hr,at,ch,hu,cz,sk,ba,rs,me,it,de,pl,fr,nl,be,dk,lu,li,mc data/pn/all.json
+python3 pipeline/scrape_pn_ids.py si,hr,at,ch,hu,cz,sk,it,de,pl data/pn/websites.json
+python3 pipeline/geocode.py data/pn/all.json data/pn/geo.json
+```
+
+Ko se podatki spremenijo, je treba stran na claude.ai objaviti znova iz `web/page.html` in datotek v `docs/`.
+
+Viri: imenik profinautic, Poslovni register (SKD 30.120), OpenStreetMap, GeoNames (CC BY 4.0), world-atlas (Natural Earth), spletne strani podjetij, po želji Google Places.

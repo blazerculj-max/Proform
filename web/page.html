@@ -1,0 +1,762 @@
+<title>Proform3D radar kupcev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: workshop sheet. Header strip with machine-zero coordinates, then a distance-true radar map (azimuthal, centred on Jesenice) beside a filterable prospect list; detail drawer slides in from the right. */
+:root{
+  --bg:#ECEFEC; --panel:#F8FAF8; --ink:#13201B; --muted:#5A6A63; --line:#D2DAD5;
+  --accent:#0D6C65; --accent-ink:#FFFFFF; --accent-soft:#D3E8E4; --amber:#A86F0B; --amber-soft:#F3E4C4;
+  --land:#DCE3DE; --land-edge:#B5C3BC; --ring:#9DB0A8;
+  --fit-b:#7FA9A3; --fit-c:#A9B4AF;
+  --st-research:#5A64C8; --st-contacted:#2F7FC1; --st-talking:#7D4FB8; --st-offer:#B7791F; --st-won:#2E8B47; --st-lost:#9A4A4A;
+  --shadow:0 1px 2px rgba(19,32,27,.06),0 8px 24px rgba(19,32,27,.08);
+  --f-display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1412; --panel:#141C19; --ink:#DCE5E1; --muted:#90A199; --line:#25312C;
+  --accent:#46B6AB; --accent-ink:#06211E; --accent-soft:#16352F; --amber:#E0A53B; --amber-soft:#3A2D12;
+  --land:#18221E; --land-edge:#2C3A34; --ring:#3E534B;
+  --fit-b:#3F7770; --fit-c:#4A5651;
+  --st-research:#8C94F0; --st-contacted:#5FA9E8; --st-talking:#B08AE6; --st-offer:#E2A64A; --st-won:#5DC27A; --st-lost:#D07B7B;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.35); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1412; --panel:#141C19; --ink:#DCE5E1; --muted:#90A199; --line:#25312C;
+  --accent:#46B6AB; --accent-ink:#06211E; --accent-soft:#16352F; --amber:#E0A53B; --amber-soft:#3A2D12;
+  --land:#18221E; --land-edge:#2C3A34; --ring:#3E534B;
+  --fit-b:#3F7770; --fit-c:#4A5651;
+  --st-research:#8C94F0; --st-contacted:#5FA9E8; --st-talking:#B08AE6; --st-offer:#E2A64A; --st-won:#5DC27A; --st-lost:#D07B7B;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.35); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45}
+.wrap{max-width:1440px;margin:0 auto;padding-inline:clamp(16px,3vw,32px);padding-block:20px 48px;display:grid;gap:20px}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* header */
+.top{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:18px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(34px,5vw,54px);line-height:.95;margin:6px 0 8px;letter-spacing:-.01em;text-wrap:balance}
+h1 span{color:var(--accent)}
+.lede{margin:0;color:var(--muted);max-width:62ch}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:10px 12px;display:grid;gap:8px;min-width:0}
+.stat h2{margin:0;font:600 12px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.bars{display:grid;gap:5px}
+.bar{display:grid;grid-template-columns:76px minmax(0,1fr) 38px;gap:8px;align-items:center;font-size:13px}
+.bar .lab{font-family:var(--f-mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.bar .trk{height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.bar .fil{height:100%;background:var(--accent);border-radius:4px}
+.bar .num{font-family:var(--f-mono);font-size:12px;text-align:right}
+
+/* main grid */
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:20px;align-items:start}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;min-width:0}
+.mapcard{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);padding:12px}
+.maphead{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:8px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{border:0;background:transparent;padding:6px 10px;font-family:var(--f-mono);font-size:12px;cursor:pointer;color:var(--muted)}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+#map{display:block;width:100%;aspect-ratio:1/1;max-width:100%;background:var(--bg);border-radius:6px;touch-action:manipulation}
+#map .land{fill:var(--land);stroke:var(--land-edge);stroke-width:.6;vector-effect:non-scaling-stroke}
+#map .rng{fill:none;stroke:var(--ring);stroke-dasharray:4 4;vector-effect:non-scaling-stroke}
+#map .rng-lab{fill:var(--muted);font-family:var(--f-mono)}
+#map .cty{fill:var(--muted);font-family:var(--f-display);font-weight:600;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+#map .pt{cursor:pointer;stroke:var(--panel);vector-effect:non-scaling-stroke;stroke-width:1}
+#map .pt.A{fill:var(--accent)} #map .pt.B{fill:var(--fit-b)} #map .pt.C{fill:var(--fit-c)}
+#map .pt.top{stroke:var(--amber);stroke-width:2}
+#map .pt.dim{opacity:.18}
+#map .pt.sel{stroke:var(--ink);stroke-width:2.5}
+#map .zero{stroke:var(--ink);vector-effect:non-scaling-stroke;stroke-width:1.5}
+#map .zero-lab{fill:var(--ink);font-family:var(--f-mono);font-weight:500}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* filters + list */
+.listcard{padding:14px;display:grid;gap:12px}
+.frow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.search{flex:1 1 220px;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}
+select.sel{padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);max-width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:transparent;border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;color:var(--muted)}
+.chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.chip .n{font-family:var(--f-mono);font-size:11px;margin-left:5px;opacity:.75}
+label.tog{display:inline-flex;gap:6px;align-items:center;font-size:13px;color:var(--muted);cursor:pointer}
+.listmeta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:10px}
+.listmeta .count{font-size:13px;color:var(--muted)}
+.btn{border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+ol#list{list-style:none;margin:0;padding:0;display:grid}
+.row{display:grid;grid-template-columns:58px minmax(0,1fr) auto;gap:12px;align-items:center;width:100%;text-align:left;background:transparent;border:0;border-top:1px solid var(--line);padding:10px 6px;cursor:pointer}
+.row:hover{background:var(--bg)}
+.row.sel{background:var(--accent-soft)}
+.km{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:15px;font-weight:500;text-align:right}
+.km small{display:block;font-size:10px;color:var(--muted);font-weight:400}
+.nm{font-weight:600;overflow-wrap:anywhere}
+.nm .star{display:inline-block;width:8px;height:8px;background:var(--amber);transform:rotate(45deg);margin-right:7px;vertical-align:1px}
+.sub{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.tags{display:flex;flex-direction:column;gap:4px;align-items:flex-end}
+.fit{font-family:var(--f-mono);font-size:11px;padding:2px 7px;border-radius:4px;white-space:nowrap}
+.fit.A{background:var(--accent-soft);color:var(--ink)} .fit.B{background:var(--bg);color:var(--muted);border:1px solid var(--line)} .fit.C{color:var(--muted)}
+.pill{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap;color:#fff}
+.st-research{background:var(--st-research)} .st-contacted{background:var(--st-contacted)} .st-talking{background:var(--st-talking)}
+.st-offer{background:var(--st-offer)} .st-won{background:var(--st-won)} .st-lost{background:var(--st-lost)}
+.empty{padding:28px 8px;text-align:center;color:var(--muted)}
+#more{justify-self:center}
+
+/* drawer */
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(460px,100%);background:var(--panel);border-left:1px solid var(--line);box-shadow:var(--shadow);z-index:20;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.dhead{display:flex;gap:10px;align-items:flex-start;justify-content:space-between;padding:16px 18px 12px;border-bottom:1px solid var(--line)}
+.dhead h3{margin:0;font-family:var(--f-display);font-size:28px;line-height:1;font-weight:700;overflow-wrap:anywhere;text-wrap:balance}
+.dbody{padding:14px 18px 24px;overflow-y:auto;display:grid;gap:16px;align-content:start}
+.x{border:1px solid var(--line);background:var(--bg);border-radius:6px;width:34px;height:34px;cursor:pointer;flex:none;font-size:18px;line-height:1}
+.kv{display:grid;grid-template-columns:110px minmax(0,1fr);gap:6px 12px;font-size:14px}
+.kv dt{color:var(--muted);font-size:12px;font-family:var(--f-mono);text-transform:uppercase;letter-spacing:.05em;padding-top:2px}
+.kv dd{margin:0;overflow-wrap:anywhere}
+.why{background:var(--bg);border-left:3px solid var(--accent);padding:10px 12px;border-radius:0 6px 6px 0}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{color:var(--accent);font-weight:600;font-size:14px}
+fieldset{border:1px solid var(--line);border-radius:8px;padding:12px;margin:0;display:grid;gap:10px}
+legend{font:600 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0 6px}
+.field{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+.field input,.field select,.field textarea{padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);width:100%}
+.field textarea{min-height:84px;resize:vertical}
+.saved{font-size:12px;color:var(--muted)}
+.note{font-size:13px;color:var(--muted)}
+.ctag{font-family:var(--f-mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:1px 5px;white-space:nowrap}
+.contact{display:grid;gap:8px}
+.cline{display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:8px;align-items:center;font-size:14px}
+.cline .k{color:var(--muted);font-size:12px;font-family:var(--f-mono);text-transform:uppercase;letter-spacing:.05em}
+.cline .v{overflow-wrap:anywhere;user-select:all}
+.cline a{color:var(--accent);font-weight:600;overflow-wrap:anywhere}
+.copy{border:1px solid var(--line);background:var(--bg);border-radius:5px;padding:3px 8px;font-size:12px;cursor:pointer}
+.people{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.people li{font-size:14px}
+.people .r{color:var(--muted)}
+.people a{font-size:12px;color:var(--muted)}
+.roles{display:grid;gap:6px;font-size:14px}
+.roles .rl{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline}
+.roles a{color:var(--accent);font-weight:600}
+.tpl{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:13.5px;line-height:1.5}
+.tplbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tplbar .chip{font-size:12px;padding:3px 9px}
+@media (max-width:520px){.cline{grid-template-columns:minmax(0,1fr) auto}.cline .k{grid-column:1/-1}}
+.news{border:1px solid var(--line);border-radius:8px;padding:8px 12px;background:var(--bg)}
+.news summary{font:600 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);cursor:pointer;border:0;padding:2px 0}
+.news ol{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+.news li{display:grid;grid-template-columns:76px minmax(0,1fr);gap:8px;font-size:13px;align-items:baseline}
+.news .d{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.news .co{border:0;background:none;padding:0;color:var(--accent);font-weight:600;cursor:pointer;text-align:left}
+.news .tx{color:var(--muted)}
+.ntag{font-size:11px;font-weight:600;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--amber);color:#fff}
+.ptag{font-family:var(--f-mono);font-size:11px;font-weight:600;padding:2px 8px;border-radius:4px;white-space:nowrap;border:1px solid transparent}
+.ptag.p1{background:var(--accent);color:var(--accent-ink)}
+.ptag.p2{border-color:var(--accent);color:var(--accent)}
+.ptag.p3{border-color:var(--line);color:var(--muted)}
+.ptag.pK{background:var(--amber-soft);color:var(--ink);border-color:var(--amber)}
+.vtag{font-size:11px;font-weight:600;padding:2px 8px;border-radius:4px;white-space:nowrap;border:1px solid transparent}
+.vtag.vM{background:var(--accent);color:var(--accent-ink)}
+.vtag.vm{border-color:var(--accent);color:var(--accent)}
+.vtag.vT,.vtag.vS{background:var(--st-lost);color:#fff}
+.vtag.vN,.vtag.vX,.vtag.vD{border-color:var(--line);color:var(--muted)}
+details{border-top:1px solid var(--line);padding-top:6px}
+details summary{cursor:pointer;padding:4px 0;list-style-position:inside}
+details summary strong{color:var(--ink)}
+
+/* about */
+.about{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;border-top:1px solid var(--line);padding-top:18px}
+.about h2{font-family:var(--f-display);font-size:22px;margin:0 0 6px}
+.about p,.about li{margin:0 0 6px;color:var(--muted);font-size:14px;max-width:62ch}
+.about ul{margin:0;padding-left:18px}
+
+@media (max-width:980px){
+  .top{grid-template-columns:minmax(0,1fr)}
+  .grid{grid-template-columns:minmax(0,1fr)}
+  .mapcard{position:static}
+  .about{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:520px){
+  .stats{grid-template-columns:minmax(0,1fr)}
+  .row{grid-template-columns:48px minmax(0,1fr);}
+  .row .tags{grid-column:2;flex-direction:row;align-items:center;justify-content:flex-start}
+  .kv{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:no-preference){ .drawer{animation:slide .18s ease-out} @keyframes slide{from{transform:translateX(24px);opacity:.6}to{transform:none;opacity:1}} }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Proform3D · Cesta železarjev 8g, Jesenice · X0 Y0 = 46.437° N, 14.053° E</div>
+      <h1>Radar <span>kupcev</span></h1>
+      <p class="lede">Podjetja v krogu 1000 km, ki potrebujejo modele, kalupe in rezkanje velikih kosov: izdelovalci plovil iz stekloplastike in kompozitov, kompozitni podizvajalci večjih proizvajalcev, livarne, termoforming, vozila in letalstvo. Razvrščeno po primernosti in razdalji.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><h2>Po razdalji</h2><div class="bars" id="ringBars"></div></div>
+      <div class="stat"><h2>Prodajni lijak</h2><div class="bars" id="pipeBars"></div></div>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="card mapcard" aria-label="Zemljevid">
+      <div class="maphead">
+        <div class="seg" id="zoom" role="group" aria-label="Doseg zemljevida">
+          <button type="button" data-z="150">150 km</button><button type="button" data-z="400">400 km</button><button type="button" data-z="700">700 km</button><button type="button" data-z="1000">1000 km</button>
+        </div>
+        <span class="eyebrow">Zračna razdalja od Jesenic</span>
+      </div>
+      <svg id="map" role="img" aria-label="Zemljevid podjetij okoli Jesenic"></svg>
+      <div class="legend">
+        <span><i style="background:var(--accent)"></i>Velika verjetnost</span>
+        <span><i style="background:var(--fit-b)"></i>Srednja</span>
+        <span><i style="background:var(--fit-c)"></i>Nizka</span>
+        <span><i style="background:transparent;border:2px solid var(--amber)"></i>Ročno izbrano</span>
+      </div>
+    </section>
+
+    <section class="card listcard" aria-label="Seznam podjetij">
+      <details class="news" id="news" hidden open><summary id="newsSum">Novosti</summary><ol id="newsList"></ol><button class="btn" type="button" id="newsMore" hidden>Pokaži več</button></details>
+      <div class="frow">
+        <input class="search" id="q" type="search" placeholder="Išči po imenu, kraju ali opisu" aria-label="Iskanje">
+        <select class="sel" id="ring" aria-label="Doseg">
+          <option value="0">Do 150 km</option><option value="1">Do 400 km</option><option value="2" selected>Do 700 km</option><option value="3">Do 1000 km</option><option value="4">Vse, tudi brez lokacije</option>
+        </select>
+        <select class="sel" id="cc" aria-label="Država"><option value="all">Vse države</option></select>
+      </div>
+      <div class="chips" id="segChips" role="group" aria-label="Panoga"></div>
+      <div class="frow">
+        <div class="chips" id="fitChips" role="group" aria-label="Verjetnost"></div>
+        <select class="sel" id="status" aria-label="Status"></select>
+        <label class="tog"><input type="checkbox" id="topOnly"> Samo ročno izbrani</label>
+        <label class="tog"><input type="checkbox" id="ctOnly"> Samo s kontakti</label>
+        <label class="tog"><input type="checkbox" id="newOnly"> Samo z novostmi (30 dni)</label>
+        <select class="sel" id="prSel" aria-label="Prednost">
+          <option value="1" selected>Prednost P1 – takoj</option>
+          <option value="12">P1 in P2</option>
+          <option value="K">Konkurenti in partnerji</option>
+          <option value="3">P3 – ni primerno</option>
+          <option value="all">Vsi (tudi neocenjeni)</option>
+        </select>
+        <select class="sel" id="vfSel" aria-label="Preverjanje proizvodnje">
+          <option value="all" selected>Preverjanje: vsi</option>
+          <option value="M">Samo potrjeni proizvajalci</option>
+          <option value="Mm">Proizvajalci in verjetni</option>
+          <option value="TS">Charter, trgovina, servis</option>
+          <option value="NXD">Ni dokazov, ni prebrano, ne deluje</option>
+          <option value="none">Še ni preverjeno</option>
+        </select>
+      </div>
+      <div class="listmeta">
+        <span class="count" id="count"></span>
+        <div class="frow">
+          <button class="btn" type="button" id="addBtn">Dodaj podjetje</button>
+          <button class="btn" type="button" id="csvBtn" hidden>Izvozi CSV</button>
+        </div>
+      </div>
+      <ol id="list"><li class="empty">Nalagam podjetja …</li></ol>
+      <button class="btn" type="button" id="more" hidden>Pokaži več</button>
+    </section>
+  </main>
+
+  <section class="about">
+    <div>
+      <h2>Od kod so podatki</h2>
+      <ul>
+        <li>Imenik izdelovalcev plovil profinautic za 20 držav.</li>
+        <li>Slovenski poslovni register, dejavnost 30.120 (69 podjetij).</li>
+        <li>OpenStreetMap, ladjedelnice in izdelovalci čolnov do 300 km.</li>
+        <li>Ročno preverjeni vnosi s spletnih strani podjetij (oktober 2026).</li>
+        <li>Kontakti: samo podatki, ki jih podjetje objavi na svoji strani. Pri vsaki osebi je povezava na vir. E-naslovov ne ugibamo.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Kako brati oceno</h2>
+      <p>Verjetnost je ocena iz vrste plovil in imena podjetja. »Velika« pomeni, da podjetje verjetno dela s stekloplastiko ali kompoziti. Ni pa preverjeno, da kupuje modele zunaj. Pred stikom preveri spletno stran.</p>
+      <p>»Ali res proizvajajo?« prebere domačo stran in do pet podstrani podjetja ter išče dokaze o lastni proizvodnji (laminiranje, vetroresina, GFK, kalupi, obrat) in o charterju, trgovini ali servisu. Pri vsakem podjetju so navedeni citati, iz katerih je ocena. Privzeti filter skrije charter, trgovino in nepreverjena podjetja.</p>
+      <p>Prednost (P1, P2, P3, konkurent) je ocena po pregledu spletnih strani: velikost, kaj gradijo, novi modeli, lastna orodjarna in razdalja. P1 so majhni in srednji primerni proizvajalci do ~450 km ter vsi primerni do 50 km. Pri vsakem je zapisan razlog in predlog pristopa.</p>
+      <p>Razdalja je zračna. Po cesti je običajno 20–40 % daljša.</p>
+    </div>
+    <div>
+      <h2>Sledenje</h2>
+      <p>Status, naslednji korak in opombe se shranijo za vse, ki imajo dostop do te strani, tako da Proform3D in ti vidita isto stanje.</p>
+      <p>Del podjetij v imeniku nima naslova. Prikaže jih izbira »Vse, tudi brez lokacije«.</p>
+    </div>
+  </section>
+</div>
+
+<aside class="drawer" id="drawer" hidden aria-label="Podrobnosti podjetja">
+  <div class="dhead">
+    <div><div class="eyebrow" id="dEyebrow"></div><h3 id="dTitle"></h3></div>
+    <button class="x" type="button" id="dClose" aria-label="Zapri">×</button>
+  </div>
+  <div class="dbody" id="dBody"></div>
+</aside>
+
+<script>
+(function(){
+"use strict";
+const SEG={boats:"Plovila",spec:"Projektanti in posredniki",composite:"Kompozitni podizvajalci",molds:"Modelarne in kalupi",foundry:"Livarne",plastics:"Termoforming in rotacijsko litje",vehicles:"Vozila in prikolice",aero:"Letalstvo",sport:"Šport"};
+const ROLE={kupec:"Neposredni kupec",podizvajalec:"Podizvajalec večjih",partner:"Partner ali konkurent",specifier:"Projektant ali posrednik"};
+const TEAMROLES=[["pr","Projektant, zunanji studio"],["teh","Tehnična pisarna, razvoj"],["kal","Kalupi, modeli, proizvodnja"],["nab","Nabava"],["dir","Lastnik, direktor"]];
+const TF=[["n","Ime in priimek"],["t","Naziv"],["e","E-pošta"],["p","Telefon"],["li","LinkedIn"],["src","Vir (kje si našel)"]];
+let TEAM={};
+let CHANGES=[], META=null, newsLimit=8;
+const CHT={model:"Nov model",jobs:"Oglas za delo",down:"Stran ne deluje",up:"Stran spet deluje",verdict:"Sprememba ocene",web:"Nova spletna stran"};
+function slDate(iso){ if(!iso) return ""; const [y,m,d]=iso.split("-"); return (+d)+". "+(+m)+". "+y; }
+function isNew(l){ if(!l.ch||!l.ch.d) return false; return (Date.now()-new Date(l.ch.d+"T00:00:00").getTime())/864e5<=30; }
+const PL={"1":"P1","2":"P2","3":"P3","K":"konkurent"};
+const PD={"1":"Prednost 1 – takoj: primeren profil, dosegljiv za sestanek.","2":"Prednost 2 – kasneje: velik z lastno orodjarno, dlje ali manj aktiven.","3":"Prednost 3 – ni primerno.","K":"Konkurent ali partner: imajo lastno CNC izdelavo modelov ali kalupov."};
+const VF={M:["Proizvajalec","Na spletni strani so dokazi o lastni proizvodnji, kompozitih ali kalupih."],m:["Verjetno proizvaja","Nekaj dokazov o proizvodnji, a ne dovolj za potrditev."],T:["Charter / turizem","Stran govori predvsem o najemu, izletih ali šoli jadranja."],S:["Trgovina / servis","Stran govori predvsem o prodaji, rabljenih plovilih, servisu ali zimovanju."],N:["Ni dokazov","Na prebranih straneh ni dokazov o proizvodnji. Preveri ročno."],X:["Strani ni mogoče prebrati","Stran se naloži šele v brskalniku. Preveri ročno."],D:["Stran ne deluje","Spletni naslov iz imenika se ne odziva – podjetje je morda zaprto ali ima nov naslov."]};
+const FIT={A:"Velika",B:"Srednja",C:"Nizka"};
+const STATUS=[["","Nov"],["research","Raziskano"],["contacted","Kontaktiran"],["talking","V pogovoru"],["offer","Ponudba"],["won","Posel"],["lost","Ni interesa"]];
+const STL=Object.fromEntries(STATUS);
+const CC={si:"Slovenija",hr:"Hrvaška",it:"Italija",at:"Avstrija",de:"Nemčija",ch:"Švica",hu:"Madžarska",cz:"Češka",sk:"Slovaška",pl:"Poljska",ba:"BiH",rs:"Srbija",fr:"Francija",nl:"Nizozemska",be:"Belgija",dk:"Danska",mc:"Monako",me:"Črna gora"};
+const CTRY={Slovenia:"Slovenija",Croatia:"Hrvaška",Italy:"Italija",Austria:"Avstrija",Germany:"Nemčija",Hungary:"Madžarska",Switzerland:"Švica",Czechia:"Češka",Slovakia:"Slovaška",Poland:"Poljska",France:"Francija","Bosnia and Herz.":"BiH",Serbia:"Srbija",Romania:"Romunija",Montenegro:"Črna gora",Albania:"Albanija",Netherlands:"Nizozemska",Belgium:"Belgija",Denmark:"Danska",Ukraine:"Ukrajina",Bulgaria:"Bolgarija",Greece:"Grčija",Macedonia:"S. Makedonija",Tunisia:"Tunizija",Kosovo:"Kosovo"};
+const RLAB=["0–150 km","150–400 km","400–700 km","700–1000 km","brez lokacije"];
+const ZR=[150,400,700,1000];
+const SVGNS="http://www.w3.org/2000/svg";
+const $=s=>document.querySelector(s);
+
+let LEADS=[], CUSTOM=[], MAP=[], statusMap={};
+let db=null, usr=null, canWrite=null, downloads=null, myId=null;
+const st={q:"",ring:2,pr:"1",cc:"all",seg:"all",fit:new Set(["A","B","C"]),status:"all",top:false,ct:false,vf:"all",limit:60,zoom:400,sel:null,mode:"view",lang:null};
+// Koga iskati v podjetju, po panogi
+const WHO={
+  boats:"Tehnična pisarna ali razvoj (novi modeli), vodja nabave, vodja proizvodnje ali laminiranja. Pri manjših ladjedelnicah lastnik.",
+  composite:"Lastnik ali vodja proizvodnje, tehnolog. Vprašaj, za katere ladjedelnice delajo in kdo jim izdeluje modele.",
+  molds:"Lastnik ali vodja modelarne. Ponudi prevzem dela, ko so polni, ali kose, ki presegajo njihove stroje.",
+  foundry:"Vodja modelarne ali tehnologije, nabava. Ponudi velike modele za peščeno litje.",
+  plastics:"Vodja razvoja ali orodjarne. Vsak nov izdelek potrebuje model za vlečenje ali rotacijski kalup.",
+  vehicles:"Razvoj in prototipi, nabava orodij (tooling purchasing). Pri oblikovalskih studiih vodja modelarstva.",
+  aero:"Tooling engineering, nabava. Pričakuj zahteve po certifikatih in sledljivosti.",
+  sport:"Lastnik ali razvoj. Manjši kosi, pogosto novi modeli vsako sezono.",
+  spec:"Vodja studia ali projektni vodja. Predstavi Proform3D kot izvajalca modelov za njihove projekte in jih prosi, da vas priporočijo ladjedelnicam. Pri dobaviteljih materialov in strojev vprašaj, kdo jih sprašuje po rezkanju."
+};
+const ROLEQ={
+  it:[["Acquisti","acquisti"],["Ufficio tecnico","ufficio tecnico"],["Stampi / modelleria","stampi"],["Produzione","responsabile produzione"]],
+  de:[["Einkauf","Einkauf"],["Konstruktion / Technik","Konstruktion"],["Formenbau","Formenbau"],["Produktion","Produktionsleiter"]],
+  sl:[["Nabava","nabava"],["Razvoj","razvoj"],["Orodjarna","orodjarna"],["Proizvodnja","proizvodnja"]],
+  hr:[["Nabava","nabava"],["Razvoj","razvoj"],["Kalupi","kalupi"],["Proizvodnja","proizvodnja"]],
+  en:[["Purchasing","purchasing"],["Engineering / R&D","engineering"],["Tooling","tooling"],["Production","production manager"]]
+};
+const LANG_OF={si:"sl",hr:"hr",ba:"hr",rs:"hr",me:"hr",it:"it",at:"de",de:"de",ch:"de",li:"de"};
+const LANGS=[["sl","Slovensko"],["hr","Hrvaško"],["it","Italijansko"],["de","Nemško"],["en","Angleško"]];
+function tpl(lang,l){
+  const km=l.km!=null?l.km:null;
+  const T={
+    sl:"Pozdravljeni,\n\nsmo Proform3D z Jesenic"+(km?", približno "+km+" km od vas":"")+". Za kompozitne izdelke rezkamo modele in kalupe (3- in 5-osno, delovni prostor do 5000 × 2200 mm). Modele brusimo in lakiramo do visokega sijaja, izdelamo pa tudi kalupe iz poliestra, vinilestra ali epoksija.\n\nRazvijate nov model ali potrebujete dodatno zmogljivost za modele in kalupe? Pošljite nam STEP ali IGES datoteko in pripravimo ponudbo.\n\nLep pozdrav,",
+    hr:"Poštovani,\n\nmi smo Proform3D iz Jesenica (Slovenija)"+(km?", oko "+km+" km od vas":"")+". Izrađujemo modele i kalupe za kompozitne proizvode CNC glodanjem (3 i 5 osi, radni prostor do 5000 × 2200 mm), uključujući brušenje i lakiranje do visokog sjaja te lijevanje kalupa od poliestera, vinilestera ili epoksida.\n\nRazvijate li novi model ili trebate dodatni kapacitet za modele i kalupe? Pošaljite nam STEP ili IGES datoteku i pripremit ćemo ponudu.\n\nLijep pozdrav,",
+    it:"Buongiorno,\n\nsiamo Proform3D di Jesenice (Slovenia)"+(km?", a circa "+km+" km da voi":"")+". Realizziamo modelli e stampi per componenti in vetroresina e compositi con fresatura CNC a 3 e 5 assi (area di lavoro fino a 5000 × 2200 mm), con finitura lucida e realizzazione di stampi in poliestere, vinilestere o epossidica.\n\nState sviluppando un nuovo modello o vi serve capacità aggiuntiva per modelli e stampi? Inviateci un file STEP o IGES e vi prepariamo un preventivo.\n\nCordiali saluti,",
+    de:"Guten Tag,\n\nwir sind Proform3D aus Jesenice (Slowenien)"+(km?", rund "+km+" km von Ihnen entfernt":"")+". Wir fräsen Urmodelle und Formen für GFK- und Composite-Bauteile (3- und 5-Achs, Arbeitsbereich bis 5000 × 2200 mm), inklusive Hochglanz-Finish und Formenabguss aus Polyester, Vinylester oder Epoxid.\n\nEntwickeln Sie gerade ein neues Modell oder brauchen Sie zusätzliche Kapazität für Urmodelle und Formen? Schicken Sie uns eine STEP- oder IGES-Datei, wir erstellen gerne ein Angebot.\n\nMit freundlichen Grüßen,",
+    en:"Hello,\n\nwe are Proform3D from Jesenice, Slovenia"+(km?", about "+km+" km from you":"")+". We CNC-mill plugs and moulds for composite parts (3- and 5-axis, working area up to 5000 × 2200 mm), including high-gloss finishing and casting moulds in polyester, vinylester or epoxy.\n\nAre you developing a new model or do you need extra capacity for plugs and moulds? Send us a STEP or IGES file and we will prepare a quote.\n\nBest regards,"
+  };
+  return T[lang]||T.en;
+}
+try{const z=localStorage.getItem("radar.zoom"); if(z&&ZR.includes(+z)) st.zoom=+z;}catch(e){}
+
+function el(tag,attrs,...kids){const e=document.createElement(tag);if(attrs)for(const k in attrs){if(k==="class")e.className=attrs[k];else if(k==="text")e.textContent=attrs[k];else e.setAttribute(k,attrs[k]);}for(const c of kids){if(c==null)continue;e.append(c.nodeType?c:document.createTextNode(c));}return e;}
+function sv(tag,attrs){const e=document.createElementNS(SVGNS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e;}
+function all(){return LEADS.concat(CUSTOM);}
+function stOf(l){return (statusMap[l.id]&&statusMap[l.id].st)||"";}
+
+/* ---------- data ---------- */
+const opt=u=>fetch(u).then(r=>r.ok?r.json():null).catch(()=>null);
+Promise.all([fetch("leads.json").then(r=>r.json()),fetch("map.json").then(r=>r.json()),opt("changes.json"),opt("meta.json")]).then(([leads,map,ch,meta])=>{
+  LEADS=leads; MAP=map; CHANGES=Array.isArray(ch)?ch:[]; META=meta; buildFilters(); drawMapBase(); render(); renderNews();
+}).catch(()=>{ $("#list").replaceChildren(el("li",{class:"empty",text:"Podatkov ni bilo mogoče naložiti. Osveži stran."})); });
+
+(async()=>{
+  const c=window.claude; if(!c||!c.use) return;
+  try{ usr=await c.use("user"); }catch(e){}
+  try{ downloads=await c.use("downloads"); }catch(e){}
+  if(downloads) $("#csvBtn").hidden=false;
+  if(usr){ try{ myId=await usr.id(); canWrite=await usr.can("data.write"); }catch(e){} }
+  try{ db=await c.use("db"); }catch(e){ db=null; }
+  if(!db){ render(); return; }
+  const idleDrawer=()=>st.sel&&!$("#drawer").hidden&&!$("#drawer").contains(document.activeElement);
+  db.collection("status").onSnapshot(snap=>{ const m={}; snap.docs.forEach(d=>{ if(d.exists) m[d.id]=d.data(); }); statusMap=m; render(); if(idleDrawer()) renderDrawer(); }, ()=>{});
+  db.collection("team").onSnapshot(snap=>{ const m={}; snap.docs.forEach(d=>{ if(d.exists) m[d.id]=d.data(); }); TEAM=m; render(); if(idleDrawer()) renderDrawer(); }, ()=>{});
+  db.collection("custom").onSnapshot(snap=>{
+    CUSTOM=snap.docs.filter(d=>d.exists).map(d=>{const v=d.data();return {id:"c_"+d.id,_doc:d.id,n:String(v.n||"Brez imena"),cc:String(v.cc||""),a:String(v.a||""),km:null,r:4,x:null,y:null,s:SEG[v.s]?v.s:"boats",ro:"kupec",f:"B",t:0,no:String(v.no||""),ty:"",mo:"",w:String(v.w||""),src:["Ročno dodano"],sc:2.5};});
+    buildCountryOptions(); render();
+  }, ()=>{});
+  render();
+})();
+
+/* ---------- filters ---------- */
+function buildFilters(){
+  buildCountryOptions();
+  const segC=$("#segChips"); segC.replaceChildren();
+  const segs=[["all","Vse panoge"]].concat(Object.entries(SEG));
+  for(const [k,v] of segs){ const b=el("button",{type:"button",class:"chip","data-seg":k,"aria-pressed":String(st.seg===k)},v,el("span",{class:"n"})); b.onclick=()=>{st.seg=k;st.limit=60;render();}; segC.append(b); }
+  const fitC=$("#fitChips"); fitC.replaceChildren();
+  for(const k of ["A","B","C"]){ const b=el("button",{type:"button",class:"chip","data-fit":k,"aria-pressed":"true"},FIT[k]); b.onclick=()=>{ if(st.fit.has(k)&&st.fit.size>1) st.fit.delete(k); else st.fit.add(k); st.limit=60; render(); }; fitC.append(b); }
+  const ss=$("#status"); ss.replaceChildren(el("option",{value:"all"},"Vsi statusi"));
+  for(const [k,v] of STATUS) ss.append(el("option",{value:k||"new"},v));
+  $("#q").oninput=e=>{st.q=e.target.value.trim().toLowerCase();st.limit=60;render();};
+  $("#ring").onchange=e=>{st.ring=+e.target.value;st.limit=60; if(st.ring<4){st.zoom=ZR[st.ring];saveZoom();} render();};
+  $("#cc").onchange=e=>{st.cc=e.target.value;st.limit=60;render();};
+  ss.onchange=e=>{st.status=e.target.value;st.limit=60;render();};
+  $("#topOnly").onchange=e=>{st.top=e.target.checked;st.limit=60;render();};
+  $("#ctOnly").onchange=e=>{st.ct=e.target.checked;st.limit=60; if(st.ct){st.ring=4;} render();};
+  $("#vfSel").onchange=e=>{st.vf=e.target.value;st.limit=60;render();};
+  $("#newOnly").onchange=e=>{st.news=e.target.checked;st.limit=60; if(st.news){st.ring=4;st.pr="all";$("#prSel").value="all";} render();};
+  $("#newsMore").onclick=()=>{newsLimit+=20;renderNews();};
+  $("#prSel").onchange=e=>{st.pr=e.target.value;st.limit=60;render();};
+  $("#more").onclick=()=>{st.limit+=80;render();};
+  $("#zoom").querySelectorAll("button").forEach(b=>b.onclick=()=>{st.zoom=+b.dataset.z;saveZoom();render();});
+  $("#addBtn").onclick=()=>{st.sel=null;st.mode="add";renderDrawer();};
+  $("#csvBtn").onclick=exportCsv;
+  $("#dClose").onclick=closeDrawer;
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!$("#drawer").hidden) closeDrawer(); });
+}
+function buildCountryOptions(){
+  const s=$("#cc"); const cur=s.value||"all"; const counts={};
+  for(const l of all()) counts[l.cc]=(counts[l.cc]||0)+1;
+  s.replaceChildren(el("option",{value:"all"},"Vse države"));
+  Object.keys(counts).sort((a,b)=>(CC[a]||a).localeCompare(CC[b]||b,"sl")).forEach(k=>s.append(el("option",{value:k},(CC[k]||k.toUpperCase())+" ("+counts[k]+")")));
+  s.value=counts[cur]||cur==="all"?cur:"all";
+}
+function saveZoom(){try{localStorage.setItem("radar.zoom",String(st.zoom));}catch(e){}}
+
+function base(l){ // all filters except segment, for chip counts
+  if(st.ring<4 && l.r>st.ring) return false;
+  if(st.cc!=="all"&&l.cc!==st.cc) return false;
+  if(!st.fit.has(l.f)) return false;
+  if(st.top&&!l.t) return false;
+  if(st.ct&&!l.ct) return false;
+  if(st.news&&!isNew(l)) return false;
+  if(st.pr!=="all"){ const t=l.q?l.q.t:null;
+    if(!(l.s==="spec"&&!t&&st.pr!=="K"&&st.pr!=="3")){
+      if(st.pr==="12"){ if(t!=="1"&&t!=="2") return false; } else if(t!==st.pr) return false; } }
+  if(st.vf!=="all"){ const v=l.vf?l.vf.v:null;
+    // projektanti, posredniki in ročno preverjeni (kontakti, izbrani) niso izločeni
+    const keep=l.s==="spec"||l.ro==="partner";
+    if(st.vf==="none"){ if(v) return false; }
+    else if(!keep||st.vf==="TS"||st.vf==="NXD"){ if(!v||!st.vf.includes(v)) return false; } }
+  if(st.status!=="all"){ const s=stOf(l)||"new"; if(s!==st.status) return false; }
+  if(st.q){ const h=(l.n+" "+l.a+" "+(CC[l.cc]||"")+" "+l.no+" "+l.ty+" "+l.mo).toLowerCase(); if(!h.includes(st.q)) return false; }
+  return true;
+}
+function filtered(){ return all().filter(l=>base(l)&&(st.seg==="all"||l.s===st.seg)).sort((a,b)=>b.sc-a.sc||((a.km??9e9)-(b.km??9e9))); }
+
+/* ---------- render ---------- */
+function render(){
+  if(!LEADS.length) return;
+  const rows=filtered();
+  // chips
+  const baseRows=all().filter(base);
+  document.querySelectorAll("#segChips .chip").forEach(b=>{const k=b.dataset.seg;b.setAttribute("aria-pressed",String(st.seg===k));b.querySelector(".n").textContent=k==="all"?baseRows.length:baseRows.filter(l=>l.s===k).length;});
+  document.querySelectorAll("#fitChips .chip").forEach(b=>b.setAttribute("aria-pressed",String(st.fit.has(b.dataset.fit))));
+  $("#zoom").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.z===st.zoom)));
+  $("#ring").value=String(st.ring);
+  $("#addBtn").disabled=!db||canWrite===false;
+  $("#addBtn").title=!db?"Dodajanje deluje, ko je stran odprta na claude.ai":"";
+  // stats
+  renderStats();
+  // list
+  const list=$("#list"); list.replaceChildren();
+  if(!rows.length){ list.append(el("li",{class:"empty",text:"Ni podjetij za te filtre. Razširi doseg ali odstrani filter."})); }
+  for(const l of rows.slice(0,st.limit)){
+    const s=stOf(l);
+    const nm=el("div",{class:"nm"}); if(l.t) nm.append(el("span",{class:"star","aria-label":"ročno izbrano"})); nm.append(l.n);
+    const sub=el("div",{class:"sub",text:[l.a,CC[l.cc]||"",SEG[l.s]].filter(Boolean).join(" · ")});
+    const tn=teamCount(l.id);
+    const vv=l.vf&&l.vf.v;
+    const qt=l.q&&l.q.t;
+    const tags=el("span",{class:"tags"},isNew(l)?el("span",{class:"ntag",text:"novo"}):null,qt?el("span",{class:"ptag p"+qt,text:PL[qt]}):el("span",{class:"fit "+l.f,text:FIT[l.f]}), vv&&"MmTS".includes(vv)?el("span",{class:"vtag v"+vv,text:VF[vv][0]}):null, l.ct?el("span",{class:"ctag",text:"kontakt"}):null, tn?el("span",{class:"ctag",text:"skupina "+tn+"/5"}):null, s?el("span",{class:"pill st-"+s,text:STL[s]}):null);
+    const km=el("span",{class:"km"}, l.km==null?"–":String(l.km), el("small",{text:l.km==null?"lokacija?":"km"}));
+    const b=el("button",{type:"button",class:"row"+(st.sel===l.id?" sel":""),"data-id":l.id},km,el("span",null,nm,sub),tags);
+    b.onclick=()=>select(l.id);
+    list.append(el("li",null,b));
+  }
+  $("#more").hidden=rows.length<=st.limit;
+  $("#count").textContent="Prikazano "+Math.min(rows.length,st.limit)+" od "+rows.length+" podjetij"+(META&&META.built_sl?" · podatki z dne "+META.built_sl:"");
+  drawPoints(rows);
+}
+function renderStats(){
+  const A=all(); const rc=[0,0,0,0,0]; A.forEach(l=>rc[l.r]++);
+  const mx=Math.max(...rc,1); const rb=$("#ringBars"); rb.replaceChildren();
+  rc.forEach((n,i)=>rb.append(bar(RLAB[i],n,mx)));
+  const pc={}; A.forEach(l=>{const s=stOf(l); if(s) pc[s]=(pc[s]||0)+1;});
+  const pb=$("#pipeBars"); pb.replaceChildren();
+  const mx2=Math.max(1,...Object.values(pc));
+  STATUS.slice(1).forEach(([k,v])=>pb.append(bar(v,pc[k]||0,mx2,"var(--st-"+k+")")));
+  if(!db) pb.append(el("div",{class:"note",text:"Sledenje statusa deluje, ko je stran odprta na claude.ai."}));
+}
+function bar(lab,n,mx,color){const f=el("div",{class:"fil"});f.style.width=(n/mx*100)+"%";if(color)f.style.background=color;return el("div",{class:"bar"},el("span",{class:"lab",text:lab}),el("div",{class:"trk"},f),el("span",{class:"num",text:String(n)}));}
+
+/* ---------- map ---------- */
+let gLand,gRings,gLabels,gPts,svg;
+function drawMapBase(){
+  svg=$("#map"); svg.replaceChildren();
+  gLand=sv("g",{}); gRings=sv("g",{}); gLabels=sv("g",{}); gPts=sv("g",{});
+  for(const c of MAP){ let d=""; for(const r of c.r){ d+="M"+r.map(p=>p[0]+" "+p[1]).join("L")+"Z"; } const p=sv("path",{d,class:"land"}); gLand.append(p); }
+  svg.append(gLand,gRings,gLabels,gPts);
+}
+function centroid(c){ let best=null,bl=0; for(const r of c.r){ if(r.length>bl){bl=r.length;best=r;} } let x=0,y=0; for(const p of best){x+=p[0];y+=p[1];} return [x/best.length,y/best.length]; }
+function drawPoints(rows){
+  if(!svg) return;
+  const R=st.zoom*1.1; svg.setAttribute("viewBox",(-R)+" "+(-R)+" "+(2*R)+" "+(2*R));
+  const fs=R*0.034, pr=R*0.0105;
+  gRings.replaceChildren(); gLabels.replaceChildren(); gPts.replaceChildren();
+  for(const rk of ZR){ if(rk>R*1.4) continue; gRings.append(sv("circle",{cx:0,cy:0,r:rk,class:"rng"})); const a=-Math.PI/4; const t=sv("text",{x:rk*Math.cos(a)+fs*0.3,y:rk*Math.sin(a)-fs*0.3,class:"rng-lab","font-size":fs*0.8}); t.textContent="R "+rk+" km"; gRings.append(t); }
+  for(const c of MAP){ const nm=CTRY[c.n]; if(!nm) continue; const [x,y]=centroid(c); if(Math.abs(x)>R*0.92||Math.abs(y)>R*0.92) continue; if(st.zoom<=150&&!["Slovenija","Hrvaška","Avstrija","Italija"].includes(nm)) continue; const t=sv("text",{x,y,"text-anchor":"middle",class:"cty","font-size":fs}); t.textContent=nm; gLabels.append(t); }
+  // machine zero
+  const z=pr*2.2; gLabels.append(sv("line",{x1:-z,y1:0,x2:z,y2:0,class:"zero"}),sv("line",{x1:0,y1:-z,x2:0,y2:z,class:"zero"}));
+  const zt=sv("text",{x:z*1.2,y:-z*0.9,class:"zero-lab","font-size":fs*0.85}); zt.textContent="Proform3D"; gLabels.append(zt);
+  const shown=new Set(rows.map(l=>l.id));
+  const pts=all().filter(l=>l.x!=null&&Math.abs(l.x)<R&&Math.abs(l.y)<R);
+  pts.sort((a,b)=>(shown.has(a.id)-shown.has(b.id))||(a.t-b.t));
+  for(const l of pts){
+    const on=shown.has(l.id);
+    const c=sv("circle",{cx:l.x,cy:l.y,r:pr*(l.t?1.45:1)*(st.sel===l.id?1.5:1),class:"pt "+l.f+(l.t?" top":"")+(on?"":" dim")+(st.sel===l.id?" sel":"")});
+    const s=stOf(l); if(s&&on) c.style.fill="var(--st-"+s+")";
+    const tt=sv("title",{}); tt.textContent=l.n+" · "+l.km+" km"; c.append(tt);
+    c.addEventListener("click",()=>select(l.id));
+    gPts.append(c);
+  }
+  const sel=all().find(l=>l.id===st.sel); if(sel&&sel.x!=null){ const c=[...gPts.children].find(n=>n.classList.contains("sel")); if(c) gPts.append(c); }
+}
+
+/* ---------- drawer ---------- */
+function select(id){ st.sel=id; st.mode="view"; render(); renderDrawer(); }
+function closeDrawer(){ $("#drawer").hidden=true; st.sel=null; st.mode="view"; render(); }
+function renderDrawer(){
+  const d=$("#drawer"), body=$("#dBody"); body.replaceChildren(); d.hidden=false;
+  if(st.mode==="add"){ renderAdd(body); return; }
+  const l=all().find(x=>x.id===st.sel); if(!l){ d.hidden=true; return; }
+  $("#dEyebrow").textContent=(l.km==null?"lokacija ni znana":l.km+" km od Jesenic")+" · "+(CC[l.cc]||l.cc.toUpperCase());
+  $("#dTitle").textContent=l.n;
+  if(l.q){
+    const qf=el("fieldset",null,el("legend",{text:"Ocena potenciala"}));
+    qf.append(el("div",{class:"frow"},el("span",{class:"ptag p"+l.q.t,text:PL[l.q.t]}),el("span",{class:"note",text:PD[l.q.t]+(l.q.sz&&l.q.sz!=="?"?" Velikost: "+l.q.sz+".":"")})));
+    if(l.q.why) qf.append(el("p",{style:"margin:0",text:l.q.why}));
+    if(l.q.ap) qf.append(el("p",{style:"margin:0"},el("strong",{text:"Pristop: "}),l.q.ap));
+    body.append(qf);
+  }
+  if(l.ch) body.append(el("div",{class:"why",style:"border-left-color:var(--amber)"},el("strong",{text:"Novost "+slDate(l.ch.d)+" – "+(CHT[l.ch.ty]||"")+": "}),l.ch.tx));
+  if(l.no) body.append(el("div",{class:"why",text:l.no}));
+  const kv=el("dl",{class:"kv"});
+  const add=(k,v)=>{ if(v) kv.append(el("dt",{text:k}),el("dd",{text:v})); };
+  add("Kraj",l.a); add("Panoga",SEG[l.s]); add("Vloga",ROLE[l.ro]); add("Verjetnost",FIT[l.f]+(l.t?" · ročno izbrano":""));
+  add("Izdeluje",l.ty); add("Modeli",l.mo); add("Viri",l.src.join(", "));
+  body.append(kv);
+  if(l.vf){
+    const v=l.vf.v, vfs=el("fieldset",null,el("legend",{text:"Ali res proizvajajo?"}));
+    vfs.append(el("div",{class:"frow"},el("span",{class:"vtag v"+v,text:VF[v][0]}),el("span",{class:"note",text:l.vf.mix?"Gradijo in imajo hkrati charter ali najem.":VF[v][1]})));
+    const list=el("ul",{class:"people"});
+    (l.vf.ev||[]).forEach(([k,s])=>list.append(el("li",null,el("strong",{text:k+": "}),el("span",{class:"r",text:s}))));
+    (l.vf.neg||[]).forEach(([k,s])=>list.append(el("li",null,el("strong",{text:"✕ "+k+": "}),el("span",{class:"r",text:s}))));
+    if(list.children.length) vfs.append(list);
+    const src=el("p",{class:"saved"},(l.vf.man?"Ročno preverjeno ":"Samodejno prebrano ")+(l.vf.d||"")+" · ");
+    if(l.vf.u) src.append(el("a",{href:l.vf.u,target:"_blank",rel:"noopener"},l.vf.u.replace(/^https?:\/\//,"").replace(/\/$/,"")));
+    vfs.append(src);
+    body.append(vfs);
+  }
+  const q=encodeURIComponent(l.n+" "+(l.a||"")+" "+(CC[l.cc]||""));
+  const ct=l.ct||null;
+  const web=(ct&&ct.w)||l.w;
+  // kontakti
+  const cf=el("fieldset",null,el("legend",{text:"Kontakti"}));
+  if(ct){
+    const box=el("div",{class:"contact"});
+    const line=(k,v,href)=>{ if(!v) return; const val=href?el("a",{href,target:"_blank",rel:"noopener"},v):el("span",{class:"v",text:v}); const cp=el("button",{type:"button",class:"copy"},"Kopiraj"); cp.onclick=()=>copyText(v,cp); box.append(el("div",{class:"cline"},el("span",{class:"k",text:k}),val,href?el("span"):cp)); };
+    if(web) line("Splet",web.replace(/^https?:\/\//,"").replace(/\/$/,""),/^https?:/.test(web)?web:"https://"+web);
+    (ct.e||[]).forEach(e=>line("E-pošta",e));
+    (ct.p||[]).forEach(p=>line("Telefon",p));
+    if(ct.b) line("Nabava",ct.b);
+    if(ct.s) line("Dobavitelji",ct.sd||"Stran za dobavitelje",ct.s);
+    if(ct.ppl&&ct.ppl.length){
+      const ul=el("ul",{class:"people"});
+      ct.ppl.forEach(([n,r,u,extra])=>ul.append(el("li",null,el("strong",{text:n}),el("span",{class:"r",text:" – "+r+(extra?" · "+extra:"")}),u?el("span",null," ",el("a",{href:u,target:"_blank",rel:"noopener"},"vir")):null)));
+      box.append(el("div",{class:"field"},"Osebe, ki jih podjetje navaja na svoji strani",ul));
+    }
+    if(ct.n) box.append(el("div",{class:"note",text:ct.n}));
+    box.append(el("div",{class:"saved",text:"Preverjeno na spletni strani podjetja "+(ct.d||"")}));
+    cf.append(box);
+  } else {
+    cf.append(el("p",{class:"note",text:"Kontakti še niso preverjeni. Poišči spletno stran in kontaktno stran podjetja."}));
+  }
+  const links=el("div",{class:"links"});
+  if(web&&!ct) links.append(el("a",{href:/^https?:/.test(web)?web:"https://"+web,target:"_blank",rel:"noopener"},"Spletna stran"));
+  links.append(el("a",{href:"https://www.google.com/search?q="+q,target:"_blank",rel:"noopener"},"Poišči na Googlu"));
+  links.append(el("a",{href:"https://www.linkedin.com/search/results/companies/?keywords="+encodeURIComponent(l.n),target:"_blank",rel:"noopener"},"Podjetje na LinkedInu"));
+  cf.append(links);
+  body.append(cf);
+  // projektanti tega podjetja / za koga dela projektant
+  const byName=n=>all().find(x=>x.n===n);
+  if(l.pr&&l.pr.length){
+    const ul=el("ul",{class:"people"});
+    l.pr.forEach(([n,r,spec])=>{ const tgt=spec&&byName(spec); const li=el("li",null,el("strong",{text:n}),el("span",{class:"r",text:r?" – "+r:""})); if(tgt){ const b=el("button",{type:"button",class:"copy"},"Odpri"); b.onclick=()=>select(tgt.id); li.append(" ",b);} ul.append(li); });
+    body.append(el("fieldset",null,el("legend",{text:"Kdo projektira njihove modele"}),ul,el("p",{class:"note",text:"Projektant ima 3D površine in pogosto priporoči, kje se izdela model. Stik prek njega odpre več ladjedelnic hkrati."})));
+  }
+  if(l.cl&&l.cl.length){
+    const ul=el("ul",{class:"people"});
+    l.cl.forEach(n=>{ const tgt=byName(n); const li=el("li",null,el("span",{text:n})); if(tgt){ const b=el("button",{type:"button",class:"copy"},"Odpri"); b.onclick=()=>select(tgt.id); li.append(" ",b);} ul.append(li); });
+    body.append(el("fieldset",null,el("legend",{text:"Za koga dela"}),ul));
+  }
+  body.append(renderTeam(l,web));
+  // koga iskati
+  const lang=LANG_OF[l.cc]||"en";
+  const roles=el("div",{class:"roles"},el("div",{class:"note",text:WHO[l.s]||WHO.boats}));
+  const rl=el("div",{class:"rl"},el("span",{class:"note",text:"LinkedIn:"}));
+  const short=l.n.replace(/\(.*?\)/g,"").replace(/,.*$/,"").trim();
+  (ROLEQ[lang]||ROLEQ.en).concat(lang==="en"?[]:[ROLEQ.en[0],ROLEQ.en[2]]).forEach(([lab,kw])=>rl.append(el("a",{href:"https://www.linkedin.com/search/results/people/?keywords="+encodeURIComponent(short+" "+kw),target:"_blank",rel:"noopener"},lab)));
+  roles.append(rl);
+  body.append(el("fieldset",null,el("legend",{text:"Koga iskati"}),roles));
+  // predloga sporočila
+  const curLang=st.lang||lang;
+  const tplBox=el("div",{class:"tpl",text:tpl(curLang,l)});
+  const bar2=el("div",{class:"tplbar"});
+  LANGS.forEach(([k,v])=>{ const b=el("button",{type:"button",class:"chip","aria-pressed":String(k===curLang)},v); b.onclick=()=>{st.lang=k;bar2.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");tplBox.textContent=tpl(k,l);}; bar2.append(b); });
+  const cpT=el("button",{type:"button",class:"btn"},"Kopiraj besedilo"); cpT.onclick=()=>copyText(tplBox.textContent,cpT);
+  const tf=el("fieldset",null,el("legend",{text:"Prvo sporočilo"}),bar2,tplBox,el("div",{class:"frow"},cpT),
+    el("p",{class:"note",text:l.cc==="de"||l.cc==="at"?"V Nemčiji in Avstriji pošlji to kot sporočilo na LinkedInu ali najprej pokliči. Nenaročen poslovni e-mail je tam pravno tvegan.":"Pošlji osebno, enemu naslovniku, z možnostjo odjave. Brez množičnega pošiljanja."}));
+  body.append(tf);
+  // tracking
+  const fs=el("fieldset",null,el("legend",{text:"Sledenje"}));
+  const cur=statusMap[l.id]||{};
+  const sSel=el("select",{id:"fSt"}); STATUS.forEach(([k,v])=>sSel.append(el("option",{value:k},v))); sSel.value=cur.st||"";
+  const nx=el("input",{id:"fNext",type:"text",placeholder:"npr. pokliči tehničnega direktorja v torek"}); nx.value=cur.next||"";
+  const nt=el("textarea",{id:"fNote",placeholder:"Kontakt, kaj so povedali, velikost kosov …"}); nt.value=cur.note||"";
+  const save=el("button",{type:"button",class:"btn primary"},"Shrani");
+  const info=el("div",{class:"saved"});
+  fs.append(el("label",{class:"field"},"Status",sSel),el("label",{class:"field"},"Naslednji korak",nx),el("label",{class:"field"},"Opombe",nt),el("div",{class:"frow"},save,info));
+  body.append(fs);
+  if(!db){ [sSel,nx,nt,save].forEach(x=>x.disabled=true); info.textContent="Sledenje deluje, ko je stran odprta na claude.ai."; }
+  else if(canWrite===false){ [sSel,nx,nt,save].forEach(x=>x.disabled=true); info.textContent="Imaš samo pravico ogleda."; }
+  if(cur.at){ const when=new Date(cur.at).toLocaleString("sl-SI",{dateStyle:"medium",timeStyle:"short"}); info.textContent="Shranjeno "+when; if(cur.by&&usr){ usr.profiles([cur.by]).then(ps=>{ const p=ps[cur.by]; info.textContent="Shranil "+((p&&p.name)||"nekdo")+", "+when; }).catch(()=>{}); } }
+  save.onclick=async()=>{
+    save.disabled=true; info.textContent="Shranjujem …";
+    const data={st:sSel.value,next:nx.value.trim().slice(0,500),note:nt.value.trim().slice(0,4000),at:Date.now()}; if(myId) data.by=myId;
+    try{ await db.collection("status").doc(l.id).set(data); info.textContent="Shranjeno."; }
+    catch(e){ info.textContent=e&&e.code==="invalid_argument"?"Shranjevanje ni dovoljeno za tvoj dostop.":"Shranjevanje ni uspelo. Poskusi znova."; }
+    save.disabled=false;
+  };
+  if(l.src.includes("Ročno dodano")&&db&&canWrite!==false){
+    const del=el("button",{type:"button",class:"btn"},"Odstrani ročno dodano podjetje");
+    let armed=false;
+    del.onclick=async()=>{ if(!armed){armed=true;del.textContent="Klikni še enkrat za potrditev";return;} try{ await db.collection("custom").doc(l._doc).delete(); closeDrawer(); }catch(e){ del.textContent="Brisanje ni uspelo"; } };
+    body.append(del);
+  }
+}
+function renderAdd(body){
+  $("#dEyebrow").textContent="Novo podjetje"; $("#dTitle").textContent="Dodaj podjetje";
+  const n=el("input",{id:"aN",type:"text",required:"required"});
+  const c=el("select",{id:"aC"}); Object.entries(CC).forEach(([k,v])=>c.append(el("option",{value:k},v))); c.value="si";
+  const a=el("input",{id:"aA",type:"text",placeholder:"Kraj ali naslov"});
+  const s=el("select",{id:"aS"}); Object.entries(SEG).forEach(([k,v])=>s.append(el("option",{value:k},v)));
+  const w=el("input",{id:"aW",type:"text",placeholder:"www.podjetje.si"});
+  const no=el("textarea",{id:"aNo",placeholder:"Zakaj je zanimivo"});
+  const msg=el("div",{class:"saved"});
+  const f=el("form",{class:"dbody",style:"padding:0"},
+    el("label",{class:"field"},"Ime podjetja",n),el("label",{class:"field"},"Država",c),el("label",{class:"field"},"Kraj",a),
+    el("label",{class:"field"},"Panoga",s),el("label",{class:"field"},"Spletna stran",w),el("label",{class:"field"},"Opis",no),
+    el("div",{class:"frow"},el("button",{type:"submit",class:"btn primary"},"Dodaj"),msg),
+    el("p",{class:"note",text:"Ročno dodana podjetja nimajo točke na zemljevidu. Na seznamu so pod »Vse, tudi brez lokacije«."}));
+  f.onsubmit=async e=>{ e.preventDefault(); if(!n.value.trim()){msg.textContent="Vpiši ime podjetja.";return;}
+    try{ const ref=await db.collection("custom").add({n:n.value.trim().slice(0,200),cc:c.value,a:a.value.trim().slice(0,200),s:s.value,w:w.value.trim().slice(0,200),no:no.value.trim().slice(0,2000),at:Date.now(),...(myId?{by:myId}:{})});
+      st.ring=4; st.sel="c_"+ref.id; st.mode="view"; render(); renderDrawer(); }
+    catch(err){ msg.textContent="Dodajanje ni uspelo."; } };
+  body.append(f);
+}
+
+function renderNews(){
+  const box=$("#news"); if(!CHANGES.length){ box.hidden=true; return; }
+  box.hidden=false;
+  const ids=new Set(all().map(l=>l.id));
+  const evs=CHANGES.filter(e=>ids.has(e.id));
+  $("#newsSum").textContent="Novosti ("+evs.length+")"+(META&&META.built_sl?" · osveženo "+META.built_sl:"");
+  const ol=$("#newsList"); ol.replaceChildren();
+  for(const e of evs.slice(0,newsLimit)){
+    const b=el("button",{type:"button",class:"co"},e.n); b.onclick=()=>select(e.id);
+    const t=e.t==="1"?"P1":e.t==="2"?"P2":e.t==="K"?"K":"";
+    ol.append(el("li",null,el("span",{class:"d",text:slDate(e.d)}),el("span",null,b,t?" ("+t+")":""," – ",el("span",{class:"tx",text:(CHT[e.ty]?CHT[e.ty]+": ":"")+e.tx.replace(/^(Omenja nov model|Nov oglas za delo|Oglas za delo): ?/,"")}))));
+  }
+  $("#newsMore").hidden=evs.length<=newsLimit;
+}
+function teamCount(id){ const t=TEAM[id]; if(!t||!t.r) return 0; return TEAMROLES.filter(([k])=>t.r[k]&&t.r[k].n).length; }
+function domainOf(u){ if(!u) return ""; try{ return new URL(/^https?:/.test(u)?u:"https://"+u).hostname.replace(/^www\./,""); }catch(e){ return ""; } }
+function renderTeam(l,web){
+  const fs=el("fieldset",null,el("legend",{text:"Nakupna skupina"}));
+  fs.append(el("p",{class:"note",text:"Kdo pri tem podjetju sproži, uporablja, odobri in plača naročilo modela. Vpisuj samo poslovne kontakte in pri vsakem zapiši vir."}));
+  const dom=domainOf(web);
+  if(dom){
+    const row=el("div",{class:"rl"},el("span",{class:"note",text:"Poišči e-naslove s svojim računom:"}),
+      el("a",{href:"https://hunter.io/search/"+encodeURIComponent(dom),target:"_blank",rel:"noopener"},"Hunter"),
+      el("a",{href:"https://app.apollo.io/",target:"_blank",rel:"noopener"},"Apollo"));
+    const cp=el("button",{type:"button",class:"copy"},"Kopiraj domeno "+dom); cp.onclick=()=>copyText(dom,cp); row.append(cp);
+    fs.append(el("div",{class:"roles"},row));
+  }
+  const cur=(TEAM[l.id]&&TEAM[l.id].r)||{};
+  const inputs={};
+  const blocks=el("div",{class:"contact"});
+  for(const [k,lab] of TEAMROLES){
+    const v=cur[k]||{}; inputs[k]={};
+    const d=el("details",null); if(v.n) d.open=false;
+    const sum=el("summary",{class:"note"}); sum.append(el("strong",{text:lab}),v.n?" · "+v.n+(v.t?", "+v.t:""):" · ni vpisano");
+    d.append(sum);
+    const grid=el("div",{class:"contact",style:"padding:8px 0 4px"});
+    for(const [f,fl] of TF){ const i=el("input",{type:f==="e"?"email":"text",id:"tm_"+k+"_"+f}); i.value=v[f]||""; inputs[k][f]=i; grid.append(el("label",{class:"field"},fl,i)); }
+    d.append(grid); blocks.append(d);
+  }
+  // predlogi s spletne strani podjetja
+  const ppl=(l.ct&&l.ct.ppl)||[];
+  if(ppl.length){
+    const sug=el("div",{class:"roles"},el("div",{class:"note",text:"Osebe s spletne strani podjetja – prenesi v vlogo:"}));
+    ppl.forEach(([n,r,u,extra])=>{
+      const sel=el("select",{class:"sel"}); TEAMROLES.forEach(([k,lab])=>sel.append(el("option",{value:k},lab)));
+      const guess=/nabav|einkauf|purchas|acquist/i.test(r)?"nab":/razvoj|r&d|cto|tehni|engineer|ufficio tecnico|development/i.test(r)?"teh":/proizvod|produc|orodj|tool|kalup|livar/i.test(r)?"kal":"dir"; sel.value=guess;
+      const b=el("button",{type:"button",class:"copy"},"Prenesi");
+      b.onclick=()=>{ const t=inputs[sel.value]; t.n.value=n; t.t.value=r; const em=(extra||"").match(/[^\s,;]+@[^\s,;]+/); const ph=(extra||"").match(/\+?[\d][\d\s/-]{6,}/); if(em) t.e.value=em[0]; if(ph) t.p.value=ph[0].trim(); t.src.value=u||"spletna stran podjetja"; t.n.closest("details").open=true; t.n.focus(); };
+      sug.append(el("div",{class:"rl"},el("span",{text:n+" – "+r}),sel,b));
+    });
+    fs.append(sug);
+  }
+  fs.append(blocks);
+  const save=el("button",{type:"button",class:"btn primary"},"Shrani nakupno skupino");
+  const info=el("div",{class:"saved"});
+  fs.append(el("div",{class:"frow"},save,info));
+  if(!db){ save.disabled=true; info.textContent="Shranjevanje deluje, ko je stran odprta na claude.ai."; }
+  else if(canWrite===false){ save.disabled=true; info.textContent="Imaš samo pravico ogleda."; }
+  else if(TEAM[l.id]&&TEAM[l.id].at){ info.textContent="Shranjeno "+new Date(TEAM[l.id].at).toLocaleString("sl-SI",{dateStyle:"medium",timeStyle:"short"}); }
+  save.onclick=async()=>{
+    const r={}; for(const [k] of TEAMROLES){ const o={}; let any=false; for(const [f] of TF){ const val=inputs[k][f].value.trim().slice(0,300); o[f]=val; if(val) any=true; } if(any) r[k]=o; }
+    const data={r,at:Date.now()}; if(myId) data.by=myId;
+    save.disabled=true; info.textContent="Shranjujem …";
+    try{ await db.collection("team").doc(l.id).set(data); info.textContent="Shranjeno."; }
+    catch(e){ info.textContent=e&&e.code==="invalid_argument"?"Shranjevanje ni dovoljeno za tvoj dostop.":"Shranjevanje ni uspelo. Poskusi znova."; }
+    save.disabled=false;
+  };
+  return fs;
+}
+function copyText(text,btn){
+  const old=btn.textContent;
+  const done=ok=>{btn.textContent=ok?"Kopirano":"Označi in kopiraj ročno";setTimeout(()=>btn.textContent=old,1800);};
+  try{ navigator.clipboard.writeText(text).then(()=>done(true),()=>done(false)); }catch(e){ done(false); }
+}
+
+/* ---------- export ---------- */
+async function exportCsv(){
+  if(!downloads) return;
+  const rows=filtered(); const esc=v=>{v=v==null?"":String(v);return /[",\n;]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;};
+  const head=["Ime","Država","Kraj","km","Panoga","Vloga","Verjetnost","Ročno izbrano","Status","Naslednji korak","Opombe sledenja","Opis","Izdeluje","Splet","E-pošta","Telefon","Nabava","Stran za dobavitelje","Osebe (s strani podjetja)","Projektanti","Viri","Prednost","Velikost","Zakaj","Pristop"].concat(TEAMROLES.map(([k,lab])=>"Skupina: "+lab));
+  const lines=[head.join(";")];
+  for(const l of rows){ const s=statusMap[l.id]||{}; const c=l.ct||{};
+    lines.push([l.n,CC[l.cc]||l.cc,l.a,l.km??"",SEG[l.s],ROLE[l.ro],FIT[l.f],l.t?"da":"",STL[s.st||""],s.next||"",s.note||"",l.no,l.ty,
+      c.w||l.w||"",(c.e||[]).join(", "),(c.p||[]).join(", "),c.b||"",c.s||"",(c.ppl||[]).map(p=>p[0]+" – "+p[1]+(p[3]?" ("+p[3]+")":"")).join("; "),(l.pr||[]).map(p=>p[0]).join(", "),l.src.join(", "),l.q?PL[l.q.t]:"",l.q?l.q.sz:"",l.q?l.q.why:"",l.q?l.q.ap:""]
+      .concat(TEAMROLES.map(([k])=>{ const v=(TEAM[l.id]&&TEAM[l.id].r&&TEAM[l.id].r[k])||null; return v?[v.n,v.t,v.e,v.p,v.li].filter(Boolean).join(", "):""; })).map(esc).join(";")); }
+  const b=$("#csvBtn"); const old=b.textContent;
+  try{ await downloads.save({filename:"proform3d-radar-kupcev.csv",data:"﻿"+lines.join("\r\n")}); b.textContent="Izvoženo"; }
+  catch(e){ b.textContent=e&&e.code==="declined"?"Preklicano":"Izvoz ni uspel"; }
+  setTimeout(()=>b.textContent=old,2200);
+}
+})();
+</script>

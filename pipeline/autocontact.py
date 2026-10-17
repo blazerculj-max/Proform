@@ -32,6 +32,6 @@ if __name__ == "__main__":
     cc = {o["id"]: o["cc"] for o in json.load(open("docs/leads.json"))}
     for f in os.listdir("data/crawl"):
         c = json.load(open("data/crawl/" + f)); c["cc"] = cc.get(c["id"], ""); e, p = contacts(c)
-        if e or p: out[c["id"]] = dict(w=c["url"], e=e, p=p)
+        if e or p: out[c["id"]] = dict(w=c["url"], e=e, p=p, d=os.environ.get("RUN_DATE") or __import__("datetime").date.today().isoformat())
     json.dump(out, open("data/autocontacts.json", "w"), ensure_ascii=False, indent=0)
     print(len(out))

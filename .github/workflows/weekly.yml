@@ -1,0 +1,63 @@
+name: Tedenska osvežitev podatkov
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # vsak ponedeljek ob 4:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Predpomnilnik GeoNames
+        uses: actions/cache@v4
+        with:
+          path: data/geo_dl
+          key: geonames-v1
+
+      - name: Osveži podatke
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: python3 pipeline/run.py --refresh
+
+      - name: Shrani spremembe
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Ni sprememb."
+          else
+            git commit -m "Tedenska osvežitev podatkov $(date +%F)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Objavi stran
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+
+      - name: Obvestilo o novostih
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 pipeline/notify.py

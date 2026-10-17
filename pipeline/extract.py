@@ -20,6 +20,16 @@ WOOD = re.compile(r"\blegno\b|\bholz(?:boot|bau)?\b|\bles(?:en|ena|eni)\b|\bdrv(
 RIB = re.compile(r"gommon|\brib\b|schlauchboot|gumenjak|inflatable", re.I)
 SAIL = re.compile(r"\bvela\b|sailing|segel|jadrnic|jedrilic|sailboat", re.I)
 CAT = re.compile(r"catamar|katamar", re.I)
+HIRING = re.compile(r"\((?:m/w/d|w/m/d|m/f/d|m/ž)\)|wir suchen|stellenangebot(?:e)? (?:für|als)|we are hiring|we're hiring|job opening|"
+                    r"cerchiamo|ricerchiamo|offerta di lavoro|posizione aperta|zaposlimo|iščemo (?:sodelavc|delavc)|zapošljavamo|tražimo (?:radnik|djelatnik)", re.I)
+PRODJOB = re.compile(r"laminat|laminier|bootsbau|gfk|plastific|vetroresina|produzione|produktion|proizvodnj|fibreglass|composit|kompozit|tischler|falegnam", re.I)
+class _Jobs:
+    """Oglas za delo: izrecna zaposlitev + delo v proizvodnji v bližini (±250 znakov)."""
+    def search(self, t):
+        for m in HIRING.finditer(t):
+            if PRODJOB.search(t[max(0, m.start() - 250): m.end() + 250]): return m
+        return None
+JOBS = _Jobs()
 GRP = re.compile(r"vetroresina|gfk|grp|fibreglass|fiberglass|stakloplastik|stekloplastik|composit|kompozit|laminat|infusion|infusione", re.I)
 
 def lengths(t):
@@ -47,13 +57,14 @@ def summarize(c):
         len=lengths(t), emp=emp[:4], area=area[-3:], since=since[:1],
         new=newm, tool=first(TOOL), custom=bool(CUSTOM.search(t)), contract=first(CONTRACT),
         group=bool(GROUP.search(t)), grp=len(GRP.findall(t)), alu=len(ALU.findall(t)), wood=len(WOOD.findall(t)),
-        rib=len(RIB.findall(t)), sail=len(SAIL.findall(t)), cat=len(CAT.findall(t)))
+        rib=len(RIB.findall(t)), sail=len(SAIL.findall(t)), cat=len(CAT.findall(t)), jobs=first(JOBS))
 
 if __name__ == "__main__":
     leads = {o["id"]: o for o in json.load(open("docs/leads.json"))}
     out = {}
     for f in os.listdir("data/crawl"):
-        c = json.load(open("data/crawl/" + f)); out[c["id"]] = summarize(c)
+        c = json.load(open("data/crawl/" + f))
+        if c["id"] in leads: out[c["id"]] = summarize(c)
     json.dump(out, open("data/signals.json", "w"), ensure_ascii=False, indent=0)
     rows = sorted(out.items(), key=lambda kv: (leads[kv[0]]["km"] if leads[kv[0]]["km"] is not None else 9999))
     with open("data/signals.txt", "w") as fh:

@@ -26,7 +26,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 12,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "99709c0bd9": {
 "title": "Pershing Yachts, The Dominant Species – Luxury sports yachts",
@@ -53,7 +54,36 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"22cfcf2cb6": {
+"title": "Intermarine – Naval Shipbuilder | Minehunters & Patrol Boats",
+"desc": "Intermarine S.p.A. designs and builds advanced naval vessels: minehunters, fast patrol boats and fast ferries. Italian shipbuilding excellence since 1969.",
+"chars": 14605,
+"npages": 7,
+"url": "https://www.intermarine.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [
+1996
+],
+"new": [
+"Contattaci News Business insights and articles written by our team of world-class professionals PRESS RELEASE 30 Luglio 2026 INTERMARINE (IMMSI GROUP): LAMINATION OF THE HULL OF THESECOND NEW-GENERATI",
+"MI), a Read more > INTERMARINE (IMMSI GROUP): LAMINATION OF THE HULL OF THE FIRST NEW-GENERATION MINEHUNTER FOR THE ITALIAN NAVY BEGINS 28 Settembre 2025 Sarzana (La Spezia), 25 September 2025 – Today"
+],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 10,
+"alu": 1,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "4f19526b9d": {
 "title": "Luxury performance Sailing Yachts | Dehler",
@@ -75,7 +105,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 68,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
 "8fc4f8fa0c": {
 "title": "Enavigo.hr",
@@ -97,7 +128,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "fd2abfff6f": {
 "title": "Mondomarine – Explorer superyachts in aluminium",
@@ -121,7 +153,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "88d27d2341": {
 "title": "charles.cz | Úvod",
@@ -143,7 +176,77 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"3cc3205703": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://darielboats.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"7158b88286": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.marine3000.hr/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"a06d488855": {
+"title": "dallapieta.it — Domain for sale",
+"desc": "dallapieta.it — Domain for sale IT EN dallapieta.it This domain is for sale on Make an offer Marketdomain.it is owned by WEB 365 SRL – Via Nicola Marchese 10, 00141 Rome (RM), Italy – VAT 12279101005 Copyright © 2026 – A",
+"chars": 238,
+"npages": 1,
+"url": "http://www.dallapieta.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "253d8967a0": {
 "title": "Frauscher Bootswerft - innovativ & familiengeführt - engineers of emotions",
@@ -172,7 +275,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "db7baf45d8": {
 "title": "Home - R.I.B LINE von PISCHEL CONRAD BOOTSBAU",
@@ -194,7 +298,31 @@
 "wood": 0,
 "rib": 5,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"4a0645a8de": {
+"title": "404 Not Found",
+"desc": "404 Not Found 404 Not Found Microsoft-Azure-Application-Gateway/v2",
+"chars": 66,
+"npages": 1,
+"url": "http://survitecgroup.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "5c90c887f3": {
 "title": "Fibreglass boats, catamarans, pedalos, canoes | Centro Nautico Adriatico",
@@ -216,7 +344,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 7,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
 "40a5fb097a": {
 "title": "Corthinx – Yacht",
@@ -240,7 +369,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 11
+"cat": 11,
+"jobs": ""
 },
 "8120a5bff3": {
 "title": "Start - KORMARAN",
@@ -262,7 +392,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 5
+"cat": 5,
+"jobs": ""
 },
 "83feb86396": {
 "title": "\"Welcome to Itama,  the enchantment of\nFreedom – Luxurious Open Yachts\"",
@@ -289,7 +420,31 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"85473053fa": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.solemar-nautica.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "42c2674295": {
 "title": "Home - Pipistrel",
@@ -311,7 +466,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "e6b247fba1": {
 "title": "www.wilke.ch: Services",
@@ -335,7 +491,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"2a7899f14b": {
+"title": "SPORTIS",
+"desc": "Sportis to wiodąca marka produkująca RIBy, łódki, kamizelki ratunkowe oraz inne akcesoria wodne.",
+"chars": 7,
+"npages": 1,
+"url": "https://sportis.pl/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "1492ea44e4": {
 "title": "What We Do? - Combatra",
@@ -357,7 +537,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "0a71c5141b": {
 "title": "Filippetti Yachts: A symbol of Italian excellence in the world of yachting.",
@@ -381,7 +562,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 4,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "c0c39c333f": {
 "title": "Sessa Marine - Eccellenza italiana nel mondo degli yacht",
@@ -405,7 +587,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "5dd077ebc4": {
 "title": "Barche da diporto | Erbusco, BS | Cantiere Linetti",
@@ -432,12 +615,13 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "f28ead467d": {
 "title": "Yacht a vela e a motore italiani - Mylius",
 "desc": "Yacht a vela e a motore italiani - Mylius Skip to main content Skip to footer BARCHE A VELA BARCHE A VELA Mylius M60 Mylius M66RS Mylius M72 Mylius M80RS BARCHE A MOTORE BARCHE A MOTORE Mylius M47P Mylius M62P Mylius M76",
-"chars": 17640,
+"chars": 17864,
 "npages": 6,
 "url": "https://mylius.it/",
 "len": "3.4–20.47 m",
@@ -459,8 +643,9 @@
 "alu": 0,
 "wood": 0,
 "rib": 0,
-"sail": 41,
-"cat": 1
+"sail": 45,
+"cat": 1,
+"jobs": ""
 },
 "7be6ab9b8b": {
 "title": "Poliesterski bazeni, bazenska tehnika i inox oprema",
@@ -482,7 +667,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "622a035ad1": {
 "title": "Codecasa Yachts - SHIPYARDS SINCE 1825",
@@ -509,7 +695,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 3,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"27e64ab52c": {
+"title": "Ringmaier Boote GmbH",
+"desc": "Ringmaier Boote GmbH",
+"chars": 20,
+"npages": 1,
+"url": "https://www.ringmaier-boote.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "8a9503590c": {
 "title": "Cantiere Nautico Enterprise Marine EM",
@@ -531,7 +741,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "a07ade2a56": {
 "title": "Gentner Nautic GmbH - Ihre Experten für Bootsbau und Marine Engineering",
@@ -553,7 +764,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "009637c389": {
 "title": "Luxury custom yachts, catamarans, power boats design, construction and charter agency - Sunreef Yachts",
@@ -580,7 +792,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 65,
-"cat": 53
+"cat": 53,
+"jobs": ""
 },
 "6f5918132b": {
 "title": "Flyer Catamarans - Startseite",
@@ -602,12 +815,13 @@
 "wood": 0,
 "rib": 0,
 "sail": 6,
-"cat": 8
+"cat": 8,
+"jobs": ""
 },
 "41df7ddf20": {
 "title": "Aluminiumboote aus Emmerich am Rhein | Coenen Yachts & Boats",
 "desc": "Wir bauen Aluminium-Arbeits- und Sportboote in unserer Werft in Emmerich am Rhein. Handgefertigt für Berufs- und Freizeiteinsatz,",
-"chars": 21928,
+"chars": 19143,
 "npages": 5,
 "url": "https://coenenboats.com/",
 "len": "",
@@ -624,7 +838,8 @@
 "wood": 2,
 "rib": 1,
 "sail": 0,
-"cat": 5
+"cat": 5,
+"jobs": ""
 },
 "b4eba0a6d4": {
 "title": "Rimar S.r.l.",
@@ -646,7 +861,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "fc4e758e40": {
 "title": "Piculjan Marina – Just another WordPress site",
@@ -671,7 +887,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "8198ddd27f": {
 "title": "Il ritorno dei nuovi grandi Open - XL Marine",
@@ -700,7 +917,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"d3e9f0cfcf": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.kellyyachts.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "6ea66ccf41": {
 "title": "Adria – caravans, motorhomes and campervans",
@@ -725,7 +966,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "b5f1da3e32": {
 "title": "Steiner Nautic Bootsbauer Elektroboote Segelboote Motorboote Mattsee Salzburg Österreich",
@@ -749,7 +991,8 @@
 "wood": 61,
 "rib": 0,
 "sail": 100,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "8779f49675": {
 "title": "",
@@ -771,7 +1014,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "4b7816c4ff": {
 "title": "Italiamarine",
@@ -793,7 +1037,8 @@
 "wood": 0,
 "rib": 18,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "398af05bf4": {
 "title": "",
@@ -815,7 +1060,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "26d6f3de2f": {
 "title": "Yacht sales, Yacht charter - Pearlsea Yachts, Croatia",
@@ -837,7 +1083,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"70d599d0bb": {
+"title": "",
+"desc": "404: Not Found - www.pontonboot.de",
+"chars": 34,
+"npages": 1,
+"url": "http://www.pontonboot.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "fddda29f25": {
 "title": "Luxury Motor Yachts | Galeon Yachts",
@@ -868,7 +1138,56 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"ba6ed976b7": {
+"title": "Destiny 2 Claim Hub - Codes einlösen und Belohnungen sichern bei grabner-sports.at",
+"desc": "Entdecke den Destiny 2 Claim Hub auf grabner-sports.at, um Aktionscodes einzulösen und exklusive In-Game-Belohnungen zu erhalten.",
+"chars": 37728,
+"npages": 4,
+"url": "https://grabner-sports.at/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": true,
+"grp": 0,
+"alu": 0,
+"wood": 1,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"59cf7061fc": {
+"title": "Pirelli Global: Discover our world | Pirelli",
+"desc": "Pirelli Global, the magazine of the Pirelli world: discover interesting articles on cars, motorcycles, bicycles, sports and lifestyle, innovation and sustainability.",
+"chars": 55455,
+"npages": 5,
+"url": "https://www.pirelli.com/global/en-ww/homepage/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [
+"ABILITY 12, October, 2026 Pirelli heads to the Jerez season finale with the softest compounds in its range 11, October, 2026 PIRELLI'S EXCLUSIVE DTM TYRES DEBUT – A CROWNING FINISH AT HOCKENHEIMRING N"
+],
+"tool": "",
+"custom": false,
+"contract": "art CERT Pirelli Total Efficiency 4.0 SUPPLIER'S AREA Consumer tyres OEM partnerships Racing Research & Development Indietro Indietro Indietro Sustainability Sustainability Archive P",
+"group": true,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 5,
+"cat": 0,
+"jobs": ""
 },
 "6b85937d58": {
 "title": "A new Journey with my Riva - Riva Yacht",
@@ -895,7 +1214,31 @@
 "wood": 4,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"521bdb5ff7": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.scandinavia-yachts.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "b37bc27ab5": {
 "title": "Haitzinger Bootbau Attersee | Home",
@@ -917,7 +1260,197 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"4cf128fcd4": {
+"title": "Home | Gommoni BSC Colzani Italy",
+"desc": "Home Gommoni BSC Colzani Italy | Produzione e vendita di gommoni ricreativi e professionali. info@gommonibsc.com",
+"chars": 17077,
+"npages": 5,
+"url": "https://www.gommonibsc.com/",
+"len": "3.06–10 m",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 20,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"15d01198da": {
+"title": "GATZ-KANUS",
+"desc": "Europas grter Kanuhersteller",
+"chars": 10,
+"npages": 1,
+"url": "http://www.gatz-kanu.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"924a6d2f04": {
+"title": "Wir arbeiten gerade an unserer Website",
+"desc": "Wir arbeiten gerade an unserer Website",
+"chars": 38,
+"npages": 1,
+"url": "http://www.mystraly-boote.de/offline",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"641021ab1c": {
+"title": "",
+"desc": "error code: 1016",
+"chars": 16,
+"npages": 1,
+"url": "https://www.lamprecht-yachtzentrum.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"6c7c3b3c60": {
+"title": "Home | Airon Marine",
+"desc": "Home | Airon Marine Lang IT EN FR DE Menù Home Storia Servizi Modelli Usato Custom Rivenditori Noleggio Novità 2026 & Eventi Contatti Italian Design Airon Marine Italian Design Airon Marine lavora con passione, abilità e",
+"chars": 645,
+"npages": 1,
+"url": "https://www.aironmarine.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"7cc6dbcab8": {
+"title": "Cantieri A. Mostes – Dal 1913 costruttori nautici – Lezzeno Lago di Como – Italy",
+"desc": "Cantieri A. Mostes – Dal 1913 costruttori nautici – Lezzeno Lago di Como – Italy Skip to content +39 031 914621 info@cantieriamostes.it Lun - Sab | Mon - Sat 9 AM – 6 PM Via Calvasino 24/27, Lezzeno - Italy Search: Faceb",
+"chars": 11912,
+"npages": 4,
+"url": "http://www.cantieriamostes.it/",
+"len": "34–34 m",
+"emp": [],
+"area": [],
+"since": [
+1913
+],
+"new": [
+"it Find us on: Facebook page opens in new window YouTube page opens in new window Instagram page opens in new window I Nostri Modelli Copyright 2026 © Cantieri A",
+"it Find us on: Facebook page opens in new window YouTube page opens in new window Instagram page opens in new window I Nostri Modelli Copyright 2026 © Cantieri A"
+],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 1,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"9c55001b16": {
+"title": "503 Service Unavailable",
+"desc": "503 Service Unavailable Service Unavailable The server is temporarily unable to service your request due to maintenance downtime or capacity problems. Please try again later.",
+"chars": 174,
+"npages": 1,
+"url": "http://www.hilter-royal-boote.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"d83edba14a": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.assoprestige.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "a0a565bf67": {
 "title": "Race Unlimited | Ihr Bayliner Vetragshändler im Südwesten - Worms am Rhein",
@@ -944,7 +1477,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "c7cb6abe8b": {
 "title": "Home - Style Jacht",
@@ -966,7 +1500,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "415203fb4b": {
 "title": "AdvancedYachts",
@@ -990,7 +1525,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 12,
-"cat": 21
+"cat": 21,
+"jobs": ""
 },
 "ef0f4229cc": {
 "title": "Cantiere Mimì - Gozzi Napoli",
@@ -1019,7 +1555,31 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"9c2b017cbd": {
+"title": "JANMOR STOCZNIA JACHTOWA",
+"desc": "Produkcja jachtów, budowa kadłubow",
+"chars": 31226,
+"npages": 3,
+"url": "https://www.janmor.com.pl/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 7,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "997709bf4f": {
 "title": "PERFORMANCE Boote | Sportboote seit über 40 Jahren",
@@ -1044,7 +1604,77 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"592462560d": {
+"title": "GalaSport",
+"desc": "GalaSport",
+"chars": 19037,
+"npages": 5,
+"url": "https://www.galasport.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"229ea319de": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.cantierebaruffaldi.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"a4df5bbf59": {
+"title": "403 Forbidden",
+"desc": "403 Forbidden Forbidden You don't have permission to access this resource. Additionally, a 403 Forbidden error was encountered while trying to use an ErrorDocument to handle the request.",
+"chars": 186,
+"npages": 1,
+"url": "http://www.rehberger-yacht.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "c9fa192d69": {
 "title": "Sunbeam Yachts: Ihre ideale Daysailer & Weekender Segelyacht",
@@ -1071,7 +1701,31 @@
 "wood": 1,
 "rib": 0,
 "sail": 113,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"6deb6339ff": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.antares-patrol690.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "0974131d86": {
 "title": "Home 2024 - Swisscat Yachts",
@@ -1095,7 +1749,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 5,
-"cat": 13
+"cat": 13,
+"jobs": ""
 },
 "54f14ee5f4": {
 "title": "IIS 10.0 Detailed Error - 404.0 - Not Found",
@@ -1117,7 +1772,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "517febad31": {
 "title": "404 Not Found",
@@ -1139,7 +1795,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "977d4af9ae": {
 "title": "Barkmet Boats – Aluminum Boat Manufacturer",
@@ -1161,7 +1818,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 3
+"cat": 3,
+"jobs": ""
 },
 "b41a836fd4": {
 "title": "Yachthafen an der Schlei - Marina Brodersby",
@@ -1185,7 +1843,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 7,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "bc010d97e9": {
 "title": "Vendita e Produzione Gommoni - Il Maestrale Boats Cantiere Nautico",
@@ -1207,7 +1866,8 @@
 "wood": 0,
 "rib": 27,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "f8be20e330": {
 "title": "Aqualine Boote - Trailerbare Sportboote aus Berlin & Brandenburg",
@@ -1232,29 +1892,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
-},
-"fbe0a486e2": {
-"title": "Samurai99 | Game Seru Dengan Peluang Besar",
-"desc": "Dunia Samurai99 game kini menjadi sumber hiburan seru sekaligus tempat untuk menguji keberuntungan dan meraih kemenangan besar setiap hari",
-"chars": 459,
-"npages": 2,
-"url": "https://raffaelliyacht.com/",
-"len": "",
-"emp": [],
-"area": [],
-"since": [],
-"new": [],
-"tool": "",
-"custom": false,
-"contract": "",
-"group": false,
-"grp": 0,
-"alu": 0,
-"wood": 0,
-"rib": 0,
-"sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "9bd45ef625": {
 "title": "BAVARIA YACHTS | Sailing Yachts and Motor Boats made in Germany",
@@ -1282,12 +1921,13 @@
 "wood": 3,
 "rib": 0,
 "sail": 86,
-"cat": 6
+"cat": 6,
+"jobs": ""
 },
 "cf0cbdd8d3": {
 "title": "AVAR-YACHT CZ",
 "desc": "AVAR-YACHT ● lodní motory, lodě, čluny a příslušenství ● autorizovaný servis ● zakázková výroba plachetnic ● organizace kapitánských kurzů a přednášek",
-"chars": 27557,
+"chars": 27551,
 "npages": 6,
 "url": "https://www.avaryacht.cz/",
 "len": "",
@@ -1304,12 +1944,13 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "0abfffc636": {
 "title": "ZAR FORMNTI | L’insostenibile forza dell’immaginazione",
 "desc": "Abbiamo superato i limiti dello spazio per ampliare quelli della tua libertà. Dal 1979 ZAR Formenti sfida il modo convenzionale di pensare il gommone.",
-"chars": 47546,
+"chars": 47548,
 "npages": 5,
 "url": "https://zar-formenti.net/",
 "len": "3.2–8.5 m",
@@ -1330,7 +1971,31 @@
 "wood": 0,
 "rib": 3,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"4ab99cb628": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.stefini.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "cd83cbeb05": {
 "title": "BWC Illmensee GmbH - Bootswerft und Kunststoffverarbeitung",
@@ -1354,7 +2019,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 21,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "4aef98a1f0": {
 "title": "Fast and easy to sail luxury yachts | Hanse",
@@ -1378,7 +2044,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 24,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "443dc40e8a": {
 "title": "Bootswerft Meyer - Ihre Werft an der Donau",
@@ -1404,7 +2071,8 @@
 "wood": 6,
 "rib": 7,
 "sail": 0,
-"cat": 3
+"cat": 3,
+"jobs": ""
 },
 "8c76da7caf": {
 "title": "Lariovela Web Site",
@@ -1426,7 +2094,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "3c0da3cbda": {
 "title": "Ethos Boats » HYBRID CROSSOVER BOATS",
@@ -1448,7 +2117,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "34b85601dd": {
 "title": "Rettungsboote, Eisrettung und Wasserrettung - Lehmar - Rettung mit System",
@@ -1472,14 +2142,15 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
-"23d49ba9c8": {
-"title": "Rancraft Engineering",
-"desc": "Rancraft  il marchio italiano che meglio riassume le caratteristiche pi prestigiose del made in Italy applicato alla nautica da diporto.",
-"chars": 401,
+"9fa85f4ddb": {
+"title": "",
+"desc": "",
+"chars": 0,
 "npages": 1,
-"url": "https://www.rancraft.it/",
+"url": "http://planundtatbootsbau.de/",
 "len": "",
 "emp": [],
 "area": [],
@@ -1488,18 +2159,19 @@
 "tool": "",
 "custom": false,
 "contract": "",
-"group": true,
+"group": false,
 "grp": 0,
 "alu": 0,
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "a68552f9e3": {
 "title": "Cantieri di Pisa | Italian Luxury Yacht Builders",
 "desc": "Since 1945, we have created iconic Italian luxury yachts. Explore our reinvented fleet and experience uncompromised comfort at sea.",
-"chars": 20685,
+"chars": 20692,
 "npages": 5,
 "url": "https://www.cantieridipisa.com/",
 "len": "3.6–56 m",
@@ -1518,7 +2190,8 @@
 "wood": 2,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "10b0d97d79": {
 "title": "Sunwind Yacht",
@@ -1545,7 +2218,54 @@
 "wood": 2,
 "rib": 0,
 "sail": 25,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"ea27dbcdef": {
+"title": "",
+"desc": "Sito in manutenzione Ci scusiamo per il disagio. Per informazioni: info@primatist.it",
+"chars": 84,
+"npages": 1,
+"url": "https://www.primatist.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"311036811f": {
+"title": "F.lli Marchi Boatyards - Nautical constructions - boats and yachts customizable with personal choice of materials, layout, engines selection - Italian",
+"desc": "Nautical constructions - Italian boat building (boatbuilder) - custom boats and yachts with personal choice of materials, layout, engines selection",
+"chars": 3188,
+"npages": 2,
+"url": "http://www.cantieremarchi.com/",
+"len": "10–22 m",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 1,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "1bb841ecde": {
 "title": "Aermarine",
@@ -1569,12 +2289,13 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "19a440c638": {
 "title": "Devoti Sailing: Innovation and Perfection in Race Boat Construction",
 "desc": "Explore Devoti Sailing, the global leader in race boat craftsmanship. From Olympic experience to building winning boats, our pursuit of perfection drives everything we do.",
-"chars": 110018,
+"chars": 95036,
 "npages": 7,
 "url": "https://devotisailing.com/",
 "len": "",
@@ -1592,8 +2313,9 @@
 "alu": 0,
 "wood": 0,
 "rib": 0,
-"sail": 76,
-"cat": 0
+"sail": 62,
+"cat": 0,
+"jobs": ""
 },
 "3f0105b444": {
 "title": "Cantieri di Sarnico S.p.A. | yacht di prestigio",
@@ -1617,7 +2339,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"1ce8b6fbec": {
+"title": "OKIBOATS - Famous European Boatyard",
+"desc": "OKIBOATS - SEE YOU AT THE SEA",
+"chars": 2867,
+"npages": 2,
+"url": "http://www.okiboats.com/pl/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "d884627286": {
 "title": "",
@@ -1639,7 +2385,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "55cde3742d": {
 "title": "Maxi-Rib di Lusso Made in Italy | Cantieri Magazzù",
@@ -1661,7 +2408,54 @@
 "wood": 0,
 "rib": 71,
 "sail": 3,
-"cat": 1
+"cat": 1,
+"jobs": ""
+},
+"eaf5c841dc": {
+"title": "",
+"desc": "Canoes & Kayaks Whirpool Spas",
+"chars": 29,
+"npages": 1,
+"url": "http://www.vajdagroup.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"286df065b6": {
+"title": "",
+"desc": "Caiman.cz- doména na prodej, k pronájmu Adresa: www.premiumdomeny.cz/store/ Telefon: 00420-733-445-711 E-mail: info@premiumdomeny.cz",
+"chars": 132,
+"npages": 1,
+"url": "http://www.caiman.cz/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "d245306040": {
 "title": "Motorboat.cz - Motorové čluny, nafukovací čluny, RIBs, lodní motory",
@@ -1683,7 +2477,31 @@
 "wood": 0,
 "rib": 14,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"2008b27a82": {
+"title": "Hajóbérlés | Bluestarboat",
+"desc": "Fedezd fel a vízi élmények világát a Bluestarboat hajóbérléssel. Bérelhető motorcsónak, kényelmes hajózás, családi és baráti programok a vízen.",
+"chars": 2123,
+"npages": 1,
+"url": "https://bluestarboat.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "1c6009e47d": {
 "title": "Boote Roschek – Neu- und Gebrauchtboote – Elektroboote",
@@ -1709,7 +2527,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "1b323f09e5": {
 "title": "Costruzione e riparazione di imbarcazioni in legno e vetroresina - Cantieri Vizianello",
@@ -1733,7 +2552,8 @@
 "wood": 8,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "23f8aba7ba": {
 "title": "Bootsservice, Winterlager & maritime Lösungen in Rostock - Yachtagentur Rostock",
@@ -1757,7 +2577,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "0ff4cf0463": {
 "title": "Xylon-Werk Mannheim",
@@ -1781,7 +2602,8 @@
 "wood": 8,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "4b3e209515": {
 "title": "Cantiere nautico | STUDIOPLAST",
@@ -1803,12 +2625,36 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"398c6004c1": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.nadirmarine.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "4299181667": {
 "title": "Home - Lübeck Yacht",
 "desc": "Home - Lübeck Yacht Navigation überspringen Home WERFT BOOTS- & SCHIFFBAU REFIT YACHT SERVICE & WINTERLAGER Winterlager TS Schiffstechnik in der Einsiedelstraße Winterlager Travewerft auf der Teerhofinsel Winterleistunge",
-"chars": 22081,
+"chars": 22084,
 "npages": 7,
 "url": "https://www.luebeckyacht.de/",
 "len": "6–60 m",
@@ -1831,19 +2677,18 @@
 "wood": 10,
 "rib": 0,
 "sail": 2,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
-"87a562710b": {
-"title": "Cantieri Gagliotta",
-"desc": "Cantieri Gagliotta Sea Appeal Sea Appeal Sea Appeal Sea Appeal Home Il Cantiere Fisherman Gagliotta 37 Gagliotta 44 Lobster Lobster 35 Lobster 53 Contatti × Social & Mail Menu Home Il Cantiere Fisherman Gagliotta 37 Gagl",
-"chars": 9542,
-"npages": 4,
-"url": "https://www.gagliotta.com/",
+"0d4c64a3f7": {
+"title": "Sirius-Werft Pln",
+"desc": "Sirius-Werft Pln",
+"chars": 16,
+"npages": 1,
+"url": "http://www.sirius-werft.de/",
 "len": "",
 "emp": [],
-"area": [
-30000
-],
+"area": [],
 "since": [],
 "new": [],
 "tool": "",
@@ -1855,7 +2700,77 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"0e296a4a35": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.cerricantierinavali.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"2713a0118a": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://venzor.hr/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"87a562710b": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "https://www.gagliotta.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "8e623efebc": {
 "title": "design and production of sailing and motor  yachts – KAMA yachts",
@@ -1879,7 +2794,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 56,
-"cat": 2
+"cat": 2,
+"jobs": ""
 },
 "282f7b4043": {
 "title": "Reklam PLAST – Izrada reklamnih proizvoda",
@@ -1901,7 +2817,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "cac562b752": {
 "title": "Thoma Boote - Schweizer Boots-Manufaktur seit 1972 am Walensee",
@@ -1925,7 +2842,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "54064b2605": {
 "title": "RaJo Boote- Boote, Jetskis, Service und Zubehör",
@@ -1952,7 +2870,77 @@
 "wood": 2,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"015ec5396b": {
+"title": "Olympia Yacht",
+"desc": "Olympia Yacht",
+"chars": 13,
+"npages": 1,
+"url": "https://olympia-yacht.pl/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"0e52292dc9": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://insidiasmarine.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"694178d5b9": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.custom-f-line.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "a47c1dd8b4": {
 "title": "Lošinjska plovidba - Brodogradilište d.o.o. -",
@@ -1974,7 +2962,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
 "9904ae7437": {
 "title": "Solfatec – Eine andere WordPress-Site.",
@@ -1996,7 +2985,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "b590d33037": {
 "title": "Zuanelli – Imbarcazioni su misura",
@@ -2023,12 +3013,13 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "9cfd5ccde4": {
 "title": "Cantiere del Pardo",
 "desc": "Cantiere del Pardo Menu Brands GS BLUE The Yard CdP Week 2027 Events News Contacts Press Careers Brands Pardo Yachts Grand Soleil Yachts VanDutch Yachts Pardo Yachts Grand Soleil Yachts VanDutch Yachts Visit the website ",
-"chars": 36481,
+"chars": 36462,
 "npages": 8,
 "url": "https://cantieredelpardo.com/",
 "len": "11.9–24.4 m",
@@ -2052,7 +3043,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 11,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"282c2e0567": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.proteusyachts.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "a1927954fa": {
 "title": "NauticaCab – Produzione e vendita gommoni di prestigio",
@@ -2076,12 +3091,36 @@
 "wood": 0,
 "rib": 64,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"fd72388927": {
+"title": "Home",
+"desc": "Home",
+"chars": 4,
+"npages": 1,
+"url": "http://www.baltec.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "7189d7a92e": {
 "title": "RS SAILING - RS Sailing, der weltweit größte Hersteller von Sportsegelbooten",
 "desc": "Sail IT, Live IT, Love IT. RS Sailing wurde aus einer Leidenschaft für Design und Segelsport geboren. RS Sailing ist der weltweit größte Hersteller von Sportsegelbooten.",
-"chars": 42860,
+"chars": 42948,
 "npages": 5,
 "url": "https://www.rssailing.com/de/",
 "len": "",
@@ -2100,13 +3139,14 @@
 "alu": 0,
 "wood": 0,
 "rib": 0,
-"sail": 151,
-"cat": 11
+"sail": 154,
+"cat": 11,
+"jobs": ""
 },
 "b40c4cd4c9": {
 "title": "Akrapovič | World Championship-Winning Exhaust System Technology",
 "desc": "Akrapovič | World Championship-Winning Exhaust System Technology",
-"chars": 36187,
+"chars": 35997,
 "npages": 6,
 "url": "https://www.akrapovic.com/",
 "len": "",
@@ -2127,7 +3167,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "3376f46fdb": {
 "title": "LOMAC NAUTICA - Lomac, rigid inflatable boats",
@@ -2149,7 +3190,8 @@
 "wood": 0,
 "rib": 6,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "83189fd603": {
 "title": "Gommoni da diporto | Nautica | Milano | italia | Lepera",
@@ -2173,7 +3215,8 @@
 "wood": 2,
 "rib": 17,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "d42323c290": {
 "title": "Invictus Yacht • Home",
@@ -2195,13 +3238,14 @@
 "wood": 2,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "acd56733d6": {
-"title": "",
-"desc": "Link to database cannot be established: SQLSTATE[HY000] [2002] Resource temporarily unavailable",
-"chars": 95,
-"npages": 1,
+"title": "Stavba Lodí",
+"desc": "Shop powered by PrestaShop",
+"chars": 16037,
+"npages": 4,
 "url": "http://stavbalodi.cz/index.php",
 "len": "",
 "emp": [],
@@ -2217,7 +3261,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 6,
+"jobs": ""
 },
 "a5affaa78c": {
 "title": "Pedrazzini | Yacht- und Bootswerft",
@@ -2241,12 +3286,13 @@
 "wood": 7,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "845ea2cb35": {
 "title": "Your Propulsion Experts | SCHOTTEL - YOUR PROPULSION EXPERTS",
 "desc": "1921 gegründet, entwickeln und produzieren wir rundum steuerbare Antriebs- und Manövriersysteme sowie komplette Antriebsanlagen bis 30 MW Leistung für Schiffe und Offshore-Anwendungen aller Art und Größe",
-"chars": 41922,
+"chars": 41434,
 "npages": 8,
 "url": "https://www.schottel.de/home",
 "len": "",
@@ -2266,7 +3312,31 @@
 "wood": 1,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"bbfa350a89": {
+"title": "Výroba lodí Noah – Dronte - půjčovna lodí Berounka Hron Ohře Otava Sázava Vltava",
+"desc": "Noah, Noah Agara, plastové lodě, plastvé kanoe, plastové kajaky",
+"chars": 1799,
+"npages": 1,
+"url": "https://www.dronte.cz/cs/78-vyroba-lodi-noah",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "ec3f8a093b": {
 "title": "Yachtbau Matzerath / Startseite",
@@ -2290,7 +3360,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 12,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "7ee2299ce8": {
 "title": "Brodogradilite Krk",
@@ -2312,7 +3383,79 @@
 "wood": 2,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"5abdc37f0d": {
+"title": "Just a moment...",
+"desc": "Just a moment...",
+"chars": 16,
+"npages": 1,
+"url": "http://www.ladensteinyacht.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"53d88881de": {
+"title": "Die Feltz Werft GmbH - Traditionswerft in Hamburg Finkenwerder",
+"desc": "Die Feltz-Werft restauriert, repariert, wartet und baut ✓ Barkassen ✓ Mehrzweckboote ✓ Segelyachten und vieles mehr",
+"chars": 13557,
+"npages": 5,
+"url": "https://www.feltz-werft.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 2,
+"wood": 0,
+"rib": 0,
+"sail": 6,
+"cat": 0,
+"jobs": ""
+},
+"1e6db956bb": {
+"title": "SBM Boote und Motoren Waren/Müritz",
+"desc": "Wir fertigen seit über 20 Jahren individuelle Sportboote von 4,30 m bis 8,40 m. Sie bekommen bei uns Bootsmotoren von Suzuki, Honda, Mercury und Craftsman.",
+"chars": 6216,
+"npages": 4,
+"url": "https://www.sbm-boote.de/",
+"len": "4.3–8.4 m",
+"emp": [],
+"area": [
+1400
+],
+"since": [],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "8aae05928c": {
 "title": "Lürssen",
@@ -2338,7 +3481,8 @@
 "wood": 3,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "99d0623db7": {
 "title": "Lolivul gumenjaci | Lolivul RIB Boats",
@@ -2360,7 +3504,8 @@
 "wood": 0,
 "rib": 5,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "74bc6dc197": {
 "title": "Monte Carlo Yachts | Yacht di lusso",
@@ -2384,7 +3529,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 3,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"27e85d3708": {
+"title": "Die Seite wurde nicht gefunden. - SEGEL.DE",
+"desc": "Die Seite wurde nicht gefunden. - SEGEL.DE Zum Inhalt springen Sail GP America`s Cup Vendee Globe The Ocean Race Regatta News olymp. Bootsklassen Oceanracing Foiling Verzeichnis Liste olymp. Bootsklassen Messe Blog 404 –",
+"chars": 11135,
+"npages": 3,
+"url": "https://segel.de/dyas",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 26,
+"cat": 0,
+"jobs": ""
 },
 "0cd777dfb7": {
 "title": "Identità, ricerca, saper fare - Gruppo Uniesse",
@@ -2411,7 +3580,8 @@
 "wood": 3,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "9eded5fa69": {
 "title": "Spezialisten für Ihre Yacht - Siemer Werft",
@@ -2441,7 +3611,8 @@
 "wood": 2,
 "rib": 0,
 "sail": 10,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "a954429dea": {
 "title": "Homepage - ISA Yachts",
@@ -2468,7 +3639,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
 "dfcc3376f4": {
 "title": "Lürssen",
@@ -2492,7 +3664,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "dc90cad8a8": {
 "title": "Luxury performance Sailing Yachts | Dehler",
@@ -2514,7 +3687,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 68,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
 "89f7c73a3a": {
 "title": "Landing page - Sacs Marine",
@@ -2536,7 +3710,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "7c94b67822": {
 "title": "Home - woodenboat.at",
@@ -2558,7 +3733,31 @@
 "wood": 7,
 "rib": 0,
 "sail": 5,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"1fa29ffc5f": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://remia-plast.hr/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "32baf0b48e": {
 "title": "Toy Marine, barche a motore classiche dal design tutto italiano",
@@ -2582,7 +3781,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "586be36d0d": {
 "title": "Master Gommoni – Vivere la tua passione per il mare",
@@ -2609,7 +3809,8 @@
 "wood": 0,
 "rib": 31,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "03a6b12001": {
 "title": "Gumotex – Skupina Gumotex",
@@ -2633,7 +3834,8 @@
 "wood": 0,
 "rib": 1,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "19f48e9fdb": {
 "title": "Maiora - Super Luxury Cruiser Yachts Made in Italy",
@@ -2658,7 +3860,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "6db4a4f8a3": {
 "title": "Home",
@@ -2682,7 +3885,54 @@
 "wood": 2,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"c6b59233a7": {
+"title": "Roseisland The House of Lobsterboats • 24040 • Chignolo d'Isola (BG) Lobster 38 - Lobster 43 - Lobster 49 - Lobster 53 - Lobster 65 - Pathfinder 58",
+"desc": "Roseisland The House of Lobsterboats • 24040 • Chignolo d'Isola (BG) Lobster 38 - Lobster 43 - Lobster 49 - Lobster 53 - Lobster 65 - Pathfinder 58 ® Copyright 2023 - ROSA & C. S.P.A. - P.Iva 01984110161 - REA n.167007 B",
+"chars": 361,
+"npages": 1,
+"url": "http://www.roseisland.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"18273c85d9": {
+"title": "403 Forbidden",
+"desc": "403 Forbidden 403 Forbidden Microsoft-Azure-Application-Gateway/v2",
+"chars": 66,
+"npages": 1,
+"url": "https://eurovinil.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "26ecb91b91": {
 "title": "Bootsservice, Winterlager & maritime Lösungen in Rostock - Yachtagentur Rostock",
@@ -2706,7 +3956,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "146af72a9d": {
 "title": "Cantieri Estensi",
@@ -2732,7 +3983,54 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"58bc63044a": {
+"title": "Spreefahrt Berlin | Nachhaltige Schiffstouren & Schiffe chartern",
+"desc": "Erleben Sie eine unvergessliche Spreefahrt Berlin mit unseren nachhaltigen Solarschiffen. Schiffstouren, Charterfahrten und Events.",
+"chars": 8077,
+"npages": 5,
+"url": "https://www.solarwaterworld.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"a882bf757e": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.tyachts.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "2c65378a3d": {
 "title": "\"Na prvi pogled je morje vedno enako, toda človek s svojim razumevanjem ne more dojeti, kaj šepečejo morski valovi, ko počasi in nežno zalivajo obrežj",
@@ -2756,14 +4054,15 @@
 "wood": 0,
 "rib": 7,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "6605299c03": {
 "title": "",
 "desc": "Do Not Sell or Share My Personal Information",
 "chars": 44,
 "npages": 1,
-"url": "http://www.overblue.it/",
+"url": "http://yfdabv11.com/?dn=www.overblue.it&accid=228450093&spfwd=1&spmsg=nschttp%3A504",
 "len": "",
 "emp": [],
 "area": [],
@@ -2778,7 +4077,54 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"c1324bcf81": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.blumartin.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"d67962a995": {
+"title": "Verano boten",
+"desc": "Verano boten",
+"chars": 12,
+"npages": 1,
+"url": "http://www.veranoboten.nl/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "87d01c4c93": {
 "title": "Inflatable Boats, Novomar Slovenia",
@@ -2800,7 +4146,8 @@
 "wood": 0,
 "rib": 4,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "f19d5ec016": {
 "title": "MANDL - Living on Water | Projektovanie a stavba lod, plvajcich domov a hausbtov",
@@ -2822,7 +4169,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "f187de66bb": {
 "title": "Documento senza titolo",
@@ -2844,7 +4192,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "654cba6989": {
 "title": "404 Not Found",
@@ -2866,7 +4215,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"e37ee5f9b9": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.queensyachts.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "58e6e35e3e": {
 "title": "Gommorizzo - Gommoni Professionali e Personalizzati - Sarzana (SP)",
@@ -2890,7 +4263,8 @@
 "wood": 0,
 "rib": 55,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "56462e66f3": {
 "title": "Greenline Yachts | Hybrid & Diesel Motor Yachts",
@@ -2914,7 +4288,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "f56892c1b0": {
 "title": "Home - Comar Yachts",
@@ -2938,7 +4313,31 @@
 "wood": 2,
 "rib": 0,
 "sail": 13,
-"cat": 7
+"cat": 7,
+"jobs": ""
+},
+"64d2cb5b8f": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.salonayachts.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "f269a02727": {
 "title": "Costruzioni e riparazioni nautiche - Exsol",
@@ -2960,7 +4359,8 @@
 "wood": 7,
 "rib": 0,
 "sail": 4,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "06eaad8883": {
 "title": "Startseite – Lettmann GmbH",
@@ -2986,7 +4386,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"658f1f6e5f": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "https://bootsbau-merlin.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "a2d915677d": {
 "title": "Yacht in legno | Cantiere Camuffo",
@@ -3011,7 +4435,8 @@
 "wood": 34,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "fbfa3e3a1a": {
 "title": "Adria Sail",
@@ -3033,7 +4458,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 7,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "ee07a15627": {
 "title": "Modelleria Tardivo | Modelli per fonderia e stampi in alluminio",
@@ -3057,7 +4483,8 @@
 "wood": 12,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "61a8178320": {
 "title": "Leidi Plovila - Elegancija.Moć.Štedljivost",
@@ -3081,7 +4508,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "eb37069829": {
 "title": "GCB German Craft Boats",
@@ -3105,7 +4533,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "c5a7b1303b": {
 "title": "Home Page - Nautivela",
@@ -3131,7 +4560,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 28,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"b744fdf5bc": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.anteros-yachts.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "cbae7ad096": {
 "title": "Wider Yachts | Electrifying Yachting",
@@ -3157,7 +4610,54 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 40
+"cat": 40,
+"jobs": ""
+},
+"e70027632e": {
+"title": "Tullio Abbate - Barche di Lusso - Il mondo dove la velocità diventa arte",
+"desc": "Tullio Abbate - Barche di Lusso - Il mondo dove la velocità diventa arte Home Storia Modelli Sea Star Sea Star Open 21′ Sea Star RS Sea Star Super Elite Elite 27′ Elite 28′ Mito Mito 23′ Mito 33′ Mito 40′ Mito 42′ Mito 4",
+"chars": 7821,
+"npages": 4,
+"url": "http://tullioabbate.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 0,
+"alu": 0,
+"wood": 1,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"3ef2acb83a": {
+"title": "Lobster Yacht meets passion - Mochi Craft Yachts",
+"desc": "Mochi Craft Yachts is an iconic brand that combines timeless charm with cutting-edge technology for an exclusive luxury lobster yacht experience.",
+"chars": 15400,
+"npages": 5,
+"url": "https://www.mochicraft-yacht.com/en-us/",
+"len": "13.4–22.6 m",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 1,
+"cat": 0,
+"jobs": ""
 },
 "f36993281a": {
 "title": "Faccenda | Barche da Regata Optimist e Vaurien Made in Italy\n – Shop Faccenda",
@@ -3184,7 +4684,34 @@
 "wood": 3,
 "rib": 0,
 "sail": 51,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"4842cafaa4": {
+"title": "Nadir Battelli Gommoni Tender - Gommoni Boat",
+"desc": "Nadir Battelli - produzione gommoni assistenza riparazioni restyling e rimessaggio Tarquinia 01016 Viterbo. Il sito italiano del diportista con stile e passione",
+"chars": 15837,
+"npages": 5,
+"url": "https://www.nadirbattelli.it/",
+"len": "12–14 m",
+"emp": [
+12,
+88
+],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 20,
+"sail": 3,
+"cat": 0,
+"jobs": ""
 },
 "adc7a8c433": {
 "title": "Plastika Nova - Proizvodi od stakloplastike!",
@@ -3208,7 +4735,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "5c8e11aee1": {
 "title": "Classico italiano | BWA",
@@ -3230,7 +4758,8 @@
 "wood": 1,
 "rib": 23,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "116dae15bd": {
 "title": "Traditionsunternehmen Bültjer Bootswerft in Ditzum an der Ems",
@@ -3256,7 +4785,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 4,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "c6ed1921ed": {
 "title": "Brioni Yachts",
@@ -3278,7 +4808,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"364e23214e": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.krake-catamarane.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "5f17730a85": {
 "title": "Solaris Yachts",
@@ -3307,7 +4861,31 @@
 "wood": 2,
 "rib": 0,
 "sail": 4,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"208885742d": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "https://fdtvo.com/?di=f3ef8b5d-ab0c-4b13-a068-ae03a176deef",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "f9fc785f77": {
 "title": "Dellapasqua DC - Cantiere nautico dal 1959",
@@ -3336,7 +4914,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"51710a156e": {
+"title": "",
+"desc": "This domain is for sale Re-visit the page to contact the owner. This domain is for sale Contact the Owner Name Email Message Website Send",
+"chars": 137,
+"npages": 1,
+"url": "http://yachtseite.de./index.php?title=Amethyst_27",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "82688da3db": {
 "title": "Falkor brodovi",
@@ -3358,7 +4960,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "50309cc251": {
 "title": "Schafer Yacht Kft.",
@@ -3380,12 +4983,84 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"1b648a03ec": {
+"title": "404 - Page Not Found",
+"desc": "404 - Page Not Found 404 Error - Page Not Found Please check the URL. Otherwise, click here to be redirected to the homepage.",
+"chars": 125,
+"npages": 1,
+"url": "http://cantierealtoadriatico.weebly.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"0999d57ec2": {
+"title": "Wir holen Sie ins Boot",
+"desc": "Sun Marine bietet Ihnen als Ihr erfahrener Spezialist für Wassersport Boote zum Leihen oder Kaufen, sowie passende Motoren und Zubehör!",
+"chars": 20323,
+"npages": 5,
+"url": "https://sun-marine.de/",
+"len": "4.2–7 m",
+"emp": [],
+"area": [
+5000
+],
+"since": [],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 3,
+"wood": 0,
+"rib": 20,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"ea24f551a0": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.aga-marine.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "d60db1f7db": {
 "title": "Fincantieri | Home Page",
 "desc": "Fincantieri is one of the world's largest shipbuilding groups, the only player active in all high complexity marine industry sectors. The Group is a leader in the construction of cruise ships, naval and offshore vessels, and stands out for its extensive experience in the development of underwater so",
-"chars": 58247,
+"chars": 58267,
 "npages": 8,
 "url": "https://www.fincantieri.com/en",
 "len": "",
@@ -3403,8 +5078,9 @@
 "alu": 0,
 "wood": 0,
 "rib": 0,
-"sail": 1,
-"cat": 0
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "1c86017ac4": {
 "title": "3B Craft | Cantiere Navale – Sito aziendale Cantiere Navale 3B Craft",
@@ -3426,7 +5102,33 @@
 "wood": 15,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"814c9056f3": {
+"title": "Numoyachts.com is for sale | HugeDomains",
+"desc": "Stress free and easy shopping experience. Simple and speedy service.",
+"chars": 5531,
+"npages": 1,
+"url": "https://www.hugedomains.com/domain_profile.cfm?d=numoyachts.com",
+"len": "",
+"emp": [],
+"area": [],
+"since": [
+2005
+],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "20f03475f9": {
 "title": "",
@@ -3448,7 +5150,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"632a78c5bf": {
+"title": "arimar.com - This website is for sale! - arimar Resources and Information.",
+"desc": "This website is for sale! arimar.com is your first and best source for information about arimar. Here you will also find topics relating to issues of general interest. We hope you find what you are looking for!",
+"chars": 74,
+"npages": 1,
+"url": "http://www.arimar.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "21e91299c7": {
 "title": "Mittelmann's Werft | Yachtwerft. Bootshandel. Winterlager.",
@@ -3472,7 +5198,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 5,
-"cat": 2
+"cat": 2,
+"jobs": ""
 },
 "efd0e98699": {
 "title": "Carnevali Yachts - Home",
@@ -3496,7 +5223,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "23aaa334df": {
 "title": "Pionier im Alu-Bootsbau - BARRO Bootsbau GmbH",
@@ -3520,29 +5248,8 @@
 "wood": 2,
 "rib": 0,
 "sail": 0,
-"cat": 0
-},
-"da011d6700": {
-"title": "デジタル看板　札幌 | 札幌でデジタルサイネージとプロジェクションマッピングを融合",
-"desc": "札幌でデジタルサイネージとプロジェクションマッピングを融合",
-"chars": 2465,
-"npages": 1,
-"url": "https://www.sly-yachts.com/",
-"len": "",
-"emp": [],
-"area": [],
-"since": [],
-"new": [],
-"tool": "",
-"custom": false,
-"contract": "",
-"group": false,
-"grp": 0,
-"alu": 0,
-"wood": 0,
-"rib": 0,
-"sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": "hreiben wir derzeit folgende Stellen aus. Elektriker / KFZ-Elektriker (m/w/d) Karosserie- oder Metallbauer (m/w/d) Technischer Kaufmann (m/w/d) Bootsbau bei BARRO® Wir bauen Boote ausschl"
 },
 "daad272e13": {
 "title": "Home - Baglietto",
@@ -3569,7 +5276,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "56b5fe4499": {
 "title": "Bellcraft – Cantiere Navale",
@@ -3595,7 +5303,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "5a72ed2d54": {
 "title": "Persico Group",
@@ -3619,7 +5328,54 @@
 "wood": 6,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"675143b32d": {
+"title": "FOLKEBOOT - Folkboat Centrale - FOLKBOAT CENTRALE: Ihr Folkeboot-Händler",
+"desc": "Folkboat Centrale - Ihr Folkeboot-Händler. Bestellen Sie in unserem Katalog Folkeboot-Produkte oder Ersatzteile.",
+"chars": 7530,
+"npages": 4,
+"url": "https://www.folkeboot-centrale.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 25,
+"alu": 0,
+"wood": 24,
+"rib": 0,
+"sail": 8,
+"cat": 0,
+"jobs": ""
+},
+"ab5b87e54c": {
+"title": "Futura Yacht Systems » Der erste breitenvariable, hochseetaugliche Katamaran der Welt!",
+"desc": "Futura Yacht Systems » Der erste breitenvariable, hochseetaugliche Katamaran der Welt! Home Facts Crew Media Presse Kontakt de en Der weltweit erste breitenveränderbare Katamaran Erleben Sie die Vorteile des Katamaranseg",
+"chars": 9365,
+"npages": 4,
+"url": "https://futura-yachtsystems.de/",
+"len": "4.93–4.93 m",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 8,
+"cat": 14,
+"jobs": ""
 },
 "0c25661114": {
 "title": "NUOVA JOLLY MARINE | Vendita barche e gommoni",
@@ -3641,14 +5397,15 @@
 "wood": 0,
 "rib": 22,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
-"05369d3346": {
-"title": "Italmar | Barche Cabin Cruiser, Walkaround e Open",
-"desc": "Italmar Cantieri Nautici: barche italiane in vetroresina, cabin cruiser, walkaround, open e fishing con motori fuoribordo.",
-"chars": 20138,
-"npages": 6,
-"url": "https://www.italmar.it/",
+"44e2a4cf3e": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.e-sea.at/",
 "len": "",
 "emp": [],
 "area": [],
@@ -3658,17 +5415,18 @@
 "custom": false,
 "contract": "",
 "group": false,
-"grp": 4,
+"grp": 0,
 "alu": 0,
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "bc3458ab83": {
 "title": "Jadran motori - Jadran motor",
 "desc": "Pronađite sve dijelove za vaše motore",
-"chars": 24772,
+"chars": 24751,
 "npages": 7,
 "url": "https://www.jadran-motor.com/",
 "len": "",
@@ -3685,7 +5443,8 @@
 "wood": 0,
 "rib": 36,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "28c8cc6a7a": {
 "title": "Water Line | Technology - Carrozzeria nautica",
@@ -3713,7 +5472,35 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"40ea634d9f": {
+"title": "Apreamare – Mediterranean Yachting Culture",
+"desc": "Apreamare – Mediterranean Yachting Culture Skip to content Facebook Instagram YouTube LinkedIn Tiktok Heritage Range Gozzo 35 Gozzo 38 Cabin Gozzo 42 Gozzo 45 Gozzo 48 Cabin Maestro 88 Dealer Network Apreamare Refit E-br",
+"chars": 6519,
+"npages": 4,
+"url": "https://www.apreamare.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [
+1849
+],
+"new": [
+"88 Dealer Network Apreamare Refit E-brochure Contact Open mobile menu Close mobile menu Debutta al Salone di Barcellona 2026 NUOVO GOZZO 42 / PRENOTA LA TUA VISITA Il fascino dello stile med"
+],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "95ed587263": {
 "title": "",
@@ -3735,7 +5522,56 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"b316c6a4ee": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://blusail.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"33f3b04c83": {
+"title": "SIBMA Navale Italiana - Home",
+"desc": "Cantiere navale, costruisce e restaura barche in legno dal 1962",
+"chars": 3485,
+"npages": 2,
+"url": "https://www.sibma.it/index.php/it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [
+1962
+],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 0,
+"alu": 0,
+"wood": 13,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "e7a0171ea1": {
 "title": "Home | DOERING BOOT I DAVIDSWERFT",
@@ -3757,7 +5593,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 18,
-"cat": 0
+"cat": 0,
+"jobs": "David Konz + Editha Cordes Justus Meyer & Fjonn mehr Jobs Bootsbauer (m/w/d) gesuchtHerzlich willkommen im Team der DAVIDSWERFT! Alle Infos dazu: Hier geht's lang! Kontakt Impressum Date"
 },
 "c6cee06042": {
 "title": "Home - Bugari",
@@ -3781,12 +5618,13 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "90ed193c22": {
 "title": "Benetti Yachts | The House of Yachting",
 "desc": "Benetti crafts unparalleled nautical excellence since 1873. Discover the world of Benetti Yacht and the new frontier of shipbuilding.",
-"chars": 55225,
+"chars": 55218,
 "npages": 7,
 "url": "https://benettiyachts.com/",
 "len": "37–58 m",
@@ -3810,7 +5648,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "be5cabd955": {
 "title": "Willkommen - aquawatt Elektroyachten, Elektroboote, Elektrobootsmotoren, Solarboote",
@@ -3832,7 +5671,77 @@
 "wood": 9,
 "rib": 3,
 "sail": 0,
-"cat": 1
+"cat": 1,
+"jobs": ""
+},
+"097ff33843": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.cantieri-ranieri.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"b9d97ee5bd": {
+"title": "",
+"desc": "Hairsal Justo vitae magna Mauris ullamcorper felis vitae erat Ut velit mauris Egestas sed Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto ab hic rem placeat eius commodi eum eligendi recusand",
+"chars": 1627,
+"npages": 1,
+"url": "http://www.arsmonaco.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"0ad7160565": {
+"title": "MAKU - plastové kanoe - Úvod",
+"desc": "MAKU - plastové kanoe pro turistiku",
+"chars": 3136,
+"npages": 1,
+"url": "http://maku.kanoe.cz/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "e1351ce15a": {
 "title": "Wieker Boote GmbH in Wiek",
@@ -3854,7 +5763,54 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"d2ee391846": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "https://www.weilandboats.at/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"a2a678ff56": {
+"title": "wayachts.it",
+"desc": "wayachts.it 17/10/2026 06:21:58 Sito in allestimento wayachts.it",
+"chars": 64,
+"npages": 1,
+"url": "http://www.wayachts.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "53c5c89336": {
 "title": "Livarna Dolinar d.o.o.",
@@ -3876,7 +5832,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "63a2ba05d7": {
 "title": "Home | Corsiva Yachting",
@@ -3905,7 +5862,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "7e7b6d576c": {
 "title": "Cantiere Nautico Marinello - Artigiani del mare dal 1973",
@@ -3931,7 +5889,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "9e9c577cb9": {
 "title": "Startseite - Comfortina Segelyachten - Service, Winterlager an der Ostsee in Schleswig",
@@ -3961,7 +5920,59 @@
 "wood": 1,
 "rib": 0,
 "sail": 37,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"1848fbab0b": {
+"title": "Bootsbau Rügen | Vilm Yachten in Lauterbach",
+"desc": "Werft Bootsbau Rügen in Lauterbach auf Rügen. Handwerk an Vilm Yachten und gebrauchte Vilm.",
+"chars": 43,
+"npages": 1,
+"url": "http://www.vilm.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"c8ee58bae6": {
+"title": "Intermarine – Naval Shipbuilder | Minehunters & Patrol Boats",
+"desc": "Intermarine S.p.A. designs and builds advanced naval vessels: minehunters, fast patrol boats and fast ferries. Italian shipbuilding excellence since 1969.",
+"chars": 14605,
+"npages": 7,
+"url": "https://www.intermarine.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [
+1996
+],
+"new": [
+"Contattaci News Business insights and articles written by our team of world-class professionals PRESS RELEASE 30 Luglio 2026 INTERMARINE (IMMSI GROUP): LAMINATION OF THE HULL OF THESECOND NEW-GENERATI",
+"MI), a Read more > INTERMARINE (IMMSI GROUP): LAMINATION OF THE HULL OF THE FIRST NEW-GENERATION MINEHUNTER FOR THE ITALIAN NAVY BEGINS 28 Settembre 2025 Sarzana (La Spezia), 25 September 2025 – Today"
+],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 10,
+"alu": 1,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "6e49fbc641": {
 "title": "Sklolaminát výroba na zákazku | NOVOPLAST",
@@ -3986,7 +5997,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"582622bdd5": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://more-boats.hr/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "77da64dfc5": {
 "title": "Home - canterinordest",
@@ -4008,7 +6043,8 @@
 "wood": 5,
 "rib": 0,
 "sail": 10,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "362f98e94c": {
 "title": "Cantieri Sangermani | Cantiere Navale | Dal 1896",
@@ -4032,7 +6068,33 @@
 "wood": 6,
 "rib": 0,
 "sail": 8,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"2c121c9255": {
+"title": "Terrybet — Casino, Scommesse e Bonus ADM",
+"desc": "Terrybet: casino online, scommesse sportive su 30+ sport, casino live e ippica. Licenza ADM (GAD 15245). Gestito da Street Web S.r.l.",
+"chars": 15891,
+"npages": 2,
+"url": "https://terybet.it/it-it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [
+2011
+],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "3f49c02350": {
 "title": "Dunki d.o.o.  ::  Šibenik 800",
@@ -4054,7 +6116,38 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"4a3b4264fc": {
+"title": "Amer Yachts: innovative, technological and sustainable yachts",
+"desc": "The Amer Yachts brand was born from the Amerio family’s passion for the sea and their desire to do business while respecting the environment and people.",
+"chars": 36056,
+"npages": 5,
+"url": "https://ameryachts.it/",
+"len": "42–42 m",
+"emp": [
+19
+],
+"area": [],
+"since": [
+1990
+],
+"new": [
+"ther”, prima imbarcazione in acciaio del cantiere INTERVIEW WITH BARBARA AMERIO DURING THE VENICE BOAT SHOW (MAY 27-31, 2026) Barbara Amerio presented to Nautica the new shipyard and the latest yachts",
+"Latest news 2 OCTOBER 2026 A new step in our ESG journey: AMER YACHTS joins the BPER Sustain"
+],
+"tool": "",
+"custom": true,
+"contract": "ee generations of the family in the company’s leadership. From left: Noemie, Barbara, Fernando, Rodolfo, Arianna and Alessandra Amerio Mission Amer Yachts’ research activities, in clo",
+"group": true,
+"grp": 6,
+"alu": 16,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "b1dd52f290": {
 "title": "Lavorazioni Vetroresina, Lavorazione Stampi Vetroresina Barche",
@@ -4078,7 +6171,8 @@
 "wood": 0,
 "rib": 6,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "4a787d8a60": {
 "title": "Cantiere Navale Di Donato",
@@ -4100,11 +6194,12 @@
 "wood": 6,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "63a998a7a2": {
 "title": "Home",
-"desc": "Home Aktuelle Seite: Startseite 15 | 10 | 2026 Allgemeines Kontakt Link Über uns Anmelden Boote und Zubehör Restauration Nannidiesel Sonderanfertigungen Edelstahl Kunststoffprodukte Gasprüfung für Sportboote Anmeldung Be",
+"desc": "Home Aktuelle Seite: Startseite 17 | 10 | 2026 Allgemeines Kontakt Link Über uns Anmelden Boote und Zubehör Restauration Nannidiesel Sonderanfertigungen Edelstahl Kunststoffprodukte Gasprüfung für Sportboote Anmeldung Be",
 "chars": 12676,
 "npages": 7,
 "url": "https://www.bootswerft-schneidereit.de/index.php/de/",
@@ -4124,7 +6219,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "6ba7d2a7e0": {
 "title": "Homepage - Cantieri Capelli",
@@ -4148,12 +6244,13 @@
 "wood": 0,
 "rib": 6,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "008d617b0f": {
 "title": "Lava Marine GmbH",
 "desc": "Bau von hochwertigen Rettungsbooten (RTB 1+2), Hochwasserbooten und Mehrzweckbooten in Bad Lippspringe",
-"chars": 15996,
+"chars": 16318,
 "npages": 5,
 "url": "https://lavamarine.com/",
 "len": "",
@@ -4170,7 +6267,31 @@
 "wood": 0,
 "rib": 11,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"ca794a81a2": {
+"title": "Selva Marine",
+"desc": "Selva Marine Selva Marine Choose your country EN Products Catalogues and price list Events Sales Points Outboards 4 STROKE 4 STROKE XSR 2 STROKE Boats RIGID INFLATABLE FIBREGLASS Selva Marine Products Catalogues and pric",
+"chars": 18090,
+"npages": 7,
+"url": "https://www.selvamarine.com/en/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 19,
+"alu": 0,
+"wood": 0,
+"rib": 19,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "cdeb0c2293": {
 "title": "Home - Maxi Dolphin",
@@ -4196,7 +6317,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 6,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "7fd26a33a5": {
 "title": "Bootswerft Graf | Holzboot & Segelschiff Reparatur Profis",
@@ -4218,7 +6340,31 @@
 "wood": 3,
 "rib": 0,
 "sail": 7,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"a01d04f766": {
+"title": "mY Home",
+"desc": "mantra-yachts - Kompetenz in Sachen Segelboot.",
+"chars": 3663,
+"npages": 4,
+"url": "http://www.mantra-yachts.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 4,
+"cat": 0,
+"jobs": ""
 },
 "8265e05dd3": {
 "title": "Homepage - Rio Yachts Srl",
@@ -4242,7 +6388,8 @@
 "wood": 3,
 "rib": 11,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "0efd0e336c": {
 "title": "Sanlorenzo Yachts - Made to Measure Yachts, since 1958",
@@ -4268,7 +6415,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"5ebba22830": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://nextmarine.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "990e7cf3e5": {
 "title": "Fahrtenkatamarane & Hausboote - www.balticat.de",
@@ -4292,7 +6463,35 @@
 "wood": 0,
 "rib": 0,
 "sail": 4,
-"cat": 20
+"cat": 20,
+"jobs": ""
+},
+"86389c5c95": {
+"title": "TOPCAT Catamarans | TOPCAT",
+"desc": "The official website of the German manufacturer of sports catamarans. Discover all models (K1, K2X, K3X, K4X, AVANTI) and configure your boat directly with delivery to your sailing spot. Catamarans from TOPCAT are particularly characterized by their unco…",
+"chars": 25022,
+"npages": 5,
+"url": "https://topcat.de/en/",
+"len": "4.1–5.5 m",
+"emp": [
+4
+],
+"area": [],
+"since": [
+1979
+],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 4,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 25,
+"cat": 15,
+"jobs": ""
 },
 "453a2dd491": {
 "title": "Grginić Jahte – Plovila, charter usluge i luksuzni apartmani",
@@ -4314,7 +6513,8 @@
 "wood": 0,
 "rib": 6,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "443bd03af2": {
 "title": "Úvodní stránka - RK Company",
@@ -4336,7 +6536,54 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"4f7090a62f": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.costadellestyachting.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"a89b5e80ba": {
+"title": "(none) - (none)",
+"desc": "(none) - (none) layout-1 (none) (none)",
+"chars": 38,
+"npages": 1,
+"url": "http://www.crisline.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "dc2a53579f": {
 "title": "Startseite Poeler Bootsbau",
@@ -4360,7 +6607,31 @@
 "wood": 4,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"a45a8adf21": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.brodogradiliste-cres.hr/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "f76d45529f": {
 "title": "hausbot.info - stavba hausbt - CE cerifikace - Roman Kostk",
@@ -4382,7 +6653,34 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"1373cd594e": {
+"title": "MAS srl - Cantieri navali Mas, il made in Italy ricco di creatività - The MAS shipyard, made in Italy rich in creativity",
+"desc": "Gli yacht MAS sono un concentrato di stile e tecnologia, imbarcazioni esclusive costruite con cura dei dettagli e materiali di assoluto pregio.",
+"chars": 12082,
+"npages": 1,
+"url": "https://www.mas-yacht.it/",
+"len": "4.01–24.1 m",
+"emp": [
+8,
+10
+],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "630e0a14fc": {
 "title": "Franchini Yachts",
@@ -4406,7 +6704,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "91175742f0": {
 "title": "Holz - Bootsbauwerft  Helmut Fischer",
@@ -4428,7 +6727,31 @@
 "wood": 10,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"797eb49f53": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.jokerboatgommoni.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "94dbee76ce": {
 "title": "Prijon | Kajaks & Zubehör für dein nächstes Outdoor-Abenteuer",
@@ -4455,7 +6778,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "465e83906d": {
 "title": "Viktor Lenac - one of the leading shipyards in the Mediterranean",
@@ -4479,12 +6803,13 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "192427a16f": {
 "title": "Luxury Yachts by Ferretti Group: Leading Luxury Yachting Worldwide",
 "desc": "Ferretti Group: creating emotion, dreams and desire, guaranteeing the highest levels of quality, innovation and uniqueness. Discover the Group's Brands.",
-"chars": 37762,
+"chars": 37794,
 "npages": 8,
 "url": "https://www.ferrettigroup.com/en-us/",
 "len": "39–54 m",
@@ -4506,7 +6831,54 @@
 "wood": 4,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"f1fb412f19": {
+"title": "Offroad-Zubehör: Shop für Pickup-Zubehör - Tessera4x4",
+"desc": "Offroad-Zubehör im Shop: Große Auswahl Pickup & Geländewagen Zubehör! Laderaumabdeckung ✓ Reling ✓ Überrollbügel ✓ Dachträger ✓ Jetzt kaufen ►",
+"chars": 46381,
+"npages": 5,
+"url": "https://tesser4x4.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 3,
+"wood": 5,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"43ac60576b": {
+"title": "Domain information nauticart.it - Nidoma",
+"desc": "Domain information nauticart.it - Nidoma Sign In Register Login English Italiano English Español Deutsch Welcome to the Nidoma Marketplace nauticart.it It is for sale on our platform Buy the domain now € Plus VAT, if app",
+"chars": 1704,
+"npages": 1,
+"url": "https://parking.nidoma.com/www.nauticart.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "d71fe324c4": {
 "title": "Boutique Yachts Croatia – Direct from the Shipyard | Monachus",
@@ -4531,12 +6903,38 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"a572686173": {
+"title": "Willkommen bei Gruben - Bootsbau",
+"desc": "Seit 1968 ist die GRUBEN-Werft Vorreiter für sichere Familien- und Freizeitjollen.\r\n\t\t\t\t\t\t\t\t\tUnser Portfolio wird ständig erweitert und modernisiert. So konnten wir mit einem \r\n\t\t\t\t\t\t\t\t\tbreitgefächerten Angebot schon tausende Segler mit dem für sie richtigen Boot begeistern.\r\n\t\t\t\t\t\t\t\t\tGruben in Mark",
+"chars": 4637,
+"npages": 5,
+"url": "http://www.gruben.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [
+1968
+],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 3,
+"cat": 0,
+"jobs": ""
 },
 "28b0d98a0e": {
 "title": "Willkommen bei Allroundmarin",
 "desc": "Willkommen bei Allroundmarin The store will not work correctly when cookies are disabled. Wir verwenden Cookies, um Ihre Erfahrungen besser machen. Um der neuen e-Privacy-Richtlinie zu entsprechen, müssen wir um Ihre Zus",
-"chars": 51722,
+"chars": 81725,
 "npages": 8,
 "url": "https://www.allroundmarin.at/de/",
 "len": "7–20 m",
@@ -4560,7 +6958,8 @@
 "wood": 1,
 "rib": 42,
 "sail": 10,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "d688a1b76b": {
 "title": "Willkommen bei Abeking & Rasmussen. Eine traditionsreiche Werft.",
@@ -4584,7 +6983,54 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"3b93f71a54": {
+"title": "Cantiere Navale Poli",
+"desc": "POLI Srl/ Ship yard: design, motoscafi, tender, tenders, production of yachts, supply of yachts, cantiere navale: progettazione di yachts, produzione di yachts, produzione di motoscafiimago, imago yachts, imagoyachts",
+"chars": 3345,
+"npages": 4,
+"url": "https://www.imagoyachts.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 0,
+"alu": 0,
+"wood": 1,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"221ef2551d": {
+"title": "Wird geladen...",
+"desc": "Wird geladen... Sicherheitsüberprüfung Einen Moment bitte...",
+"chars": 60,
+"npages": 1,
+"url": "https://p2-1.afp24.net/true1.php?id=nemobg8t004763u8&sv=1",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "2aac349e85": {
 "title": "Home - Bootbau Biatel in Hard am Bodensee",
@@ -4608,7 +7054,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "a125c08a9f": {
 "title": "Katamarány - jonascatamaran about",
@@ -4634,7 +7081,8 @@
 "wood": 8,
 "rib": 0,
 "sail": 3,
-"cat": 30
+"cat": 30,
+"jobs": ""
 },
 "a5deb3f8da": {
 "title": "Special Shipbuilding – Fassmer | Boats & Composites",
@@ -4664,7 +7112,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
 "59cc1cebe9": {
 "title": "Quadrofoil",
@@ -4688,7 +7137,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "fe8e85b170": {
 "title": "Kvarnerplastika - proizvodnja i remont brodica",
@@ -4710,7 +7160,54 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"843b5f0794": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.admiralyachts.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"c9d80fd334": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "https://www.robsonpaddle.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "f13692a3a5": {
 "title": "404 Not Found",
@@ -4732,7 +7229,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"64dc3d8e0f": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.vryacht.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "ed037b6fba": {
 "title": "palumbo",
@@ -4761,7 +7282,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 3
+"cat": 3,
+"jobs": ""
 },
 "064483982f": {
 "title": "B-YACHTS – Sail the difference",
@@ -4783,7 +7305,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 7,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "ca87b801d6": {
 "title": "Home - Remontowa - Remontowa",
@@ -4809,7 +7332,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"8be3514bcb": {
+"title": "Just a moment...",
+"desc": "Just a moment...",
+"chars": 16,
+"npages": 1,
+"url": "https://tauscheck-bootswerft.ch/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "855f1404c7": {
 "title": "Mancini - Military & Professional Boats | Imbarcazioni custom",
@@ -4833,7 +7380,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "f99a2af895": {
 "title": "Yachtwerft Benjamins GmbH, Emden - Yachtbau, Bootsbau, Schiffswerft, Aluminium Yachten, Bootswerft",
@@ -4855,7 +7403,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 4,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
 "b96a600f05": {
 "title": "Cantiere Nautico Lillia",
@@ -4879,7 +7428,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "1149be350c": {
 "title": "Cranchi Yachts • Luxury Motor Yachts Made in Italy",
@@ -4908,7 +7458,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "ccf326ca57": {
 "title": "MV Marine",
@@ -4935,7 +7486,31 @@
 "wood": 0,
 "rib": 18,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"0337f02776": {
+"title": "Aquamarine",
+"desc": "﻿ Aquamarine",
+"chars": 12,
+"npages": 1,
+"url": "http://www.aquamarineweb.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "aa769f7cdc": {
 "title": "HolzDinghiWerft - HOME",
@@ -4957,7 +7532,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "71a65e579b": {
 "title": "VEPLAS – composite production & manufacturing of fiber reinforced plastic",
@@ -4983,7 +7559,54 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"5fc82bcab2": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.dominator.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"0bc283513a": {
+"title": "Cantieri Navali Partenopei - Official WebSite 2012/2013",
+"desc": "Cantieri Navali Partenopei - Official WebSite 2012/2013 Home Chi Siamo Prodotti Squgnizzo 65 Squgnizzo 43Ev Squgnizzo 43 Squgnizzo 35 Squgnizzo 31 Squgnizzo 27 Skizzo 21 Usato Servizi Ormeggio Refit Rimessaggio Customizz",
+"chars": 1859,
+"npages": 4,
+"url": "https://www.cantierinavalipartenopei.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "03d0d83d0c": {
 "title": "Nautica Ondina - Gommoni e Tender Made in Italy",
@@ -5007,12 +7630,59 @@
 "wood": 0,
 "rib": 10,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"e203c75363": {
+"title": "baiayacht.it - This website is for sale! - baiayacht Resources and Information.",
+"desc": "This website is for sale! baiayacht.it is your first and best source for information about baiayacht. Here you will also find topics relating to issues of general interest. We hope you find what you are looking for!",
+"chars": 79,
+"npages": 1,
+"url": "http://www.baiayacht.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"c80522c16e": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.replicraft.cz/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "39e888e05e": {
 "title": "HOME - Bootswerft Heistracher",
 "desc": "HOME - Bootswerft Heistracher HOME Boote 600 Sprint 670 Sprint 820 Sprint Angebote Arbeitsboote Chiemseeplätte Einzelanfertigungen Über uns Philosophie Eccura Motoren Überholungen Aktuelles Seite wählen GEBAUT AUS MAHAGO",
-"chars": 25442,
+"chars": 25444,
 "npages": 6,
 "url": "https://heistracher.de/",
 "len": "5.3–12 m",
@@ -5031,7 +7701,8 @@
 "wood": 17,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "85c5747e27": {
 "title": "Self-inflating Electric Powered Paddle board - SipaBoards",
@@ -5058,7 +7729,8 @@
 "wood": 0,
 "rib": 6,
 "sail": 4,
-"cat": 2
+"cat": 2,
+"jobs": ""
 },
 "bf3157ec17": {
 "title": "ICE Yachts - ICE Yachts",
@@ -5083,7 +7755,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 11,
-"cat": 9
+"cat": 9,
+"jobs": ""
 },
 "db351244b9": {
 "title": "Lepoglavec d.o.o. - Više od 40 godina kvalitete u poliesterskim kompozitima dječji tobogani, spremnici, proizvodi od poliestera",
@@ -5108,7 +7781,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"a67af826d4": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.italiayachts.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "b145ae19c3": {
 "title": "International Performance Yachting | Performance",
@@ -5134,12 +7831,82 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"b3bc2666ba": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.cantiererinaldi.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"a1a1f93ea6": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.cantieri-navali.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"851aa64b37": {
+"title": "Wird geladen...",
+"desc": "Wird geladen... Sicherheitsüberprüfung Einen Moment bitte...",
+"chars": 60,
+"npages": 1,
+"url": "https://p2-1.afp24.net/true1.php?id=booxcvgg6zli33zv&sv=1",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "7775adedc8": {
 "title": "Home - Neptun Yachten",
 "desc": "In unserer Werft in Rheda-Wiedenbrück werden Neptun-Yachten in der Regie von Pascal Ernst gebaut, gewartet und repariert. Über die Jahre wurde die",
-"chars": 51462,
+"chars": 51576,
 "npages": 7,
 "url": "https://neptun-yachten.net/",
 "len": "6–7.75 m",
@@ -5158,7 +7925,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 45,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "1163b10803": {
 "title": "Salpa | Home",
@@ -5182,7 +7950,8 @@
 "wood": 2,
 "rib": 8,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "19b00e3eb1": {
 "title": "Italboats - In Pursuit of Perfection",
@@ -5206,7 +7975,8 @@
 "wood": 0,
 "rib": 31,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "46727280cb": {
 "title": "Bootsbau Schubert GmbH",
@@ -5230,7 +8000,31 @@
 "wood": 1,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"b0582e08a6": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.dinamicayachts.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "cdf96fc048": {
 "title": "Bootswerft Wilhelm Wagner – Just another WordPress site",
@@ -5252,7 +8046,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 4,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "e5e5ba2dce": {
 "title": "CATAMARIS® - Full Custom oceangoing catamarans",
@@ -5282,7 +8077,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 61,
-"cat": 117
+"cat": 117,
+"jobs": ""
 },
 "65affb0f31": {
 "title": "Home - FLYER",
@@ -5304,7 +8100,8 @@
 "wood": 0,
 "rib": 4,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "aeb661154b": {
 "title": "Schlichting-Werft – Die Schlichting-Werft bestand von 1898 bis 1987 in Travemünde",
@@ -5334,7 +8131,31 @@
 "wood": 2,
 "rib": 0,
 "sail": 16,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"b3c0fe7531": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "https://www.vittoria.biz/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "3aee3683b5": {
 "title": "Yachtservice Heikendorf",
@@ -5358,12 +8179,13 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "8e583cf32c": {
 "title": "neumann-boats Onlineshop | Boote und Zubehör",
 "desc": "Online Paddelshop | Deutscher Fachhändler und Hersteller | Top Marken Große Auswahl Günstiger Preis Versandkostenfrei | Kajak Kanu SUP Rafting",
-"chars": 23456,
+"chars": 23448,
 "npages": 5,
 "url": "https://www.neumann-boats.de/",
 "len": "",
@@ -5382,7 +8204,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "1513f02e65": {
 "title": "DALMONT - BRODOGRADILIŠTE KRALJEVICA",
@@ -5406,14 +8229,15 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 1
+"cat": 1,
+"jobs": ""
 },
-"b525ad5399": {
+"1ec16e05af": {
 "title": "",
-"desc": "",
-"chars": 0,
+"desc": "﻿",
+"chars": 1,
 "npages": 1,
-"url": "https://www.noahbattelli.it/it/",
+"url": "http://www.sulkowski.pl/",
 "len": "",
 "emp": [],
 "area": [],
@@ -5428,7 +8252,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "5a3f2b584b": {
 "title": "Caravela Boatbuilders sp.k.",
@@ -5450,7 +8275,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 2,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "d5ed3e4c83": {
 "title": "Sportsegelboote der Extraklasse",
@@ -5472,7 +8298,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 43,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"7c7830efee": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "https://ww38.kopf-solarschiff.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "50b7f20fc5": {
 "title": "Canados Italy",
@@ -5496,7 +8346,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "b4ebf45653": {
 "title": "Home Page - Absolute Yachts",
@@ -5525,7 +8376,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "8b4716abd6": {
 "title": "Alfastreet Yachts | Rethinking Luxury",
@@ -5547,7 +8399,31 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"3a9bdb9285": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.piolti.it/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "1176bfbefb": {
 "title": "Cantiere Bluline | La passione per il mare",
@@ -5569,14 +8445,38 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
-"a54c37d883": {
-"title": "Error: Active domain connection for this domain not found",
-"desc": "Error: Active domain connection for this domain not found Something unexpected happened while accessing this website. It looks like it doesn't have an active domain connection upgrade to link the requested domain name to",
-"chars": 457,
+"ed87a0df4b": {
+"title": "Willkommen - Henningsen & Steckmest GmbH",
+"desc": "Willkommen - Henningsen & Steckmest GmbH Willkommen auf der Werft der Scalar-Yachten Besuchen Sie die Werft der SCALAR-YACHTEN in Kappeln an der Schlei AM TAG DER OFFENEN WERFT Sonntag | 30. März | 10-16 Uhr Wir freuen u",
+"chars": 3756,
+"npages": 2,
+"url": "https://scalaryachten.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 1,
+"cat": 0,
+"jobs": ""
+},
+"8c80cc7203": {
+"title": "",
+"desc": "",
+"chars": 0,
 "npages": 1,
-"url": "http://albatrointernational.com/",
+"url": "http://www.manikela.hr/",
 "len": "",
 "emp": [],
 "area": [],
@@ -5591,7 +8491,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "023e324dca": {
 "title": "Carbon Solutions | Hintsteiner Group",
@@ -5616,7 +8517,8 @@
 "wood": 3,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "4a50548c5c": {
 "title": "RND | Precision CNC Milling, Tooling & Composite Manufacturing",
@@ -5644,7 +8546,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "bcc1f0feff": {
 "title": "Gommoni MAR.CO | Qualità e unicità dal 1974",
@@ -5668,20 +8571,69 @@
 "wood": 0,
 "rib": 27,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
-"d82fc3aae5": {
-"title": "ConItSolutions.com is for sale | HugeDomains",
-"desc": "Start using this domain right away. Straightforward domain shopping experience. Quick access to your domain.",
-"chars": 5566,
-"npages": 1,
-"url": "https://www.hugedomains.com/domain_profile.cfm?d=conitsolutions.com",
+"2ad2ec5aeb": {
+"title": "Marlin Boat – Gommoni fuoribordo e entrofuoribordo",
+"desc": "Marlin Boat – Gommoni fuoribordo e entrofuoribordo Menu CONTATTI IT IT EN Menu MODELLI HIGH-END 40 33 WEEKENDER 33 TENDER 33 24 SR 24 X HD PRO 850 HD Pro GT 850 HD Pro 380 HD Pro CLASSIC 182 226 274 298 372 DYNAMIC 540 6",
+"chars": 29578,
+"npages": 6,
+"url": "https://www.marlinboat.it/",
+"len": "5–50 m",
+"emp": [
+8
+],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 6,
+"alu": 0,
+"wood": 5,
+"rib": 14,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"320665fec7": {
+"title": "Cantiere Colombo | Motoscafi artigianali italiani dal 1956",
+"desc": "Cantiere Colombo: motoscafi italiani di qualità costruiti dai nostri artigiani dal 1956. Eleganza, navigabilità e valore senza tempo. Scopri i modelli.",
+"chars": 1961,
+"npages": 2,
+"url": "http://www.colomboboats.it/",
 "len": "",
 "emp": [],
 "area": [],
 "since": [
-2005
+1956
 ],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": true,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
+},
+"dee71b15b4": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.axion-boats.com/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
 "new": [],
 "tool": "",
 "custom": false,
@@ -5692,7 +8644,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "cdb87ffde8": {
 "title": "Biga Yachten - Eleganz auf dem Wasser | Segelboote",
@@ -5716,7 +8669,8 @@
 "wood": 5,
 "rib": 0,
 "sail": 16,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "8dd6149c78": {
 "title": "Home - Yachtwerft Lütje",
@@ -5742,7 +8696,31 @@
 "wood": 7,
 "rib": 0,
 "sail": 6,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"010deff93a": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.yacht.co.at/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "9cc1664020": {
 "title": "Pauger Carbon Composites",
@@ -5768,7 +8746,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 5,
-"cat": 3
+"cat": 3,
+"jobs": ""
 },
 "e1865bfb5a": {
 "title": "Marian Boote - Elektroboote aus St. Wolfgang",
@@ -5795,7 +8774,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "37c7128c4d": {
 "title": "Conrad Shipyard | Boutique Luxury Shipyard | Home",
@@ -5828,7 +8808,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 35,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "95cb91e7c5": {
 "title": "Knierim Yachtbau – Individuelle Yachten",
@@ -5858,7 +8839,8 @@
 "wood": 2,
 "rib": 0,
 "sail": 1,
-"cat": 3
+"cat": 3,
+"jobs": ""
 },
 "59e063272d": {
 "title": "Zillenbau Königsdorfer aus Wesenufer in Oberösterreich",
@@ -5880,7 +8862,8 @@
 "wood": 3,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "58bc27bb90": {
 "title": "BONIN",
@@ -5902,7 +8885,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 19,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "536b43387c": {
 "title": "HATECKE",
@@ -5928,7 +8912,56 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"5caf54850c": {
+"title": "SAILART – …Segelboote, Daysailer und Kleinkreuzer – Qualität aus Deutschland seit 1993!",
+"desc": "SAILART – …Segelboote, Daysailer und Kleinkreuzer – Qualität aus Deutschland seit 1993! ↓ Zum Inhalt Secondary Navigation Hauptnavigation Menü Home SAILART 17 SAILART 17.5 SAILART 18 SAILART 19 SAILART 20 SAILART 22 Zube",
+"chars": 14992,
+"npages": 3,
+"url": "https://www.sailart.de/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [
+1993
+],
+"new": [],
+"tool": "",
+"custom": true,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 19,
+"cat": 0,
+"jobs": ""
+},
+"43779f13d6": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.amigayacht.pl/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "6b127d3cc3": {
 "title": "PEHN Elektroboote | Tretboote | Schnellboote",
@@ -5954,7 +8987,8 @@
 "wood": 0,
 "rib": 14,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "346a231fb1": {
 "title": "Ixylon Segeljolle Startseite",
@@ -5980,7 +9014,8 @@
 "wood": 1,
 "rib": 0,
 "sail": 14,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "d98666a915": {
 "title": "GFK, Schiffbau, Bootsbau, Flugzeugbau, Schienenfahrzeugbau - Fiberglas Technik Hamburg",
@@ -6002,14 +9037,15 @@
 "wood": 2,
 "rib": 0,
 "sail": 5,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
-"6c6a8aad76": {
-"title": "",
-"desc": "www.francescocrosera.com Questo dominio è già registrato This domain is already taken Este dominio ya está registrado Questo dominio è stato registrato con Aruba.it Area clienti | Guide e Assistenza",
-"chars": 198,
+"6b7bd918f4": {
+"title": "Domain nicht verfügbar | Domain not available",
+"desc": "Domain nicht verfügbar | Domain not available Die Domain www.wiking-schlauchboote.de ist nicht verfügbar. The domain www.wiking-schlauchboote.de is not available.",
+"chars": 162,
 "npages": 1,
-"url": "http://www.francescocrosera.com/",
+"url": "http://www.wiking-schlauchboote.de/",
 "len": "",
 "emp": [],
 "area": [],
@@ -6022,9 +9058,10 @@
 "grp": 0,
 "alu": 0,
 "wood": 0,
-"rib": 0,
+"rib": 2,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "1d016c63e7": {
 "title": "Wagner Werft | Die Werft am Bodensee!  |  Spezialist für Teak-Decks  |  Alles Rund um Ihre Yacht  |  Winterliegeplätze",
@@ -6049,7 +9086,8 @@
 "wood": 6,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "6f265375c6": {
 "title": "Mangusta Yachts | Italian yacht builders",
@@ -6082,7 +9120,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "5056a65618": {
 "title": "Home",
@@ -6106,12 +9145,36 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
+},
+"5c21c9523c": {
+"title": "",
+"desc": "",
+"chars": 0,
+"npages": 1,
+"url": "http://www.bootsbaudomenig.at/",
+"len": "",
+"emp": [],
+"area": [],
+"since": [],
+"new": [],
+"tool": "",
+"custom": false,
+"contract": "",
+"group": false,
+"grp": 0,
+"alu": 0,
+"wood": 0,
+"rib": 0,
+"sail": 0,
+"cat": 0,
+"jobs": ""
 },
 "16b8ed18c4": {
 "title": "In the future since 1963 | CRN",
 "desc": "CRN is the marriage of absolute technical mastery and passion for craftsmanship. CRN: forged and shaped around your concept of cruising.",
-"chars": 10533,
+"chars": 10541,
 "npages": 4,
 "url": "https://www.crn-yacht.com/en-us/",
 "len": "39.6–58.2 m",
@@ -6133,7 +9196,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 1,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "7070db7d5d": {
 "title": "Ott Yacht Wassersport segeln",
@@ -6155,7 +9219,8 @@
 "wood": 2,
 "rib": 9,
 "sail": 49,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "d227055da7": {
 "title": "Neo yachts & Composites - fast comfortable Sail Boats",
@@ -6177,7 +9242,8 @@
 "wood": 0,
 "rib": 0,
 "sail": 10,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "cfba193ba5": {
 "title": "Bootsbau Doriff, Yachtbau Wassenberg, Verkauf und Vermittlung",
@@ -6199,37 +9265,37 @@
 "wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "8d8a05b63a": {
 "title": "Baumgarten Bootsbau | Ruderboote für Verein und Freizeit",
 "desc": "Baumgarten Bootsbau produziert seit 1988 Ruderboote. Jetzt das eigene Ruderboot konfigurieren!",
-"chars": 36088,
+"chars": 7379,
 "npages": 7,
 "url": "https://baumgarten-bootsbau.de/",
 "len": "",
 "emp": [],
 "area": [
-2000,
-2500
+2000
 ],
 "since": [
 1988
 ],
 "new": [
-"September 2026 8:48 Karbon-Ruderboot Ruderjolle Family mit Sandwichdeck- Innenausbau Neu bei Baumgarten Bootsbau",
 "September 2026 8:48 Karbon-Ruderboot Ruderjolle Family mit Sandwichdeck- Innenausbau Neu bei Baumgarten Bootsbau"
 ],
-"tool": "Aufbau von modernen Kunststoffruderbooten wird 16. Oktober 2023 15:04 CNC-5-Achs-Bearbeitungszentrum ist einsatzbereit Nach einigen Lieferverzögerungen ist das neue CNC-Bearbeitungszent",
+"tool": "",
 "custom": true,
 "contract": "",
 "group": false,
-"grp": 4,
-"alu": 3,
-"wood": 2,
+"grp": 0,
+"alu": 1,
+"wood": 0,
 "rib": 0,
 "sail": 0,
-"cat": 0
+"cat": 0,
+"jobs": ""
 },
 "1263937447": {
 "title": "Bootswerft Leonhard Mader GmbH - Home",
@@ -6251,6 +9317,7 @@
 "wood": 0,
 "rib": 0,
 "sail": 4,
-"cat": 0
+"cat": 0,
+"jobs": ""
 }
 }

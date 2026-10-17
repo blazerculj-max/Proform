@@ -45,10 +45,11 @@ TRADE = {
 }
 SUBPAGE = re.compile(r"manufaktur|storitve|usluge|dejavnost|activit|product|prodott|produkt|proizvodi|izdelk|metod|method|plant|yard|cantieri|sedi|werk|about|chi-?siamo|azienda|company|unternehmen|ueber|%c3%bcber|über|o-?nas|o-?nama|werft|cantiere|shipyard|produzion|production|produktion|proizvod|factory|stabiliment|technolog|tecnolog|costruzion|construction|bootsbau|history|storia|geschichte|zgodovina|povijest|quality|qualita|manufactur", re.I)
 
+FETCH_TIMEOUT = 15
 def fetch(url):
     try:
-        r = subprocess.run(["curl", "-s", "-L", "--max-redirs", "5", "-m", "15", "--max-filesize", "2500000", "-A", UA,
-                            "-w", "\n__FINAL__%{url_effective}", url], capture_output=True, timeout=25)
+        r = subprocess.run(["curl", "-s", "-L", "--max-redirs", "5", "-m", str(FETCH_TIMEOUT), "--max-filesize", "2500000", "-A", UA,
+                            "-w", "\n__FINAL__%{url_effective}", url], capture_output=True, timeout=FETCH_TIMEOUT + 15)
         out = r.stdout.decode("utf-8", "ignore")
         body, _, final = out.rpartition("\n__FINAL__")
         return body, final.strip() or url
@@ -84,6 +85,18 @@ def hits(text, kw):
             found[label] = "…" + text[s:e].strip() + "…"
     return found
 
+# prevzete ali parkirane domene (prodaja domene, igre na srečo, tuj jezik, prazna predloga)
+PARKED = re.compile(r"domain (?:is |may be )?for sale|this domain (?:is|may be) for sale|hugedomains|buy this domain|domain parking|parked domain|"
+                    r"dominio (?:è|e) già registrato|this domain is already taken|online casino|casino online|slot gacor|togel|judi online|samurai99|"
+                    r"link to database cannot be established|active domain connection", re.I)
+PLACEHOLDER = re.compile(r"launching soon|under construction|lorem ipsum dolor sit amet", re.I)
+def parked(text):
+    head = text[:4000]
+    if PARKED.search(head) and len(text) < 6000: return True
+    if PLACEHOLDER.search(text[:400]) and len(text) < 1200: return True
+    cjk = sum(1 for ch in head if "\u3040" <= ch <= "\u30ff" or "\u4e00" <= ch <= "\u9fff")
+    return len(head) > 200 and cjk / len(head) > 0.15
+
 def check(lead):
     url = lead["url"]
     h, final = fetch(url)
@@ -91,19 +104,24 @@ def check(lead):
     for u in links_of(h, final):
         hh, ff = fetch(u); pages.append(ff); texts.append(text_of(hh)); time.sleep(0.3)
     full = " \n ".join(texts)
+    if parked(texts[0]):
+        return dict(id=lead["id"], v="D", u=final, n=len(full), parked=1)
+    if len(full) == 0:
+        return dict(id=lead["id"], v="D", u=final, n=0)          # stran se ne odziva
     if len(full) < 400:
-        return dict(id=lead["id"], v="X", u=final, n=len(full))
+        return dict(id=lead["id"], v="X", u=final, n=len(full))  # se naloži šele v brskalniku
     st, md, tu, tr = hits(full, STRONG), hits(full, MED), hits(full, TOURISM), hits(full, TRADE)
     s, m, t, r = len(st), len(md), len(tu), len(tr)
     if s >= 3 and s > t: v = "M"
     elif s >= 1 and (s + m) >= 3 and s >= t: v = "m"
+    elif s >= 3: v = "m"                                          # gradijo in imajo hkrati charter
     elif t >= 2 and s <= 1: v = "T"
     elif r >= 2 and s <= 1: v = "S"
     else: v = "N"
     order = ["kalupi", "laminiranje", "infuzija", "vetroresina", "stakloplastika", "stekloplastika", "GFK", "GRP", "steklena vlakna", "kompoziti", "vinilester", "epoksi", "gelcoat", "karbon", "vakuum", "obrat", "proizvodnja", "gradimo", "gradnja čolnov"]
     ev = [[k, st[k]] for k in order if k in st][:4]
     neg = [[k, x] for k, x in list(tu.items())[:3] + list(tr.items())[:2]]
-    return dict(id=lead["id"], v=v, u=final, s=s, m=m, t=t, r=r, ev=ev, neg=neg[:3], pages=len(pages))
+    return dict(id=lead["id"], v=v, u=final, s=s, m=m, t=t, r=r, ev=ev, neg=neg[:3], pages=len(pages), mix=1 if (v == "m" and s >= 3 and t >= s) else 0)
 
 if __name__ == "__main__":
     todo = json.load(open(sys.argv[1]))
@@ -111,7 +129,15 @@ if __name__ == "__main__":
     with cf.ThreadPoolExecutor(10) as ex:
         for i, r in enumerate(ex.map(check, todo)):
             res.append(r)
-            if i % 25 == 0: print(i, file=sys.stderr, flush=True)
+            if i % 50 == 0: print(i, file=sys.stderr, flush=True)
+    # ponovni poskus za strani, ki se niso odzvale ali so bile prazne (počasneje, z daljšim časom)
+    idx = [i for i, r in enumerate(res) if r["v"] in ("D", "X") and not r.get("parked")]
+    if idx:
+        FETCH_TIMEOUT = 35
+        with cf.ThreadPoolExecutor(4) as ex:
+            for i, r in zip(idx, ex.map(check, [todo[i] for i in idx])):
+                if r["v"] not in ("D", "X") or r.get("n", 0) > res[i].get("n", 0): res[i] = r
+        print("ponovno preverjenih:", len(idx), file=sys.stderr)
     json.dump(res, open(sys.argv[2], "w"), ensure_ascii=False, indent=0)
     from collections import Counter
     print(Counter(r["v"] for r in res), file=sys.stderr)

@@ -9,9 +9,18 @@ exec(open("data/manual_verify.py").read())
 exec(open("data/qual.py").read())
 import os
 SIG = json.load(open("data/signals.json")) if os.path.exists("data/signals.json") else {}
-import os
 WEBS = json.load(open("data/pn/websites.json")) if os.path.exists("data/pn/websites.json") else {}
 VRES = {r["id"]: r for r in json.load(open("data/verify_out.json"))} if os.path.exists("data/verify_out.json") else {}
+def _load(p, default):
+    return json.load(open(p)) if os.path.exists(p) else default
+ADDR = _load("data/addr_fixes.json", {})      # naslovi, prebrani s spletnih strani
+PLACES = _load("data/places.json", {})        # Google Places (če je ključ)
+CHG = _load("data/lead_changes.json", {})     # zadnja sprememba po podjetju
+REVIEWED = set(_load("data/reviewed.json", {}).get("ids", []))  # ročno pregledani 15. 10. 2026 (neocenjeni = P3)
+import datetime
+RUN_DATE = os.environ.get("RUN_DATE") or datetime.date.today().isoformat()
+def sl_date(iso):
+    y, m, d = iso.split("-"); return f"{int(d)}. {int(m)}. {y}"
 
 def loc_geo(cc, q):
     k = q.replace(" ", "")
@@ -156,6 +165,18 @@ for l in merged:
         cc, pc, town = LOC_FIX[l["n"]]; g = loc_geo(cc, pc)
         if g: l["lat"], l["lon"], l["addr"] = g[0], g[1], town
         else: print("NO GEO locfix", l["n"])
+for l in merged:
+    lid = hashlib.md5((l["n"] + "|" + l["src"][0]).encode()).hexdigest()[:10]
+    a = ADDR.get(lid)
+    if l["lat"] is None and a:
+        l["lat"], l["lon"], l["addr"] = a["lat"], a["lon"], a["town"]
+        l["src"] = l["src"] + ["Naslov s spletne strani"]
+    p = PLACES.get(lid)
+    if p and p.get("ok"):
+        if l["lat"] is None and p.get("lat") is not None:
+            l["lat"], l["lon"], l["addr"] = p["lat"], p["lon"], p.get("addr", "")
+            l["src"] = l["src"] + ["Google Places"]
+        if not l.get("web") and p.get("web"): l["web"] = p["web"]
 RINGS = [(150, 0), (400, 1), (700, 2), (1000, 3)]
 FITW = {"A": 3, "B": 2, "C": 0.6}; RINGW = [1.0, 0.75, 0.5, 0.35, 0.3]
 out = []
@@ -207,15 +228,29 @@ for o in out:
         elif g["wood"] > max(3, g["grp"]): why = "Pretežno lesena plovila."
         elif g["alu"] > max(3, g["grp"]): why = "Pretežno aluminijasta plovila."
         elif g["rib"] > max(5, g["grp"] * 2): why = "Pretežno gumenjaki."
+        elif v in ("M", "m") and o["id"] not in REVIEWED:
+            sz = "?"
+            if g.get("emp"):
+                e = max(g["emp"]); sz = "mikro" if e < 10 else "majhno" if e < 50 else "srednje" if e < 250 else "veliko"
+            o["q"] = dict(t="2", sz=sz, why="Samodejno: na spletni strani so dokazi o proizvodnji" + (" (" + ", ".join(k for k, _ in (o.get("vf") or {}).get("ev", [])[:3]) + ")" if (o.get("vf") or {}).get("ev") else "") + ". Ročna ocena še manjka.", ap="Preglej stran in oceni ročno.", auto=1)
+            why = None
         else: why = "Po pregledu strani: servis, trgovina, popravila ali velike jeklene ladje – ni primeren profil."
-        o["q"] = dict(t="3", sz="?", why=why, ap="")
+        if why: o["q"] = dict(t="3", sz="?", why=why, ap="", auto=1)
     if o.get("q"):
         o["sc"] = round(o["sc"] + TIER_SCORE[o["q"]["t"]], 2)
 AC = json.load(open("data/autocontacts.json")) if os.path.exists("data/autocontacts.json") else {}
 for o in out:
     if o.get("ct") or (o.get("q") or {}).get("t") not in ("1", "2", "K"): continue
     a = AC.get(o["id"])
-    if a: o["ct"] = dict(w=a["w"], e=a["e"], p=a["p"], d="15. 10. 2026", n="Splošni kontakt s spletne strani podjetja (samodejno). Imena oseb poišči v nakupni skupini.")
+    if a: o["ct"] = dict(w=a["w"], e=a["e"], p=a["p"], d=sl_date(a.get("d", RUN_DATE)), n="Splošni kontakt s spletne strani podjetja (samodejno). Imena oseb poišči v nakupni skupini.")
+for o in out:
+    p = PLACES.get(o["id"])
+    if p and p.get("ok"):
+        if p.get("status") == "CLOSED_PERMANENTLY":
+            o["q"] = dict(t="3", sz=(o.get("q") or {}).get("sz", "?"), why="Google Places: podjetje je trajno zaprto.", ap="")
+        if not o.get("ct") and (p.get("phone") or p.get("web")) and (o.get("q") or {}).get("t") in ("1", "2", "K"):
+            o["ct"] = dict(w=p.get("web", ""), e=[], p=[p["phone"]] if p.get("phone") else [], d=sl_date(p.get("d", RUN_DATE)), n="Kontakt iz Google Places.")
+    if o["id"] in CHG: o["ch"] = CHG[o["id"]]
 missing = [k for k in Q if k not in names]
 if missing: print("Q MISSING", missing)
 rev = {}
@@ -232,6 +267,10 @@ for o in out:
 out.sort(key=lambda o: (-o["sc"], o["km"] if o["km"] is not None else 9999))
 assert len({o["id"] for o in out}) == len(out)
 json.dump(out, open("docs/leads.json", "w"), ensure_ascii=False, separators=(",", ":"))
+_q = collections.Counter((o.get("q") or {}).get("t", "-") for o in out)
+json.dump(dict(built=RUN_DATE, built_sl=sl_date(RUN_DATE), n=len(out), p1=_q["1"], p2=_q["2"], k=_q["K"],
+               web=sum(1 for o in out if o.get("w") or (o.get("ct") or {}).get("w")), noloc=sum(1 for o in out if o["km"] is None)),
+          open("docs/meta.json", "w"), ensure_ascii=False)
 c = collections.Counter
 print("skupaj", len(out))
 print("po segmentu", c(o["s"] for o in out))
