@@ -1,5 +1,41 @@
 [
 {
+"d": "2026-10-19",
+"id": "641ba9394d",
+"n": "Solaris Yachts SRL",
+"ty": "model",
+"tx": "Omenja nov model: Solaris 44",
+"t": "1",
+"km": 94
+},
+{
+"d": "2026-10-19",
+"id": "cb1a453718",
+"n": "Nautor Swan Srl",
+"ty": "model",
+"tx": "Omenja nov model: ClubSwan 28, Racing 01, Racing 20",
+"t": "2",
+"km": 417
+},
+{
+"d": "2026-10-19",
+"id": "60db0ff9ea",
+"n": "Nautica Esposito",
+"ty": "model",
+"tx": "Omenja nov model: Domenica 12, Open 52",
+"t": "2",
+"km": 639
+},
+{
+"d": "2026-10-19",
+"id": "f23c2a4307",
+"n": "Italyure Yachts",
+"ty": "model",
+"tx": "Omenja nov model: ITALYURE 50",
+"t": "2",
+"km": 633
+},
+{
 "d": "2026-10-17",
 "id": "cc685af5aa",
 "n": "Roto Nautica",

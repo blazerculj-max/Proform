@@ -24,6 +24,14 @@
 "src": "Ročno preverjeno"
 },
 {
+"id": "1802e83947",
+"n": "EJET proizvodnja plovil",
+"a": "Ljubljana",
+"cc": "si",
+"km": 55,
+"src": "Ročno preverjeno"
+},
+{
 "id": "d1ab5c4443",
 "n": "Exo Boat",
 "a": "Ankaran",
@@ -64,19 +72,19 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
+"id": "1c1965bbc4",
+"n": "Croning livarna",
+"a": "Ravne na Koroškem",
+"cc": "si",
+"km": 71,
+"src": "Ročno preverjeno"
+},
+{
 "id": "9c9998cf07",
 "n": "Officine TL Compositi",
 "a": "Pradamano",
 "cc": "it",
 "km": 73,
-"src": "Ročno preverjeno"
-},
-{
-"id": "5b099a6156",
-"n": "OMCO Metals Slovenia",
-"a": "Žalec",
-"cc": "si",
-"km": 88,
 "src": "Ročno preverjeno"
 },
 {
@@ -152,6 +160,14 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
+"id": "a85914108c",
+"n": "Morgan Yachts",
+"a": "Milano, Italy",
+"cc": "it",
+"km": 391,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
 "id": "c7a3554732",
 "n": "Cantiere Navale Cosca",
 "a": "50053 Empoli (FI), Italy",
@@ -186,14 +202,6 @@
 {
 "id": "a76891def5",
 "n": "Glorius, proizvodnja čolnov",
-"a": "Ljubljana",
-"cc": "si",
-"km": 55,
-"src": "Ročno preverjeno"
-},
-{
-"id": "1802e83947",
-"n": "EJET proizvodnja plovil",
 "a": "Ljubljana",
 "cc": "si",
 "km": 55,
@@ -246,14 +254,6 @@
 "cc": "it",
 "km": 112,
 "src": "OpenStreetMap"
-},
-{
-"id": "448ed1a447",
-"n": "Magna Steyr",
-"a": "Graz",
-"cc": "at",
-"km": 127,
-"src": "Ročno preverjeno"
 },
 {
 "id": "141b82f57c",
@@ -320,12 +320,12 @@
 "src": "OpenStreetMap"
 },
 {
-"id": "9d08476e15",
-"n": "Ferretti Group - Ravenna",
-"a": "Via Classicana, Ravenna",
-"cc": "it",
-"km": 261,
-"src": "OpenStreetMap"
+"id": "3b02e6a163",
+"n": "Navalia d.o.o.",
+"a": "Obrovac",
+"cc": "hr",
+"km": 280,
+"src": "Ročno preverjeno"
 },
 {
 "id": "25b77a3b13",
@@ -349,6 +349,14 @@
 "a": "Via Paolo Savi 383, 55049 Viareggio, Italy",
 "cc": "it",
 "km": 413,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "5d51176914",
+"n": "PEDRO BOAT KFT",
+"a": "Soltvadkerti ut 17, Tázlár Tázlár, Hungary",
+"cc": "hu",
+"km": 418,
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
@@ -477,6 +485,14 @@
 "a": "UL.LUDZI MORZA 2, 72-602 ŚWINOUJSCIE, Poland",
 "cc": "pl",
 "km": 830,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "93de1a7ee1",
+"n": "millboats",
+"a": "heggerak 108, 5432 CC cuijk, Netherlands",
+"cc": "nl",
+"km": 838,
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
@@ -680,6 +696,14 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
+"id": "4f2032a1db",
+"n": "James Boat",
+"a": "",
+"cc": "cz",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
 "id": "8243affa7d",
 "n": "Gobbi",
 "a": "",
@@ -722,6 +746,14 @@
 {
 "id": "8b998b0e96",
 "n": "Cantieri Navali Termoli",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "cf18476fe6",
+"n": "T.A. Mare",
 "a": "",
 "cc": "it",
 "km": null,
@@ -824,10 +856,18 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "1acc23a9c9",
-"n": "Sciallino",
+"id": "ce128f5395",
+"n": "Victoria Yachts",
 "a": "",
 "cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "bf07d2aa5e",
+"n": "Elegance Yachts",
+"a": "",
+"cc": "de",
 "km": null,
 "src": "Imenik izdelovalcev (profinautic)"
 },
@@ -904,8 +944,24 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
+"id": "fa1e268e4d",
+"n": "Albatros",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
 "id": "143f3a8d65",
 "n": "Asmus",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "8f4c69da91",
+"n": "Kaiser Werft",
 "a": "",
 "cc": "de",
 "km": null,
@@ -1064,6 +1120,14 @@
 "src": "Poslovni register SKD 30.120"
 },
 {
+"id": "fef01d3724",
+"n": "Proizvodnja Plovil in Gradbena Dela Avdi Shabani s.p.",
+"a": "Kurirska Pot 2 D, 4270 Jesenice",
+"cc": "si",
+"km": 1,
+"src": "Poslovni register SKD 30.120"
+},
+{
 "id": "af976cc7a7",
 "n": "Proizvodnja Plovil, Armend Sokoli s.p.",
 "a": "Cesta Franceta Prešerna 5 G, 4270 Jesenice",
@@ -1184,14 +1248,6 @@
 "src": "Poslovni register SKD 30.120"
 },
 {
-"id": "e77fd495b2",
-"n": "Livarna Titan",
-"a": "Kamnik",
-"cc": "si",
-"km": 49,
-"src": "Ročno preverjeno"
-},
-{
 "id": "1fd43b2989",
 "n": "Lemon Nautics Proizvodnja Gumenjakov in Ostale Navtične Opreme, Miha Mlakar s.p.",
 "a": "Cesta Dr. Tineta Zajca 18 B, 1241 Kamnik",
@@ -1244,7 +1300,7 @@
 "n": "Nautica Yacht Trading GmbH",
 "a": "Hauptstrasse 78, 8740 Zeltweg",
 "cc": "at",
-"km": 97,
+"km": 98,
 "src": "Poslovni register SKD 30.120"
 },
 {
@@ -1288,14 +1344,6 @@
 "src": "Poslovni register SKD 30.120"
 },
 {
-"id": "97d029f7a9",
-"n": "Pössl",
-"a": "Ainring",
-"cc": "de",
-"km": 175,
-"src": "Ročno preverjeno"
-},
-{
 "id": "f7f3ac770d",
 "n": "Energy Naval GmbH",
 "a": "Schattendorf",
@@ -1310,14 +1358,6 @@
 "cc": "it",
 "km": 437,
 "src": "Imenik izdelovalcev (profinautic)"
-},
-{
-"id": "c4b4b182a8",
-"n": "Tomark",
-"a": "Prešov",
-"cc": "sk",
-"km": 608,
-"src": "Ročno preverjeno"
 },
 {
 "id": "78fdc9d73b",
@@ -1388,6 +1428,14 @@
 "n": "Yacht- und Möbelbau",
 "a": "",
 "cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "99952827e3",
+"n": "Canabo Yachts",
+"a": "",
+"cc": "it",
 "km": null,
 "src": "Imenik izdelovalcev (profinautic)"
 }
