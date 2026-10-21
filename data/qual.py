@@ -250,6 +250,27 @@ Q.update({
  "Wauquiez": ("3", "srednje", "Jadrnice skupine Beneteau (Francija); 932 km.", ""),
 })
 
+# --- Pregled malih podjetij iz registrov (21. 10. 2026) – naročnik išče podjetja z 10–50 zaposlenimi ---
+Q.update({
+ "Boote Schmalzl GmbH": ("1", "majhno", "Ladjedelnica na Vrbskem jezeru (60+ let), 23 zaposlenih; lastni čolni, laminiranje in infuzija, inovacijska nagrada Koroške. Okoli 20 km – najbližja ladjedelnica prave velikosti.", "Lastnik ali vodja delavnice: modeli in kalupi za nove modele; osebni obisk."),
+ "MARSERVIS d. o. o.": ("2", "majhno", "Inženiring in gradnja plovil (od 1994), lastna izdelava; 16 zaposlenih.", "Preveri material (aluminij ali kompozit); modeli za nove trupe."),
+ "BURA GUMENJACI d.o.o.": ("2", "majhno", "RIB-i Bura (15 let), 13 zaposlenih; ukvarjajo se tudi z najemom.", "Novi trupi – modeli in kalupi."),
+ "JetMarine Schiffswerft GmbH": ("1", "?", "Ladjedelnica v Strau (Koroška): gradnja in obnova plovil, električni pogoni; razvojni projekt s podporo FFG. Okoli 20 km.", "Vprašaj za razvojni projekt – model ali kalup za nov trup; osebni obisk."),
+ "Schellenbacher GmbH": ("1", "?", "Regatni veslaški čolni in gigi (Linz, od 1931) – trupi iz kompozitov v kalupih.", "Modeli za nove trupe in obnovo kalupov."),
+ "Med S.r.l.": ("1", "majhno", "Med Marine: projektiranje, hitra izdelava prototipov in proizvodnja (29 zaposlenih); oktobra 2026 dobili javno naročilo za 7 gumenjakov (Sardinija).", "Modeli in kalupi za nove trupe; omeni javno naročilo."),
+ "Cantiere Navale Gregorini S.r.l.": ("1", "majhno", "Lastni čolni (MAX 37) in delo za druge (conto terzi); kalupi, laminiranje, infuzija; 28 zaposlenih (Piagge, PU).", "Modeli in kalupi za lastne modele in za naročila drugih."),
+ "Adria Sail S.r.l.": ("2", "majhno", "Jahte po meri (Adria Sail Custom Yachts), 28 zaposlenih.", "Modeli in kalupi za nove trupe po meri."),
+ "Compositex S.r.l.": ("2", "majhno", "Karbonski deli, razvoj, prototipi in lastna orodja (49 zaposlenih) – bolj partner ali podizvajalec za velike modele.", "Ponudi velike modele, ki jih sami ne rezkajo."),
+ "Loson S.r.l.": ("2", "majhno", "Inženiring in proizvodnja za letalstvo, obrambo in mobilnost; kompoziti (32 zaposlenih).", "Modeli in kalupi za prototipe."),
+ "Tekno Compositi S.r.l.": ("2", "majhno", "Napredni kompoziti, razvojni projekti (27 zaposlenih).", "Modeli in kalupi za razvojne projekte."),
+ "Glas Markus GmbH": ("2", "?", "Tradicionalna ladjedelnica na Starnberškem jezeru (od 1924): novogradnje, popravila in obnove iz lesa in GFK.", "Kalupi za obnovo ali male serije."),
+ "Cantieri Rea Marine S.r.l.": ("K", "majhno", "Izdelujejo modele in kalupe za jahte (modelleria, stampi), 27 zaposlenih – konkurent ali partner za velike kose.", ""),
+ "Velmare S.r.l.": ("K", "majhno", "Od 1970 izdelujejo izdelke in modele za navtiko (33 zaposlenih) – konkurent.", ""),
+ "ORTNER-BOOTE GmbH": ("3", "?", "Trgovec s čolni (Nautique) in servis v Beljaku.", ""),
+ "Cnc S.r.l.": ("3", "majhno", "Servis, prenove in zimovanje (Livorno).", ""),
+ "Euronotus d.o.o.": ("3", "?", "Inovacije in patenti (energetika), ne gradnja plovil.", ""),
+})
+
 LOC_FIX.update({
  "ZAR - Formenti": ("it", "20086", "Motta Visconti (MI)"),
  "Linetti": ("it", "25030", "Erbusco (BS)"),

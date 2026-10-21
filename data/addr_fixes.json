@@ -390,5 +390,12 @@
 "town": "Olbia (07026)",
 "src": "https://www.novamarine.com/en/",
 "n": 5
+},
+"8f2cd58025": {
+"lat": 44.86833,
+"lon": 13.84806,
+"town": "Pula (52100)",
+"src": "https://www.euronotus.hr/",
+"n": 1
 }
 }

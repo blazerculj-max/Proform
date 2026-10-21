@@ -24,12 +24,52 @@
 "src": "Ročno preverjeno"
 },
 {
+"id": "1802e83947",
+"n": "EJET proizvodnja plovil",
+"a": "Ljubljana",
+"cc": "si",
+"km": 55,
+"src": "Ročno preverjeno"
+},
+{
 "id": "d1ab5c4443",
 "n": "Exo Boat",
 "a": "Ankaran",
 "cc": "si",
 "km": 99,
 "src": "Ročno preverjeno"
+},
+{
+"id": "9c9998cf07",
+"n": "Officine TL Compositi",
+"a": "Pradamano",
+"cc": "it",
+"km": 73,
+"src": "Ročno preverjeno"
+},
+{
+"id": "1a8c2c0fdd",
+"n": "Micra S.r.l.",
+"a": "Romans D'isonzo",
+"cc": "it",
+"km": 77,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6dd3937f62",
+"n": "Officina Navale Quaiat S.r.l.",
+"a": "Trieste",
+"cc": "it",
+"km": 90,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a7255e66d6",
+"n": "Alpi Aviation S.r.l.",
+"a": "San Quirino",
+"cc": "it",
+"km": 116,
+"src": "Registro Imprese (aziende.it)"
 },
 {
 "id": "b4792456ab",
@@ -48,6 +88,398 @@
 "src": "Ročno preverjeno"
 },
 {
+"id": "7b81bdc7cc",
+"n": "MARINA PAINT d. o. o.",
+"a": "Punat",
+"cc": "hr",
+"km": 158,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "3dd98e70f2",
+"n": "ARBA NAUTIKA d.o.o.",
+"a": "Zagreb",
+"cc": "hr",
+"km": 162,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "bdab1e364a",
+"n": "Gruppo Faldis di Toffolo F. e C. S.a.s.",
+"a": "Venezia",
+"cc": "it",
+"km": 165,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "46279d1fe7",
+"n": "Cantiere Nautico Tagliapietra S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "562c3da19d",
+"n": "YACHTBAU s.r.o.",
+"a": "Benešov nad Černou",
+"cc": "cz",
+"km": 259,
+"src": "Register podjetij Češke (ARES)"
+},
+{
+"id": "ba36af3b64",
+"n": "J.J.L. Catamarans S.r.l.",
+"a": "Forli'",
+"cc": "it",
+"km": 292,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b9c326c63c",
+"n": "Dieseljet S.r.l.",
+"a": "Granarolo Dell'emilia",
+"cc": "it",
+"km": 295,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "04a36596ef",
+"n": "ADRIATIC SOLUTION d.o.o.",
+"a": "Šopot",
+"cc": "hr",
+"km": 300,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "bef5481a99",
+"n": "Partenope Yacht S.r.l. - In Liquidazione",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "01c63a07fa",
+"n": "Adriatica Nautica S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b37ff991ce",
+"n": "Italiana Compositi Modelli S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9189124510",
+"n": "North Composites S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fe8f035b08",
+"n": "Mecna - Cantiere Meccanico Navale di Giommi e C. S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "aa598fb70a",
+"n": "Elettrica Yacht S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d98b90095b",
+"n": "Odissea Yacht S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6d02402846",
+"n": "K Yacht S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ba6b9998bb",
+"n": "New Sea Service S.r.l.",
+"a": "Bologna",
+"cc": "it",
+"km": 302,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "eaec6db6c2",
+"n": "Titan Yacht S.r.l.",
+"a": "Cartoceto",
+"cc": "it",
+"km": 311,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ab359341de",
+"n": "Navitech S.r.l.S. Unipersonale",
+"a": "Cartoceto",
+"cc": "it",
+"km": 311,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2c3e717ca2",
+"n": "Wave Ingegneria S.r.l.",
+"a": "Monte Porzio",
+"cc": "it",
+"km": 314,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "21becac129",
+"n": "C.N.A. Cantiere Nautico S.r.l.",
+"a": "San Mauro Pascoli",
+"cc": "it",
+"km": 314,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ab9fb6ab90",
+"n": "N.A.S. di Andrea Brunetti & C. SAS",
+"a": "Terre Roveresche",
+"cc": "it",
+"km": 317,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "68de1bf75f",
+"n": "Welcome Sails S.n.c. di Arianna Giambuzzi e F.Benvenuti",
+"a": "Ancona",
+"cc": "it",
+"km": 319,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "079bfd4c1d",
+"n": "Df Aviation S.r.l.",
+"a": "Castelvetro di Modena",
+"cc": "it",
+"km": 324,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5d1cd73757",
+"n": "I-Deck Pro S.r.l.",
+"a": "Reggio Nell'emilia",
+"cc": "it",
+"km": 329,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5e703272b5",
+"n": "Dm S.r.l.",
+"a": "Cologne",
+"cc": "it",
+"km": 331,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dba5e5bf4d",
+"n": "Md Technologies S.r.l.",
+"a": "Erbusco",
+"cc": "it",
+"km": 338,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "789f42dcfe",
+"n": "Rao Leonardo S.r.l.",
+"a": "Adro",
+"cc": "it",
+"km": 338,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c9bb4f1c0e",
+"n": "E.S.A.O.M.-C.E.S.A. S.p.A.",
+"a": "Parma",
+"cc": "it",
+"km": 342,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8a0d4345cb",
+"n": "Effeci Costruzioni Navali S.r.l.",
+"a": "Macerata",
+"cc": "it",
+"km": 348,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "42f82921eb",
+"n": "Valplast S.r.l.",
+"a": "Verdello",
+"cc": "it",
+"km": 354,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e4b382ce3f",
+"n": "International Marine di de Vita Salvatore",
+"a": "Osio Sotto",
+"cc": "it",
+"km": 356,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2230925583",
+"n": "Special Line Societa' A Responsabilita' Limitata",
+"a": "Firenze",
+"cc": "it",
+"km": 368,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5fe361e197",
+"n": "Zanzottera Technologies S.r.l.",
+"a": "Grandola Ed Uniti",
+"cc": "it",
+"km": 371,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6b28e9fd57",
+"n": "New Wave Societa' A Responsabilita' Limitata Semplificata",
+"a": "Piacenza",
+"cc": "it",
+"km": 372,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b5eda5105e",
+"n": "C.M.M. di Giacoponi Simone",
+"a": "Campofilone",
+"cc": "it",
+"km": 374,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "44281f6d5e",
+"n": "Porto Aviation Group S.p.A.",
+"a": "Cremella",
+"cc": "it",
+"km": 375,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d96021e4c7",
+"n": "Nautic N.N. S.r.l.",
+"a": "Podenzano",
+"cc": "it",
+"km": 377,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "456bacd005",
+"n": "Bertocci S.a.s. di Stefano e Stefania Bertocci",
+"a": "Castiglion Fiorentino",
+"cc": "it",
+"km": 383,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c1cf811a51",
+"n": "Fly Products S.r.l.",
+"a": "Grottammare",
+"cc": "it",
+"km": 383,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2a82c2c960",
+"n": "Delta Aero Tech S.r.l.",
+"a": "Cantu'",
+"cc": "it",
+"km": 387,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "35c840e389",
+"n": "Comitti S.p.A.",
+"a": "Como",
+"cc": "it",
+"km": 389,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ef61d07936",
+"n": "Fratelli Burcheri Stilnautica - S.r.l. O In Breve F.Lli Burcheri Stilnautica - S.r.l.",
+"a": "Como",
+"cc": "it",
+"km": 389,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c98048eac6",
+"n": "Team Cup S.r.l.",
+"a": "Massa",
+"cc": "it",
+"km": 390,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9b856c8166",
+"n": "O.T.A.M. S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b8f082f01e",
+"n": "Seascan Marine S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "97ad1614f6",
+"n": "Badinotti Marine Equipment S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "036cf12712",
+"n": "Blu Emme Yachts S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ea5b80b5c3",
+"n": "Arcosald S.r.l.",
+"a": "Aulla",
+"cc": "it",
+"km": 400,
+"src": "Registro Imprese (aziende.it)"
+},
+{
 "id": "917b2fa79a",
 "n": "Štirje – sestavni deli za plovila",
 "a": "Lesce",
@@ -64,20 +496,1004 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "9c9998cf07",
-"n": "Officine TL Compositi",
-"a": "Pradamano",
-"cc": "it",
-"km": 73,
+"id": "1c1965bbc4",
+"n": "Croning livarna",
+"a": "Ravne na Koroškem",
+"cc": "si",
+"km": 71,
 "src": "Ročno preverjeno"
 },
 {
-"id": "5b099a6156",
-"n": "OMCO Metals Slovenia",
-"a": "Žalec",
+"id": "d841e0f4a3",
+"n": "Nautica Mg S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b7b039b8bb",
+"n": "Delfi Yacht S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c220eff744",
+"n": "Navaltecniche S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "07f4de8b73",
+"n": "White Yacht S.r.l.s Unipersonale",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "34875c15e4",
+"n": "Nautica 80 S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2692f7c1d9",
+"n": "Golden Plus di Ortiz Ariel Alejandro",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3e4d31dcb0",
+"n": "Flora Y Expert S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "00c1ce4dba",
+"n": "Artyacht900 di Tambalo Alessandro e Ignarra Andrea S.n.c.",
+"a": "Massarosa",
+"cc": "it",
+"km": 407,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ffb9147d35",
+"n": "Stilnavi - S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "782eb33a11",
+"n": "Effebi S.p.A.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cf90493ecc",
+"n": "Ats S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0d5526a9d5",
+"n": "Navel S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8b26f47063",
+"n": "F.Lli Cocca S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2d3e0c3aec",
+"n": "C.V.S. S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "549b55519d",
+"n": "Elettronautica S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f520357016",
+"n": "Mistral 2.0 S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0361c0350a",
+"n": "Yacht Pride S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2c4b41c259",
+"n": "Italmare S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d1f331098b",
+"n": "Zini Claudio S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d11fbc4d06",
+"n": "Antares di La Piana Antonino",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "87a39ec24e",
+"n": "Vita Yachts S.r.l. Societa' Benefit",
+"a": "Cittiglio",
+"cc": "it",
+"km": 419,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1946dfd6dc",
+"n": "L K Yacht S.r.l.s",
+"a": "La Spezia",
+"cc": "it",
+"km": 420,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "010dfcc102",
+"n": "M.A.G. Boats di Maria Cimbali",
+"a": "Voghera",
+"cc": "it",
+"km": 423,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "743689ce75",
+"n": "F.P. Fly S.r.l.",
+"a": "Varallo Pombia",
+"cc": "it",
+"km": 429,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "108be9ecf5",
+"n": "Alamare S.r.l.",
+"a": "Carasco",
+"cc": "it",
+"km": 434,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "91323ae2c2",
+"n": "Vitam Costruzioni di Tammaro Luigi",
+"a": "Livorno",
+"cc": "it",
+"km": 435,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "af33e25043",
+"n": "Elettromax SAS di Strucchi M. & C.",
+"a": "Lavagna",
+"cc": "it",
+"km": 437,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7be237f2f3",
+"n": "Garbarini Yachts Paintings S.r.l.",
+"a": "Rapallo",
+"cc": "it",
+"km": 442,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "927af4ff01",
+"n": "Flag Marine Group S.r.l.",
+"a": "Cecina",
+"cc": "it",
+"km": 446,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1d127c8761",
+"n": "Stemar Composite Technology S.r.l.",
+"a": "Narni",
+"cc": "it",
+"km": 458,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "12138a7ebd",
+"n": "MARINE s.r.o.",
+"a": "Nové Město nad Metují",
+"cc": "cz",
+"km": 464,
+"src": "Register podjetij Češke (ARES)"
+},
+{
+"id": "83ec38c6cb",
+"n": "Costruzioni Navali di Duliba Giorgian Elvis",
+"a": "Piombino",
+"cc": "it",
+"km": 480,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8d931715eb",
+"n": "Di Nicola Renato",
+"a": "Ivrea",
+"cc": "it",
+"km": 489,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e3e257668c",
+"n": "Cantieri Navali San Carlo S.r.l.",
+"a": "Borgaro Torinese",
+"cc": "it",
+"km": 516,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f5a98f97f1",
+"n": "The Exploration Company S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f06cd5d1b0",
+"n": "Base Nautica Flavio Gioia S.p.A.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cc53cc179c",
+"n": "Protezioni Yacht S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "193aa4f911",
+"n": "Cantieristica Navale Riva di Traiano - S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "53e097318e",
+"n": "Ch7 Helicopters Heli-Sport - S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cd05b4bc70",
+"n": "Nimbus - Societa' A Responsabilita' Limitata",
+"a": "Lombardore",
+"cc": "it",
+"km": 527,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0f4a6011da",
+"n": "Comet Elettromeccanica S.r.l.",
+"a": "Ciampino",
+"cc": "it",
+"km": 528,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0194e89c48",
+"n": "Ja Piscines Polyester",
+"a": "Bischwiller",
+"cc": "fr",
+"km": 532,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "8d7080a5fd",
+"n": "C.N Group S.r.l.",
+"a": "Castelnuovo Parano",
+"cc": "it",
+"km": 536,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c55655a298",
+"n": "Resiliency Yacht S.r.l.",
+"a": "Sant'ambrogio Di Torino",
+"cc": "it",
+"km": 539,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9158b4a556",
+"n": "Icm Industrie Composites",
+"a": "Brognard",
+"cc": "fr",
+"km": 559,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "eb0adc98f2",
+"n": "Naval Tech S.r.l.",
+"a": "Pontinia",
+"cc": "it",
+"km": 565,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a39491e3dd",
+"n": "Plastiques et Stratifies Vosgiens",
+"a": "Saint-Leonard",
+"cc": "fr",
+"km": 571,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "8ca2ddaa4b",
+"n": "Sanremo Ship S.r.l.",
+"a": "Sanremo",
+"cc": "it",
+"km": 572,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "55e420db0b",
+"n": "North Star Yachts Societa' A Responsabilita' Limitata",
+"a": "Terracina",
+"cc": "it",
+"km": 572,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "32055b94d1",
+"n": "Lea Composites Est",
+"a": "Bitche",
+"cc": "fr",
+"km": 573,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "f8569cd0c6",
+"n": "S.A.B. Aerospace S.r.l.",
+"a": "Paduli",
+"cc": "it",
+"km": 586,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9417bc9420",
+"n": "Dronavia",
+"a": "Remiremont",
+"cc": "fr",
+"km": 590,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "c389375684",
+"n": "F. & C. Montaggi Societa' A Re Sponsabilita' Limitata",
+"a": "Frignano",
+"cc": "it",
+"km": 605,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b8095e6b8f",
+"n": "Desa S.r.l.",
+"a": "Mugnano Di Napoli",
+"cc": "it",
+"km": 615,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9c64790a4d",
+"n": "Maltese S.p.A.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9d6768bfc7",
+"n": "Yacht Building S.r.l. In Liquidazione",
+"a": "",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8a6337cde6",
+"n": "Flying Eye (Flying Eye)",
+"a": "Biot",
+"cc": "fr",
+"km": 631,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "7b7dcd0cce",
+"n": "E-Sea S.r.l.",
+"a": "Sorrento",
+"cc": "it",
+"km": 647,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ca0ca67c79",
+"n": "Beringer Aero",
+"a": "Tallard",
+"cc": "fr",
+"km": 662,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "6a334c3c76",
+"n": "Deschamps Mats Composite",
+"a": "Frejus",
+"cc": "fr",
+"km": 663,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "39aba720ff",
+"n": "Eos Technologie (Eyes Of Sky Technologie)",
+"a": "Varces-Allieres-Et-Risset",
+"cc": "fr",
+"km": 665,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "a39c88904d",
+"n": "Global Resin S.r.l.",
+"a": "Colli Al Metauro",
+"cc": "it",
+"km": 672,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3533b9e6b1",
+"n": "Electravia (Electravia - Helices E-Props)",
+"a": "Vaumeilh",
+"cc": "fr",
+"km": 678,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "5dbc4126eb",
+"n": "Composite Industrie Du Rhone (C.I.R.)",
+"a": "Blyes",
+"cc": "fr",
+"km": 681,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "1ec5894068",
+"n": "Alpes Polyester Composites (Apc)",
+"a": "Saint-Sauveur",
+"cc": "fr",
+"km": 690,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "47c370ff56",
+"n": "Constructions Polyester Marechal Andre",
+"a": "Mezeriat",
+"cc": "fr",
+"km": 694,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "b778631ee6",
+"n": "C.E.A.P.R.",
+"a": "Darois",
+"cc": "fr",
+"km": 700,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "8128a53dc8",
+"n": "Cantieri di Sarnico",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b10c96f4a0",
+"n": "Terranova Yachts",
+"a": "",
+"cc": "it",
+"km": 329,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "159273085c",
+"n": "Alfa Yacht Yard",
+"a": "",
+"cc": "it",
+"km": 391,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "6909b0f5ac",
+"n": "Rascala",
+"a": "",
+"cc": "it",
+"km": 391,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "074301e020",
+"n": "B.M. Plast di Garcia Ramirez Lisangela",
+"a": "Luni",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f2bb30d8af",
+"n": "M.Y.I. S.r.l.",
+"a": "Olbia",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c6c8473029",
+"n": "O.T.A.M. S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "18cf746973",
+"n": "C.N Group S.r.l.",
+"a": "Castelnuovo Parano",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fa6d696752",
+"n": "3Af Shipyard S.r.l.",
+"a": "Villafranca Tirrena",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bee72c9d12",
+"n": "E.S.A.O.M.-C.E.S.A. S.p.A.",
+"a": "Parma",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "692a11af85",
+"n": "Nautica Mg S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6e94908465",
+"n": "C.V.S. S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "491ffc6686",
+"n": "C.N.A. Cantiere Nautico S.r.l.",
+"a": "San Mauro Pascoli",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c1fdde6cad",
+"n": "L K Yacht S.r.l.s",
+"a": "La Spezia",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "43a6150686",
+"n": "Nautica 80 S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0d40f7f11f",
+"n": "Dm S.r.l.",
+"a": "Cologne",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8d899c3931",
+"n": "K Yacht S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "59aa981827",
+"n": "Manò Marine",
+"a": "",
+"cc": "it",
+"km": 621,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "cf18476fe6",
+"n": "T.A. Mare",
+"a": "",
+"cc": "it",
+"km": 628,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "f42dc3f415",
+"n": "MM Marine d.o.o.",
+"a": "Bled",
 "cc": "si",
-"km": 88,
+"km": 9,
+"src": "CompanyWall (Slovenija)"
+},
+{
+"id": "1bf270cd26",
+"n": "Ophion",
+"a": "Most na Soči",
+"cc": "si",
+"km": 40,
 "src": "Ročno preverjeno"
+},
+{
+"id": "ca46e0f6f7",
+"n": "Genlog, proizvodnja plovil",
+"a": "Šempeter pri Gorici",
+"cc": "si",
+"km": 65,
+"src": "Ročno preverjeno"
+},
+{
+"id": "ada390bc4b",
+"n": "Comfly S.r.l.",
+"a": "Osoppo",
+"cc": "it",
+"km": 67,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "559e1afd36",
+"n": "Charisma Design S.r.l.",
+"a": "Udine",
+"cc": "it",
+"km": 75,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "95a3b793d2",
+"n": "Bodywork Yachts Societa' A Responsabilita' Limitata",
+"a": "Ronchi dei Legionari",
+"cc": "it",
+"km": 80,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "294d1e1ab7",
+"n": "Cantiere Nautico di Cadei Rosa Eredi",
+"a": "Monfalcone",
+"cc": "it",
+"km": 81,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5e6db125f6",
+"n": "Massimo Dodini",
+"a": "Monfalcone",
+"cc": "it",
+"km": 81,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "895be06092",
+"n": "Gryphen Aircraft Industries S.r.l.",
+"a": "Mortegliano",
+"cc": "it",
+"km": 87,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7cadc3085b",
+"n": "Neptun di Silvia Panzeca & C. SAS",
+"a": "Basiliano",
+"cc": "it",
+"km": 89,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "792fb4b2d1",
+"n": "Popa Vasile",
+"a": "Basiliano",
+"cc": "it",
+"km": 89,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4d46a0e11c",
+"n": "Nautimotor Toniutto di Toniutt 0 Robertino&Toniutto Rudi",
+"a": "Marano Lagunare",
+"cc": "it",
+"km": 89,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bed300c0a9",
+"n": "Nautica Ceccherini S.a.s. di Andrea Ceccherini & C.",
+"a": "Marano Lagunare",
+"cc": "it",
+"km": 89,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "02b2ca0132",
+"n": "Calibro S.r.l.",
+"a": "Trieste",
+"cc": "it",
+"km": 90,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f721a1e0d6",
+"n": "Blue Marine S.r.l.",
+"a": "Trieste",
+"cc": "it",
+"km": 90,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0344b4d0b7",
+"n": "Segnavento di Pierantonio Corso",
+"a": "Trieste",
+"cc": "it",
+"km": 90,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a1e9b813f8",
+"n": "Aldo Franceschini",
+"a": "Trieste",
+"cc": "it",
+"km": 90,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0c7cb44dc5",
+"n": "Nautica Trieste di Maurizio Delvecchio",
+"a": "Trieste",
+"cc": "it",
+"km": 90,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5a8c4b8943",
+"n": "Picosats S.r.l.",
+"a": "Trieste",
+"cc": "it",
+"km": 90,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e085e24486",
+"n": "Skyproxima S.r.l.",
+"a": "Trieste",
+"cc": "it",
+"km": 90,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3e4dd2dfe0",
+"n": "Mar.Piu' S.r.l.",
+"a": "San Giorgio di Nogaro",
+"cc": "it",
+"km": 94,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a3fe86bc4a",
+"n": "Politec S.r.l.",
+"a": "San Dorligo della Valle",
+"cc": "it",
+"km": 94,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "88db10eca5",
+"n": "Nautica Spn S.r.l.",
+"a": "Grado",
+"cc": "it",
+"km": 98,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fed525517d",
+"n": "Braida Gian Carlo - Nauticnova Falegnameria Nautica",
+"a": "Marano Lagunare",
+"cc": "it",
+"km": 101,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "436a66867b",
+"n": "Baldin Michele",
+"a": "Latisana",
+"cc": "it",
+"km": 110,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "106ce1e323",
+"n": "Cantiere Nautico Lignano di Agnolin Claudio &.C.Snc",
+"a": "Lignano Sabbiadoro",
+"cc": "it",
+"km": 112,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d39bd4efb9",
+"n": "Morsanutto S.n.c. di Morsanutto Maurizio & C.",
+"a": "Lignano Sabbiadoro",
+"cc": "it",
+"km": 112,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1fe7c00fe4",
+"n": "SVP YACHTS d.o.o.",
+"a": "Sečovlje - Sicciole",
+"cc": "si",
+"km": 112,
+"src": "CompanyWall (Slovenija)"
+},
+{
+"id": "892c8b62b2",
+"n": "Easy Fly Italy S.r.l.",
+"a": "Pordenone",
+"cc": "it",
+"km": 120,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "53bdadb373",
+"n": "Aerospace Industries S.r.l.",
+"a": "Pordenone",
+"cc": "it",
+"km": 120,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2414d6923b",
+"n": "Cantiere Nautico Portegrandi Marina & Service S.r.l.",
+"a": "Quarto D'altino",
+"cc": "it",
+"km": 125,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e6f63e0e6d",
+"n": "R. B. R. MARINE d. o. o.",
+"a": "Lovran",
+"cc": "hr",
+"km": 127,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "2217aafe5e",
+"n": "TECTONA GRANDIS d. o. o.",
+"a": "Kukuljanovo",
+"cc": "hr",
+"km": 129,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "4e82a4eed7",
+"n": "ADRIANA BOATS d. o. o.",
+"a": "Rijeka",
+"cc": "hr",
+"km": 131,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "8c9ebcc55d",
+"n": "M. H. I. - ADRIATIC d. o. o.",
+"a": "Rijeka",
+"cc": "hr",
+"km": 131,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "8f81305949",
+"n": "C.S. Canoe di S.p.A.gnol Sandro",
+"a": "Sacile",
+"cc": "it",
+"km": 131,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5114be7f2a",
+"n": "I.K.I. S.r.l.",
+"a": "Torre di Mosto",
+"cc": "it",
+"km": 134,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "66c4a4fb27",
+"n": "RAIDEN d.o.o.",
+"a": "Zaprešić",
+"cc": "hr",
+"km": 145,
+"src": "CompanyWall (Hrvaška)"
 },
 {
 "id": "19d851a378",
@@ -152,6 +1568,14 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
+"id": "a85914108c",
+"n": "Morgan Yachts",
+"a": "Milano, Italy",
+"cc": "it",
+"km": 391,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
 "id": "c7a3554732",
 "n": "Cantiere Navale Cosca",
 "a": "50053 Empoli (FI), Italy",
@@ -176,12 +1600,132 @@
 "src": "Ročno preverjeno"
 },
 {
-"id": "1bf270cd26",
-"n": "Ophion",
-"a": "Most na Soči",
-"cc": "si",
-"km": 40,
-"src": "Ročno preverjeno"
+"id": "ff8138dd05",
+"n": "Ing. Christof Goritschnigg",
+"a": "Maria Wörth",
+"cc": "at",
+"km": 21,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "0c1f10e119",
+"n": "Lex Handels KG",
+"a": "Maria Wörth",
+"cc": "at",
+"km": 21,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "60903cb67b",
+"n": "INGENITY GmbH",
+"a": "Velden am Wörther See",
+"cc": "at",
+"km": 21,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "82bbb7d2fb",
+"n": "Fun-Products Handels GmbH",
+"a": "Maria Wörth",
+"cc": "at",
+"km": 22,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "a7517275e8",
+"n": "Frances Lieb",
+"a": "Villach-St. Magdalen",
+"cc": "at",
+"km": 24,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "6affbbe4c1",
+"n": "Werner Klaus Jaklitsch",
+"a": "Villach-Landskron",
+"cc": "at",
+"km": 25,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "7dc06be4ad",
+"n": "Torsten Lieb",
+"a": "Villach",
+"cc": "at",
+"km": 25,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "4f82d93b7b",
+"n": "Dieter Heribert Seebacher",
+"a": "Moosburg in Kärnten",
+"cc": "at",
+"km": 26,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "0d8bf72d0f",
+"n": "Dipl.-Ing. Thomas Karl Nikolasch",
+"a": "Annenheim",
+"cc": "at",
+"km": 27,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "e91b469a23",
+"n": "Omer Kujraković",
+"a": "Klagenfurt/Wörthersee",
+"cc": "at",
+"km": 29,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "144365aa53",
+"n": "Alexander Wolfgang Riedl",
+"a": "Klagenfurt am Wörthersee",
+"cc": "at",
+"km": 29,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "9ed6dcf427",
+"n": "Stefan Smole",
+"a": "Klagenfurt am Wörthersee",
+"cc": "at",
+"km": 29,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "c0db86d01c",
+"n": "Gams & Zeichen OG",
+"a": "Steindorf/Ossiacher See",
+"cc": "at",
+"km": 30,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "ef000bc212",
+"n": "Michael Georg Winkler",
+"a": "Sittich",
+"cc": "at",
+"km": 30,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "59e3061fe5",
+"n": "Alexander Wilhelm Zeichen",
+"a": "Steindorf/Ossiacher See",
+"cc": "at",
+"km": 30,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "49a6713194",
+"n": "Stefan Johannes Hofstätter",
+"a": "Ebenthal",
+"cc": "at",
+"km": 31,
+"src": "WKO Firmen A-Z (Bootbauer)"
 },
 {
 "id": "a76891def5",
@@ -192,20 +1736,20 @@
 "src": "Ročno preverjeno"
 },
 {
-"id": "1802e83947",
-"n": "EJET proizvodnja plovil",
-"a": "Ljubljana",
+"id": "7f9536901f",
+"n": "J.D.F. d.o.o.",
+"a": "Nova Gorica",
 "cc": "si",
-"km": 55,
-"src": "Ročno preverjeno"
+"km": 62,
+"src": "CompanyWall (Slovenija)"
 },
 {
-"id": "ca46e0f6f7",
-"n": "Genlog, proizvodnja plovil",
-"a": "Šempeter pri Gorici",
+"id": "83c46dae40",
+"n": "D.C. d.o.o.",
+"a": "Prevalje",
 "cc": "si",
-"km": 65,
-"src": "Ročno preverjeno"
+"km": 68,
+"src": "CompanyWall (Slovenija)"
 },
 {
 "id": "35b3a7ad9f",
@@ -216,12 +1760,28 @@
 "src": "Ročno preverjeno"
 },
 {
+"id": "7fb6652d9e",
+"n": "SOLARMARIN, d.o.o.",
+"a": "Pivka",
+"cc": "si",
+"km": 85,
+"src": "CompanyWall (Slovenija)"
+},
+{
 "id": "056f6cecfc",
 "n": "Yachting 2000 Sebastjan Bržan s.p.",
 "a": "Boršt 16, 6273 Marezige",
 "cc": "si",
 "km": 105,
 "src": "Poslovni register SKD 30.120"
+},
+{
+"id": "01b6b21110",
+"n": "Michael Josef Mokre",
+"a": "Kleinarl",
+"cc": "at",
+"km": 109,
+"src": "WKO Firmen A-Z (Bootbauer)"
 },
 {
 "id": "e37f78edf8",
@@ -248,12 +1808,68 @@
 "src": "OpenStreetMap"
 },
 {
-"id": "448ed1a447",
-"n": "Magna Steyr",
+"id": "62552a684f",
+"n": "Michael Jaritz",
+"a": "Lannach",
+"cc": "at",
+"km": 112,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "12fd7cb0c3",
+"n": "Markus Bruno Lang",
+"a": "Hitzendorf",
+"cc": "at",
+"km": 119,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "09036d5a11",
+"n": "KOD SEDAM d. o. o.",
+"a": "Čavle",
+"cc": "hr",
+"km": 119,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "8f2d123113",
+"n": "Walter Schraml Gesellschaft m.b.H.",
+"a": "Kammern/Liesingtal",
+"cc": "at",
+"km": 123,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "d9b1a1e05b",
+"n": "Lindo Marine e.U.",
 "a": "Graz",
 "cc": "at",
 "km": 127,
-"src": "Ročno preverjeno"
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "980b6d8f84",
+"n": "Duller Services GmbH",
+"a": "Weinitzen",
+"cc": "at",
+"km": 127,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "5f557cb119",
+"n": "Sankt Hubertus Boote & Yachten GmbH & Co KG",
+"a": "Hausmannstätten",
+"cc": "at",
+"km": 127,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "ae116c5416",
+"n": "Felix Albert Suchanek",
+"a": "Pichl/Kainisch",
+"cc": "at",
+"km": 127,
+"src": "WKO Firmen A-Z (Bootbauer)"
 },
 {
 "id": "141b82f57c",
@@ -262,6 +1878,14 @@
 "cc": "it",
 "km": 130,
 "src": "OpenStreetMap"
+},
+{
+"id": "3d577551eb",
+"n": "Peter Siller",
+"a": "Pfarrwerfen",
+"cc": "at",
+"km": 130,
+"src": "WKO Firmen A-Z (Bootbauer)"
 },
 {
 "id": "6d5532e1c5",
@@ -280,6 +1904,2558 @@
 "src": "OpenStreetMap"
 },
 {
+"id": "ea6201ea74",
+"n": "Wolfgang Müllegger",
+"a": "Altaussee",
+"cc": "at",
+"km": 135,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "ad9e9c6a04",
+"n": "Marcel Pierre Tauss",
+"a": "Hart b.Graz",
+"cc": "at",
+"km": 136,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "5ac4fdd107",
+"n": "Barbara Scheicher",
+"a": "Zell am See",
+"cc": "at",
+"km": 137,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "b558bba5b7",
+"n": "Peter Dominic Hödlmoser",
+"a": "St. Wolfgang im Salzkammergut",
+"cc": "at",
+"km": 148,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "7cf622d6f7",
+"n": "Bootsvermietung Dominik Huber GmbH",
+"a": "Gmunden",
+"cc": "at",
+"km": 149,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "09b8662e8d",
+"n": "Michael Löberbauer",
+"a": "Gmunden",
+"cc": "at",
+"km": 149,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "fedd6da098",
+"n": "AXA d.o.o.",
+"a": "Karlovac",
+"cc": "hr",
+"km": 156,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "86109d36a6",
+"n": "BEL - YACHT d.o.o.",
+"a": "Brajkovići",
+"cc": "hr",
+"km": 157,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "a4cf5e4ccb",
+"n": "BERKOVIĆ SERVIS d. o. o.",
+"a": "Pinezići",
+"cc": "hr",
+"km": 158,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "5e2bd98a93",
+"n": "Kayuk di Guerrino Caruzzo",
+"a": "Silea",
+"cc": "it",
+"km": 161,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5e21a430f5",
+"n": "TERRA NAUTA YACHTS d.o.o.",
+"a": "Zagreb",
+"cc": "hr",
+"km": 162,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "2bef14d7ab",
+"n": "INMARK d.o.o.",
+"a": "Zagreb",
+"cc": "hr",
+"km": 162,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "13d682a9db",
+"n": "BIMEX-PROM d.o.o.",
+"a": "Zagreb",
+"cc": "hr",
+"km": 162,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "48f4c15059",
+"n": "UPWIND CATAMARAN d.o.o.",
+"a": "Zagreb",
+"cc": "hr",
+"km": 162,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "20dc26cf8d",
+"n": "INTER GRUPA d.o.o.",
+"a": "Zagreb",
+"cc": "hr",
+"km": 162,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "fa7eae611f",
+"n": "Yachting Impianti S.r.l.",
+"a": "Casale sul Sile",
+"cc": "it",
+"km": 163,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0f7e02a761",
+"n": "Fap Cantiere Nautico S.r.l.",
+"a": "Marcon",
+"cc": "it",
+"km": 167,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "73d64917c5",
+"n": "ISTRA YACHTING d.o.o.",
+"a": "Pula",
+"cc": "hr",
+"km": 170,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "d66b4a9f80",
+"n": "EME d. o. o.",
+"a": "Pula",
+"cc": "hr",
+"km": 170,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "64f25dd65e",
+"n": "KONTRA d. o. o.",
+"a": "Pula",
+"cc": "hr",
+"km": 170,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "c5e8149c51",
+"n": "Belisama Yacht S.r.l.",
+"a": "Mogliano Veneto",
+"cc": "it",
+"km": 171,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1913ff465b",
+"n": "Bs Naval S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c783138ce9",
+"n": "Cantiere Crea S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ab076920b9",
+"n": "Il Mare S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bff30c4b9b",
+"n": "L'Onda di Venezia S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "02dbccee89",
+"n": "Libra S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c82b5ed032",
+"n": "Dalla Pieta' Yacht S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d0103ab5c0",
+"n": "Cantiere Murano S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "87175c9a17",
+"n": "Il Barcarizzo di Agabitini Maurizio",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "592ac62079",
+"n": "Brandolisio Paolo",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f7b9f2453f",
+"n": "Eredi Gasparini S.n.c. di Gasparini Alex e Diego",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f2b9d6a123",
+"n": "Arte Nautica di Vianello Alex",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7ca8aaa6af",
+"n": "Arzana Cantieri Navali S.r.l. - In Liquidazione",
+"a": "Venezia",
+"cc": "it",
+"km": 173,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cc4d895fdd",
+"n": "Squero San Trovaso S.n.c. di della Toffola Lorenzo e C.",
+"a": "Venezia",
+"cc": "it",
+"km": 174,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "51e6905b7a",
+"n": "Steel Waves S.r.l.",
+"a": "Venezia",
+"cc": "it",
+"km": 175,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0ec165908a",
+"n": "Heli3Cime S.r.l.",
+"a": "Sesto .sexten.",
+"cc": "it",
+"km": 177,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a09c93f2b0",
+"n": "Vz Yacht Cantieri Nautici S.r.l. Unipersonale",
+"a": "Scorzè",
+"cc": "it",
+"km": 178,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1de0680b6c",
+"n": "DELTA DATA d.o.o.",
+"a": "Donja Lomnica",
+"cc": "hr",
+"km": 182,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "58005c0c25",
+"n": "Mechanical Constructions And Systems S.r.l.",
+"a": "Mira",
+"cc": "it",
+"km": 183,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "85edbf9faf",
+"n": "V. & R. S.r.l.",
+"a": "Chioggia",
+"cc": "it",
+"km": 193,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b6c1d02712",
+"n": "ROTA d. o. o.",
+"a": "Rab",
+"cc": "hr",
+"km": 195,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "9d33898de8",
+"n": "TUŠEK d.o.o.",
+"a": "Ivanić-Grad",
+"cc": "hr",
+"km": 195,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "4c3f186dc3",
+"n": "Euro-Fly S.r.l.",
+"a": "Tezze sul Brenta",
+"cc": "it",
+"km": 199,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4c14184d2b",
+"n": "E.Porcelli Propellers S.r.l. In Liquidazione",
+"a": "Marostica",
+"cc": "it",
+"km": 200,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6214cbdd10",
+"n": "Arzana' Asset Security S.r.l.",
+"a": "Padova",
+"cc": "it",
+"km": 203,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "93cac1ffc8",
+"n": "Lamanna Helicopter S.r.l.",
+"a": "Padova",
+"cc": "it",
+"km": 203,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a59aace4b9",
+"n": "Hit09 S.r.l.",
+"a": "Padova",
+"cc": "it",
+"km": 203,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bc33a4230e",
+"n": "Dolomia Yachts S.r.l.",
+"a": "Bolzano .bozen.",
+"cc": "it",
+"km": 208,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d3707411b1",
+"n": "G.A. Cantieri Navali S.r.l. Societa' Unipersonale",
+"a": "Grisignano di Zocco",
+"cc": "it",
+"km": 210,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9d5bca1611",
+"n": "Cantieri Nord Est S.r.l.",
+"a": "Porto Viro",
+"cc": "it",
+"km": 213,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "eb192167e5",
+"n": "Italy-Boats S.r.l.",
+"a": "Porto Viro",
+"cc": "it",
+"km": 213,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e49234b344",
+"n": "Commerciale N3C S.r.l.",
+"a": "Porto Viro",
+"cc": "it",
+"km": 213,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "622a11b252",
+"n": "Ariadimare S.r.l. - In Liquidazione",
+"a": "Dueville",
+"cc": "it",
+"km": 213,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "144035212b",
+"n": "Cantieri Nord Est S.a.s. di Barbieri Claudio & C.",
+"a": "Bolzano Vicentino",
+"cc": "it",
+"km": 233,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4f9efd28c2",
+"n": "Ipaziaspace S.r.l.",
+"a": "Arzignano",
+"cc": "it",
+"km": 233,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "193c1245bd",
+"n": "Gardasolar S.r.l.",
+"a": "Rovereto",
+"cc": "it",
+"km": 240,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "157e82a188",
+"n": "Meccanica A.D. S.r.l. Semplificata",
+"a": "Comacchio",
+"cc": "it",
+"km": 242,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "528b5ed57e",
+"n": "M3We S.r.l.",
+"a": "Arco",
+"cc": "it",
+"km": 249,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f95b2ec484",
+"n": "Gianni Ferrari Ulm S.r.l.",
+"a": "Castelbaldo",
+"cc": "it",
+"km": 249,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5191de6526",
+"n": "Garda Carbon Lab S.r.l.",
+"a": "Riva del Garda",
+"cc": "it",
+"km": 255,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9278e0efb1",
+"n": "SIDROTEC d.o.o.",
+"a": "Jasenovac",
+"cc": "hr",
+"km": 256,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "642bf46d35",
+"n": "REMI Nautika j.d.o.o.",
+"a": "Jasenovac",
+"cc": "hr",
+"km": 256,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "f6b7cde5cc",
+"n": "Pontoon System di Canella Marco",
+"a": "Ferrara",
+"cc": "it",
+"km": 259,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "67e407bd2e",
+"n": "Fp-Propeller S.r.l.",
+"a": "Ferrara",
+"cc": "it",
+"km": 259,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2a5796d358",
+"n": "Coming Solutions S.r.l.",
+"a": "Verona",
+"cc": "it",
+"km": 261,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1df77c0f90",
+"n": "Nemo S.r.l.s",
+"a": "Verona",
+"cc": "it",
+"km": 261,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b8d48c0e0d",
+"n": "Pneusnautica Verona S.n.c. di Perobelli Cinzia e Susanna",
+"a": "Verona",
+"cc": "it",
+"km": 262,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b0b4163fb7",
+"n": "Ninja Dynamics S.r.l.",
+"a": "Verona",
+"cc": "it",
+"km": 262,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "66ea79a222",
+"n": "Bg Tecnica S.r.l.",
+"a": "Verona",
+"cc": "it",
+"km": 262,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "aacff65cc9",
+"n": "Coral Marine S.r.l.",
+"a": "Ravenna",
+"cc": "it",
+"km": 267,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e1c5529cdd",
+"n": "Carrozzeria Nautica Grl S.r.l.S. Societa'",
+"a": "Ravenna",
+"cc": "it",
+"km": 267,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c720c60668",
+"n": "Guli Cat S.r.l.",
+"a": "Ravenna",
+"cc": "it",
+"km": 267,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "070ec80500",
+"n": "Focchi Giampaolo",
+"a": "Ravenna",
+"cc": "it",
+"km": 267,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "805e290ffb",
+"n": "SAGENA d.o.o.",
+"a": "Kali",
+"cc": "hr",
+"km": 275,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "3fd8e40b05",
+"n": "MARINEX d.o.o.",
+"a": "Zadar",
+"cc": "hr",
+"km": 276,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "7328f06448",
+"n": "ROTA d.o.o.",
+"a": "Zadar",
+"cc": "hr",
+"km": 276,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "1126e99664",
+"n": "Fibro d.o.o.",
+"a": "Murvica",
+"cc": "hr",
+"km": 276,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "26e1d550bc",
+"n": "ARISTA ZARA NAUTICA I DIZAJN j.d.o.o.",
+"a": "Zadar",
+"cc": "hr",
+"km": 276,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "ac7c95e8dd",
+"n": "Mtm S.r.l.",
+"a": "Cervia",
+"cc": "it",
+"km": 276,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ffa55df3c5",
+"n": "Servimar S.r.l. In Liquidazione",
+"a": "Cervia",
+"cc": "it",
+"km": 276,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "359ca8b4c9",
+"n": "N.C.F. Nautica Coltri Fratelli di Coltri Marco e C. SAS",
+"a": "Lazise",
+"cc": "it",
+"km": 276,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "84d6f59bbe",
+"n": "Marittima S.p.A. In Fallimento",
+"a": "Cervia",
+"cc": "it",
+"km": 278,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1794f61dec",
+"n": "Luna Rossa S.r.l.",
+"a": "Cesenatico",
+"cc": "it",
+"km": 280,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5afeb0aa77",
+"n": "G.D. Boat Service di D'Errico Gianni",
+"a": "Peschiera del Garda",
+"cc": "it",
+"km": 283,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a88999dd14",
+"n": "Cantiere Navale Marconi di Marconi Elviro & C. S.N.C",
+"a": "Cesenatico",
+"cc": "it",
+"km": 286,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "54cbaae16a",
+"n": "Cantiere Navale Carlini Roberto & Stefano S.r.l.",
+"a": "Rimini",
+"cc": "it",
+"km": 289,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "096b3321ff",
+"n": "Maestrale S.r.l.",
+"a": "Ceto",
+"cc": "it",
+"km": 289,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1f8783e9f5",
+"n": "Yacht sport Starý s.r.o.",
+"a": "Hluboká nad Vltavou",
+"cc": "cz",
+"km": 290,
+"src": "Register podjetij Češke (ARES)"
+},
+{
+"id": "053f334de8",
+"n": "Danese Yacht Building S.r.l.",
+"a": "Forlì",
+"cc": "it",
+"km": 292,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4db996e2cd",
+"n": "2 Effe SAS di Giacobbo Francesco e C.",
+"a": "Forlì",
+"cc": "it",
+"km": 292,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "001d96ed2b",
+"n": "Pedozzi S.r.l.",
+"a": "Forlì",
+"cc": "it",
+"km": 292,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fa805ce9e3",
+"n": "Erionautica Societa' A Responsabilita' Limitata",
+"a": "Forlì",
+"cc": "it",
+"km": 292,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "95c66706ca",
+"n": "Gf Nautica S.r.l.s",
+"a": "Forlì",
+"cc": "it",
+"km": 292,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "69a92d3725",
+"n": "Infinity S.r.l.",
+"a": "Cesena",
+"cc": "it",
+"km": 292,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "568f76bd1c",
+"n": "Watergames International S.r.l. In Liquidazione",
+"a": "Villanuova sul Clisi",
+"cc": "it",
+"km": 293,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fb6197e613",
+"n": "Nereus S.r.l.s In Liquidazione",
+"a": "Cattolica",
+"cc": "it",
+"km": 294,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e1dc002e46",
+"n": "Nauticall Boats S.r.l.",
+"a": "Muscoline",
+"cc": "it",
+"km": 294,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d466b61ea4",
+"n": "Futur-E Foiling S.r.l.",
+"a": "Imola",
+"cc": "it",
+"km": 294,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e1d79e6f92",
+"n": "Mulazzani Nautica di Mulazzani Danilo",
+"a": "Cattolica",
+"cc": "it",
+"km": 294,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "67fd37519a",
+"n": "Alpha Yachts S.r.l.",
+"a": "Pesaro",
+"cc": "it",
+"km": 295,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e6fd43e48d",
+"n": "On Board S.r.l.",
+"a": "Pesaro",
+"cc": "it",
+"km": 295,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "42c0c49573",
+"n": "Costruzioni Nautiche di Novelli Teodorico",
+"a": "Pesaro",
+"cc": "it",
+"km": 295,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d7292a2e9a",
+"n": "Overspace Aviation S.r.l.",
+"a": "Prevalle",
+"cc": "it",
+"km": 295,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4c2ad848b0",
+"n": "ŠKVER KUŠTERA, d.o.o.",
+"a": "Kraj",
+"cc": "hr",
+"km": 297,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "0491c8fc53",
+"n": "Tr Service S.r.l.",
+"a": "San Giovanni in Marignano",
+"cc": "it",
+"km": 297,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c8a67f8779",
+"n": "Cj&Am S.r.l.S",
+"a": "Coriano",
+"cc": "it",
+"km": 297,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b309647f06",
+"n": "Bkt Group S.r.l.",
+"a": "Bologna",
+"cc": "it",
+"km": 297,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "93011d1aea",
+"n": "Flo'Sail S.r.l.",
+"a": "Dozza",
+"cc": "it",
+"km": 298,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a9f304be9b",
+"n": "Marelift S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2616775d24",
+"n": "Karim Yacht S.r.l.s",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b862e9190d",
+"n": "Searts S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a7251b9eaf",
+"n": "Living Yachts S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f231a05094",
+"n": "Medusa Group S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4d7fee9ba8",
+"n": "Samy Yacht S.r.l.s",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d8481551ad",
+"n": "Credea S.r.l.s",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3eaf27595d",
+"n": "Tem 2 S.r.l. Semplificata",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ed37f32e41",
+"n": "Nata Yacht S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "843ad779ca",
+"n": "Nautica Ca S.r.l.s",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0caac72b93",
+"n": "Alboran Yacht S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1f76410c3e",
+"n": "Euro Arredamenti S.r.l.",
+"a": "Colli al Metauro",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9f09fcf972",
+"n": "Alg S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "df47c22247",
+"n": "Gts Carrozzeria Nautica S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "98505e6a30",
+"n": "Diamond Of The Sea S.r.l.s",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dbabcee8a4",
+"n": "Nadiryachts & Components S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e060cd5b08",
+"n": "Badr Marine S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1fdb16dc2f",
+"n": "Sea Project S.r.l. In Liquidazione",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cce9e74466",
+"n": "Nautica Ares S.r.l. In Liquidazione",
+"a": "Fano",
+"cc": "it",
+"km": 300,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e41aff492f",
+"n": "High Performance Composites S.r.l.",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "55180e6658",
+"n": "Elite Marine S.r.l.s",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "682e28dedf",
+"n": "Camm S.r.l. - In Liquidazione",
+"a": "Fano",
+"cc": "it",
+"km": 301,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a513c11828",
+"n": "S.Arredo - Societa' A Responsabilita' Limitata",
+"a": "Bologna",
+"cc": "it",
+"km": 302,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d5c1ca36d6",
+"n": "Rg Yacht S.r.l.",
+"a": "Bologna",
+"cc": "it",
+"km": 302,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9c57e255f2",
+"n": "Frank Yacht S.r.l.",
+"a": "Bologna",
+"cc": "it",
+"km": 302,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "831ca64b43",
+"n": "Rps Aerospace S.r.l.",
+"a": "Lumezzane",
+"cc": "it",
+"km": 305,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f8b4d7c803",
+"n": "Nuova Moudhi Nautica S.r.l.S. In Liquidazione",
+"a": "Mombaroccio",
+"cc": "it",
+"km": 308,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "921a0588a0",
+"n": "Vg Yacht di Benmansour Adel & C. S.a.s.",
+"a": "Mondolfo",
+"cc": "it",
+"km": 308,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1a4de78f22",
+"n": "Deep Line S.r.l. Semplificata",
+"a": "Mondolfo",
+"cc": "it",
+"km": 308,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ab36312fb9",
+"n": "Gold Nautica S.r.l.s",
+"a": "Mondolfo",
+"cc": "it",
+"km": 308,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "daf53b6089",
+"n": "G4 Nautica S.r.l.",
+"a": "Mondolfo",
+"cc": "it",
+"km": 308,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e1dc0fca7b",
+"n": "Khalifa Nautica di Sow Ibrahima",
+"a": "Mondolfo",
+"cc": "it",
+"km": 308,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "89919c9222",
+"n": "Oag Officine Aeronautiche Ghidotti S.r.l.",
+"a": "Carpi",
+"cc": "it",
+"km": 308,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "073f7843ad",
+"n": "G.M. Nautica S.r.l.",
+"a": "Senigallia",
+"cc": "it",
+"km": 310,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2aa851df14",
+"n": "SALUN INTERIER, s.r.o.",
+"a": "Týn nad Vltavou",
+"cc": "cz",
+"km": 311,
+"src": "Register podjetij Češke (ARES)"
+},
+{
+"id": "a97223bbc0",
+"n": "A.C. Nautica S.r.l.s",
+"a": "Cartoceto",
+"cc": "it",
+"km": 311,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "114f605aff",
+"n": "Econ Resin di Aprile Giuseppe",
+"a": "Cartoceto",
+"cc": "it",
+"km": 311,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7ece4fa06b",
+"n": "Costiera Yacht S.r.l.",
+"a": "Cartoceto",
+"cc": "it",
+"km": 311,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9327cfb13a",
+"n": "Npd S.r.l.",
+"a": "Brescia",
+"cc": "it",
+"km": 313,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1343611e5c",
+"n": "Avio Sma S.r.l.",
+"a": "Guastalla",
+"cc": "it",
+"km": 313,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a9fa3ec461",
+"n": "Itacatamarans S.r.l.",
+"a": "Monte Porzio",
+"cc": "it",
+"km": 314,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "09755f282e",
+"n": "Model Technology S.r.l.",
+"a": "Monte Porzio",
+"cc": "it",
+"km": 314,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "681502da74",
+"n": "Argo Yachts Group S.r.l.",
+"a": "Modena",
+"cc": "it",
+"km": 314,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0728440128",
+"n": "Ilyas S.r.l.s",
+"a": "Monte Porzio",
+"cc": "it",
+"km": 314,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cdbe7a76e5",
+"n": "Topmarine S.r.l.",
+"a": "Terre Roveresche",
+"cc": "it",
+"km": 317,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "69cbd59b14",
+"n": "Fratelli Yacht S.r.l.",
+"a": "Falconara Marittima",
+"cc": "it",
+"km": 317,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "145085180b",
+"n": "Bellini Yacht S.r.l.",
+"a": "Iseo",
+"cc": "it",
+"km": 318,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5dc0eb1b8e",
+"n": "Sunsea Italian Yacht S.r.l.",
+"a": "Trecastelli",
+"cc": "it",
+"km": 318,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f8360fcf81",
+"n": "Janux S.r.l.",
+"a": "Ancona",
+"cc": "it",
+"km": 318,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6adb9ce57d",
+"n": "Cmf Impiantistica Navale S.r.l.",
+"a": "Falconara Marittima",
+"cc": "it",
+"km": 319,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "21a9759759",
+"n": "Har Marine S.r.l.s",
+"a": "Falconara Marittima",
+"cc": "it",
+"km": 319,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9914225d35",
+"n": "Vittoria Yachts S.r.l. - In Liquidazione",
+"a": "Ancona",
+"cc": "it",
+"km": 319,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "454b3c515a",
+"n": "CARBON MARINE SRL a socio unico",
+"a": "Passirano",
+"cc": "it",
+"km": 321,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3dfe5bf60c",
+"n": "Fama' Helicopters S.r.l.",
+"a": "Castelvetro di Modena",
+"cc": "it",
+"km": 324,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7e644b391a",
+"n": "Nashero S.r.l.",
+"a": "Casalmaggiore",
+"cc": "it",
+"km": 325,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4384ed8c64",
+"n": "Ecoline Marine S.r.l.",
+"a": "Sarnico",
+"cc": "it",
+"km": 327,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e2bc196893",
+"n": "Stt S.r.l.",
+"a": "Paratico",
+"cc": "it",
+"km": 328,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1fe942beed",
+"n": "Starteak S.r.l.",
+"a": "Reggio nell'Emilia",
+"cc": "it",
+"km": 329,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2b92db0477",
+"n": "Ri-Team S.r.l.",
+"a": "Jesi",
+"cc": "it",
+"km": 330,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6d18af8b3f",
+"n": "I.B.F. Nautica S.r.l.",
+"a": "Cologne",
+"cc": "it",
+"km": 331,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ea1dd81205",
+"n": "Fr Nexus S.r.l.",
+"a": "Monsano",
+"cc": "it",
+"km": 331,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "55fb5d492f",
+"n": "GRP COMPOSITES s.r.o.",
+"a": "Moraveč",
+"cc": "cz",
+"km": 334,
+"src": "Register podjetij Češke (ARES)"
+},
+{
+"id": "be2ce75102",
+"n": "Baumarine S.r.l.",
+"a": "Chiari",
+"cc": "it",
+"km": 334,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0100e9f96d",
+"n": "RIVA SERVIS d.o.o.",
+"a": "Šibenik",
+"cc": "hr",
+"km": 335,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "9b9e5b9e4e",
+"n": "LASAN SERVIS j.d.o.o.",
+"a": "Šibenik",
+"cc": "hr",
+"km": 335,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "3949337729",
+"n": "Societa' Conero di Domizio Mario e C. SAS",
+"a": "Recanati",
+"cc": "it",
+"km": 335,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e114539bff",
+"n": "Smart Eco Mobility S.r.l.",
+"a": "Erbusco",
+"cc": "it",
+"km": 338,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0bf6cfce6c",
+"n": "Cors-Air S.r.l.",
+"a": "Bibbiano",
+"cc": "it",
+"km": 338,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ad4a04f8ed",
+"n": "Simonini Racing S.r.l.",
+"a": "Serramazzoni",
+"cc": "it",
+"km": 339,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "adc97dcb13",
+"n": "Scuola Italiana Volo S.r.l.",
+"a": "Corte de' Cortesi con Cignone",
+"cc": "it",
+"km": 339,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1ffd2bda72",
+"n": "One - Off Super Tender S.r.l.",
+"a": "Parma",
+"cc": "it",
+"km": 342,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a1aa134051",
+"n": "Drptech S.r.l. A Socio Unico",
+"a": "Parma",
+"cc": "it",
+"km": 342,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fa6a85b015",
+"n": "Grigor S.r.l.",
+"a": "Cortenuova",
+"cc": "it",
+"km": 344,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "37b98ceb6e",
+"n": "Orio Air Service S.r.l.",
+"a": "Orio Al Serio",
+"cc": "it",
+"km": 344,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2854711f28",
+"n": "C.M.T. S.r.l.",
+"a": "Montelupone",
+"cc": "it",
+"km": 346,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9e14d6666f",
+"n": "Loy S.r.l. - Unipersonale",
+"a": "Bergamo",
+"cc": "it",
+"km": 348,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "069cd24c2a",
+"n": "Achille Nautica S.r.l.cr",
+"a": "Bergamo",
+"cc": "it",
+"km": 348,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "716bda7437",
+"n": "Costruzioni Nautiche Italiane S.r.l. In Sigla 'Cni S.r.l.'",
+"a": "Bergamo",
+"cc": "it",
+"km": 348,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "859f90eb35",
+"n": "Tarozziboats di Tarozzi Diego",
+"a": "Castelvetro Piacentino",
+"cc": "it",
+"km": 348,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "690801256b",
+"n": "Horus Dynamics S.r.l.",
+"a": "Bergamo",
+"cc": "it",
+"km": 348,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7a080f2fe2",
+"n": "Difly S.r.l. Unipersonale",
+"a": "Noceto",
+"cc": "it",
+"km": 351,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "83f7ac140f",
+"n": "Ltn S.r.l.",
+"a": "Treviolo",
+"cc": "it",
+"km": 353,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3ec6358948",
+"n": "New Nautica di Brusamonti Fabio",
+"a": "Monticelli d'Ongina",
+"cc": "it",
+"km": 353,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "736947a0ee",
+"n": "Albaplast S.r.l.",
+"a": "Verdello",
+"cc": "it",
+"km": 354,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5674ea1949",
+"n": "Amg Nautica S.r.l.",
+"a": "Osio Sotto",
+"cc": "it",
+"km": 356,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fe1acfd650",
+"n": "D.L. Nautica S.r.l.",
+"a": "Ciserano",
+"cc": "it",
+"km": 356,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "18e3be9479",
+"n": "KREMIK SERVIS d.o.o.",
+"a": "Primošten",
+"cc": "hr",
+"km": 359,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "f516cf0305",
+"n": "RAND SHIPYARD d.o.o. u stečaju",
+"a": "Turjaci",
+"cc": "hr",
+"km": 362,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "7affa1deb3",
+"n": "Nautica Errepi S.r.l.",
+"a": "Cisano Bergamasco",
+"cc": "it",
+"km": 362,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cd3d0bbeb7",
+"n": "Sacchi S.n.c. di Sacchi Marco, Ivano e Roberto",
+"a": "Cisano Bergamasco",
+"cc": "it",
+"km": 362,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "241e03099b",
+"n": "Resinart S.r.l.",
+"a": "Lecco",
+"cc": "it",
+"km": 364,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0bb89c5383",
+"n": "Mia S.r.l.",
+"a": "Olgiate Molgora",
+"cc": "it",
+"km": 367,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d7435236fe",
+"n": "Camper & Nicholsons Yachts S.R.L",
+"a": "Firenze",
+"cc": "it",
+"km": 368,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0ca95890c7",
+"n": "Cantiere Navale Arno S.r.l.",
+"a": "Firenze",
+"cc": "it",
+"km": 368,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e4e222dca2",
+"n": "ALU OS d.o.o.",
+"a": "Nemetin",
+"cc": "hr",
+"km": 370,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "b01223ecd1",
+"n": "Zona Neutra S.r.l.",
+"a": "Campi Bisenzio",
+"cc": "it",
+"km": 370,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c32f8a52d7",
+"n": "Delta Blue S.r.l.S.",
+"a": "La Valletta Brianza",
+"cc": "it",
+"km": 370,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "003ae46a97",
+"n": "Albaviation Societa' A Responsabilita' Limitata",
+"a": "Montegiorgio",
+"cc": "it",
+"km": 370,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ee2e787f9c",
+"n": "Hp Nautica S.r.l.",
+"a": "Piacenza",
+"cc": "it",
+"km": 372,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "46a6e9fde7",
+"n": "Dreaming Yacht S.r.l.s",
+"a": "Piacenza",
+"cc": "it",
+"km": 372,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "34961a971e",
+"n": "Nautical Style Yachts S.r.l.",
+"a": "San Giorgio Piacentino",
+"cc": "it",
+"km": 374,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "90d61772bb",
+"n": "KANULA d.o.o.",
+"a": "Split",
+"cc": "hr",
+"km": 376,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "788c1c00a5",
+"n": "HARPUN d.o.o.",
+"a": "Split",
+"cc": "hr",
+"km": 376,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "d5b234aa6b",
+"n": "MOTIO d.o.o.",
+"a": "Split",
+"cc": "hr",
+"km": 376,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "25c24b8b6f",
+"n": "TRILOGIC BOATS d.o.o.",
+"a": "Split",
+"cc": "hr",
+"km": 376,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "7b378c7b4a",
+"n": "GUMENJACI-ORADA d.o.o.",
+"a": "Split",
+"cc": "hr",
+"km": 376,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "68319c6f17",
+"n": "Neptvn Boats S.r.l.",
+"a": "Concorezzo",
+"cc": "it",
+"km": 376,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5029873a8d",
+"n": "Ribstop Italia S.r.l.",
+"a": "Vignate",
+"cc": "it",
+"km": 376,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4e3a272930",
+"n": "Nautica Pennati S.r.l.",
+"a": "Cernusco sul Naviglio",
+"cc": "it",
+"km": 378,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e511625bbd",
+"n": "Nautica A.R. S.r.l.s",
+"a": "Gossolengo",
+"cc": "it",
+"km": 379,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "02fc17a82a",
+"n": "3 Fasi S.r.l.",
+"a": "Monza",
+"cc": "it",
+"km": 381,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0d5a7fcd44",
+"n": "Ride Marine di Giacinto de Tursi",
+"a": "Monza",
+"cc": "it",
+"km": 381,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "abd00cad9a",
+"n": "S.S.V.V. Sezione Sperimentale Volo A Vela S.r.l.",
+"a": "Peschiera Borromeo",
+"cc": "it",
+"km": 382,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a1acc9d28e",
+"n": "Cantiere Ernesto Riva Imbarcazioni Costruzione Restauro Rimessaggio di Daniele Riva",
+"a": "Laglio",
+"cc": "it",
+"km": 384,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "da94f0e790",
+"n": "Atlantic Design Innovation S.r.l.",
+"a": "Mariano Comense",
+"cc": "it",
+"km": 385,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "88d4cacb29",
+"n": "G&G Rigging S.r.l.",
+"a": "Sesto San Giovanni",
+"cc": "it",
+"km": 386,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "45ce07f6e1",
+"n": "Melges Europe S.r.l.",
+"a": "Como",
+"cc": "it",
+"km": 389,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b71ed4a8b2",
+"n": "Nautica Starline - S.a.s. di Allevi Maurizio & C.",
+"a": "Como",
+"cc": "it",
+"km": 389,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ae7aa9d29e",
+"n": "Arbatax Cantieri Nautici S.r.l. In Liquidazione",
+"a": "Como",
+"cc": "it",
+"km": 389,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a03dafc697",
+"n": "Genergo S.r.l.",
+"a": "Como",
+"cc": "it",
+"km": 389,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9affc0d96d",
+"n": "Oneoff S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "70480193f6",
+"n": "Albatro S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4c22855d0f",
+"n": "Prc S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f0b35da80d",
+"n": "Movers And Shakers S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "03108b45ed",
+"n": "Cantieri Thy S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dd42d36ddb",
+"n": "Hbs Design Societa' A Responsabilita' Limitata",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d51eaeb074",
+"n": "Cantieri Navali del Golfo S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "98be9dc450",
+"n": "Luca Brenta Yachts S.r.l. O, In Forma Abbreviata, Lby S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "03303f4122",
+"n": "Esse Compositi S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6aff1545d2",
+"n": "Seacon Italy S.p.A.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "edd8d49186",
+"n": "Tuxedo Yachting House S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "92c6d83599",
+"n": "Revolver Boats S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "18481da79e",
+"n": "Nube S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "aa723168e2",
+"n": "Correnti S.r.l. In Liquidazione",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2f38197b59",
+"n": "Rebel S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3142474db8",
+"n": "Naita Yachts S.r.l.",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f0a1965b90",
+"n": "DIAHELIX S.R.L. start",
+"a": "Milano",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "063a45c8ee",
+"n": "Vertex Aero S.r.l.",
+"a": "Monteprandone",
+"cc": "it",
+"km": 391,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8d7def3959",
+"n": "Cnt-Boat S.r.l.S.",
+"a": "Perugia",
+"cc": "it",
+"km": 392,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bfa042352d",
+"n": "Coplass di Gianni Cortini e C. - S.a.s.",
+"a": "Barberino Tavarnelle",
+"cc": "it",
+"km": 392,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bc3d1618f6",
+"n": "Aergrifo S.r.l.",
+"a": "Perugia",
+"cc": "it",
+"km": 392,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "97b338ca04",
+"n": "Blu Martin Yachts S.r.l.",
+"a": "Cassina Rizzardi",
+"cc": "it",
+"km": 395,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "99d1950a8c",
+"n": "Cantiere Nautico Maro' Line S.r.l.",
+"a": "San Siro",
+"cc": "it",
+"km": 395,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "df8329d975",
+"n": "Marras Officina Nautica S.r.l.",
+"a": "Zeccone",
+"cc": "it",
+"km": 398,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "66a01857fa",
+"n": "Intermare",
+"a": "",
+"cc": "it",
+"km": 433,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "46d2049c75",
+"n": "Catarsi",
+"a": "",
+"cc": "it",
+"km": 446,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "ec034cb77b",
+"n": "M.Y.I. S.r.l.",
+"a": "Olbia",
+"cc": "it",
+"km": 703,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a64d676c50",
+"n": "Lea Composites Centre",
+"a": "Champforgeuil",
+"cc": "fr",
+"km": 705,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "2f4a73be0e",
+"n": "Portelli Productions",
+"a": "Cour-Et-Buis",
+"cc": "fr",
+"km": 708,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "dd93f22dd9",
+"n": "Capitanio Aerospace 2.0 S.r.l.",
+"a": "Mesagne",
+"cc": "it",
+"km": 720,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "69c67a9498",
+"n": "Societe Duc",
+"a": "Frontenas",
+"cc": "fr",
+"km": 727,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "4530800ef9",
+"n": "E B G Composite (Foriel Composite)",
+"a": "Valence",
+"cc": "fr",
+"km": 729,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "3960660497",
+"n": "Ufo (Ufo Boat / Ufo Composit / Naca)",
+"a": "Signes",
+"cc": "fr",
+"km": 741,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "1d72765f1f",
+"n": "Kreative (Kreative)",
+"a": "La Seyne-Sur-Mer",
+"cc": "fr",
+"km": 743,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "791717e1e4",
+"n": "Composite (Composite)",
+"a": "Aix-En-Provence",
+"cc": "fr",
+"km": 750,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "7f89e1c179",
+"n": "Polyester Innovation Developpement (Polyester Innovation Developpement)",
+"a": "Gemenos",
+"cc": "fr",
+"km": 751,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "7202ae3a1b",
+"n": "Promecc Aerospace S.r.l.",
+"a": "Corigliano D'otranto",
+"cc": "it",
+"km": 776,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d059acd84a",
+"n": "Applications Plastiques et Composites (Apc)",
+"a": "Sainte-Savine",
+"cc": "fr",
+"km": 782,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "090a342404",
+"n": "Air Creation",
+"a": "Lanas",
+"cc": "fr",
+"km": 783,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "1694f18abd",
+"n": "Think'Ax",
+"a": "La Pacaudiere",
+"cc": "fr",
+"km": 783,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "29855b85c1",
+"n": "Lea Composites Languedoc (Alliance Piscines - Cocktail Piscine)",
+"a": "Bellegarde",
+"cc": "fr",
+"km": 805,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "4b91cc386a",
+"n": "Costruzioni Nautiche Ogliastra S.r.l. - In Fallimento",
+"a": "Tortoli'",
+"cc": "it",
+"km": 805,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9110d2ae90",
+"n": "Aero Composite Services",
+"a": "Saint-Gilles",
+"cc": "fr",
+"km": 813,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "0ed9d3ed25",
+"n": "Metal Composite SARL",
+"a": "Lunel",
+"cc": "fr",
+"km": 837,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "332d929f29",
+"n": "F-Tech Mediterranee",
+"a": "Montpellier",
+"cc": "fr",
+"km": 861,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "d6fedbb3a0",
+"n": "Stratifies Composites Aeronautiques",
+"a": "Saint-Doulchard",
+"cc": "fr",
+"km": 891,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "df7092a7aa",
+"n": "Kymera Yacht S.r.l.",
+"a": "Assemini",
+"cc": "it",
+"km": 901,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6e89072744",
+"n": "Sarda Costruzioni Industriali Riparazioni Navali S.r.l.",
+"a": "Iglesias",
+"cc": "it",
+"km": 914,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3500c1af2a",
+"n": "Aresia-Salbris (Rafaut Group)",
+"a": "Salbris",
+"cc": "fr",
+"km": 917,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "7312313293",
+"n": "Gitana France",
+"a": "Paris",
+"cc": "fr",
+"km": 919,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "3aca463f69",
+"n": "3Af Shipyard S.r.l.",
+"a": "Villafranca Tirrena",
+"cc": "it",
+"km": 919,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bcf15370a3",
+"n": "Mb & A Exploitation",
+"a": "Domont",
+"cc": "fr",
+"km": 921,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "04e208cbc6",
+"n": "Fga Picardie",
+"a": "Meaulte",
+"cc": "fr",
+"km": 929,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "126cd6e325",
+"n": "Cousin Composites",
+"a": "Wervicq-Sud",
+"cc": "fr",
+"km": 940,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "2fc611b57e",
+"n": "Aresia-Chateauroux (Rafaut Group)",
+"a": "Saint-Maur",
+"cc": "fr",
+"km": 947,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "01b5f93d08",
+"n": "Gpa S.r.l.",
+"a": "Santa Teresa Di Riva",
+"cc": "it",
+"km": 948,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "628e6d8b0e",
+"n": "Securite Composite",
+"a": "Labeuvriere",
+"cc": "fr",
+"km": 959,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "4016b9601d",
+"n": "Lr Composites",
+"a": "Canet-En-Roussillon",
+"cc": "fr",
+"km": 966,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "eb9c117dff",
+"n": "Mediterraneenne de Polyester",
+"a": "Perpignan",
+"cc": "fr",
+"km": 975,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "0d553d36b7",
+"n": "Barche Sicilia S.r.l.",
+"a": "Sciacca",
+"cc": "it",
+"km": 996,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3939ce1ce6",
+"n": "Modra Pomoč, Servis in Izdelava Plovil d.o.o.",
+"a": "Opekarska Cesta 19, 1360 Vrhnika",
+"cc": "si",
+"km": 90,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "99cfe55988",
+"n": "SALT Sailing GmbH",
+"a": "Ebensee am Traunsee",
+"cc": "at",
+"km": 152,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "f6bd895f03",
+"n": "Petra Andrea Engel",
+"a": "Sankt Gilgen",
+"cc": "at",
+"km": 157,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "6e29189c11",
+"n": "Heinz Walter Risch",
+"a": "Sankt Gilgen",
+"cc": "at",
+"km": 157,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "1d0ab1a664",
+"n": "DIVA MARINER d. o. o.",
+"a": "Zagreb",
+"cc": "hr",
+"km": 162,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "af12de4467",
+"n": "Johann Höfner",
+"a": "Hof bei Salzburg",
+"cc": "at",
+"km": 166,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "cc2686103e",
+"n": "Timo Reinhard Fuchs",
+"a": "Innerschwand am Mondsee",
+"cc": "at",
+"km": 167,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "da9940576e",
+"n": "Johannes Fisch",
+"a": "Attersee am Attersee",
+"cc": "at",
+"km": 168,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "3052288a67",
+"n": "Michael Oberweger",
+"a": "Attersee am Attersee",
+"cc": "at",
+"km": 168,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "956656667d",
+"n": "Yachtagentur Haslinger GmbH",
+"a": "Attersee am Attersee",
+"cc": "at",
+"km": 168,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "aa8fa482bb",
+"n": "Shiva Liberty",
+"a": "Tiefgraben",
+"cc": "at",
+"km": 169,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "ff405daca2",
+"n": "AGW Technology OG",
+"a": "Salzburg",
+"cc": "at",
+"km": 170,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "71bf3f83d4",
+"n": "Rauscher Boote e.U.",
+"a": "Salzburg",
+"cc": "at",
+"km": 170,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "4b4bb64572",
+"n": "Franz Mittendorfer",
+"a": "Schörfling am Attersee",
+"cc": "at",
+"km": 170,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "a218943d7e",
+"n": "SPORT MARE NAUTIKA d.o.o.",
+"a": "Pula",
+"cc": "hr",
+"km": 170,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "803e44aa01",
+"n": "BETA MARINE d. o. o.",
+"a": "Medulin",
+"cc": "hr",
+"km": 170,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "a3e14356a6",
+"n": "Gunda Gebetsroither",
+"a": "Seewalchen am Attersee",
+"cc": "at",
+"km": 171,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "81100cc58a",
+"n": "Matthäus Grasl",
+"a": "Seewalchen am Attersee",
+"cc": "at",
+"km": 171,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "0b254d59ca",
+"n": "Yacht Service Gebetsroither Gesellschaft m.b.H. & Co. KG.",
+"a": "Seewalchen am Attersee",
+"cc": "at",
+"km": 171,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "8d7fddafc3",
+"n": "regio intakt Unternehmensberatung e.U.",
+"a": "Vorchdorf",
+"cc": "at",
+"km": 174,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "8c05378088",
+"n": "Josef Handlechner",
+"a": "Seekirchen am Wallersee",
+"cc": "at",
+"km": 175,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "8cacf2d462",
+"n": "Moritz Mairhuber",
+"a": "Ohlsdorf",
+"cc": "at",
+"km": 175,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "527abcc77e",
+"n": "Rüdiger Franz Krischke",
+"a": "Lenzing",
+"cc": "at",
+"km": 175,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "d00394dc58",
+"n": "Klaus Detlev Fließer",
+"a": "Elixhausen",
+"cc": "at",
+"km": 176,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "ee97e7aad2",
+"n": "Thomas Tschepen",
+"a": "Regau",
+"cc": "at",
+"km": 176,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "80c97161e5",
+"n": "Silverwings Boote e.U.",
+"a": "Ried im Traunkreis",
+"cc": "at",
+"km": 177,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "3680668617",
+"n": "Gregor Herbert Sinnhuber, MBA",
+"a": "Ried im Traunkreis",
+"cc": "at",
+"km": 177,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "f45817edd1",
+"n": "BSE GmbH",
+"a": "Obertrum am See",
+"cc": "at",
+"km": 181,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "1284967295",
+"n": "Jürgen Leopold Haider",
+"a": "Ramsau/Zillertal",
+"cc": "at",
+"km": 186,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "35c0af8715",
+"n": "Ing. Mag. Gerhard Schöchl",
+"a": "Mattsee",
+"cc": "at",
+"km": 188,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "024c8826e1",
+"n": "Dipl.-Ing. Hermann Quintus Steiner",
+"a": "Mattsee",
+"cc": "at",
+"km": 188,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
 "id": "770b3465ef",
 "n": "Bracol",
 "a": "",
@@ -288,12 +4464,236 @@
 "src": "OpenStreetMap"
 },
 {
+"id": "8ecb4e25ee",
+"n": "Laszlo Sereg",
+"a": "Wolfsegg am Hausruck",
+"cc": "at",
+"km": 190,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "e5be7b121a",
+"n": "SMARTKAT Bootsbau und Vertriebs GmbH",
+"a": "Haag",
+"cc": "at",
+"km": 191,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "7a0e149d6a",
+"n": "Martin Teufl",
+"a": "Gresten-Land",
+"cc": "at",
+"km": 191,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
 "id": "7593d5ba76",
 "n": "Madl am Chiemsee",
 "a": "Seestraße, Übersee",
 "cc": "de",
 "km": 196,
 "src": "OpenStreetMap"
+},
+{
+"id": "6ec802fe1b",
+"n": "Karl-Heinz Lehner",
+"a": "Greinsfurth",
+"cc": "at",
+"km": 197,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "c38123759e",
+"n": "Yachthafen Robert Raderbauer GmbH",
+"a": "Ardagger Markt",
+"cc": "at",
+"km": 199,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "46b890fdd4",
+"n": "Ludwig Oliver Veres",
+"a": "Oftering",
+"cc": "at",
+"km": 199,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "0e68b1a7b3",
+"n": "Sebastian Alexander Waidhofer",
+"a": "Schlüßlberg",
+"cc": "at",
+"km": 200,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "e857e00d53",
+"n": "Michael Schöllnberger",
+"a": "St. Florian",
+"cc": "at",
+"km": 200,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "ca82bbab7d",
+"n": "Mst. Florian Martin Karl Zimmermann",
+"a": "Ansfelden",
+"cc": "at",
+"km": 200,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "528904fcd1",
+"n": "4Ports GmbH",
+"a": "Pasching",
+"cc": "at",
+"km": 201,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "192810fe64",
+"n": "Christian Brandtner",
+"a": "Linz",
+"cc": "at",
+"km": 209,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "01343fe03d",
+"n": "DDSG Services GmbH",
+"a": "Linz",
+"cc": "at",
+"km": 209,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "137ae95019",
+"n": "Dragan Stanikić",
+"a": "Linz",
+"cc": "at",
+"km": 209,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "2ea33d8dfa",
+"n": "TopYacht Handels- und Service GmbH",
+"a": "Linz",
+"cc": "at",
+"km": 209,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "041bf49a7d",
+"n": "Harsch Marineservice und Handel GmbH",
+"a": "Lichtenberg",
+"cc": "at",
+"km": 209,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "8e978fb2b8",
+"n": "Dieter Zens",
+"a": "Breitenau",
+"cc": "at",
+"km": 215,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "6a721685cc",
+"n": "Steinberg Research Solutions e.U.",
+"a": "Steinberg-Dörfl",
+"cc": "at",
+"km": 218,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "8740798979",
+"n": "Christian Heribert Königsdorfer",
+"a": "Hofkirchen im Mühlkreis",
+"cc": "at",
+"km": 219,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "83a68f03c4",
+"n": "Thomas Josef Dall",
+"a": "Sankt Martin im Mühlkreis",
+"cc": "at",
+"km": 220,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "c8a7421129",
+"n": "Stefan Schauer",
+"a": "Pregarten",
+"cc": "at",
+"km": 221,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "c9b5017b02",
+"n": "Gerald Karl",
+"a": "Reichenau im Mühlkreis",
+"cc": "at",
+"km": 225,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "ee0433ef35",
+"n": "Milena Grancharova",
+"a": "Schärding",
+"cc": "at",
+"km": 229,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "f60aa41d56",
+"n": "Csaba Elek",
+"a": "Traiskirchen",
+"cc": "at",
+"km": 241,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "779df68bee",
+"n": "Felix Recht",
+"a": "Traiskirchen",
+"cc": "at",
+"km": 241,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "947d9581a6",
+"n": "Sascha Schmid",
+"a": "Pfaffstätten",
+"cc": "at",
+"km": 242,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "08e688c1b1",
+"n": "Auriga Holding GmbH",
+"a": "Hinterbrühl",
+"cc": "at",
+"km": 245,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "9eb190bce4",
+"n": "Drescher Line GmbH",
+"a": "Rust",
+"cc": "at",
+"km": 250,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "1567a6f080",
+"n": "Tobias Van Kooij",
+"a": "Weidling",
+"cc": "at",
+"km": 257,
+"src": "WKO Firmen A-Z (Bootbauer)"
 },
 {
 "id": "39d24f7f16",
@@ -320,12 +4720,108 @@
 "src": "OpenStreetMap"
 },
 {
-"id": "9d08476e15",
-"n": "Ferretti Group - Ravenna",
-"a": "Via Classicana, Ravenna",
-"cc": "it",
-"km": 261,
-"src": "OpenStreetMap"
+"id": "49ad3ebeb7",
+"n": "Jim Conny Aladin",
+"a": "Wien",
+"cc": "at",
+"km": 263,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "366eb8ec09",
+"n": "CHAMPIONSHIPS human development e.U.",
+"a": "Wien",
+"cc": "at",
+"km": 263,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "46caf5fc69",
+"n": "Philipp Max Derstroff",
+"a": "Wien",
+"cc": "at",
+"km": 263,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "7596ae6315",
+"n": "Eppel Boote, Nachfolger Ing. Werner Ahammer e.U.",
+"a": "Wien",
+"cc": "at",
+"km": 263,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "1072915d07",
+"n": "Dorothea Clara Fahrwald",
+"a": "Wien",
+"cc": "at",
+"km": 263,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "5181c027db",
+"n": "Colin Justin Hürner",
+"a": "Wien",
+"cc": "at",
+"km": 263,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "af5537d9f4",
+"n": "Cornelia Klausecker",
+"a": "Wien",
+"cc": "at",
+"km": 263,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "4710ce058c",
+"n": "Konstantin Kobale",
+"a": "Wien",
+"cc": "at",
+"km": 263,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "f911438b15",
+"n": "Leban & Fischbach Bootswerft OG",
+"a": "Jois",
+"cc": "at",
+"km": 268,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "3531b5391c",
+"n": "Graba u. Radtke Bootsbau",
+"a": "Wielenbach",
+"cc": "de",
+"km": 271,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "75a49a9e7f",
+"n": "Georg Friedl",
+"a": "Bisamberg",
+"cc": "at",
+"km": 273,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "15b2b2856b",
+"n": "SAS-VEKTOR d.d. u stečaju",
+"a": "Poličnik",
+"cc": "hr",
+"km": 275,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "3b02e6a163",
+"n": "Navalia d.o.o.",
+"a": "Obrovac",
+"cc": "hr",
+"km": 280,
+"src": "Ročno preverjeno"
 },
 {
 "id": "25b77a3b13",
@@ -336,6 +4832,190 @@
 "src": "OpenStreetMap"
 },
 {
+"id": "b5cbd9836b",
+"n": "Albert Christian Schöner",
+"a": "Obersiebenbrunn",
+"cc": "at",
+"km": 285,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "b65634c812",
+"n": "Behla",
+"a": "Utting am Ammersee",
+"cc": "de",
+"km": 285,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "8ec7dfc008",
+"n": "Manuela Kögl",
+"a": "Zellerndorf",
+"cc": "at",
+"km": 289,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "319e40258d",
+"n": "MARINA VINICI, d.o.o. u stečaju",
+"a": "Murter",
+"cc": "hr",
+"km": 315,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "674b6811c9",
+"n": "ARAUSA NOVA d.o.o.",
+"a": "Vodice",
+"cc": "hr",
+"km": 326,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "9c8b3d4e5e",
+"n": "Karl Heinz Jansenberger",
+"a": "Kennelbach",
+"cc": "at",
+"km": 345,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "fed61c049d",
+"n": "Robert Meusburger-Garamszegi",
+"a": "Schwarzach",
+"cc": "at",
+"km": 345,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "5c29c004b6",
+"n": "Sporer GmbH & Co KG",
+"a": "Lochau",
+"cc": "at",
+"km": 346,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "e765507997",
+"n": "Hanno Sohm",
+"a": "Hard",
+"cc": "at",
+"km": 351,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "cce1ea8d92",
+"n": "Bootswerft Hartmann GmbH & Co KG",
+"a": "Hard",
+"cc": "at",
+"km": 351,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "dc29849308",
+"n": "Gruber Yachting Sebastian Gruber E.U.",
+"a": "Hard",
+"cc": "at",
+"km": 351,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "5578adc47e",
+"n": "Jürgen Schneider",
+"a": "Hard",
+"cc": "at",
+"km": 351,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "4a5ce0917a",
+"n": "Oberscheider Carworld GmbH",
+"a": "Lustenau",
+"cc": "at",
+"km": 351,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "9867917038",
+"n": "Martin Zobernig",
+"a": "Hard",
+"cc": "at",
+"km": 351,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "80b65bf918",
+"n": "Johannes Blum",
+"a": "Fußach",
+"cc": "at",
+"km": 353,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "4c8fb9f9a9",
+"n": "Iser Kammerer Leib OG",
+"a": "Fußach",
+"cc": "at",
+"km": 353,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "391320880c",
+"n": "Yachtwerft Bilgeri GmbH",
+"a": "Fußach",
+"cc": "at",
+"km": 353,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "f5bcae9896",
+"n": "Bootshaus Bootsbaumeister",
+"a": "Lindau (Bodensee)",
+"cc": "de",
+"km": 355,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "fbfe7f08a2",
+"n": "Herbert Widmer-Lutz",
+"a": "Gaißau",
+"cc": "at",
+"km": 357,
+"src": "WKO Firmen A-Z (Bootbauer)"
+},
+{
+"id": "0e6e09522f",
+"n": "Katamaran-Reederei Bodensee GmbH, Geschäftsstelle",
+"a": "Friedrichshafen",
+"cc": "de",
+"km": 372,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "ee68ac0678",
+"n": "Yacht- & Bootswerft Michelsen GmbH",
+"a": "Friedrichshafen",
+"cc": "de",
+"km": 372,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "662be2bca8",
+"n": "Schellenberg Olaf",
+"a": "Auhausen",
+"cc": "de",
+"km": 384,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "513d27b154",
+"n": "Trunz-Frey Christian Bootsbetriebe",
+"a": "Meersburg",
+"cc": "de",
+"km": 388,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
 "id": "f5a2b82ff5",
 "n": "\"Akvasport\" Društvo Sa Ograničenom Odgovornošću Gradačac",
 "a": "Ul. Požaričkih Branilaca Bb, 76250 Gradačac",
@@ -344,11 +5024,27 @@
 "src": "Poslovni register SKD 30.120"
 },
 {
+"id": "081312f451",
+"n": "Gude Michael Zimmermeister",
+"a": "Konstanz",
+"cc": "de",
+"km": 393,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
 "id": "6480e02e70",
 "n": "Solare",
 "a": "Via Paolo Savi 383, 55049 Viareggio, Italy",
 "cc": "it",
 "km": 413,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "5d51176914",
+"n": "PEDRO BOAT KFT",
+"a": "Soltvadkerti ut 17, Tázlár Tázlár, Hungary",
+"cc": "hu",
+"km": 418,
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
@@ -448,12 +5144,3340 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "4b2f7f5188",
-"n": "Gade Bootsbau Kunststofftechnik GmbH",
-"a": "Eilendorferstrasse 153, 52078 Aachen-Brand, Germany",
-"cc": "de",
-"km": 754,
+"id": "a4cf53a827",
+"n": "Moore Formula",
+"a": "27700 TOSNY, France",
+"cc": "fr",
+"km": 994,
 "src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "247436bbae",
+"n": "Mediter Yachts S.r.l.",
+"a": "Lucca",
+"cc": "it",
+"km": 401,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "06f0db011e",
+"n": "Flavi Yacht S.r.l.",
+"a": "Lucca",
+"cc": "it",
+"km": 401,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9bf6f6ef25",
+"n": "Innovaviation S.r.l.",
+"a": "Corropoli",
+"cc": "it",
+"km": 402,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ba393f421e",
+"n": "Assorib S.r.l.",
+"a": "Pavia",
+"cc": "it",
+"km": 404,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "994a77f75f",
+"n": "Team 65 S.r.l.",
+"a": "Pavia",
+"cc": "it",
+"km": 404,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d1b97639c0",
+"n": "Verniciature Pellegrinetti di Pellegrinetti Carlo",
+"a": "Camaiore",
+"cc": "it",
+"km": 404,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "346450adb6",
+"n": "Mcr Yacht S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b20623d423",
+"n": "3F Yacht S.r.l.s A Socio Unico",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6186fd1c1e",
+"n": "Shipline S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "02cedd5469",
+"n": "Resinfibre S.r.l. In Liquidazione",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f07aafa560",
+"n": "Slim Boat S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a9482adaab",
+"n": "Mesa Yacht S.r.l.s",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4a701b1ce1",
+"n": "Alfaerre S.r.l.s",
+"a": "Massa",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "740b42db65",
+"n": "Resinart di del Fiandra Fabio",
+"a": "Massa",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6f0af9e03b",
+"n": "O.R.N.I.C. Nautica S.r.l.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3ef8b1a34f",
+"n": "A.F. Service di Federighi Andrea",
+"a": "Massa",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "80ed9c56b0",
+"n": "Safra S.r.l.s",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f74cc7ae6d",
+"n": "Navalux S.r.l.S.",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c320d831ae",
+"n": "Ag Nautica S.r.l.s",
+"a": "Carrara",
+"cc": "it",
+"km": 406,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "144de5b860",
+"n": "EKOSTEEL s.r.o.",
+"a": "Praha",
+"cc": "cz",
+"km": 407,
+"src": "Register podjetij Češke (ARES)"
+},
+{
+"id": "3ab850cceb",
+"n": "C.G. di Canziani Cristina & C. SAS",
+"a": "Castiglione Olona",
+"cc": "it",
+"km": 407,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4ed1a6f20b",
+"n": "Marineresin Solutions S.r.l.s",
+"a": "Massarosa",
+"cc": "it",
+"km": 407,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a16b00bfaa",
+"n": "Centouno S.r.l.",
+"a": "Massarosa",
+"cc": "it",
+"km": 408,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "124e93c3f1",
+"n": "Marzulli Angelo",
+"a": "Massarosa",
+"cc": "it",
+"km": 408,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c6ce836b21",
+"n": "Sea Best S.r.l.",
+"a": "Olgiate Olona",
+"cc": "it",
+"km": 409,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8806f54afc",
+"n": "Easy Yacht S.r.l. In Liquidazione",
+"a": "Castelnuovo Magra",
+"cc": "it",
+"km": 409,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9e9c32da8b",
+"n": "Servizi Portuali S.r.l.",
+"a": "Giulianova",
+"cc": "it",
+"km": 410,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1f86846a7d",
+"n": "Miro' Yacht Group S.r.l.S.",
+"a": "Giulianova",
+"cc": "it",
+"km": 410,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6f262a6877",
+"n": "Luvien Group S.r.l.",
+"a": "Sarzana",
+"cc": "it",
+"km": 411,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d1ab37dbcc",
+"n": "Tutalia S.r.l.",
+"a": "Busto Arsizio",
+"cc": "it",
+"km": 412,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b735b2899e",
+"n": "Naval Verniciature S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dcaa1677f9",
+"n": "Igs S.r.l.s",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "59d4110322",
+"n": "Emmeci Glass S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "72ee9ebe3d",
+"n": "Motonautica Luchetti S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d5bef2cdad",
+"n": "Sea Star Yachting S.r.l. Soc Unico",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fdbce7fccc",
+"n": "Madeit4A S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "db0faee828",
+"n": "Nuova Marina Yacht S.r.l. Semplificata",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2310904d2e",
+"n": "G.L. Sald S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d09f662eaa",
+"n": "Thirrena S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "baf4ecbeb8",
+"n": "Fv Cantieri di Edoardo Benedetti &C. SAS",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c164255dfb",
+"n": "Domina Yacht S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1ce3423e1e",
+"n": "Genesis S.r.l.",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a40edd39b0",
+"n": "Costruzioni Carpenteria Navale Industriale Macchi",
+"a": "Vezzano Ligure",
+"cc": "it",
+"km": 414,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8a420087f3",
+"n": "Sailing Service di Poggiali Luca",
+"a": "Arcola",
+"cc": "it",
+"km": 414,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9a98bd13b7",
+"n": "Cantiere Navale Bocca di Magra S.r.l.",
+"a": "Ameglia",
+"cc": "it",
+"km": 414,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "34f46cdbaa",
+"n": "E' K K I S T A S.r.l.",
+"a": "Gallarate",
+"cc": "it",
+"km": 415,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9fe85baf48",
+"n": "Pubbli Aer Foto Aeroservizi S.r.l.",
+"a": "Besnate",
+"cc": "it",
+"km": 416,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1b5a757542",
+"n": "Aluyacht S.R.L",
+"a": "Pisa",
+"cc": "it",
+"km": 417,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c6cb9b6a3b",
+"n": "Nautica Service S.a.s. di Lolaico Domenico & C.",
+"a": "Pisa",
+"cc": "it",
+"km": 417,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fa2162984e",
+"n": "T. Service S.r.l. - Societa In Liquidazione",
+"a": "Pisa",
+"cc": "it",
+"km": 417,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ecb3a63f55",
+"n": "Service Arredamenti Navali & Civili Societa'",
+"a": "La Spezia",
+"cc": "it",
+"km": 420,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c55bdc9480",
+"n": "Cantiere Navale San Marco S.r.l.",
+"a": "La Spezia",
+"cc": "it",
+"km": 420,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6e6a6665d0",
+"n": "2M Montaggi S.r.l.",
+"a": "La Spezia",
+"cc": "it",
+"km": 420,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "697d2ea8cc",
+"n": "Maggom Nautical Services S.r.l.",
+"a": "Casei Gerola",
+"cc": "it",
+"km": 420,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7a476b9a04",
+"n": "Skytech S.r.l.",
+"a": "La Spezia",
+"cc": "it",
+"km": 420,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f07ab57f4e",
+"n": "2B Motori Moderni S.r.l.",
+"a": "Codevilla",
+"cc": "it",
+"km": 420,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e495c23e17",
+"n": "C.R.R.N. Macchi Superyacht Due S.r.l.",
+"a": "Vezzano Ligure",
+"cc": "it",
+"km": 421,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ef1313a8e9",
+"n": "Amc Innovative S.r.l.",
+"a": "Teramo",
+"cc": "it",
+"km": 421,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "866646971e",
+"n": "Composite Marine di Botta Giovanni Marco",
+"a": "Fauglia",
+"cc": "it",
+"km": 423,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cafc4890dd",
+"n": "Avio Shop S.r.l.",
+"a": "Golasecca",
+"cc": "it",
+"km": 424,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8f93003d9d",
+"n": "B.M. S.n.c. di Bianchi & C.",
+"a": "Castelletto Sopra Ticino",
+"cc": "it",
+"km": 425,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8a90364962",
+"n": "Nautica 90 S.r.l.",
+"a": "Todi",
+"cc": "it",
+"km": 427,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b7a18be4d1",
+"n": "Motonautica Angerese S.n.c. di Ghiringhelli Luigi Luca",
+"a": "Angera",
+"cc": "it",
+"km": 428,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "748db14fdc",
+"n": "Manta Aircraft S.r.l.",
+"a": "Sesto Calende",
+"cc": "it",
+"km": 428,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d2a2739bec",
+"n": "Tecnoyacht S.r.l.",
+"a": "Casarza Ligure",
+"cc": "it",
+"km": 433,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0e49a73924",
+"n": "Centro Nautico Due Mari - Societa' A Responsabilita'",
+"a": "Casarza Ligure",
+"cc": "it",
+"km": 433,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ed5677453d",
+"n": "Bnt Cantieri Navali S.r.l.",
+"a": "Santa Luce",
+"cc": "it",
+"km": 434,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4a40526426",
+"n": "Fabiani Yacht S.r.l.",
+"a": "Livorno",
+"cc": "it",
+"km": 435,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7b88cb001e",
+"n": "Gvn S.r.l.",
+"a": "Livorno",
+"cc": "it",
+"km": 435,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2a1accef09",
+"n": "Laboratorio del Mare S.a.s. di Anton Oreshin & C.",
+"a": "Ne",
+"cc": "it",
+"km": 436,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cb13f5e49a",
+"n": "C. & C. Service S.r.l. In Fallimento",
+"a": "Lavagna",
+"cc": "it",
+"km": 437,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "60c368d036",
+"n": "Edas Aircraft Services di Diodato Erminio",
+"a": "Montesilvano",
+"cc": "it",
+"km": 437,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e657ea11d1",
+"n": "I.B.A. S.r.l.s",
+"a": "Chiavari",
+"cc": "it",
+"km": 438,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "eb7c2c8bf6",
+"n": "Poseidon Italia S.r.l.",
+"a": "Livorno",
+"cc": "it",
+"km": 438,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "42a0dccf10",
+"n": "Castagnola Yacht S.r.l.",
+"a": "Chiavari",
+"cc": "it",
+"km": 439,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cb636e495d",
+"n": "Riggservice S.n.c. di Moretti Paolo e Terso Umberto",
+"a": "Chiavari",
+"cc": "it",
+"km": 439,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1679518ff4",
+"n": "Epogo S.r.l.",
+"a": "San Pietro Mosezzo",
+"cc": "it",
+"km": 440,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0dccadc9cf",
+"n": "Multicolor Yacht SAS di Angela Ascari & C.",
+"a": "Rapallo",
+"cc": "it",
+"km": 442,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "24145c5bc7",
+"n": "Motortechnology - S.r.l.",
+"a": "Pescara",
+"cc": "it",
+"km": 443,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "570052af48",
+"n": "Enjoy River S.n.c. di Granchelli Susanna & Fratelli",
+"a": "Pescara",
+"cc": "it",
+"km": 443,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "48d650aca4",
+"n": "Pino A. Bruzzo S.r.l. - Con Unico Socio",
+"a": "Santa Margherita Ligure",
+"cc": "it",
+"km": 444,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "43d7ed9930",
+"n": "Jacaroni Yacht International S.r.l. (In Breve Jyi S.r.l.)",
+"a": "Terni",
+"cc": "it",
+"km": 445,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a9e74b43b3",
+"n": "Comi Aerospace S.r.l.",
+"a": "Terni",
+"cc": "it",
+"km": 445,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f7cc4b52b5",
+"n": "Esse Nautica di Sciurba Franco",
+"a": "Cecina",
+"cc": "it",
+"km": 446,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "73a4d11a27",
+"n": "Im-marine s.r.o.",
+"a": "Roudnice nad Labem",
+"cc": "cz",
+"km": 448,
+"src": "Register podjetij Češke (ARES)"
+},
+{
+"id": "898284352c",
+"n": "Cantiere Nautico Donoratico Tre di Bussotti Stefano",
+"a": "Castagneto Carducci",
+"cc": "it",
+"km": 451,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d139e66b72",
+"n": "Cantiere Navale Il Fanale di Vada di Foddis Giovanni Maria",
+"a": "Castagneto Carducci",
+"cc": "it",
+"km": 454,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e30579527d",
+"n": "S.T.S. Consulting S.r.l.s",
+"a": "Alessandria",
+"cc": "it",
+"km": 456,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d5cd7b2e19",
+"n": "Aero Eli Servizi S.r.l.",
+"a": "L'Aquila",
+"cc": "it",
+"km": 457,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4824276bbb",
+"n": "Punto Nave Marine Service S.r.l.",
+"a": "Ortona",
+"cc": "it",
+"km": 458,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "60b3d2c131",
+"n": "S.T.S. Servizi Tecnici Specializzati - Societa'",
+"a": "Genova",
+"cc": "it",
+"km": 458,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9d7f27973a",
+"n": "Centro Servizi Nautici S.n.c.",
+"a": "Genova",
+"cc": "it",
+"km": 458,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b2d6e1972f",
+"n": "Mostarda Stefano",
+"a": "Rieti",
+"cc": "it",
+"km": 458,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "97be07b8ce",
+"n": "Sea Eagle Industrie S.r.l. In Liquidazione",
+"a": "Genova",
+"cc": "it",
+"km": 458,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "277a812780",
+"n": "Aks Societa' A Responsabilita' Limitata Semplificata",
+"a": "Biella",
+"cc": "it",
+"km": 472,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7486e5a641",
+"n": "Salani Boats S.r.l.",
+"a": "Piombino",
+"cc": "it",
+"km": 480,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b20b5a88fc",
+"n": "Nero Yacht S.r.l.",
+"a": "Piombino",
+"cc": "it",
+"km": 480,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "03cd3634b0",
+"n": "Grif Italia S.r.l.",
+"a": "Castel Sant'Elia",
+"cc": "it",
+"km": 484,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6cd05c39ff",
+"n": "Ryders S.r.l.",
+"a": "Asti",
+"cc": "it",
+"km": 485,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a2f7635ea2",
+"n": "E.S. Composite di Savastano Carmelo",
+"a": "Capalbio",
+"cc": "it",
+"km": 490,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "10f0be1d97",
+"n": "Cantieri S.p.A.rano S.r.l.",
+"a": "Savona",
+"cc": "it",
+"km": 495,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c6b228db16",
+"n": "Steel Yacht S.n.c. di Sajmir Xhokola & C.",
+"a": "Savona",
+"cc": "it",
+"km": 496,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9a48e715d2",
+"n": "Cantiere Incorvaia di Incorvaia Gianfranco e C. S.n.c.",
+"a": "Vado Ligure",
+"cc": "it",
+"km": 500,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dfd93a7a18",
+"n": "Fabbroni & Vongher S.r.l.",
+"a": "Monte Argentario",
+"cc": "it",
+"km": 502,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9227216444",
+"n": "Cantieri Marinesi S.r.l. In Liquidazione",
+"a": "Marciana Marina",
+"cc": "it",
+"km": 506,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6e010607ef",
+"n": "G.E. B. di Palmieri Sandro",
+"a": "Campo nell'Elba",
+"cc": "it",
+"km": 509,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "eb61b40750",
+"n": "R-Evolution Yacht S.r.l.",
+"a": "Poirino",
+"cc": "it",
+"km": 512,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "33c80d0aac",
+"n": "Velettrica S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 514,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "689057fde0",
+"n": "Serpa Fabrizio",
+"a": "Civitavecchia",
+"cc": "it",
+"km": 515,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "70e9595928",
+"n": "Ci-Da Servizi S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1aa4ad1644",
+"n": "Ari S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4cf53419e3",
+"n": "Slt - Super Light Technology S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a0860ce314",
+"n": "A.G. Yachts S.r.l.s",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fdc277d7b2",
+"n": "Rental Boat Opera S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "08e24a47e6",
+"n": "Montecarlo Offshore S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1ff57bc0a8",
+"n": "Micro Aerial Vehicles Technology S.r.l. Siglabile Mavtech",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6b96da576d",
+"n": "C.F.M. Air S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "26f24fea7e",
+"n": "Spacemotionery S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "62ab6ea3c2",
+"n": "Evolunar S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "19685e2aae",
+"n": "Aviospace S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c23099049f",
+"n": "Stellar Integrators S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bc510c7935",
+"n": "Deplotic S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "583cd89dbc",
+"n": "Supair S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "37bbba7c9a",
+"n": "Astrum Drive Technologies Europe S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a1a28211c4",
+"n": "Space Cargo Unlimited S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1adc81e289",
+"n": "Ilmas S.p.A.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f7bd017443",
+"n": "Oris S.r.l.",
+"a": "Torino",
+"cc": "it",
+"km": 517,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9842113596",
+"n": "Marmat System S.r.l.",
+"a": "Cerveteri",
+"cc": "it",
+"km": 518,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "71ad5fccf2",
+"n": "Nautica Jesus S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "53fff6b217",
+"n": "Wip S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "380f295a86",
+"n": "Excellence Yachts S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "981ae08dcc",
+"n": "Alpa 2006 S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "17495be9e6",
+"n": "Callegari Internationalsrl",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b3c98ec521",
+"n": "Top Tenders S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "02f974a1e6",
+"n": "Sunshine Boats & Services S.r.l., In Forma Abbreviata Sbs",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "db5483754a",
+"n": "Suite Luxury S.r.l.s",
+"a": "Monti",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dce74c2ee8",
+"n": "Navia S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3e35edd7a4",
+"n": "Dreamline Yachts S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "891e7a5fb1",
+"n": "Micamare S.r.l. Unipersonale",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "25920e0835",
+"n": "Canelli Yachts S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "90cc2fddf0",
+"n": "Cantiere Nautico Bejanga - Societa' A Responsabilita'",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "18366471a4",
+"n": "Antistatik Yacht Protection S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ce27ee8ada",
+"n": "Fsy S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1ca15460a2",
+"n": "Rancraft Yachts S.p.A. Fall. 269/2013",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4b26f7058d",
+"n": "Gallinari Pier Francesco",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "08bacecab2",
+"n": "Emg S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2485d3c273",
+"n": "Mb Marine Service di Matsas Stylianos",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d16472e76f",
+"n": "Tavi Meccanica S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "49a8bc8092",
+"n": "Smp S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4d9c9cd167",
+"n": "Rodriguez Yachts Italy S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fca7b171db",
+"n": "Albo S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3351009a12",
+"n": "Relovi S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "46bd9a30f0",
+"n": "Officine Cortona S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "daf41e8a77",
+"n": "Marba S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "06bf1f6a69",
+"n": "Rgm S.r.l. In Liquidazione",
+"a": "Moncalieri",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b9d16b7732",
+"n": "3D Service S.r.l. In Liquidazione",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3902c63b9e",
+"n": "Magnaghi Aircraft S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "eb0860231c",
+"n": "Weeween S.r.l.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a60da11bfc",
+"n": "Alitalia Servizi S.p.A.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "383f90f805",
+"n": "Helitec S.r.l. In Liquidazione",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "28616761f2",
+"n": "Wavedesign S.r.l.",
+"a": "San Cesareo",
+"cc": "it",
+"km": 523,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8cba74057b",
+"n": "Fass Nautica S.r.l.",
+"a": "Monte Porzio",
+"cc": "it",
+"km": 525,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "228620f162",
+"n": "Nautica Legar S.r.l.",
+"a": "Vico del Gargano",
+"cc": "it",
+"km": 527,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2bb2cf237d",
+"n": "Cqfd Composites",
+"a": "Mulhouse",
+"cc": "fr",
+"km": 529,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "abd7a8f5f2",
+"n": "OMBLAMAR d.o.o.",
+"a": "Dubrovnik",
+"cc": "hr",
+"km": 529,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "64cde2d9dd",
+"n": "Cantieri Navali del Tevere S.r.l.",
+"a": "Fiumicino",
+"cc": "it",
+"km": 531,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "905f5a47a9",
+"n": "Miprons S.r.l. Startup Costituita Ai Sensi Dell'Art. 4",
+"a": "Segni",
+"cc": "it",
+"km": 534,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0a47f301a0",
+"n": "Delta Shipyard Service S.r.l.",
+"a": "Fiumicino",
+"cc": "it",
+"km": 539,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "86a048c4ee",
+"n": "Tre Effe Elle S.r.l.",
+"a": "Fiumicino",
+"cc": "it",
+"km": 539,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0a2de8ecb4",
+"n": "Nautica Balistreri S.r.l.s",
+"a": "Fiumicino",
+"cc": "it",
+"km": 539,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "58f9fcaad0",
+"n": "Lioce Alessio",
+"a": "San Severo",
+"cc": "it",
+"km": 539,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "631d0cfad6",
+"n": "Catamar S.r.l.",
+"a": "Pomezia",
+"cc": "it",
+"km": 544,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "26a38c007a",
+"n": "Blanca Yachts S.r.l.s",
+"a": "Pomezia",
+"cc": "it",
+"km": 544,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f80c6346d4",
+"n": "2 Emme Marine S.r.l.",
+"a": "Monte Sant'Angelo",
+"cc": "it",
+"km": 548,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "735b8e6e0c",
+"n": "Italyacht - Roma S.r.l.",
+"a": "Aprilia",
+"cc": "it",
+"km": 550,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "48e236cf9b",
+"n": "Cantieri Navali Italiani S.r.l.",
+"a": "Aprilia",
+"cc": "it",
+"km": 550,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "51c6d872eb",
+"n": "Bats Italia S.r.l.",
+"a": "Pomezia",
+"cc": "it",
+"km": 550,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "21d231fda8",
+"n": "Cometa S.r.l.S.",
+"a": "Latina",
+"cc": "it",
+"km": 557,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "af7c65ed70",
+"n": "Darmec Technologies S.r.l.",
+"a": "Latina",
+"cc": "it",
+"km": 557,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "21fc273330",
+"n": "Dea Yacht Service & Productions S.r.l.",
+"a": "Cipressa",
+"cc": "it",
+"km": 559,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c58dcb525a",
+"n": "Sial S.r.l.",
+"a": "Latina",
+"cc": "it",
+"km": 560,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f518cc0c40",
+"n": "Jhas S.r.l.",
+"a": "Latina",
+"cc": "it",
+"km": 560,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "73596a3fd2",
+"n": "Eichboat S.r.l.",
+"a": "Nettuno",
+"cc": "it",
+"km": 565,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f480782725",
+"n": "Blue Rib S.r.l.s",
+"a": "Nettuno",
+"cc": "it",
+"km": 565,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b122d42fe6",
+"n": "Nautic Paint di Guriuc Ionel Cristian",
+"a": "Nettuno",
+"cc": "it",
+"km": 565,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bd73aaf0e3",
+"n": "Tech Marin S.r.l. A Socio Unico",
+"a": "Dronero",
+"cc": "it",
+"km": 566,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c232604f82",
+"n": "Just Slik S.r.l. In Liquidazione",
+"a": "Anzio",
+"cc": "it",
+"km": 566,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "79d386652d",
+"n": "Lemar S.r.l.S.",
+"a": "Foggia",
+"cc": "it",
+"km": 566,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "16980e8f80",
+"n": "Cantieri del Mediterraneo S.r.l.",
+"a": "Sanremo",
+"cc": "it",
+"km": 572,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9bdc6ee8c6",
+"n": "Controvento S.r.l.",
+"a": "Sanremo",
+"cc": "it",
+"km": 572,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a37b3e63a4",
+"n": "Nautica Yacht Service S.r.l.",
+"a": "Formia",
+"cc": "it",
+"km": 574,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "099d0523c9",
+"n": "Etablissements Humbert SARL",
+"a": "Ramonchamp",
+"cc": "fr",
+"km": 575,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "22ac1df4db",
+"n": "Lg Marine Services S.r.l. In Liquidazione",
+"a": "Terracina",
+"cc": "it",
+"km": 576,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ec6ef3432c",
+"n": "3F - S.r.l.",
+"a": "Minturno",
+"cc": "it",
+"km": 576,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7891c03240",
+"n": "Ala Yachts S.r.l.",
+"a": "Sessa Aurunca",
+"cc": "it",
+"km": 578,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b21bbfa40f",
+"n": "Centro Assistenza Nautica - Azzurra S.r.l.",
+"a": "Gaeta",
+"cc": "it",
+"km": 582,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "47231bf7d5",
+"n": "Black Power Electric di Squarciafichi Natalino.",
+"a": "Ventimiglia",
+"cc": "it",
+"km": 585,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "804dfdad55",
+"n": "I.Co.M. S.r.l. Iannella Costruzioni Metalliche",
+"a": "Faicchio",
+"cc": "it",
+"km": 589,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dc1a5ada22",
+"n": "Almar S.r.l.",
+"a": "Benevento",
+"cc": "it",
+"km": 593,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b9c8f84cce",
+"n": "Zentime S.r.l.",
+"a": "Barletta",
+"cc": "it",
+"km": 597,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2021989d76",
+"n": "Elettronica Faleni S.r.l.",
+"a": "Caserta",
+"cc": "it",
+"km": 597,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ee4ed02776",
+"n": "Excellence Italian Yacht S.r.l.",
+"a": "Castel Volturno",
+"cc": "it",
+"km": 601,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "446315b52e",
+"n": "Nav.Car S.r.l.",
+"a": "Marcianise",
+"cc": "it",
+"km": 601,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b2c5768c95",
+"n": "Di Fuccia & Figli S.r.l. In Liquidazione",
+"a": "Marcianise",
+"cc": "it",
+"km": 601,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c93cfbc227",
+"n": "Bryant Yacht Consultants",
+"a": "Eze",
+"cc": "fr",
+"km": 604,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "603bfaad15",
+"n": "Cantieri Navali Bimar - S.r.l.",
+"a": "Carinola",
+"cc": "it",
+"km": 605,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0999d3ed90",
+"n": "Air Italy Paramotor S.r.l.",
+"a": "Crispano",
+"cc": "it",
+"km": 610,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "096956d99a",
+"n": "Scan Marine S.r.l.",
+"a": "Casoria",
+"cc": "it",
+"km": 615,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9fef61abb3",
+"n": "Vertical Aircraft For Innovative Mobility S.r.l.",
+"a": "Casoria",
+"cc": "it",
+"km": 615,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2af5e68535",
+"n": "Cantiere Navale di Cappelluti Michele S.r.l.",
+"a": "Molfetta",
+"cc": "it",
+"km": 617,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7069ece9d5",
+"n": "Nauticamato S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "58f3535aee",
+"n": "Coastal Boat S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "53815bf389",
+"n": "Soft Marine Tappezzerie Nautiche S.r.l. di Enzo Castagnola",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a26de76490",
+"n": "Yacht & Yacht S.r.l.S.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3ce6e110a8",
+"n": "Caldarella Progettazione Integrata S.r.l.'",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "90e49fc776",
+"n": "Miami Gold S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "3e7f53bd19",
+"n": "Jet Capsule S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2e1e473a59",
+"n": "Baiayachts Management & Service Societa' A Responsabilita'",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dd70baf780",
+"n": "Cristian Marine S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bf30486f62",
+"n": "Idar S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "eff868938f",
+"n": "Psv Group S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e4f4e9f368",
+"n": "Abacus Marine S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "02fb52060a",
+"n": "Cetera S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2e595531c7",
+"n": "Alyena S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "529248e82c",
+"n": "Biondan S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d1543ccae3",
+"n": "Aermec Sud S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 621,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "22f32c1b54",
+"n": "Supervee S.r.l.",
+"a": "Pozzuoli",
+"cc": "it",
+"km": 622,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "12b3f95727",
+"n": "Cml Yacht S.r.l.",
+"a": "Pozzuoli",
+"cc": "it",
+"km": 622,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4378c1b48b",
+"n": "Nautica Ilardo S.n.c. di Francesco Ilardo e C",
+"a": "Napoli",
+"cc": "it",
+"km": 623,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "401c871b4e",
+"n": "Space Frontier S.r.l.",
+"a": "Napoli",
+"cc": "it",
+"km": 623,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "819be7e9a6",
+"n": "Ellipse SARL",
+"a": "Etuz",
+"cc": "fr",
+"km": 624,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "79a976ae76",
+"n": "Officine Meccaniche Aerospaziali del Sud -Spa",
+"a": "San Giuseppe Vesuviano",
+"cc": "it",
+"km": 624,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bbe71ed587",
+"n": "S.G (S.G)",
+"a": "Villeneuve-Loubet",
+"cc": "fr",
+"km": 626,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "c0ede0a123",
+"n": "Cantieri Sangiorgio S.r.l.",
+"a": "Torre Del Greco",
+"cc": "it",
+"km": 628,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "34278d0b13",
+"n": "Cushions & Covers",
+"a": "Antibes",
+"cc": "fr",
+"km": 630,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "60c8b6c3e5",
+"n": "Optimazur",
+"a": "Antibes",
+"cc": "fr",
+"km": 630,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "f5477ced1c",
+"n": "Liteboat",
+"a": "Pontcharra",
+"cc": "fr",
+"km": 631,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "20ca255d54",
+"n": "H Y S",
+"a": "Antibes",
+"cc": "fr",
+"km": 632,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "1b74f08ec5",
+"n": "Man S.r.l.",
+"a": "Bari",
+"cc": "it",
+"km": 633,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "97cf77b396",
+"n": "Allure Yachts S.r.l.",
+"a": "Torre Annunziata",
+"cc": "it",
+"km": 633,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "83454fe8d1",
+"n": "Bespoke Unlimited",
+"a": "Valbonne",
+"cc": "fr",
+"km": 634,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "cf2c912522",
+"n": "O.P. Marine S.r.l.S",
+"a": "Forio",
+"cc": "it",
+"km": 634,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9be289e9ca",
+"n": "Vuesse Nautica di Scelsi Vincenzo",
+"a": "Modugno",
+"cc": "it",
+"km": 634,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6b91e79ad9",
+"n": "Cno S.r.l.",
+"a": "Bari",
+"cc": "it",
+"km": 634,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ac1fb4a3b1",
+"n": "Marinescence (Marinescence)",
+"a": "Vallauris",
+"cc": "fr",
+"km": 636,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "ef95ef89ba",
+"n": "Marina Yachting Stabia S.r.l.",
+"a": "Gragnano",
+"cc": "it",
+"km": 640,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7e8968fbfe",
+"n": "S.R.L. Ciro Ingenito",
+"a": "Gragnano",
+"cc": "it",
+"km": 640,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4aad1b44e0",
+"n": "Navtec France",
+"a": "Mandelieu-La-Napoule",
+"cc": "fr",
+"km": 643,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "8eba8af3e5",
+"n": "Alpen Yacht Concept",
+"a": "Lumbin",
+"cc": "fr",
+"km": 643,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "2c36a99b06",
+"n": "Tuttanautica S.r.l.",
+"a": "Salerno",
+"cc": "it",
+"km": 643,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "770fa9f0e9",
+"n": "Tecnovela Societa' Cooperativa",
+"a": "Salerno",
+"cc": "it",
+"km": 643,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1fe505910a",
+"n": "Navalia S.r.l.",
+"a": "Salerno",
+"cc": "it",
+"km": 643,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "11fb06e222",
+"n": "All Rib di Stoia Alfonso e Petteruti Riccardo & C. S.n.c.",
+"a": "Salerno",
+"cc": "it",
+"km": 643,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7e6fbb438f",
+"n": "C.N.L. Cantieri Nautici Lamberti S.r.l. In Liquidazione",
+"a": "Salerno",
+"cc": "it",
+"km": 643,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1029f6d0bb",
+"n": "Albamar S.r.l.",
+"a": "Amalfi",
+"cc": "it",
+"km": 647,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cfc3435b5a",
+"n": "Cvl Nautica Division S.r.l.",
+"a": "Pontecagnano Faiano",
+"cc": "it",
+"km": 649,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7f646413d1",
+"n": "Aeronde",
+"a": "Le Versoud",
+"cc": "fr",
+"km": 650,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "30d0817e5b",
+"n": "Estmarine Societa' A Responsabilita' Limitata Semplificata",
+"a": "Eboli",
+"cc": "it",
+"km": 652,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "48157a7d85",
+"n": "Namor Societa' A Responsabilita' Limitata Semplificata",
+"a": "Cassano delle Murge",
+"cc": "it",
+"km": 654,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0e2ce9694a",
+"n": "U Fanale",
+"a": "Pietrosella",
+"cc": "fr",
+"km": 663,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "821f2d23b8",
+"n": "G1 Aviation (G1 Aviation)",
+"a": "Tallard",
+"cc": "fr",
+"km": 663,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "7d8b91e2d1",
+"n": "Blackshape S.p.A.",
+"a": "Monopoli",
+"cc": "it",
+"km": 663,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5dfce6d829",
+"n": "Bams (Aerolight) (Bams)",
+"a": "Jasseron",
+"cc": "fr",
+"km": 673,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "bf1823eb71",
+"n": "Nautica di Luccio di Di Luccio Giovanni",
+"a": "Agropoli",
+"cc": "it",
+"km": 681,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7c87cf05b2",
+"n": "Servaux Yachting Saint Tropez",
+"a": "Saint-Tropez",
+"cc": "fr",
+"km": 682,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "880b507026",
+"n": "Smc - Salerno Materiali Compositi - S.r.l.",
+"a": "Cicerale",
+"cc": "it",
+"km": 683,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8eb2e43823",
+"n": "Cantiere Navale Caprera S.r.l.",
+"a": "La Maddalena",
+"cc": "it",
+"km": 690,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "20cbfc85e8",
+"n": "Cantieri Barago Societa' A Responsabilita' Limitata",
+"a": "La Maddalena",
+"cc": "it",
+"km": 690,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c25d3c0b9e",
+"n": "Econautica di Calzia Andrea",
+"a": "Palau",
+"cc": "it",
+"km": 694,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "07b0075da3",
+"n": "Paulon Maurizio",
+"a": "Santa Teresa Gallura",
+"cc": "it",
+"km": 697,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ed44e45fea",
+"n": "Heliwing (Helyxis)",
+"a": "Darois",
+"cc": "fr",
+"km": 700,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "8b5d20f3cc",
+"n": "Cb Navy S.r.l.",
+"a": "Santa Teresa Gallura",
+"cc": "it",
+"km": 700,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9eaf0c4178",
+"n": "Elettronautica S.r.l.",
+"a": "Cattolica",
+"cc": "it",
+"km": 294,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cd7919e413",
+"n": "Gc Tecnologie Societa' A Responsabilita' Limitata",
+"a": "Sant'ippolito",
+"cc": "it",
+"km": 314,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "342bcef0c4",
+"n": "Nautical Service S.a.s. di Piras Simone & C.",
+"a": "Olbia",
+"cc": "it",
+"km": 703,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e7eb7e3e1a",
+"n": "Yacht Point S.r.l.s",
+"a": "Olbia",
+"cc": "it",
+"km": 703,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5e9d96b93d",
+"n": "Alize Electronic (Alize Electronic)",
+"a": "Greoux-Les-Bains",
+"cc": "fr",
+"km": 708,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "8c0d9fbf60",
+"n": "Luigi Formoso",
+"a": "Taranto",
+"cc": "it",
+"km": 712,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1e43736378",
+"n": "Atv Entreprise (Atout Vent)",
+"a": "Vinon-Sur-Verdon",
+"cc": "fr",
+"km": 714,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "90b9972a4c",
+"n": "All-In S.r.l.",
+"a": "Olbia",
+"cc": "it",
+"km": 714,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "870f0f6197",
+"n": "Nauticasasa S.r.l.",
+"a": "Olbia",
+"cc": "it",
+"km": 714,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c0d5d61648",
+"n": "Sea World Services - Immobiliare Portocervomarina S.r.l.",
+"a": "Olbia",
+"cc": "it",
+"km": 714,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dd68f138cc",
+"n": "Olbimar S.r.l.",
+"a": "Olbia",
+"cc": "it",
+"km": 714,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1e464f1dd8",
+"n": "Nox Oceani Innovability S.r.l.",
+"a": "Olbia",
+"cc": "it",
+"km": 714,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "6a2e4efbd4",
+"n": "M.D.F. Nautica di Di Fraia Maurizio",
+"a": "Olbia",
+"cc": "it",
+"km": 714,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "233853371b",
+"n": "Barbieri Giacomo",
+"a": "Olbia",
+"cc": "it",
+"km": 714,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "fe74bb29bf",
+"n": "Construc Moulage Fabricat Polyester Cmfp (C.M.F.P.)",
+"a": "Villie-Morgon",
+"cc": "fr",
+"km": 719,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "a8a8943d56",
+"n": "Coober (Coober, Amc Composites, Amc Modelage)",
+"a": "Anse",
+"cc": "fr",
+"km": 720,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "d07ced6843",
+"n": "Mingolla Cantiere Nautico S.r.l.",
+"a": "Mesagne",
+"cc": "it",
+"km": 720,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "aeaf56e6f1",
+"n": "Ewincher",
+"a": "Hyeres",
+"cc": "fr",
+"km": 726,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "b3287a578c",
+"n": "Plastosud S.r.l.",
+"a": "Trecchina",
+"cc": "it",
+"km": 726,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b915011e2f",
+"n": "Secaero",
+"a": "Beaumont-Les-Valence",
+"cc": "fr",
+"km": 728,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "b0a78dafb6",
+"n": "Stylnautic (Stylnautic)",
+"a": "La Crau",
+"cc": "fr",
+"km": 730,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "cd4569146e",
+"n": "M.C. Aeronautique",
+"a": "Tain-L'Hermitage",
+"cc": "fr",
+"km": 730,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "da14ab7643",
+"n": "Atg Composite (Atg)",
+"a": "Dargoire",
+"cc": "fr",
+"km": 730,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "f4eb618c26",
+"n": "F.Lli Capitanio Costruzioni Aeronautiche S.r.l.",
+"a": "Manduria",
+"cc": "it",
+"km": 731,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c52d3ff20b",
+"n": "Dis Marine (Seafoils)",
+"a": "Giffaumont-Champaubert",
+"cc": "fr",
+"km": 735,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "0a763ac2e2",
+"n": "Alternative Aviation",
+"a": "Sainte-Menehould",
+"cc": "fr",
+"km": 744,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "2f4a5ac25b",
+"n": "Dts Corporation (Dts Corporation)",
+"a": "Six-Fours-Les-Plages",
+"cc": "fr",
+"km": 746,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "a06cf2db12",
+"n": "Vauclerc Aviation",
+"a": "Ecriennes",
+"cc": "fr",
+"km": 746,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "b1e7df23d9",
+"n": "Electric Aircraft Concept",
+"a": "Caromb",
+"cc": "fr",
+"km": 748,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "b892a4940d",
+"n": "A2P Materiaux Composites",
+"a": "Laignes",
+"cc": "fr",
+"km": 749,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "fd9972169b",
+"n": "Miss Cat Performance",
+"a": "Carpentras",
+"cc": "fr",
+"km": 751,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "66edaace2f",
+"n": "Catmarine S.r.l.",
+"a": "Lecce",
+"cc": "it",
+"km": 753,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "848f9e92c1",
+"n": "Arredatori Civili e Navali S.r.l.",
+"a": "Lecce",
+"cc": "it",
+"km": 753,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "330f9e3129",
+"n": "Sea Engineering S.r.l.",
+"a": "Lecce",
+"cc": "it",
+"km": 753,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "52ad4d4447",
+"n": "Z360 (Capregatta)",
+"a": "Eguilles",
+"cc": "fr",
+"km": 754,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "12ab598b39",
+"n": "Vichar (Dta Developpements et Technologies Aero)",
+"a": "Montelimar",
+"cc": "fr",
+"km": 754,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "f4f5154098",
+"n": "Anemos Technologies (Anemos Technologies)",
+"a": "Saint-Etienne",
+"cc": "fr",
+"km": 755,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "157389cbfb",
+"n": "Sud Marine",
+"a": "La Ciotat",
+"cc": "fr",
+"km": 758,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "399f2e5cf9",
+"n": "Chantier Naval Vent D'Ouest",
+"a": "Carnoux-En-Provence",
+"cc": "fr",
+"km": 758,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "8221f71eab",
+"n": "Alewijnse Marine La Ciotat",
+"a": "La Ciotat",
+"cc": "fr",
+"km": 758,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "f0211f5363",
+"n": "Nautica Duelle S.r.l.s",
+"a": "Lizzanello",
+"cc": "it",
+"km": 760,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "930816fb0e",
+"n": "Rowing Sport Boats",
+"a": "Le Thor",
+"cc": "fr",
+"km": 761,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "ab2573cf43",
+"n": "Pointe Rouge Plaisance",
+"a": "Marseille",
+"cc": "fr",
+"km": 764,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "5b7c62290d",
+"n": "Construction Polyester Du Centre (Cpc)",
+"a": "Digoin",
+"cc": "fr",
+"km": 769,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "13fe0e6ea2",
+"n": "Sas Mfm Abris",
+"a": "Melay",
+"cc": "fr",
+"km": 770,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "d37c88dff6",
+"n": "J2Ms Nautisme",
+"a": "Marignane",
+"cc": "fr",
+"km": 772,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "f4e2cabd7d",
+"n": "Cantiere Frediani S.r.l.",
+"a": "Sassari",
+"cc": "it",
+"km": 774,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "572b4c730c",
+"n": "Solinas Mauro Matteo Giovanni",
+"a": "Sassari",
+"cc": "it",
+"km": 774,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ff4a2ed589",
+"n": "Ocomposite",
+"a": "Saint-Chamas",
+"cc": "fr",
+"km": 775,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "4f15e66b10",
+"n": "Cantiere Nautico Speedy Societa' Cooperativa",
+"a": "Sogliano Cavour",
+"cc": "it",
+"km": 775,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "19377cd962",
+"n": "Elegance Yachts S.r.l.S.",
+"a": "Aradeo",
+"cc": "it",
+"km": 775,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "d7f0667f5d",
+"n": "Alumarine S.r.l.S.",
+"a": "Gallipoli",
+"cc": "it",
+"km": 778,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "dda28f1bf8",
+"n": "Blr Aviation",
+"a": "Bagnols-Sur-Ceze",
+"cc": "fr",
+"km": 779,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "71c8069385",
+"n": "Hynaero",
+"a": "Istres",
+"cc": "fr",
+"km": 785,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "e0ca5a399d",
+"n": "Semap Composite",
+"a": "Bogny-Sur-Meuse",
+"cc": "fr",
+"km": 785,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "31033bfc2f",
+"n": "Borrone S.r.l.",
+"a": "Cetraro",
+"cc": "it",
+"km": 785,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "847165c2d9",
+"n": "Aeroze Aircraft",
+"a": "Nouzonville",
+"cc": "fr",
+"km": 786,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "2067271415",
+"n": "Elle Emme SAS di Giuseppe Maceri e C.",
+"a": "Tortora",
+"cc": "it",
+"km": 787,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1f1e6b4d7d",
+"n": "Yourteam S.r.l.",
+"a": "Aradeo",
+"cc": "it",
+"km": 798,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ce323e614a",
+"n": "Base Nautica Usai S.r.l.",
+"a": "Alghero",
+"cc": "it",
+"km": 800,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "15b97d586e",
+"n": "Ambrosio S.r.l.",
+"a": "Alghero",
+"cc": "it",
+"km": 800,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "562b59dd6f",
+"n": "Modulo M S.r.l.",
+"a": "Alghero",
+"cc": "it",
+"km": 800,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ff6ca7b5da",
+"n": "Sermar di Fazzi Salvatore",
+"a": "Alghero",
+"cc": "it",
+"km": 800,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ecf92e9f19",
+"n": "Tecnonautica di Chiffi Piero Luigi",
+"a": "Tricase",
+"cc": "it",
+"km": 803,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1ae076a57b",
+"n": "Ogliastra Turismo di Marco Marcia & C. S.a.s.",
+"a": "Tortoli'",
+"cc": "it",
+"km": 805,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "ee9c09abed",
+"n": "Fyd Fiberglass Yachts Development S.r.l.",
+"a": "Cariati",
+"cc": "it",
+"km": 807,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b9907ae619",
+"n": "Vi.Ba. S.r.l.",
+"a": "Cariati",
+"cc": "it",
+"km": 807,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9670d2f0cd",
+"n": "Alevi S.r.l.S.",
+"a": "Cariati",
+"cc": "it",
+"km": 807,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "8916deea83",
+"n": "Brettium Boat S.r.l.",
+"a": "Cariati",
+"cc": "it",
+"km": 807,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9ff2335a60",
+"n": "Cantieri Nautici Guarascio S.r.l.",
+"a": "Lamezia Terme",
+"cc": "it",
+"km": 851,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4097407030",
+"n": "Orizzonti S.r.l.s Unipersonale",
+"a": "Terme Vigliatore",
+"cc": "it",
+"km": 856,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "727c5b6ced",
+"n": "Edmond Allain & Successeurs",
+"a": "Saint-Cyr-Sur-Morin",
+"cc": "fr",
+"km": 858,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "d456c30050",
+"n": "Whisper-Yachts Europe (Whisper-Yachts Europe)",
+"a": "Montpellier",
+"cc": "fr",
+"km": 860,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "1f40648e9a",
+"n": "Seal Marine S.r.l. In Liquidazione",
+"a": "Borgia",
+"cc": "it",
+"km": 869,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "318e27481a",
+"n": "Solufibre Composite",
+"a": "Meaux",
+"cc": "fr",
+"km": 878,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "d2f80266b9",
+"n": "Trydent S.r.l.S.",
+"a": "Vibo Valentia",
+"cc": "it",
+"km": 879,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "185b661805",
+"n": "Dani S.r.l.",
+"a": "Vibo Valentia",
+"cc": "it",
+"km": 879,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c0a0f59772",
+"n": "Cogit Composites",
+"a": "Saint-Germain-Du-Puy",
+"cc": "fr",
+"km": 885,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "1013767b62",
+"n": "Falanga Natalino",
+"a": "Lipari",
+"cc": "it",
+"km": 889,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "92a489b659",
+"n": "Eurl Exploitation Nouvelle Vague",
+"a": "Marseillan",
+"cc": "fr",
+"km": 896,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "9c95c9eac5",
+"n": "Forza 3 Societa' Cooperativa Sociale",
+"a": "Cagliari",
+"cc": "it",
+"km": 896,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "af52fec83b",
+"n": "Fg di Gian Luca Basciu & C. S.a.s.",
+"a": "Cagliari",
+"cc": "it",
+"km": 896,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "936da46dfb",
+"n": "Turismama Sardegna S.r.l. In Liquidazione",
+"a": "Cagliari",
+"cc": "it",
+"km": 896,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b0b028ebde",
+"n": "Lyv Boat (Lyv Boat)",
+"a": "Bort-Les-Orgues",
+"cc": "fr",
+"km": 900,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "917c485946",
+"n": "Cdv Construction",
+"a": "Saint-Beauzely",
+"cc": "fr",
+"km": 901,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "3c1ae45253",
+"n": "Luxury Yachts Service S.r.l.",
+"a": "Assemini",
+"cc": "it",
+"km": 901,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9386350b4c",
+"n": "Andromach",
+"a": "Bonneuil-Sur-Marne",
+"cc": "fr",
+"km": 905,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "53b6777b82",
+"n": "Nautica 2000 di Romola Francesco & C. - S.a.s. -",
+"a": "Palmi",
+"cc": "it",
+"km": 906,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c61103e639",
+"n": "Air Conception",
+"a": "Janville-Sur-Juine",
+"cc": "fr",
+"km": 914,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "a5ff7a1882",
+"n": "Wright & Johnson France",
+"a": "Paris",
+"cc": "fr",
+"km": 917,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "7be83c8d41",
+"n": "Innospace Europe",
+"a": "Paris",
+"cc": "fr",
+"km": 919,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "51942544b7",
+"n": "Disalnautica S.r.l.",
+"a": "Milazzo",
+"cc": "it",
+"km": 919,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7903507988",
+"n": "Les Chantiers des Hauts de Lutece (Chl) (Chl)",
+"a": "Douai",
+"cc": "fr",
+"km": 920,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "717dfb5995",
+"n": "Radiant",
+"a": "Paris",
+"cc": "fr",
+"km": 920,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "1a941f1616",
+"n": "Nautica Diporto S.r.l.s In Liquidazione",
+"a": "Gioiosa Marea",
+"cc": "it",
+"km": 921,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "1b21eb6810",
+"n": "Maestria Nautica S.r.l.S.",
+"a": "Gioiosa Marea",
+"cc": "it",
+"km": 921,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cabf85f594",
+"n": "Punto Nautica S.r.l.",
+"a": "Gioiosa Marea",
+"cc": "it",
+"km": 921,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "4888688feb",
+"n": "Il Prestigio del Mare S.r.l.S.",
+"a": "Gioiosa Marea",
+"cc": "it",
+"km": 922,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "37a23703aa",
+"n": "Composites Production",
+"a": "Bievres",
+"cc": "fr",
+"km": 923,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "764f4387d1",
+"n": "Nautilus di Palmese Alberto",
+"a": "Cinisi",
+"cc": "it",
+"km": 924,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f973f3b480",
+"n": "Space Engineering",
+"a": "Orsay",
+"cc": "fr",
+"km": 925,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "ab9d6df45d",
+"n": "Naye S.r.l.",
+"a": "Patti",
+"cc": "it",
+"km": 925,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "513c6db9a4",
+"n": "Vg Scar S.r.l.",
+"a": "Messina",
+"cc": "it",
+"km": 925,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e570d543a9",
+"n": "Scirocco S.a.s. di Pecora Luca",
+"a": "Messina",
+"cc": "it",
+"km": 925,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e82c9ded8a",
+"n": "Yacht Builder S.r.l.",
+"a": "Palermo",
+"cc": "it",
+"km": 925,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "576f459b26",
+"n": "Acqua Yachts S.r.l.",
+"a": "Palermo",
+"cc": "it",
+"km": 925,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "0ea5c38b2e",
+"n": "Rib Service S.r.l.S.",
+"a": "Carini",
+"cc": "it",
+"km": 926,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "082e5974d2",
+"n": "Sasica Yacht S.r.l. Semplificata In Liquidazione",
+"a": "Naso",
+"cc": "it",
+"km": 926,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "93dd43ceb6",
+"n": "Mpa Group S.r.l.",
+"a": "Palermo",
+"cc": "it",
+"km": 927,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "cc4d4512c4",
+"n": "Tecnobat S.r.l.",
+"a": "Palermo",
+"cc": "it",
+"km": 927,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "54a40e98e4",
+"n": "Almarine Maxirib S.r.l.S.",
+"a": "Palermo",
+"cc": "it",
+"km": 927,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "79d78ecafb",
+"n": "Zulini Andrea",
+"a": "Palermo",
+"cc": "it",
+"km": 927,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "c262ff648d",
+"n": "Nautica di Marco di Francesco di Marco S.a.s.",
+"a": "Bagheria",
+"cc": "it",
+"km": 930,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5f947b8465",
+"n": "Full S.r.l.",
+"a": "Sant'agata Di Militello",
+"cc": "it",
+"km": 932,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "5250f7ca76",
+"n": "4K S.r.l.",
+"a": "Sant'Agata di Militello",
+"cc": "it",
+"km": 932,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "30cc1daa11",
+"n": "Weenav",
+"a": "Roncq",
+"cc": "fr",
+"km": 935,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "aa58adebaa",
+"n": "R. Marine Group S.r.l.",
+"a": "Reggio di Calabria",
+"cc": "it",
+"km": 935,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "37e8dad75f",
+"n": "S.P. Elettronautica di Surace Paolo",
+"a": "Reggio di Calabria",
+"cc": "it",
+"km": 935,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f70b50c134",
+"n": "Alatyr",
+"a": "Saint-Germain-En-Laye",
+"cc": "fr",
+"km": 937,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "f5180a2b21",
+"n": "Marinatour S.r.l.",
+"a": "Carloforte",
+"cc": "it",
+"km": 937,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "27d1ae0d5d",
+"n": "Taborca Societa' A Responsabilita' Limitata Unipersonale",
+"a": "Carloforte",
+"cc": "it",
+"km": 937,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e7f0da22dd",
+"n": "Centro Nautico Calasetta S.r.l.",
+"a": "Calasetta",
+"cc": "it",
+"km": 937,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "843e6724f7",
+"n": "Bardi Antioco S.R.L Unipersonale",
+"a": "Sant'Antioco",
+"cc": "it",
+"km": 938,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "7e93b166e1",
+"n": "Composite Industrie de Touraine (C.I.T.)",
+"a": "Vineuil",
+"cc": "fr",
+"km": 947,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "4c1685ff65",
+"n": "Nautica Allegra S.r.l.",
+"a": "Furci Siculo",
+"cc": "it",
+"km": 949,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "f1a9e8f0c4",
+"n": "Mostes Trapani S.r.l..",
+"a": "Trapani",
+"cc": "it",
+"km": 953,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "e200e83d6d",
+"n": "Aero 3D",
+"a": "Verderel-Les-Sauqueuse",
+"cc": "fr",
+"km": 954,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "1506b5c857",
+"n": "V. Yacht",
+"a": "Canet-En-Roussillon",
+"cc": "fr",
+"km": 965,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "70505ba108",
+"n": "4B (4B)",
+"a": "Canet-En-Roussillon",
+"cc": "fr",
+"km": 966,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "5a298513fb",
+"n": "Aeroservices Guepard",
+"a": "Toulonjac",
+"cc": "fr",
+"km": 967,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "6ce030dfa9",
+"n": "Alloy Composite Metal Manufacture (Acmm)",
+"a": "Pierres",
+"cc": "fr",
+"km": 967,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "34dfb262c1",
+"n": "A-Jousset (Canet Premium Services)",
+"a": "Saint-Nazaire",
+"cc": "fr",
+"km": 970,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "8bdb45e711",
+"n": "Seabit S.r.l.",
+"a": "Catania",
+"cc": "it",
+"km": 977,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a7753ff241",
+"n": "Arnouts Polyester",
+"a": "Lynde",
+"cc": "fr",
+"km": 978,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "9472fa4e71",
+"n": "Carpenteria Navale Fm S.r.l.",
+"a": "Mazara del Vallo",
+"cc": "it",
+"km": 984,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "255440ecaf",
+"n": "Morgana Service di Asaro Giacomo",
+"a": "Mazara del Vallo",
+"cc": "it",
+"km": 984,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "bbf7fb811f",
+"n": "Nmk S.r.l.",
+"a": "Camporotondo Etneo",
+"cc": "it",
+"km": 990,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "555e42e8f7",
+"n": "Medusa Service S.r.l. Unipersonale",
+"a": "Lampedusa E Linosa",
+"cc": "it",
+"km": 994,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "df4ccdc378",
+"n": "Ciraolo Salvatore & Milia Paolo S.n.c.",
+"a": "Misterbianco",
+"cc": "it",
+"km": 995,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "004a3276e8",
+"n": "Blumax S.r.l. Unipersonale",
+"a": "Sciacca",
+"cc": "it",
+"km": 996,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "21f416561e",
+"n": "Katech S.r.l.",
+"a": "Catania",
+"cc": "it",
+"km": 998,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "37df8043d6",
+"n": "Glem Boats & Ribs S.r.l.s",
+"a": "Catania",
+"cc": "it",
+"km": 998,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "731b52dabe",
+"n": "Kosmos S.r.l.",
+"a": "Catania",
+"cc": "it",
+"km": 998,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "9c4f1132d4",
+"n": "Born For Fishing S.r.l.",
+"a": "Catania",
+"cc": "it",
+"km": 998,
+"src": "Registro Imprese (aziende.it)"
 },
 {
 "id": "7dba75d510",
@@ -477,6 +8501,14 @@
 "a": "UL.LUDZI MORZA 2, 72-602 ŚWINOUJSCIE, Poland",
 "cc": "pl",
 "km": 830,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "93de1a7ee1",
+"n": "millboats",
+"a": "heggerak 108, 5432 CC cuijk, Netherlands",
+"cc": "nl",
+"km": 838,
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
@@ -600,12 +8632,188 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "a4cf53a827",
-"n": "Moore Formula",
-"a": "27700 TOSNY, France",
-"cc": "fr",
-"km": 994,
-"src": "Imenik izdelovalcev (profinautic)"
+"id": "4967b05cbc",
+"n": "Marinar, Proizvodnja, Servisna in Poslovna Dejavnost, d.o.o.",
+"a": "Dragomerška Cesta 53, 1351 Brezovica pri Ljubljani",
+"cc": "si",
+"km": 52,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "d91317aed8",
+"n": "Hempel Juliane Yachtkonstruktion",
+"a": "Radolfzell am Bodensee",
+"cc": "de",
+"km": 411,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "42c3c0d92d",
+"n": "Ihle GmbH Bootsbau",
+"a": "Moos",
+"cc": "de",
+"km": 413,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "7a1d90df9f",
+"n": "ROTINOR GmbH SEABOB Wassersport",
+"a": "Stuttgart",
+"cc": "de",
+"km": 455,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "c6fd83ebef",
+"n": "Aquillo-Bootsbau",
+"a": "Eisingen",
+"cc": "de",
+"km": 490,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "a04ce0a3b0",
+"n": "YBK Yacht- und Bootswerft GmbH",
+"a": "Königs Wusterhausen",
+"cc": "de",
+"km": 660,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "8af7adf290",
+"n": "Müller Dieter und Andre GbR Bootsmotorenservice",
+"a": "Potsdam",
+"cc": "de",
+"km": 666,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "4c57107bdb",
+"n": "Marine Motors",
+"a": "Woltersdorf",
+"cc": "de",
+"km": 669,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "d45d97e932",
+"n": "Yachtservice Larsen",
+"a": "Berlin",
+"cc": "de",
+"km": 670,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "bd0f3b783d",
+"n": "Thyssen Krupp Marine Systems AG, Büro Berlin",
+"a": "Berlin",
+"cc": "de",
+"km": 678,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "1713ef5d9a",
+"n": "Solarschiffbau Schiffbau",
+"a": "Berlin",
+"cc": "de",
+"km": 679,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "0ef1ef3549",
+"n": "Körber Plastic Technical Consulting",
+"a": "Wolfenbüttel",
+"cc": "de",
+"km": 686,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "3b152ba095",
+"n": "Jerichow Erich Bootswerft",
+"a": "Milower Land",
+"cc": "de",
+"km": 690,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "a29502d576",
+"n": "Giusti Cold Systems S.r.l.",
+"a": "Vecchiano",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2683819cb5",
+"n": "Trend Wave S.r.l.",
+"a": "Terre Roveresche",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "99d0667d14",
+"n": "G.M. Nautica S.r.l.",
+"a": "",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "663d8a0451",
+"n": "U Biondo S.r.l.",
+"a": "Castellabate",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "298c85b452",
+"n": "Nautica Rino di Casari Vittorino",
+"a": "Soiano del Lago",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b3bb5fd173",
+"n": "I.B.F. Nautica S.r.l.",
+"a": "Cologne",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "a02d76afb0",
+"n": "Customarine S.n.c. Dei F.Lli Incorvaia Sandro & Angelo",
+"a": "Licata",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "2f294076c1",
+"n": "3F - S.r.l.",
+"a": "Minturno",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "559368a38f",
+"n": "Ag Nautica S.r.l.s",
+"a": "Carrara",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "72f3b83db8",
+"n": "M3We S.r.l.",
+"a": "Arco",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
 },
 {
 "id": "445c5b1eb4",
@@ -680,6 +8888,14 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
+"id": "4f2032a1db",
+"n": "James Boat",
+"a": "",
+"cc": "cz",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
 "id": "8243affa7d",
 "n": "Gobbi",
 "a": "",
@@ -712,14 +8928,6 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "59aa981827",
-"n": "Manò Marine",
-"a": "",
-"cc": "it",
-"km": null,
-"src": "Imenik izdelovalcev (profinautic)"
-},
-{
 "id": "8b998b0e96",
 "n": "Cantieri Navali Termoli",
 "a": "",
@@ -744,32 +8952,8 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "b10c96f4a0",
-"n": "Terranova Yachts",
-"a": "",
-"cc": "it",
-"km": null,
-"src": "Imenik izdelovalcev (profinautic)"
-},
-{
-"id": "46d2049c75",
-"n": "Catarsi",
-"a": "",
-"cc": "it",
-"km": null,
-"src": "Imenik izdelovalcev (profinautic)"
-},
-{
 "id": "32f60a3d08",
 "n": "Aqvamarine",
-"a": "",
-"cc": "it",
-"km": null,
-"src": "Imenik izdelovalcev (profinautic)"
-},
-{
-"id": "159273085c",
-"n": "Alfa Yacht Yard",
 "a": "",
 "cc": "it",
 "km": null,
@@ -792,22 +8976,6 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "6909b0f5ac",
-"n": "Rascala",
-"a": "",
-"cc": "it",
-"km": null,
-"src": "Imenik izdelovalcev (profinautic)"
-},
-{
-"id": "66a01857fa",
-"n": "Intermare",
-"a": "",
-"cc": "it",
-"km": null,
-"src": "Imenik izdelovalcev (profinautic)"
-},
-{
 "id": "fb9a827970",
 "n": "Nuvari",
 "a": "",
@@ -824,10 +8992,18 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "1acc23a9c9",
-"n": "Sciallino",
+"id": "ce128f5395",
+"n": "Victoria Yachts",
 "a": "",
 "cc": "it",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "bf07d2aa5e",
+"n": "Elegance Yachts",
+"a": "",
+"cc": "de",
 "km": null,
 "src": "Imenik izdelovalcev (profinautic)"
 },
@@ -904,8 +9080,24 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
+"id": "fa1e268e4d",
+"n": "Albatros",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
 "id": "143f3a8d65",
 "n": "Asmus",
+"a": "",
+"cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "8f4c69da91",
+"n": "Kaiser Werft",
 "a": "",
 "cc": "de",
 "km": null,
@@ -1048,6 +9240,590 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
+"id": "fa1952cfda",
+"n": "Cantiere Viareggio Societa' A Responsabilita' Limitata",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "b29048f1ab",
+"n": "Am Costruzioni Navali S.r.l.",
+"a": "Cairo Montenotte",
+"cc": "it",
+"km": 501,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "20ea7e7fa7",
+"n": "Novamarine S.p.A.",
+"a": "Roma",
+"cc": "it",
+"km": 520,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "053cd36b95",
+"n": "Yacht Design S.r.l.",
+"a": "Leini",
+"cc": "it",
+"km": 527,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "91e45b9a10",
+"n": "Manta Group S.r.l.",
+"a": "Foggia",
+"cc": "it",
+"km": 566,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "681b51796a",
+"n": "Bat",
+"a": "",
+"cc": "it",
+"km": 572,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "1d4d3a5638",
+"n": "Kozik U.",
+"a": "Welver",
+"cc": "de",
+"km": 727,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "3d1277a6d8",
+"n": "Stiens GmbH",
+"a": "Herford",
+"cc": "de",
+"km": 744,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "fd2222be7e",
+"n": "Lee-Luv GmbH Bootsbau",
+"a": "Uelzen",
+"cc": "de",
+"km": 768,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "27488172ef",
+"n": "Bauboot Design",
+"a": "Viersen",
+"cc": "de",
+"km": 775,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "f9b0886c40",
+"n": "Hempel Matthias",
+"a": "Neubrandenburg",
+"cc": "de",
+"km": 793,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "cda7f6b5c7",
+"n": "Stuckenberg Service GmbH Sportbodenbau",
+"a": "Bramsche",
+"cc": "de",
+"km": 796,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "f2712c41f0",
+"n": "Meister Thomas",
+"a": "Plau am See",
+"cc": "de",
+"km": 800,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "90f45d00d8",
+"n": "Mole Boote Bootsbau-Service",
+"a": "Plau am See",
+"cc": "de",
+"km": 800,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "7f5c14f158",
+"n": "BuK Boots- und Kunststoffbau GmbH",
+"a": "Lübesse",
+"cc": "de",
+"km": 809,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "7a7c5a71b4",
+"n": "Bootswerft Diethelm Baars",
+"a": "Ueckermünde",
+"cc": "de",
+"km": 812,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "2d50936a6c",
+"n": "Stöcker Norbert Bootswerft",
+"a": "Ueckermünde",
+"cc": "de",
+"km": 812,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "62d7b651c9",
+"n": "Bootswerft Neuengamme GmbH",
+"a": "Hamburg",
+"cc": "de",
+"km": 825,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "5b576a658b",
+"n": "Bootswerft Nordrhein Bernd G. Klein Bootswerft",
+"a": "Emmerich am Rhein",
+"cc": "de",
+"km": 826,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "45b46cfb48",
+"n": "Knief Peter Bootswerft",
+"a": "Hamburg",
+"cc": "de",
+"km": 830,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "ebdec21b6f",
+"n": "Yachthafen-Harburg",
+"a": "Hamburg",
+"cc": "de",
+"km": 830,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "9b13e27470",
+"n": "Silger Dieter Bootsbau",
+"a": "Bremen",
+"cc": "de",
+"km": 830,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "721829a608",
+"n": "Bremer-Segel-Service, Götz v. Roon",
+"a": "Bremen",
+"cc": "de",
+"km": 834,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "35c3311382",
+"n": "Hanno und Stefanie Franze GbR",
+"a": "Bad Kleinen",
+"cc": "de",
+"km": 837,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "345e715114",
+"n": "woodendesign feine möbel Tischlermeister Jan Korf",
+"a": "Hamburg",
+"cc": "de",
+"km": 837,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "b786d5aa28",
+"n": "Bootswerft Heuer GmbH",
+"a": "Hamburg",
+"cc": "de",
+"km": 844,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "019e89ea79",
+"n": "Müller & Partner GmbH",
+"a": "Hamburg",
+"cc": "de",
+"km": 844,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "a7f02cb114",
+"n": "Tribell Handels- und Produktionsgesellschaft mbH",
+"a": "Hamburg",
+"cc": "de",
+"km": 845,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "49a2ec2e04",
+"n": "Bootsbau Andreas Wuthenow",
+"a": "Menzendorf",
+"cc": "de",
+"km": 849,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "6dbd8ad8c8",
+"n": "Yachtwerft Ostsee GmbH",
+"a": "Wismar",
+"cc": "de",
+"km": 849,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "3f5d7b7ae9",
+"n": "boot-workshop GmbH",
+"a": "Peenemünde",
+"cc": "de",
+"km": 850,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "a2de5e66fb",
+"n": "Cords Joachim Bootsbaumeister",
+"a": "Hamburg",
+"cc": "de",
+"km": 852,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "faca224602",
+"n": "Boots- u. Treppenbau Joachim Krüger",
+"a": "Kröslin",
+"cc": "de",
+"km": 854,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "6483c7add7",
+"n": "Der Bootbauer Inh. Hadmut Verch mobile Bootswerft",
+"a": "Lübeck",
+"cc": "de",
+"km": 858,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "f25d7581cb",
+"n": "Marina Baltica GmbH",
+"a": "Lübeck",
+"cc": "de",
+"km": 860,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "9eb66960e3",
+"n": "Bootswerft & Motorenservice Lothar Schritt",
+"a": "Rostock",
+"cc": "de",
+"km": 861,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "b0d90efaa8",
+"n": "Leon Barthel Bootsbau Barthel Bootsbau Barthel",
+"a": "Lübeck",
+"cc": "de",
+"km": 861,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "fcdd871056",
+"n": "Nord - Ost Marina Service- und Handels GmbH & Co. KG",
+"a": "Lübeck",
+"cc": "de",
+"km": 861,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "1613d7b853",
+"n": "Werft Grell GmbH & Co.KG",
+"a": "Lübeck",
+"cc": "de",
+"km": 861,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "35dc6a3329",
+"n": "Yacht + Technik Service Inh. Andreas Tempel",
+"a": "Heidgraben",
+"cc": "de",
+"km": 862,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "b0fb6091a8",
+"n": "Lorenz Mathias Bootswerft",
+"a": "Mönchgut",
+"cc": "de",
+"km": 872,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "2b121f5354",
+"n": "Niendorfer Bootsbauerei U. Schütte",
+"a": "Timmendorfer Strand",
+"cc": "de",
+"km": 872,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "0f0aa6defb",
+"n": "Schwellnus Günter Bootsbauer",
+"a": "Bremerhaven",
+"cc": "de",
+"km": 876,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "e92785e6e4",
+"n": "Boots und Yachtservice M.J.K",
+"a": "Ahrensbök",
+"cc": "de",
+"km": 877,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "92a5b93137",
+"n": "Freitag Michail Dipl.-Ing. Yacht-Bootsbau",
+"a": "Stralsund",
+"cc": "de",
+"km": 877,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "68caee363e",
+"n": "Wrede Neustadt GmbH & Co KG",
+"a": "Neustadt in Holstein",
+"cc": "de",
+"km": 880,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "b88fb8d62d",
+"n": "Yachtwerft Glückstadt GmbH",
+"a": "Glückstadt",
+"cc": "de",
+"km": 882,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "fc801f7c21",
+"n": "KTW Manfred Brüggemann",
+"a": "Wingst",
+"cc": "de",
+"km": 885,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "cdfbeecb22",
+"n": "Bootswerft Rammin",
+"a": "Barth",
+"cc": "de",
+"km": 887,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "e17bcec259",
+"n": "Bootsbau Thomas Bergner",
+"a": "Trappenkamp",
+"cc": "de",
+"km": 889,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "b698b83076",
+"n": "Göttsch Hans Bootswerft Inh. Holger Much",
+"a": "Heiligenhafen",
+"cc": "de",
+"km": 908,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "0b112f42ca",
+"n": "Yachtwerft Klemens GmbH",
+"a": "Großenbrode",
+"cc": "de",
+"km": 908,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "6284a362b6",
+"n": "Thraki Yacht Painting GmbH",
+"a": "Schwentinental",
+"cc": "de",
+"km": 915,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "58afa639ed",
+"n": "von der Mosel Rechtsanwälte",
+"a": "Kiel",
+"cc": "de",
+"km": 919,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "c3d564b210",
+"n": "Bootsbau Heikendorf Bootsbau",
+"a": "Heikendorf",
+"cc": "de",
+"km": 923,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "419e887b7d",
+"n": "Nübold Jaron Faserverbundtechnik & Bootsbau",
+"a": "Heikendorf",
+"cc": "de",
+"km": 923,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "5399859b04",
+"n": "Ottaviano Giovanni",
+"a": "Naso",
+"cc": "it",
+"km": 926,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "56aa8c14da",
+"n": "Rathje Yacht- und Bootswerft Bootsbau",
+"a": "Kiel",
+"cc": "de",
+"km": 927,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "6d7eeea467",
+"n": "Bootsbau Ferdinand Uecker Inh. Jans Uecker",
+"a": "Rendsburg",
+"cc": "de",
+"km": 928,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "4fe86c4977",
+"n": "SALTY MARINE GmbH Co.KG Maritime Events",
+"a": "Strande",
+"cc": "de",
+"km": 936,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "d7aaa89298",
+"n": "Dynamic Elements GmbH",
+"a": "Fahrdorf",
+"cc": "de",
+"km": 950,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "606507d9df",
+"n": "Marina Brodersby Service Center GmbH",
+"a": "Brodersby-Goltoft",
+"cc": "de",
+"km": 951,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "a2f88863a4",
+"n": "M&P Jachtwerft Paulsen GmbH",
+"a": "Arnis",
+"cc": "de",
+"km": 956,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "dd2f9ae9c6",
+"n": "Yacht- u. Bootswerft Matthias Paulsen",
+"a": "Arnis",
+"cc": "de",
+"km": 956,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "840029b94d",
+"n": "Fin Marine Service",
+"a": "Kappeln",
+"cc": "de",
+"km": 959,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "49fa4f1e75",
+"n": "Yacht- & Bootswerft Stapelfeldt",
+"a": "Kappeln",
+"cc": "de",
+"km": 959,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "0984e49284",
+"n": "Yacht- und Bootswerft",
+"a": "Kappeln",
+"cc": "de",
+"km": 959,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "62836170dc",
+"n": "Yachtbau Janssen & Renkhoff GmbH",
+"a": "Kappeln",
+"cc": "de",
+"km": 959,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "bed76a4ace",
+"n": "Der Skipper Markt GmbH & Co. KG",
+"a": "Husum",
+"cc": "de",
+"km": 962,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "86f45dfd3f",
+"n": "Yacht und Bootswerft Gelting GmbH",
+"a": "Niesgrau",
+"cc": "de",
+"km": 970,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "0f35fff0df",
+"n": "Braun-Bootsbau Boots- und Schiffbaumeister",
+"a": "Flensburg",
+"cc": "de",
+"km": 979,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "95b4576fcf",
+"n": "Bootsbau Bourjau",
+"a": "Wees",
+"cc": "de",
+"km": 984,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
+"id": "9b32f3899f",
+"n": "Form.Stabil GmbH Bootswerft-Tischlerei",
+"a": "Handewitt",
+"cc": "de",
+"km": 984,
+"src": "Gelbe Seiten (Bootsbau)"
+},
+{
 "id": "08595a3e7c",
 "n": "Izdelava in Popravilo Vodnih Plovil, Emir Ćehajić s.p.",
 "a": "Cesta Železarjev 30, 4270 Jesenice",
@@ -1059,6 +9835,14 @@
 "id": "b9bcedff02",
 "n": "Nautične Storitve, Aleš Petač s.p.",
 "a": "Partizanska Pot 3, 4270 Jesenice",
+"cc": "si",
+"km": 1,
+"src": "Poslovni register SKD 30.120"
+},
+{
+"id": "fef01d3724",
+"n": "Proizvodnja Plovil in Gradbena Dela Avdi Shabani s.p.",
+"a": "Kurirska Pot 2 D, 4270 Jesenice",
 "cc": "si",
 "km": 1,
 "src": "Poslovni register SKD 30.120"
@@ -1184,27 +9968,11 @@
 "src": "Poslovni register SKD 30.120"
 },
 {
-"id": "e77fd495b2",
-"n": "Livarna Titan",
-"a": "Kamnik",
-"cc": "si",
-"km": 49,
-"src": "Ročno preverjeno"
-},
-{
 "id": "1fd43b2989",
 "n": "Lemon Nautics Proizvodnja Gumenjakov in Ostale Navtične Opreme, Miha Mlakar s.p.",
 "a": "Cesta Dr. Tineta Zajca 18 B, 1241 Kamnik",
 "cc": "si",
 "km": 49,
-"src": "Poslovni register SKD 30.120"
-},
-{
-"id": "4967b05cbc",
-"n": "Marinar, Proizvodnja, Servisna in Poslovna Dejavnost, d.o.o.",
-"a": "Dragomerška Cesta 53, 1351 Brezovica pri Ljubljani",
-"cc": "si",
-"km": 52,
 "src": "Poslovni register SKD 30.120"
 },
 {
@@ -1229,14 +9997,6 @@
 "a": "Industrijska Cesta 5, 5000 Nova Gorica",
 "cc": "si",
 "km": 62,
-"src": "Poslovni register SKD 30.120"
-},
-{
-"id": "3939ce1ce6",
-"n": "Modra Pomoč, Servis in Izdelava Plovil d.o.o.",
-"a": "Opekarska Cesta 19, 1360 Vrhnika",
-"cc": "si",
-"km": 90,
 "src": "Poslovni register SKD 30.120"
 },
 {
@@ -1288,12 +10048,52 @@
 "src": "Poslovni register SKD 30.120"
 },
 {
-"id": "97d029f7a9",
-"n": "Pössl",
-"a": "Ainring",
-"cc": "de",
-"km": 175,
-"src": "Ročno preverjeno"
+"id": "58843c164a",
+"n": "NEX Marine d.o.o.",
+"a": "",
+"cc": "hr",
+"km": null,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "55711669dd",
+"n": "Slavon Plastic d.o.o.",
+"a": "",
+"cc": "hr",
+"km": null,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "1dbf3e2e1a",
+"n": "Metacraft Jdoo U Stecaju",
+"a": "",
+"cc": "hr",
+"km": null,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "5844793424",
+"n": "Gama Marine D O O",
+"a": "",
+"cc": "hr",
+"km": null,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "76e2d66e31",
+"n": "Brodograditelj Novalja",
+"a": "",
+"cc": "hr",
+"km": null,
+"src": "CompanyWall (Hrvaška)"
+},
+{
+"id": "e0346e204c",
+"n": "Mv Marine S.r.l.",
+"a": "Nola",
+"cc": "it",
+"km": 614,
+"src": "Registro Imprese (aziende.it)"
 },
 {
 "id": "f7f3ac770d",
@@ -1304,20 +10104,20 @@
 "src": "Ročno preverjeno"
 },
 {
+"id": "97a97b352f",
+"n": "Societe Etudes Constructions Aeronavales (Secan)",
+"a": "Gennevilliers",
+"cc": "fr",
+"km": 921,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
 "id": "4bb8dee94f",
 "n": "Alalunga Cantiere Navale",
 "a": "16033 Lavagna, Italy",
 "cc": "it",
 "km": 437,
 "src": "Imenik izdelovalcev (profinautic)"
-},
-{
-"id": "c4b4b182a8",
-"n": "Tomark",
-"a": "Prešov",
-"cc": "sk",
-"km": 608,
-"src": "Ročno preverjeno"
 },
 {
 "id": "78fdc9d73b",
@@ -1341,14 +10141,6 @@
 "a": "Oosterstrand 6a, 8713 JS Hindeloopen, Netherlands",
 "cc": "nl",
 "km": 953,
-"src": "Imenik izdelovalcev (profinautic)"
-},
-{
-"id": "681b51796a",
-"n": "Bat",
-"a": "",
-"cc": "it",
-"km": null,
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
@@ -1388,6 +10180,46 @@
 "n": "Yacht- und Möbelbau",
 "a": "",
 "cc": "de",
+"km": null,
+"src": "Imenik izdelovalcev (profinautic)"
+},
+{
+"id": "b449cc72a9",
+"n": "Mv Marine S.r.l.",
+"a": "Nola",
+"cc": "it",
+"km": null,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "03d31e11d8",
+"n": "Mecaer Aviation Group S.p.A.",
+"a": "Borgomanero",
+"cc": "it",
+"km": 439,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "60f5f8a355",
+"n": "Ge Avio S.r.l.",
+"a": "Rivalta di Torino",
+"cc": "it",
+"km": 530,
+"src": "Registro Imprese (aziende.it)"
+},
+{
+"id": "705fdfcd38",
+"n": "Tecalemit Aerospace Luceau",
+"a": "Chaponost",
+"cc": "fr",
+"km": 721,
+"src": "Register podjetij Francije (INSEE)"
+},
+{
+"id": "99952827e3",
+"n": "Canabo Yachts",
+"a": "",
+"cc": "it",
 "km": null,
 "src": "Imenik izdelovalcev (profinautic)"
 }

@@ -1,29 +1,56 @@
 [
 {
-"d": "2026-10-17",
-"id": "cc685af5aa",
-"n": "Roto Nautica",
-"ty": "model",
-"tx": "Omenja nov model: Hydra 380, Hydra 460",
+"d": "2026-10-21",
+"id": "011bc6870d",
+"n": "Boote Schmalzl GmbH",
+"ty": "jobs",
+"tx": "Oglas za delo: «About Online Bootsmarkt Krankalender Menü Menü Tischler / Bootsbauer (m/w/d) Wir suchen für unsere Werft in Lind ob Velden eine/n Tischler /»",
 "t": "1",
-"km": 163
+"km": 21
 },
 {
-"d": "2026-10-17",
-"id": "cc685af5aa",
-"n": "Roto Nautica",
-"ty": "web",
-"tx": "Najdena spletna stran: https://rotonautica.com/",
-"t": "1",
-"km": 163
+"d": "2026-10-21",
+"id": "60db0ff9ea",
+"n": "Nautica Esposito",
+"ty": "model",
+"tx": "Omenja nov model: Domenica 12, Open 52",
+"t": "2",
+"km": 639
 },
 {
-"d": "2026-10-17",
-"id": "daad272e13",
-"n": "Baglietto",
+"d": "2026-10-21",
+"id": "641ba9394d",
+"n": "Solaris Yachts SRL",
 "ty": "model",
-"tx": "Omenja nov model: Project53",
-"t": "3",
-"km": 420
+"tx": "Omenja nov model: Solaris 44",
+"t": "2",
+"km": 94
+},
+{
+"d": "2026-10-21",
+"id": "cb1a453718",
+"n": "Nautor Swan Srl",
+"ty": "model",
+"tx": "Omenja nov model: ClubSwan 28, Racing 01, Racing 20",
+"t": "2",
+"km": 417
+},
+{
+"d": "2026-10-21",
+"id": "23a715d059",
+"n": "Glas Markus GmbH",
+"ty": "model",
+"tx": "Omenja nov model: Outguard 394",
+"t": "2",
+"km": 269
+},
+{
+"d": "2026-10-21",
+"id": "f23c2a4307",
+"n": "Italyure Yachts",
+"ty": "model",
+"tx": "Omenja nov model: ITALYURE 50",
+"t": "2",
+"km": 633
 }
 ]

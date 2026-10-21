@@ -139,10 +139,48 @@ for c in _load("data/fairs/cand.json", []):
     if c["n"] in FAIR_ALIAS:
         FAIR_TAG.setdefault(FAIR_ALIAS[c["n"]], []).append(c["fair"] + (" · " + c["where"] if c["where"] else "")); continue
     br = ", ".join(b for b in c.get("brands", []) if norm(b) not in norm(c["n"]))
-    add(n=c["n"], cc=c["cc"], addr=c["city"], lat=c["lat"], lon=c["lon"], seg="boats", role="kupec", fit="A" if c.get("v") == "M" else "B", top=False,
+    add(n=c["n"], cc=c["cc"], addr=c["city"], lat=c["lat"], lon=c["lon"], seg="boats", role="kupec", fit="A" if c.get("v") == "M" else "B", top=False, tok=True,
         note=f"Na sejmu predstavlja znamke: {br}." if br else "",
         types="", models="", src=[c["src"]], web=c.get("u") or c["web"], fairs=[c["fair"] + (" · " + c["where"] if c["where"] else "")],
         fkeep=c.get("v") in ("M", "m"), fct=(c["email"], c.get("phone", ""), c["fair"]) if c.get("email") else None)  # samo splošni naslovi (fairs.py)
+
+# 6) poslovni registri in imeniki (pipeline/registers.py): obstoječim doda število zaposlenih,
+#    novo podjetje doda le, če ima do 49 zaposlenih ali je velikost neznana (naročnik išče podjetja z 10–50 zaposlenimi)
+import glob
+REG_SKIP = set(_load("data/reg_review.json", {}).get("drop", []))
+REG_ALIAS = _load("data/reg_review.json", {}).get("alias", {})
+REV_SIZE = {"0-1 milioni": "mikro", "1-2 milioni": "majhno", "2-5 milioni": "majhno", "5-10 milioni": "majhno", "10-25 milioni": "srednje",
+            "25-50 milioni": "srednje", "50-100 milioni": "veliko", "100-500 milioni": "veliko", ">500 milioni": "veliko"}
+def pretty_reg(n):
+    n = re.sub(r"\s+", " ", n).strip()
+    if not n.isupper(): return n
+    n = n.title()
+    for a, b in ((" S.R.L.", " S.r.l."), (" Srl", " S.r.l."), (" S.P.A.", " S.p.A."), (" Spa", " S.p.A."), (" S.N.C.", " S.n.c."), (" Snc", " S.n.c."),
+                 (" S.A.S.", " S.a.s."), (" Sas", " SAS"), (" Sarl", " SARL"), (" S.R.O.", " s.r.o."), (" D.O.O.", " d.o.o."), (" Gmbh", " GmbH"), (" Di ", " di "),
+                 (" E ", " e "), (" Del ", " del "), (" Della ", " della "), (" De ", " de "), (" Des ", " des "), (" Et ", " et ")):
+        n = n.replace(a, b)
+    return n
+for f in sorted(glob.glob("data/reg/*.json")):
+    for r in json.load(open(f)):
+        if r["src"].startswith("Register podjetij") and r.get("empr") in ("", "0"): continue  # brez zaposlenih: samostojni, holdingi, mirujoča
+        if r.get("emp") is not None and r["emp"] < 1: continue
+        if r.get("prevail") and not str(r["prevail"]).startswith("30"): continue  # ARES: prevladujoča dejavnost ni proizvodnja plovil/letal
+        if r["src"].startswith("CompanyWall") and r.get("emp") is None and re.search(r"\bs\.\s?p\.|\bobrt\b", r["n"], re.I): continue  # samostojni podjetniki brez zaposlenih
+        nm = pretty_reg(r["n"])
+        if nm in REG_SKIP: continue
+        if re.search(r"liquidaz|liquidation|stečaj|stecaj|insolven|in konkurs|v likvidaci|u likvidaciji", nm, re.I): continue  # v likvidaciji ali stečaju
+        if nm in REG_ALIAS: nm, r = REG_ALIAS[nm], dict(r, lat=None, lon=None)  # isto podjetje kot obstoječe (drugačno ime ali sedež)
+        seg = r.get("seg") or ("aero" if re.match(r"30\.?30", r.get("nace", "")) else "boats")
+        if seg == "aero" and re.search(r"DRONE|UAS\b|INFORMAT|SOFTWARE|SYSTEM|ELECTRONI|ADDITIVE|TURBO|SPATIAL|SATELL|ROBOT|MAINTENANCE|\bIT\b", nm.upper()):
+            continue  # letalstvo: samo izdelovalci letal in delov, ne droni, programska oprema, elektronika
+        if r.get("rev"): r = dict(r, rev=r["rev"].replace("\xa0", " ").strip())
+        if r["sz"] == "?" and r.get("rev") in REV_SIZE:  # Italija brez podatka o zaposlenih: ocena po prometu iz istega registra
+            r = dict(r, sz=REV_SIZE[r["rev"]], empr="", src_sz=r["src"] + ", ocena po prometu " + r["rev"].replace("milioni", "mio €"))
+        size = dict(c=r["sz"], t=r.get("empr", ""), s=r.get("src_sz", r["src"]), u=r.get("url", "")) if r["sz"] != "?" else None
+        note = f"Registrirana dejavnost: {r['act']}." + (" Učni obrat (Lehrbetrieb) – ima zaposlene." if r.get("lehr") else "")
+        add(n=nm, cc=r["cc"], addr=r.get("city", ""), lat=r.get("lat"), lon=r.get("lon"), seg=seg, role="kupec", fit="B", top=False, note=note,
+            types="", models="", src=[r["src"]], web=r.get("web", "").strip(), tok=True, size=size, regnew=r["sz"] in ("mikro", "majhno", "?"),
+            rphone=(r.get("phone", ""), r["src"]) if r.get("phone") else None, su={r["src"]: r["url"]} if r.get("url") else {})
 
 # OSM country fix by nearest country is not needed for display; fill missing cc from coordinates roughly
 for l in leads:
@@ -161,6 +199,7 @@ def dist(a, b):
     if a["lat"] is None or b["lat"] is None: return 0 if a["cc"] == b["cc"] else 9999
     return hav(a["lat"], a["lon"], b["lat"], b["lon"])
 leads.sort(key=lambda l: PRI.get(l["src"][0], 4))
+SZ_RANK = {"mikro": 1, "majhno": 2, "srednje": 3, "veliko": 4}
 FSTOP = STOP | {"del", "della", "delle", "dei", "der", "die", "und", "and", "van", "yachtbau", "bootswerft", "bootsbau", "shipyard", "srls", "spa", "bv", "sas"}
 def toks(n): return {x for x in norm(n).split() if x not in FSTOP and len(x) > 2}
 def same(fair, a, b):
@@ -169,9 +208,9 @@ def same(fair, a, b):
     return bool(ov) and len(ov) >= min(2, len(toks(a)), len(toks(b)))
 merged = []
 for l in leads:
-    k = key(l["n"]); fair = l["src"][0].startswith("Sejem ")
+    k = key(l["n"]); tok = l.get("tok")
     for m in merged:
-        if same(fair, l["n"], m["n"]) and dist(m, l) < 30:
+        if same(tok or m.get("tok"), l["n"], m["n"]) and dist(m, l) < (60 if l.get("size") is not None or l.get("regnew") is not None else 30):
             for s in l["src"]:
                 if s not in m["src"]: m["src"].append(s)
             if m["lat"] is None and l["lat"] is not None: m["lat"], m["lon"] = l["lat"], l["lon"]
@@ -180,11 +219,18 @@ for l in leads:
             if l.get("fairs"): m["fairs"] = m.get("fairs", []) + [f for f in l["fairs"] if f not in m.get("fairs", [])]
             if l.get("fkeep"): m["fkeep"] = True
             if l.get("fct") and not m.get("fct"): m["fct"] = l["fct"]
+            if l.get("size") and (not m.get("size") or SZ_RANK[l["size"]["c"]] > SZ_RANK[m["size"]["c"]]):
+                m["size"] = l["size"]  # več vpisov z istim imenom (npr. mirujoča družba in delujoča): velja večji
+            if l.get("regnew"): m["regnew"] = True
+            if l.get("rphone") and not m.get("rphone"): m["rphone"] = l["rphone"]
+            if l.get("su"): m["su"] = {**l["su"], **m.get("su", {})}  # povezava na vpis v registru ali imeniku
             break
     else:
         merged.append(l)
 
+REG_SRC = ("Registro Imprese", "Register podjetij", "WKO Firmen", "Gelbe Seiten", "CompanyWall", "Schweizerischer Bootbauer")
 merged = [l for l in merged if not l["src"][0].startswith("Sejem ") or l.get("fkeep")]
+merged = [l for l in merged if not l["src"][0].startswith(REG_SRC) or l.get("regnew")]
 def fair_labels(lst):  # en zapis na sejem: »Genova 2026 · Motor boats, Inflatable Boats«
     g = {}
     for f in lst:
@@ -200,13 +246,18 @@ for l in merged:
         sl = {f.split(" · ")[0].split()[0] for f in l["fairs"]}
         for lab, src in (("boot", "Sejem boot Düsseldorf"), ("Genova", "Sejem Salone Nautico Genova")):
             if lab in sl and src not in l["src"]: l["src"] = l["src"] + [src]
+_ids = set()
+for l in merged:  # id = ime + prvi vir; pri enakem imenu iz istega vira (npr. dve podružnici) še kraj
+    lid = hashlib.md5((l["n"] + "|" + l["src"][0]).encode()).hexdigest()[:10]
+    if lid in _ids: lid = hashlib.md5((l["n"] + "|" + l["src"][0] + "|" + (l.get("addr") or "")).encode()).hexdigest()[:10]
+    _ids.add(lid); l["lid"] = lid
 for l in merged:
     if l["n"] in LOC_FIX:
         cc, pc, town = LOC_FIX[l["n"]]; g = loc_geo(cc, pc)
         if g: l["lat"], l["lon"], l["addr"] = g[0], g[1], town
         else: print("NO GEO locfix", l["n"])
 for l in merged:
-    lid = hashlib.md5((l["n"] + "|" + l["src"][0]).encode()).hexdigest()[:10]
+    lid = l["lid"]
     a = ADDR.get(lid)
     if l["lat"] is None and a:
         l["lat"], l["lon"], l["addr"] = a["lat"], a["lon"], a["town"]
@@ -218,7 +269,7 @@ for l in merged:
             l["lat"], l["lon"], l["addr"] = p["lat"], p["lon"], p.get("addr", "")
             l["src"] = l["src"] + ["Google Places"]
         if not l.get("web") and p.get("web"): l["web"] = p["web"]
-FCT = {}
+FCT, RPH = {}, {}
 RINGS = [(150, 0), (400, 1), (700, 2), (1000, 3)]
 FITW = {"A": 3, "B": 2, "C": 0.6}; RINGW = [1.0, 0.75, 0.5, 0.35, 0.3]
 out = []
@@ -232,13 +283,16 @@ for l in merged:
         if l["cc"] in ("fr","nl","be","dk","mc"): continue
         km, ring, x, y = None, 4, None, None
     sc = FITW[l["fit"]] * RINGW[ring] + (1.5 if l["top"] else 0)
-    lid = hashlib.md5((l["n"] + "|" + l["src"][0]).encode()).hexdigest()[:10]
+    lid = l["lid"]
     out.append(dict(id=lid, n=l["n"], cc=l["cc"], a=l["addr"], km=km, r=ring,
                     x=None if x is None else round(x, 1), y=None if y is None else round(y, 1),
                     s=l["seg"], ro=l["role"], f=l["fit"], t=1 if l["top"] else 0, no=l["note"], ty=l["types"], mo=l["models"][:120],
                     w=l.get("web", ""), src=l["src"], sc=round(sc, 2)))
     if l.get("fairs"): out[-1]["fa"] = l["fairs"]
     if l.get("fct"): FCT[lid] = l["fct"]
+    if l.get("size"): out[-1]["zp"] = l["size"]
+    if l.get("rphone"): RPH[lid] = l["rphone"]
+    if l.get("su"): out[-1]["su"] = l["su"]
 names = {o["n"] for o in out}
 for k in list(CONTACTS) + list(NOTE_FIX):
     if k not in names: print("MISSING NAME", k)
@@ -262,6 +316,8 @@ for o in out:
         bonus = {"M": 0.8, "m": 0.3}.get(vf["v"], 0)
         o["sc"] = round(FITW[o["f"]] * RINGW[o["r"]] + (1.5 if o["t"] else 0) + bonus, 2)
 TL = {"1": "P1", "2": "P2", "3": "P3", "K": "K"}
+BIG_SIZES = ("srednje", "veliko")
+SIZE_SCORE = {"majhno": 1.0, "mikro": 0.4, "srednje": -0.3, "veliko": -1.0}
 for o in out:
     q = Q.get(o["n"])
     if q:
@@ -280,8 +336,26 @@ for o in out:
             why = None
         else: why = "Po pregledu strani: servis, trgovina, popravila ali velike jeklene ladje – ni primeren profil."
         if why: o["q"] = dict(t="3", sz="?", why=why, ap="", auto=1)
+    if not o.get("q") and o["src"][0].startswith(REG_SRC) and (o.get("zp") or {}).get("c") == "majhno" and not o.get("vf") and (o["km"] or 0) <= 700:
+        z = o["zp"]  # mala podjetja iz registra brez spletne strani: ciljna velikost, a dejavnosti ni mogoče preveriti na spletu
+        o["q"] = dict(t="2", sz="majhno", auto=1, why=f"Iz registra: {o['no'].replace('Registrirana dejavnost: ', '').rstrip('.')}, zaposleni {z.get('t') or '10–49'}. Spletne strani nismo našli – dejavnost še ni preverjena (lahko je tudi servis ali najem).",
+                      ap="Pokliči (telefon iz imenika) ali poglej na Google Zemljevidih, ali res gradijo plovila.")
+    # velikost: register (natančno ali razred) > ročna ocena > številke s spletne strani
+    if not o.get("zp"):
+        qs = (o.get("q") or {}).get("sz")
+        if qs and qs != "?": o["zp"] = dict(c=qs, t="", s="ocena po pregledu")
+        elif (SIG.get(o["id"]) or {}).get("emp"):
+            e = max(SIG[o["id"]]["emp"]); o["zp"] = dict(c="mikro" if e < 10 else "majhno" if e < 50 else "srednje" if e < 250 else "veliko", t=str(e), s="spletna stran podjetja")
+    zc = (o.get("zp") or {}).get("c")
+    if o.get("q") and o["q"]["t"] == "1" and zc in BIG_SIZES:  # naročnik: prevelika podjetja ostanejo, a niso več prva prednost
+        o["q"] = dict(o["q"], t="2", big=1, why=o["q"]["why"] + " Za zdaj prevelik: naročnik išče podjetja z 10–50 zaposlenimi.")
+    o["sc"] = round(o["sc"] + SIZE_SCORE.get(zc, 0), 2)
     if o.get("q"):
         o["sc"] = round(o["sc"] + TIER_SCORE[o["q"]["t"]], 2)
+for o in out:  # telefon iz javnega imenika za mala podjetja brez drugih kontaktov (pogosto nimajo spletne strani)
+    ph = RPH.get(o["id"])
+    if ph and not o.get("ct") and (o.get("zp") or {}).get("c") not in BIG_SIZES and (o.get("q") or {}).get("t") != "3":
+        o["ct"] = dict(w=o.get("w", ""), e=[], p=[ph[0]], d=sl_date(RUN_DATE), n=f"Telefon iz javnega imenika ({ph[1]}).")
 AC = json.load(open("data/autocontacts.json")) if os.path.exists("data/autocontacts.json") else {}
 for o in out:
     if o.get("ct") or (o.get("q") or {}).get("t") not in ("1", "2", "K"): continue
@@ -317,6 +391,61 @@ for o in out:
         cl += [x for x in src_cl.get(o["n"], []) if x not in cl]
         if cl: o["cl"] = cl
         o["sc"] = round(o["sc"] + (1.0 if o["n"] in rev else 0), 2)
+# Priložnosti: konkretni povodi za stik, vsak z virom (docs/opps.json)
+CC3 = {"si": "Slovenija", "hr": "Hrvaška", "it": "Italija", "at": "Avstrija", "de": "Nemčija", "hu": "Madžarska", "cz": "Češka", "sk": "Slovaška",
+       "pl": "Poljska", "fr": "Francija", "ba": "BiH", "rs": "Srbija", "me": "Črna gora", "ch": "Švica"}
+by_cc = {}
+for o in out: by_cc.setdefault(o["cc"], []).append(o)
+GENERIC_T = {"yachting", "service", "services", "servis", "nautic", "nautik", "nautique", "nautisme", "technik", "technology", "sport", "sports",
+             "boote", "bateaux", "barche", "charter", "trade", "handel", "sailing", "werft", "shipyard", "composites", "industries"}
+def find_lead(name, cc):
+    """Zmagovalec razpisa -> podjetje v bazi: najprej v državi naročnika, nato drugod (le ob nedvoumnem imenu)."""
+    for pool, strict in ((by_cc.get(cc, []), False), (out, True)):
+        best, bo = 0, None
+        for o in pool:
+            if o["s"] == "spec": continue
+            a, b = toks(name), toks(o["n"]); ov = a & b
+            if not ov or len(ov) < min(2, len(a), len(b)) or not (ov - GENERIC_T): continue
+            if strict and not (len(ov) >= 2 or max(len(x) for x in ov) >= 6): continue
+            if len(ov) > best: best, bo = len(ov), o
+        if bo: return bo
+    return None
+opps = []
+BOATNAME = re.compile(r"werft|boot|boat|yacht|jacht|nautic|nautik|marine|cantier|brod|łodz|lodz|stocz|bateau|naval|chantier|shipyard|composit|ribs?\b|plovil|čoln|coln|hajó", re.I)
+for t in _load("data/tenders.json", []):
+    where = CC3.get(t["cc"], t["cc"])
+    if t["t"] == "oddan":
+        for w in t["win"]:
+            o = find_lead(w, t["cc"])
+            if o: o.setdefault("tn", []).append([t["d"], t["title"], t["buyer"], t["url"]])
+            elif not BOATNAME.search(w): continue  # sklopi z motorji, prikolicami … – le zmagovalci, ki so videti kot ladjedelnice
+            opps.append(dict(ty="narocilo", d=t["d"], id=o["id"] if o else None, n=o["n"] if o else pretty_reg(w), cc=t["cc"], km=o["km"] if o else None,
+                             tx=f"{t['title']} – naročnik {t['buyer']} ({where}).", src="TED – javna naročila EU", u=t["url"]))
+    elif not t["dl"] or t["dl"] >= RUN_DATE:
+        opps.append(dict(ty="razpis", d=t["d"], id=None, n=t["buyer"], cc=t["cc"], km=None,
+                         tx=f"{t['title']}" + (f". Rok za ponudbe {sl_date(t['dl'])}" if t["dl"] else "") + f" ({where}).",
+                         src="TED – javna naročila EU", u=t["url"]))
+DEV = re.compile(r"prototip|iščejo partnerja|startup|zagonsk|nov model|nova linija|novi modeli|v razvoju|premiera|razvoj novih|nov T40|nov trup", re.I)
+for o in out:
+    q = o.get("q") or {}
+    if q and not q.get("auto") and q["t"] in ("1", "2") and DEV.search(q["why"] + " " + q.get("ap", "")):
+        opps.append(dict(ty="razvoj", d="", id=o["id"], n=o["n"], cc=o["cc"], km=o["km"], tx=q["why"], src="ročni pregled spletne strani", u=o.get("w", "")))
+    g = SIG.get(o["id"]) or {}
+    if g.get("jobs") and q.get("t") in ("1", "2", "K"):
+        opps.append(dict(ty="zaposlujejo", d="", id=o["id"], n=o["n"], cc=o["cc"], km=o["km"], tx="Iščejo ljudi v proizvodnji: »" + g["jobs"][:160].strip() + " …«",
+                         src="spletna stran podjetja", u=o.get("w", "")))
+for c in _load("docs/changes.json", []):
+    if c.get("ty") == "model" and c["d"] >= (datetime.date.fromisoformat(RUN_DATE) - datetime.timedelta(days=120)).isoformat():
+        opps.append(dict(ty="model", d=c["d"], id=c["id"], n=c["n"], cc="", km=c.get("km"), tx=c["tx"], src="tedenska primerjava spletne strani", u=""))
+OPRI = {"razvoj": 0, "narocilo": 1, "model": 2, "zaposlujejo": 3, "razpis": 4}
+SZO = {"majhno": 0, "mikro": 1, "?": 2, "srednje": 3, "veliko": 4}
+zid = {o["id"]: (o.get("zp") or {}).get("c", "?") for o in out}
+for x in opps: x["z"] = zid.get(x["id"], "?") if x["id"] else "?"
+opps.sort(key=lambda x: (OPRI[x["ty"]], 0 if x["id"] else 1, -(int(x["d"].replace("-", "")) if x["d"] else 0), SZO[x["z"]] if x["ty"] in ("razvoj", "zaposlujejo") else 0,
+                         x["km"] if x["km"] is not None else 9999))
+json.dump(opps, open("docs/opps.json", "w"), ensure_ascii=False, separators=(",", ":"))
+print("priložnosti", collections.Counter(x["ty"] for x in opps), "naročila povezana s podjetji:", sum(1 for x in opps if x["ty"] == "narocilo" and x["id"]))
+
 out.sort(key=lambda o: (-o["sc"], o["km"] if o["km"] is not None else 9999))
 assert len({o["id"] for o in out}) == len(out)
 json.dump(out, open("docs/leads.json", "w"), ensure_ascii=False, separators=(",", ":"))

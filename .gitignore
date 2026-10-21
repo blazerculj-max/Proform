@@ -12,3 +12,4 @@ data/crawl_todo.json
 # surovi seznami razstavljavcev (vsebujejo osebne kontakte) ostanejo lokalno
 data/fairs/boot*.json
 data/fairs/genova*.json
+data/reg/*_partial.json

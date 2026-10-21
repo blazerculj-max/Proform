@@ -16,6 +16,9 @@ TLD = {"it": ["it", "com"], "de": ["de", "com"], "at": ["at", "com"], "ch": ["ch
 ACTIVITY = re.compile(r"barc|boat|yacht|boot|čoln|coln|brod|plovil|vetroresin|gfk|grp|cantier|werft|nautic|jacht|łód|lodz|hajó|lod|"
                       r"kompozit|composit|livar|foundr|gieß|aircraft|flugzeug|letal|caravan|wohnmobil|kajak|kanu|segel|vela|jadr", re.I)
 
+COUNTRY = {"it": ["italia", "italy"], "de": ["deutschland", "germany"], "at": ["osterreich", "austria"], "ch": ["schweiz", "suisse", "svizzera", "switzerland"],
+           "si": ["slovenija", "slovenia"], "hr": ["hrvatska", "croatia"], "fr": ["france"], "cz": ["cesk", "czech"], "pl": ["polska", "poland"], "hu": ["magyar", "hungary"]}
+
 def words(name):
     s = unicodedata.normalize("NFKD", re.sub(r"\(.*?\)", " ", name)).encode("ascii", "ignore").decode().lower()
     return [w for w in re.findall(r"[a-z0-9]+", s) if w not in LEGAL]
@@ -45,6 +48,10 @@ def accept(o, url):
     dist = [x for x in words(o["n"]) if x not in GENERIC and len(x) > 2]
     if not dist or not all(x in low for x in dist[:2]): return None
     if not ACTIVITY.search(t[:20000]): return None
+    tld = final.split("//")[-1].split("/")[0].rsplit(".", 1)[-1]
+    if tld != o["cc"]:  # tuja ali splošna končnica (.com): stran mora omenjati kraj ali državo podjetja
+        town = [x for x in words(o.get("a") or "") if len(x) > 3]
+        if not (any(x in low for x in town[:2]) or any(w in low for w in COUNTRY.get(o["cc"], []))): return None
     return final
 
 def search(o):
@@ -65,6 +72,11 @@ if __name__ == "__main__":
             r = accept(o, u) or (u if "--trust" in sys.argv else None)
             if r: found[o["id"]] = dict(url=r, how="ročno", d=RUN_DATE)
     rest = [o for o in miss if o["id"] not in found and "--guess" in sys.argv]
+    if "--reg" in sys.argv:  # samo podjetja iz registrov in imenikov (registers.py), stara so bila že preizkušena
+        rest = [o for o in rest if o["src"][0].startswith(("Registro Imprese", "Register podjetij", "WKO Firmen", "Gelbe Seiten", "CompanyWall"))
+                and ((o.get("zp") or {}).get("c") == "majhno" or (not o.get("zp") and (o["km"] or 0) <= 800))]  # ciljna velikost 10–49
+        if os.environ.get("FW_SKIP_SRC"): rest = [o for o in rest if not o["src"][0].startswith(os.environ["FW_SKIP_SRC"])]
+        print("iskanje domen za", len(rest), "podjetij iz registrov", flush=True)
     with cf.ThreadPoolExecutor(8) as ex:             # 2) očitne domene
         for o, r in zip(rest, ex.map(search, rest)):
             if r: found[o["id"]] = dict(url=r, how="domena", d=RUN_DATE)
