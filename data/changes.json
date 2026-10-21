@@ -1,33 +1,15 @@
 [
 {
-"d": "2026-10-21",
-"id": "011bc6870d",
-"n": "Boote Schmalzl GmbH",
-"ty": "jobs",
-"tx": "Oglas za delo: «About Online Bootsmarkt Krankalender Menü Menü Tischler / Bootsbauer (m/w/d) Wir suchen für unsere Werft in Lind ob Velden eine/n Tischler /»",
-"t": "1",
-"km": 21
-},
-{
-"d": "2026-10-21",
-"id": "60db0ff9ea",
-"n": "Nautica Esposito",
-"ty": "model",
-"tx": "Omenja nov model: Domenica 12, Open 52",
-"t": "2",
-"km": 639
-},
-{
-"d": "2026-10-21",
+"d": "2026-10-19",
 "id": "641ba9394d",
 "n": "Solaris Yachts SRL",
 "ty": "model",
 "tx": "Omenja nov model: Solaris 44",
-"t": "2",
+"t": "1",
 "km": 94
 },
 {
-"d": "2026-10-21",
+"d": "2026-10-19",
 "id": "cb1a453718",
 "n": "Nautor Swan Srl",
 "ty": "model",
@@ -36,16 +18,16 @@
 "km": 417
 },
 {
-"d": "2026-10-21",
-"id": "23a715d059",
-"n": "Glas Markus GmbH",
+"d": "2026-10-19",
+"id": "60db0ff9ea",
+"n": "Nautica Esposito",
 "ty": "model",
-"tx": "Omenja nov model: Outguard 394",
+"tx": "Omenja nov model: Domenica 12, Open 52",
 "t": "2",
-"km": 269
+"km": 639
 },
 {
-"d": "2026-10-21",
+"d": "2026-10-19",
 "id": "f23c2a4307",
 "n": "Italyure Yachts",
 "ty": "model",
