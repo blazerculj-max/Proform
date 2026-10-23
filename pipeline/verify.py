@@ -43,6 +43,64 @@ TRADE = {
  "rimessaggio": "zimovanje", "winterlager": "zimovanje", "manutenzione": "servis", "assistenza tecnica": "servis", "reparatur": "servis", "repair": "servis",
  "servis": "servis", "posto barca": "privez", "liegeplatz": "privez", "ormeggi": "privez",
 }
+# Dokazi, pomembni za Proform: kalupi in modeli, laminiranje, stekloplastika in kompoziti.
+# Iščemo v jeziku strani; pri vsakem izrazu je slovenski prevod. Vrstni red: najbolj povedni izrazi najprej.
+PF = {
+ "kalupi": [("formenbau", "izdelava kalupov"), ("urmodell", "glavni model"), ("negativform", "kalup"), ("modellbau", "izdelava modelov"),
+            ("modelli e stampi", "modeli in kalupi"), (r"\b(?:contro)?stampi\b", "kalupi"), (r"\b(?:contro)?stampo\b", "kalup"), ("modelleria", "izdelava modelov"),
+            ("moules", "kalupi"), ("moule", "kalup"), ("moulds", "kalupi"), ("mould", "kalup"), ("molds", "kalupi"), ("mold", "kalup"),
+            ("kalup", "kalup"), ("forma laminac", "kalup"), ("rumpfform", "kalup trupa"), ("gfk-form", "kalup"), ("tooling", "orodja (kalupi)"),
+            ("stampaggio", "oblikovanje v kalupu"), ("moulage", "oblikovanje v kalupu")],
+ "laminiranje": [("laminiertechnik", "laminiranje"), ("handlaminat", "ročno laminiranje"), ("vakuuminfusion", "vakuumska infuzija"),
+            ("laminier", "laminiranje"), ("laminazion", "laminiranje"), ("laminiranj", "laminiranje"), ("laminira", "laminiranje"),
+            ("laminowani", "laminiranje"), ("laminován", "laminiranje"), ("laminovan", "laminiranje"), ("stratification", "laminiranje"),
+            ("stratifi", "laminiranje"), ("infusione", "infuzija"), ("infusion", "infuzija"), ("infuzij", "infuzija"), ("sottovuoto", "vakuum"),
+            ("vacuum bag", "vakuum"), ("vakuum", "vakuum"), ("rtm", "RTM (injekcija smole)"), ("lamination", "laminiranje"), ("laminating", "laminiranje")],
+ "stekloplastika": [("gfk", "stekloplastika"), ("grp", "stekloplastika"), ("frp", "stekloplastika"), ("vetroresina", "stekloplastika"),
+            ("glasfaser", "steklena vlakna"), ("fibra di vetro", "steklena vlakna"), ("fibre de verre", "steklena vlakna"), ("fibreglass", "steklena vlakna"),
+            ("fiberglass", "steklena vlakna"), ("stakloplastik", "stekloplastika"), ("stekloplastik", "stekloplastika"), ("steklen vlakn", "steklena vlakna"),
+            ("staklen vlakn", "steklena vlakna"), ("sklolamin", "stekloplastika"), ("üvegszál", "steklena vlakna"), ("laminat poliestrowo", "stekloplastika"),
+            ("faserverbund", "kompoziti"), ("verbundwerkstoff", "kompoziti"), (r"\bcompositi\b", "kompoziti"), ("composite", "kompoziti"), ("kompozit", "kompoziti"),
+            ("kohlefaser", "karbon"), ("fibra di carbonio", "karbon"), ("fibre de carbone", "karbon"), ("carbon fibre", "karbon"), ("carbon fiber", "karbon"),
+            ("vinylester", "vinilester"), ("vinilester", "vinilester"), ("epoxy", "epoksi"), ("epossidic", "epoksi"), ("epoksi", "epoksi"),
+            ("gelcoat", "gelcoat"), ("polyester", "poliester"), ("poliester", "poliester")],
+}
+PRODUCTION = {"proizvodnja", "obrat", "gradimo", "gradnja čolnov"}
+
+def pf_hits(text):
+    """Najdeni izrazi po skupinah (v jeziku strani, s prevodom) in do dva citata, v katerih so izrazi označeni.
+    Bližnji zadetki gredo v isti citat, da se besedilo ne ponavlja."""
+    t = re.sub(r"\s+", " ", text)
+    groups, first = {}, []
+    for grp, terms in PF.items():
+        words, pos = [], None
+        for k, sl in terms:
+            pat = k if k.startswith("\\b") else (r"\b" + re.escape(k) + r"\b") if len(k) <= 4 else re.escape(k)
+            m = re.search(pat, t, re.I)
+            if not m: continue
+            w = re.search(r"[\w-]*" + pat + r"[\w-]*", t[max(0, m.start() - 30):m.end() + 30], re.I)
+            word = (w.group(0) if w else m.group(0)).strip("-")
+            if any(word.lower() in x[0].lower() for x in words): continue  # že vsebovano (»stampi« v »modelli e stampi«)
+            words.append([word, sl])
+            if pos is None:  # označi celo besedo
+                a0, b0 = m.start(), m.end()
+                while a0 > 0 and (t[a0 - 1].isalnum() or t[a0 - 1] == "-"): a0 -= 1
+                while b0 < len(t) and (t[b0].isalnum() or t[b0] == "-"): b0 += 1
+                pos = (a0, b0)
+            if len(words) >= 4: break
+        if words: groups[grp] = words; first.append((pos[0], pos[1], grp))
+    quotes = []
+    for a, b, grp in sorted(first):
+        if quotes and a < quotes[-1]["e"] + 40 and b - quotes[-1]["s"] < 340:  # dovolj blizu: isti citat
+            q = quotes[-1]; q["e"] = max(q["e"], b + 60); q["h"].append([a, b, grp]); continue
+        if len(quotes) >= 2: break
+        quotes.append(dict(s=max(0, a - 80), e=min(len(t), b + 110), h=[[a, b, grp]]))
+    out = []
+    for q in quotes:
+        s0, e0 = q["s"], min(len(t), q["e"])
+        out.append(dict(t=("…" if s0 else "") + t[s0:e0] + ("…" if e0 < len(t) else ""), h=[[x - s0 + (1 if s0 else 0), y - s0 + (1 if s0 else 0), g] for x, y, g in q["h"]]))
+    return dict(g=groups, q=out) if groups else {}
+
 SUBPAGE = re.compile(r"manufaktur|storitve|usluge|dejavnost|activit|product|prodott|produkt|proizvodi|izdelk|metod|method|plant|yard|cantieri|sedi|werk|about|chi-?siamo|azienda|company|unternehmen|ueber|%c3%bcber|über|o-?nas|o-?nama|werft|cantiere|shipyard|produzion|production|produktion|proizvod|factory|stabiliment|technolog|tecnolog|costruzion|construction|bootsbau|history|storia|geschichte|zgodovina|povijest|quality|qualita|manufactur", re.I)
 
 FETCH_TIMEOUT = 15
@@ -121,7 +179,9 @@ def check(lead):
     order = ["kalupi", "laminiranje", "infuzija", "vetroresina", "stakloplastika", "stekloplastika", "GFK", "GRP", "steklena vlakna", "kompoziti", "vinilester", "epoksi", "gelcoat", "karbon", "vakuum", "obrat", "proizvodnja", "gradimo", "gradnja čolnov"]
     ev = [[k, st[k]] for k in order if k in st][:4]
     neg = [[k, x] for k, x in list(tu.items())[:3] + list(tr.items())[:2]]
-    return dict(id=lead["id"], v=v, u=final, s=s, m=m, t=t, r=r, ev=ev, neg=neg[:3], pages=len(pages), mix=1 if (v == "m" and s >= 3 and t >= s) else 0)
+    pr = sorted({x for x in st if x in PRODUCTION})
+    return dict(id=lead["id"], v=v, u=final, s=s, m=m, t=t, r=r, ev=ev, neg=neg[:3], pages=len(pages), mix=1 if (v == "m" and s >= 3 and t >= s) else 0,
+                pf=pf_hits(full), pr=pr)
 
 if __name__ == "__main__":
     todo = json.load(open(sys.argv[1]))

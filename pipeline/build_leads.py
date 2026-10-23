@@ -20,6 +20,20 @@ WEBF = _load("data/web_found.json", {})       # ročno najdene in preverjene spl
 WNOTES = _load("data/web_notes.json", {})     # ugotovitve iskanja (ne obstaja več, prodajalec …)
 CHG = _load("data/lead_changes.json", {})     # zadnja sprememba po podjetju
 REVIEWED = set(_load("data/reviewed.json", {}).get("ids", []))  # ročno pregledani 15. 10. 2026 (neocenjeni = P3)
+# napačni zadetki starejših pregledov (»Formen« v »Badeplattformen«, »stampi« v »stamping«, »compositi« v »composition«)
+PF_BAD = re.compile(r"plattform|formenti|formensprache|konform|bauformen|verformen|^formen$|^formy$|stamping|^composition", re.I)
+def clean_pf(pf):
+    if not pf or not pf.get("g"): return pf or {}
+    g = {}
+    for k, ws in pf["g"].items():
+        ok = [[w, re.sub(r"\s*\((GFK|GRP|FRP)\)$", "", sl)] for w, sl in ws if not PF_BAD.search(w)]
+        if ok: g[k] = ok
+    q = []
+    for x in pf.get("q", []):
+        h = [hh for hh in x["h"] if hh[2] in g and not PF_BAD.search(x["t"][hh[0]:hh[1]])]
+        if h: q.append(dict(t=x["t"], h=h))
+    return dict(g=g, q=q) if g else {}
+
 import datetime
 RUN_DATE = os.environ.get("RUN_DATE") or datetime.date.today().isoformat()
 def sl_date(iso):
@@ -306,7 +320,12 @@ for o in out:
 for o in out:
     r = VRES.get(o["id"]); mv = MANUAL_V.get(o["n"])
     vf = None
-    if r: vf = dict(v=r["v"], u=r.get("u", ""), ev=r.get("ev", []), neg=r.get("neg", []), d="14. 10. 2026")
+    if r:
+        vf = dict(v=r["v"], u=r.get("u", ""), d=sl_date(RUN_DATE))
+        if r.get("pf") is not None:  # dokazi za Proform: skupine (kalupi, laminiranje, stekloplastika), izrazi s prevodom, citati
+            pf = clean_pf(r["pf"])
+            vf.update(pf=pf, pr=r.get("pr", []), ng=sorted({k for k, _ in r.get("neg", [])}))
+        else: vf.update(ev=r.get("ev", []), neg=r.get("neg", []))
     if r and r.get("mix") and vf: vf["mix"] = 1
     if mv and (not vf or mv[2] or vf["v"] in ("N", "X", "D", "m")):
         vf = dict(v=mv[0], u=(vf or {}).get("u") or (o.get("ct") or {}).get("w", "") or o.get("w", ""), ev=[["ročno preverjeno", mv[1]]], neg=[], d="11.–14. 10. 2026", man=1)

@@ -83,6 +83,27 @@ h1 span{color:var(--accent)}
 .search{flex:1 1 220px;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}
 select.sel{padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);max-width:100%}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
+.filters{display:grid;gap:10px;border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:var(--bg)}
+.fgroup{display:grid;grid-template-columns:44px minmax(0,1fr);gap:10px;align-items:start}
+.flab{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:9px}
+.fbody{display:grid;gap:8px;min-width:0}
+.fsub{font-size:12px;color:var(--muted);white-space:nowrap}
+.fmore{border-top:1px solid var(--line);padding-top:8px}
+.fmore summary{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);cursor:pointer}
+.fmore[open] summary{margin-bottom:8px}
+.fmore .fbody{padding-left:54px}
+@media (max-width:640px){.fgroup{grid-template-columns:1fr;gap:4px}.flab{padding-top:0}.fmore .fbody{padding-left:0}}
+.pfrow{display:grid;gap:4px;margin:6px 0}
+.pf{display:grid;grid-template-columns:190px minmax(0,1fr);gap:8px;font-size:13px;align-items:baseline}
+.pf strong{font-weight:600}
+.pf.off{color:var(--muted)}
+.pf.off strong{font-weight:500}
+.pf .w{color:var(--ink)}
+.pf .tr{color:var(--muted)}
+.pf.off .w{color:var(--muted)}
+.pfq{font-size:12.5px;color:var(--muted);margin:6px 0 0;line-height:1.5}
+.pfq mark{background:var(--accent-soft);color:var(--ink);border-radius:3px;padding:0 2px;font-weight:600}
+@media (max-width:640px){.pf{grid-template-columns:1fr;gap:0}}
 .chip{border:1px solid var(--line);background:transparent;border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;color:var(--muted)}
 .chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
 .chip .n{font-family:var(--f-mono);font-size:11px;margin-left:5px;opacity:.75}
@@ -232,37 +253,52 @@ details summary strong{color:var(--ink)}
         <p class="note" style="margin:6px 0 0">Konkretni povodi za klic: kdo je dobil javno naročilo za plovila, kdo razvija nov model, kdo zaposluje v proizvodnji in kateri razpisi so odprti. Pri vsakem je vir.</p>
         <div class="chips" id="oppChips" role="group" aria-label="Vrsta priložnosti" style="margin-top:8px"></div><ol id="oppList"></ol><button class="btn" type="button" id="oppMore" hidden>Pokaži več</button></details>
       <details class="news" id="news" hidden open><summary id="newsSum">Novosti</summary><ol id="newsList"></ol><button class="btn" type="button" id="newsMore" hidden>Pokaži več</button></details>
-      <div class="frow">
-        <input class="search" id="q" type="search" placeholder="Išči po imenu, kraju ali opisu" aria-label="Iskanje">
-        <select class="sel" id="ring" aria-label="Doseg">
-          <option value="0">Do 150 km</option><option value="1">Do 400 km</option><option value="2" selected>Do 700 km</option><option value="3">Do 1000 km</option><option value="4">Vse, tudi brez lokacije</option>
-        </select>
-      </div>
-      <div class="chips" id="segChips" role="group" aria-label="Panoga"></div>
-      <div class="chips" id="ccChips" role="group" aria-label="Države"></div>
-      <div class="frow">
-        <div class="chips" id="fitChips" role="group" aria-label="Verjetnost"></div>
-        <div class="chips" id="szChips" role="group" aria-label="Velikost"></div>
-        <select class="sel" id="status" aria-label="Status"></select>
-        <label class="tog"><input type="checkbox" id="topOnly"> Samo ročno izbrani</label>
-        <label class="tog"><input type="checkbox" id="ctOnly"> Samo s kontakti</label>
-        <label class="tog"><input type="checkbox" id="newOnly"> Samo z novostmi (30 dni)</label>
-        <select class="sel" id="fairSel" aria-label="Sejem"><option value="all">Sejmi: vsi</option></select>
-        <select class="sel" id="prSel" aria-label="Prednost">
-          <option value="1" selected>Prednost P1 – takoj</option>
-          <option value="12">P1 in P2</option>
-          <option value="K">Konkurenti in partnerji</option>
-          <option value="3">P3 – ni primerno</option>
-          <option value="all">Vsi (tudi neocenjeni)</option>
-        </select>
-        <select class="sel" id="vfSel" aria-label="Preverjanje proizvodnje">
-          <option value="all" selected>Preverjanje: vsi</option>
-          <option value="M">Samo potrjeni proizvajalci</option>
-          <option value="Mm">Proizvajalci in verjetni</option>
-          <option value="TS">Charter, trgovina, servis</option>
-          <option value="NXD">Ni dokazov, ni prebrano, ne deluje</option>
-          <option value="none">Še ni preverjeno</option>
-        </select>
+      <div class="filters">
+        <div class="fgroup"><span class="flab">Kje</span><div class="fbody">
+          <div class="frow">
+            <input class="search" id="q" type="search" placeholder="Išči po imenu, kraju ali opisu" aria-label="Iskanje">
+            <select class="sel" id="ring" aria-label="Doseg">
+              <option value="0">Do 150 km</option><option value="1">Do 400 km</option><option value="2" selected>Do 700 km</option><option value="3">Do 1000 km</option><option value="4">Vse, tudi brez lokacije</option>
+            </select>
+          </div>
+          <div class="chips" id="ccChips" role="group" aria-label="Države"></div>
+        </div></div>
+        <div class="fgroup"><span class="flab">Kaj</span><div class="fbody">
+          <div class="chips" id="segChips" role="group" aria-label="Panoga"></div>
+          <div class="frow"><span class="fsub">Na strani omenjajo</span><div class="chips" id="pfChips" role="group" aria-label="Dokazi za Proform"></div></div>
+        </div></div>
+        <div class="fgroup"><span class="flab">Kdo</span><div class="fbody">
+          <div class="frow"><span class="fsub">Velikost</span><div class="chips" id="szChips" role="group" aria-label="Velikost"></div></div>
+          <div class="frow">
+            <select class="sel" id="prSel" aria-label="Prednost">
+              <option value="1" selected>Prednost P1 – takoj</option>
+              <option value="12">P1 in P2</option>
+              <option value="K">Konkurenti in partnerji</option>
+              <option value="3">P3 – ni primerno</option>
+              <option value="all">Vsi (tudi neocenjeni)</option>
+            </select>
+            <select class="sel" id="vfSel" aria-label="Preverjanje proizvodnje">
+              <option value="all" selected>Preverjanje: vsi</option>
+              <option value="M">Samo potrjeni proizvajalci</option>
+              <option value="Mm">Proizvajalci in verjetni</option>
+              <option value="TS">Charter, trgovina, servis</option>
+              <option value="NXD">Ni dokazov, ni prebrano, ne deluje</option>
+              <option value="none">Še ni preverjeno</option>
+            </select>
+          </div>
+        </div></div>
+        <details class="fmore"><summary>Več filtrov <span id="moreN"></span></summary><div class="fbody">
+          <div class="frow"><span class="fsub">Verjetnost</span><div class="chips" id="fitChips" role="group" aria-label="Verjetnost"></div></div>
+          <div class="frow">
+            <select class="sel" id="status" aria-label="Status"></select>
+            <select class="sel" id="fairSel" aria-label="Sejem"><option value="all">Sejmi: vsi</option></select>
+          </div>
+          <div class="frow">
+            <label class="tog"><input type="checkbox" id="topOnly"> Samo ročno izbrani</label>
+            <label class="tog"><input type="checkbox" id="ctOnly"> Samo s kontakti</label>
+            <label class="tog"><input type="checkbox" id="newOnly"> Samo z novostmi (30 dni)</label>
+          </div>
+        </div></details>
       </div>
       <div class="listmeta">
         <span class="count" id="count"></span>
@@ -294,7 +330,7 @@ details summary strong{color:var(--ink)}
       <h2>Kako sklepamo, da je podjetje pravo</h2>
       <ol>
         <li><strong>Dejavnost iz vira.</strong> Register ali imenik pove, da je podjetje registrirano za gradnjo plovil (ali je obrt »Bootbauer«, razstavljavec v hali s plovili …). To je šele izhodišče – tako se registrirajo tudi servisi in najem.</li>
-        <li><strong>Preverjanje spletne strani.</strong> »Ali res proizvajajo?« prebere domačo stran in do pet podstrani ter išče dokaze o lastni proizvodnji (laminiranje, vetroresina, GFK, kalupi, obrat) in o charterju, trgovini ali servisu. Citati so pri podjetju.</li>
+        <li><strong>Preverjanje spletne strani.</strong> »Ali res proizvajajo?« prebere domačo stran in do pet podstrani. Za Proform šteje troje: <em>kalupi in modeli</em>, <em>laminiranje</em> ter <em>stekloplastika in kompoziti</em>. Izraze iščemo v jeziku strani (npr. Formenbau, Laminiertechnik, GFK; stampi, vetroresina; moules, fibre de verre; kalupi, stakloplastika) in jih prikažemo s prevodom ter citatom, v katerem so označeni. Upoštevamo tudi znake charterja, trgovine ali servisa.</li>
         <li><strong>Velikost.</strong> Iz registra (natančno število ali razred zaposlenih), sicer iz ročnega pregleda ali s strani podjetja. »≈« pomeni oceno, npr. po prometu.</li>
         <li><strong>Ročni pregled.</strong> Za obetavna podjetja pregledamo stran: kaj gradijo, ali imajo nov model, lastno orodjarno ali CNC, koliko so oddaljeni. Iz tega je prednost z razlogom in predlogom pristopa.</li>
         <li><strong>Samodejna ocena</strong> je označena posebej: npr. »na strani so dokazi o proizvodnji, ročna ocena še manjka« ali »iz registra, 10–49 zaposlenih, brez spletne strani – preveri po telefonu«.</li>
@@ -336,6 +372,9 @@ const PL={"1":"P1","2":"P2","3":"P3","K":"konkurent"};
 const PD={"1":"Prednost 1 – takoj: primeren profil, dosegljiv za sestanek.","2":"Prednost 2 – kasneje: velik z lastno orodjarno, dlje ali manj aktiven.","3":"Prednost 3 – ni primerno.","K":"Konkurent ali partner: imajo lastno CNC izdelavo modelov ali kalupov."};
 const VF={M:["Proizvajalec","Na spletni strani so dokazi o lastni proizvodnji, kompozitih ali kalupih."],m:["Verjetno proizvaja","Nekaj dokazov o proizvodnji, a ne dovolj za potrditev."],T:["Charter / turizem","Stran govori predvsem o najemu, izletih ali šoli jadranja."],S:["Trgovina / servis","Stran govori predvsem o prodaji, rabljenih plovilih, servisu ali zimovanju."],N:["Ni dokazov","Na prebranih straneh ni dokazov o proizvodnji. Preveri ročno."],X:["Strani ni mogoče prebrati","Stran se naloži šele v brskalniku. Preveri ročno."],D:["Stran ne deluje","Spletni naslov iz imenika se ne odziva – podjetje je morda zaprto ali ima nov naslov."]};
 const FIT={A:"Velika",B:"Srednja",C:"Nizka"};
+// dokazi, pomembni za Proform (iskani v jeziku strani, s slovenskim prevodom)
+const PFG=[["kalupi","Kalupi in modeli"],["laminiranje","Laminiranje, infuzija"],["stekloplastika","Stekloplastika, kompoziti"]];
+const pfOf=l=>(l.vf&&l.vf.pf&&l.vf.pf.g)||null;
 // velikost podjetja (zaposleni); naročnik išče 10–50, zato so velika privzeto skrita
 const SZ=[["mikro","do 9 zap."],["majhno","10–49 zap."],["srednje","50–249 zap."],["veliko","250+ zap."],["?","velikost neznana"]];
 const SZL={mikro:"do 9",majhno:"10–49",srednje:"50–249",veliko:"250+"};
@@ -351,7 +390,7 @@ const $=s=>document.querySelector(s);
 
 let LEADS=[], CUSTOM=[], MAP=[], statusMap={};
 let db=null, usr=null, canWrite=null, downloads=null, myId=null;
-const st={q:"",ring:2,pr:"1",ccs:new Set(),fair:"all",cc:"all",seg:"all",fit:new Set(["A","B","C"]),sz:new Set(["mikro","majhno","?"]),status:"all",top:false,ct:false,vf:"all",limit:60,zoom:400,sel:null,mode:"view",lang:null};
+const st={q:"",ring:2,pr:"1",ccs:new Set(),fair:"all",cc:"all",seg:"all",fit:new Set(["A","B","C"]),sz:new Set(["mikro","majhno","?"]),pf:new Set(),status:"all",top:false,ct:false,vf:"all",limit:60,zoom:400,sel:null,mode:"view",lang:null};
 // Koga iskati v podjetju, po panogi
 const WHO={
   boats:"Tehnična pisarna ali razvoj (novi modeli), vodja nabave, vodja proizvodnje ali laminiranja. Pri manjših ladjedelnicah lastnik.",
@@ -425,6 +464,8 @@ function buildFilters(){
   for(const [k,v] of segs){ const b=el("button",{type:"button",class:"chip","data-seg":k,"aria-pressed":String(st.seg===k)},v,el("span",{class:"n"})); b.onclick=()=>{st.seg=k;st.limit=60;render();}; segC.append(b); }
   const fitC=$("#fitChips"); fitC.replaceChildren();
   for(const k of ["A","B","C"]){ const b=el("button",{type:"button",class:"chip","data-fit":k,"aria-pressed":"true"},FIT[k]); b.onclick=()=>{ if(st.fit.has(k)&&st.fit.size>1) st.fit.delete(k); else st.fit.add(k); st.limit=60; render(); }; fitC.append(b); }
+  const pfC=$("#pfChips"); pfC.replaceChildren();
+  for(const [k,v] of PFG){ const b=el("button",{type:"button",class:"chip","data-pf":k,title:"Pokaži podjetja, ki na svoji strani omenjajo: "+v.toLowerCase()},v,el("span",{class:"n"})); b.onclick=()=>{ if(st.pf.has(k)) st.pf.delete(k); else st.pf.add(k); st.limit=60; render(); }; pfC.append(b); }
   const szC=$("#szChips"); szC.replaceChildren();
   for(const [k,v] of SZ){ const b=el("button",{type:"button",class:"chip","data-sz":k,title:k==="?"?"Ni podatka v registru, na strani ali iz pregleda":""},v,el("span",{class:"n"})); b.onclick=()=>{ if(st.sz.has(k)&&st.sz.size>1) st.sz.delete(k); else st.sz.add(k); saveSz(); st.limit=60; render(); }; szC.append(b); }
   const ss=$("#status"); ss.replaceChildren(el("option",{value:"all"},"Vsi statusi"));
@@ -482,6 +523,7 @@ function base(l){ // all filters except segment, for chip counts
   if(st.ccs.size&&!st.ccs.has(l.cc)) return false;
   if(!st.fit.has(l.f)) return false;
   if(!st.sz.has(szOf(l))) return false;
+  if(st.pf.size){ const g=pfOf(l); if(!g) return false; for(const k of st.pf) if(!g[k]) return false; }
   if(st.top&&!l.t) return false;
   if(st.ct&&!l.ct) return false;
   if(st.news&&!isNew(l)) return false;
@@ -506,8 +548,12 @@ function render(){
   const rows=filtered();
   // chips
   const baseRows=all().filter(base);
-  document.querySelectorAll("#segChips .chip").forEach(b=>{const k=b.dataset.seg;b.setAttribute("aria-pressed",String(st.seg===k));b.querySelector(".n").textContent=k==="all"?baseRows.length:baseRows.filter(l=>l.s===k).length;});
+  document.querySelectorAll("#segChips .chip").forEach(b=>{const k=b.dataset.seg;const n=k==="all"?baseRows.length:baseRows.filter(l=>l.s===k).length;b.setAttribute("aria-pressed",String(st.seg===k));b.querySelector(".n").textContent=n;b.hidden=(k!=="all"&&n===0&&st.seg!==k);});
   document.querySelectorAll("#fitChips .chip").forEach(b=>b.setAttribute("aria-pressed",String(st.fit.has(b.dataset.fit))));
+  const pfRows=all().filter(l=>{ const keep=st.pf; st.pf=new Set(); const r=base(l); st.pf=keep; return r&&(st.seg==="all"||l.s===st.seg); });
+  document.querySelectorAll("#pfChips .chip").forEach(b=>{ const k=b.dataset.pf; b.setAttribute("aria-pressed",String(st.pf.has(k))); b.querySelector(".n").textContent=pfRows.filter(l=>{ const g=pfOf(l); return g&&g[k]&&[...st.pf].every(x=>g[x]); }).length; });
+  const nMore=(st.fit.size<3?1:0)+(st.status!=="all"?1:0)+(st.fair!=="all"?1:0)+(st.top?1:0)+(st.ct?1:0)+(st.news?1:0);
+  $("#moreN").textContent=nMore?"("+nMore+" vklopljen"+(nMore===1?"":nMore===2?"a":"i")+")":"";
   const szRows=all().filter(l=>baseNoSz(l)&&(st.seg==="all"||l.s===st.seg));
   document.querySelectorAll("#szChips .chip").forEach(b=>{ const k=b.dataset.sz; b.setAttribute("aria-pressed",String(st.sz.has(k))); b.querySelector(".n").textContent=szRows.filter(l=>szOf(l)===k).length; });
   const ccRows=all().filter(l=>baseNoCc(l)&&(st.seg==="all"||l.s===st.seg));
@@ -529,7 +575,7 @@ function render(){
     const tn=teamCount(l.id);
     const vv=l.vf&&l.vf.v;
     const qt=l.q&&l.q.t;
-    const tags=el("span",{class:"tags"},isNew(l)?el("span",{class:"ntag",text:"novo"}):null,qt?el("span",{class:"ptag p"+qt,text:PL[qt]}):el("span",{class:"fit "+l.f,text:FIT[l.f]}), vv&&"MmTS".includes(vv)?el("span",{class:"vtag v"+vv,text:VF[vv][0]}):null, l.ct?el("span",{class:"ctag",text:"kontakt"}):null, l.fa?el("span",{class:"ctag",title:l.fa.join("; "),text:"sejem"}):null, l.zp&&SZL[l.zp.c]?el("span",{class:"ztag z-"+l.zp.c,title:"Zaposleni: "+(l.zp.t||SZL[l.zp.c])+" ("+l.zp.s+")",text:(/ocena/.test(l.zp.s)?"≈":"")+(l.zp.t&&/^\d/.test(l.zp.t)&&!/[–-]/.test(l.zp.t)?l.zp.t:SZL[l.zp.c])+" zap."}):null, tn?el("span",{class:"ctag",text:"skupina "+tn+"/5"}):null, s?el("span",{class:"pill st-"+s,text:STL[s]}):null);
+    const tags=el("span",{class:"tags"},isNew(l)?el("span",{class:"ntag",text:"novo"}):null,qt?el("span",{class:"ptag p"+qt,text:PL[qt]}):el("span",{class:"fit "+l.f,text:FIT[l.f]}), vv&&"MmTS".includes(vv)?el("span",{class:"vtag v"+vv,text:VF[vv][0]}):null, l.ct?el("span",{class:"ctag",text:"kontakt"}):null, l.fa?el("span",{class:"ctag",title:l.fa.join("; "),text:"sejem"}):null, pfOf(l)&&pfOf(l).kalupi?el("span",{class:"ctag",title:"Na strani omenjajo kalupe: "+pfOf(l).kalupi.map(x=>x[0]).join(", "),text:"kalupi"}):null, l.zp&&SZL[l.zp.c]?el("span",{class:"ztag z-"+l.zp.c,title:"Zaposleni: "+(l.zp.t||SZL[l.zp.c])+" ("+l.zp.s+")",text:(/ocena/.test(l.zp.s)?"≈":"")+(l.zp.t&&/^\d/.test(l.zp.t)&&!/[–-]/.test(l.zp.t)?l.zp.t:SZL[l.zp.c])+" zap."}):null, tn?el("span",{class:"ctag",text:"skupina "+tn+"/5"}):null, s?el("span",{class:"pill st-"+s,text:STL[s]}):null);
     const km=el("span",{class:"km"}, l.km==null?"–":String(l.km), el("small",{text:l.km==null?"lokacija?":"km"}));
     const b=el("button",{type:"button",class:"row"+(st.sel===l.id?" sel":""),"data-id":l.id},km,el("span",null,nm,sub),tags);
     b.onclick=()=>select(l.id);
@@ -617,10 +663,25 @@ function renderDrawer(){
   if(l.vf){
     const v=l.vf.v, vfs=el("fieldset",null,el("legend",{text:"Ali res proizvajajo?"}));
     vfs.append(el("div",{class:"frow"},el("span",{class:"vtag v"+v,text:VF[v][0]}),el("span",{class:"note",text:l.vf.mix?"Gradijo in imajo hkrati charter ali najem.":VF[v][1]})));
-    const list=el("ul",{class:"people"});
-    (l.vf.ev||[]).forEach(([k,s])=>list.append(el("li",null,el("strong",{text:k+": "}),el("span",{class:"r",text:s}))));
-    (l.vf.neg||[]).forEach(([k,s])=>list.append(el("li",null,el("strong",{text:"✕ "+k+": "}),el("span",{class:"r",text:s}))));
-    if(list.children.length) vfs.append(list);
+    const g=pfOf(l);
+    if(l.vf.pf){
+      const rows=el("div",{class:"pfrow"});
+      PFG.forEach(([k,lab])=>{ const ws=g&&g[k];
+        rows.append(el("div",{class:"pf "+(ws?"on":"off")},el("strong",{text:(ws?"✓ ":"– ")+lab}),
+          (()=>{ const sp=el("span",{class:"w"}); if(!ws){ sp.textContent="ni omenjeno"; return sp; }
+            ws.slice(0,3).forEach(([w,sl],i)=>{ if(i) sp.append(", "); sp.append(w); if(w.toLowerCase()!==sl.toLowerCase()) sp.append(el("span",{class:"tr",text:" ("+sl+")"})); }); return sp; })())); });
+      vfs.append(rows);
+      (l.vf.pf.q||[]).forEach(q=>{ const p=el("p",{class:"pfq"}); let i=0;
+        [...q.h].sort((a,b)=>a[0]-b[0]).forEach(([a,b])=>{ if(a<i) return; if(a>i) p.append(q.t.slice(i,a)); p.append(el("mark",null,q.t.slice(a,b))); i=b; });
+        p.append(q.t.slice(i)); vfs.append(p); });
+      const extra=[]; if(l.vf.pr&&l.vf.pr.length) extra.push("znaki lastne proizvodnje: "+l.vf.pr.join(", ")); if(l.vf.ng&&l.vf.ng.length) extra.push("znaki drugih dejavnosti: "+l.vf.ng.join(", "));
+      if(extra.length) vfs.append(el("p",{class:"note",style:"margin:6px 0 0",text:extra.join(" · ").replace(/^./,c=>c.toUpperCase())+"."}));
+    } else {
+      const list=el("ul",{class:"people"});
+      (l.vf.ev||[]).forEach(([k,s])=>list.append(el("li",null,el("strong",{text:k+": "}),el("span",{class:"r",text:s}))));
+      (l.vf.neg||[]).forEach(([k,s])=>list.append(el("li",null,el("strong",{text:"✕ "+k+": "}),el("span",{class:"r",text:s}))));
+      if(list.children.length) vfs.append(list);
+    }
     const src=el("p",{class:"saved"},(l.vf.man?"Ročno preverjeno ":"Samodejno prebrano ")+(l.vf.d||"")+" · ");
     if(l.vf.u) src.append(el("a",{href:l.vf.u,target:"_blank",rel:"noopener"},l.vf.u.replace(/^https?:\/\//,"").replace(/\/$/,"")));
     vfs.append(src);
@@ -840,11 +901,11 @@ function copyText(text,btn){
 async function exportCsv(){
   if(!downloads) return;
   const rows=filtered(); const esc=v=>{v=v==null?"":String(v);return /[",\n;]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;};
-  const head=["Ime","Država","Kraj","km","Panoga","Vloga","Verjetnost","Ročno izbrano","Status","Naslednji korak","Opombe sledenja","Opis","Izdeluje","Splet","E-pošta","Telefon","Nabava","Stran za dobavitelje","Osebe (s strani podjetja)","Projektanti","Sejmi","Viri","Prednost","Velikost","Zaposleni (vir)","Zakaj","Pristop"].concat(TEAMROLES.map(([k,lab])=>"Skupina: "+lab));
+  const head=["Ime","Država","Kraj","km","Panoga","Vloga","Verjetnost","Ročno izbrano","Status","Naslednji korak","Opombe sledenja","Opis","Izdeluje","Splet","E-pošta","Telefon","Nabava","Stran za dobavitelje","Osebe (s strani podjetja)","Projektanti","Sejmi","Viri","Prednost","Velikost","Zaposleni (vir)","Na strani omenjajo","Zakaj","Pristop"].concat(TEAMROLES.map(([k,lab])=>"Skupina: "+lab));
   const lines=[head.join(";")];
   for(const l of rows){ const s=statusMap[l.id]||{}; const c=l.ct||{};
     lines.push([l.n,CC[l.cc]||l.cc,l.a,l.km??"",SEG[l.s],ROLE[l.ro],FIT[l.f],l.t?"da":"",STL[s.st||""],s.next||"",s.note||"",l.no,l.ty,
-      c.w||l.w||"",(c.e||[]).join(", "),(c.p||[]).join(", "),c.b||"",c.s||"",(c.ppl||[]).map(p=>p[0]+" – "+p[1]+(p[3]?" ("+p[3]+")":"")).join("; "),(l.pr||[]).map(p=>p[0]).join(", "),(l.fa||[]).join("; "),l.src.join(", "),l.q?PL[l.q.t]:"",l.zp?l.zp.c:(l.q?l.q.sz:""),l.zp?(l.zp.t||"")+" ("+l.zp.s+")":"",l.q?l.q.why:"",l.q?l.q.ap:""]
+      c.w||l.w||"",(c.e||[]).join(", "),(c.p||[]).join(", "),c.b||"",c.s||"",(c.ppl||[]).map(p=>p[0]+" – "+p[1]+(p[3]?" ("+p[3]+")":"")).join("; "),(l.pr||[]).map(p=>p[0]).join(", "),(l.fa||[]).join("; "),l.src.join(", "),l.q?PL[l.q.t]:"",l.zp?l.zp.c:(l.q?l.q.sz:""),l.zp?(l.zp.t||"")+" ("+l.zp.s+")":"",pfOf(l)?PFG.filter(([k])=>pfOf(l)[k]).map(([k,v])=>v+": "+pfOf(l)[k].map(x=>x[0]).join(", ")).join("; "):"",l.q?l.q.why:"",l.q?l.q.ap:""]
       .concat(TEAMROLES.map(([k])=>{ const v=(TEAM[l.id]&&TEAM[l.id].r&&TEAM[l.id].r[k])||null; return v?[v.n,v.t,v.e,v.p,v.li].filter(Boolean).join(", "):""; })).map(esc).join(";")); }
   const b=$("#csvBtn"); const old=b.textContent;
   try{ await downloads.save({filename:"proform3d-radar-kupcev.csv",data:"﻿"+lines.join("\r\n")}); b.textContent="Izvoženo"; }
