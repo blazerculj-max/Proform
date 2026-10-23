@@ -9,7 +9,7 @@ Sledenje statusa, opombe in nakupna skupina delujejo v različici na claude.ai, 
 
 - Podjetja na zemljevidu z zračno razdaljo od Jesenic (azimutna projekcija, krogi 150/400/700/1000 km)
 - **Prednost** po pregledu spletnih strani: P1 (takoj), P2 (kasneje), P3 (ni primerno), konkurent ali partner – z velikostjo, razlogom in predlogom pristopa
-- **Ali res proizvajajo?** – samodejno preverjanje spletnih strani; za Proform so poudarjene tri skupine dokazov: *kalupi in modeli*, *laminiranje* ter *stekloplastika in kompoziti*. Izrazi se iščejo v jeziku strani (SL, HR, IT, DE, FR, EN, CS, PL, HU), prikažejo s prevodom in citatom z označenimi besedami; filter »Na strani omenjajo«. Prepozna tudi charter, trgovino, servis ter prevzete in parkirane domene
+- **Ali res proizvajajo?** – samodejno preverjanje spletnih strani; za Proform so poudarjene štiri skupine dokazov: *navtika in gradnja plovil*, *kalupi in modeli*, *laminiranje* ter *stekloplastika in kompoziti*. Izrazi se iščejo v jeziku strani (SL, HR, IT, DE, FR, EN, CS, PL, HU), prikažejo s prevodom in citatom z označenimi besedami; filter »Na strani omenjajo«. Prepozna tudi charter, trgovino, servis ter prevzete in parkirane domene
 - **Novosti** – vsak teden: nov model na strani, oglas za proizvodne delavce, stran ne deluje / spet deluje, sprememba ocene
 - Projektanti in posredniki (J&J Design, Kiska, Felci, Polli …) s povezavo na ladjedelnice, za katere delajo
 - Kontakti, ki jih podjetja objavijo na svojih straneh, in predloge prvega sporočila v SL/HR/IT/DE/EN
@@ -17,7 +17,7 @@ Sledenje statusa, opombe in nakupna skupina delujejo v različici na claude.ai, 
 - **Priložnosti za prodajo**: kdo je dobil javno naročilo za plovila (TED), kdo razvija nov model, nov model na strani, zaposlovanje v proizvodnji, odprti razpisi – vsak z virom
 - Pri vsakem podjetju: povezave na vire (vpis v registru ali imeniku), vir števila zaposlenih in ali je ocena ročna ali samodejna
 - **Velikost podjetja** (zaposleni) iz registrov, s spletne strani ali iz pregleda; privzeto so prikazana mala in mikro podjetja ter tista z neznano velikostjo – naročnik išče podjetja z 10–50 zaposlenimi
-- Filtri po državah (več hkrati), razdalji, panogi, velikosti, prednosti, preverjanju in statusu
+- Filtri po državah (več hkrati), razdalji, panogi, velikosti, prednosti, preverjanju in statusu; privzeto samo podjetja z delujočo spletno stranjo
 
 ## Tedenska osvežitev (GitHub Actions)
 

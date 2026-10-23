@@ -277,6 +277,7 @@ details summary strong{color:var(--ink)}
               <option value="3">P3 – ni primerno</option>
               <option value="all">Vsi (tudi neocenjeni)</option>
             </select>
+            <label class="tog" title="Podjetja brez spletne strani ali z nedelujočo stranjo so skrita (podatki ostanejo)"><input type="checkbox" id="webOnly" checked> Samo s spletno stranjo</label>
             <select class="sel" id="vfSel" aria-label="Preverjanje proizvodnje">
               <option value="all" selected>Preverjanje: vsi</option>
               <option value="M">Samo potrjeni proizvajalci</option>
@@ -325,12 +326,13 @@ details summary strong{color:var(--ink)}
         <li>Kontakti: samo podatki, ki jih podjetje objavi na svoji strani ali v javnem imeniku (splošni naslovi in telefoni). E-naslovov ne ugibamo.</li>
       </ul>
       <p>Pri vsakem podjetju so pod »Viri« povezave na vpis v registru ali imeniku, pod »Zaposleni« vir števila zaposlenih.</p>
+      <p>Privzeto so prikazana samo podjetja z delujočo spletno stranjo (stikalo »Samo s spletno stranjo«). Podjetja brez strani ostanejo v bazi – za klic po telefonu jih prikaže izklop stikala.</p>
     </div>
     <div>
       <h2>Kako sklepamo, da je podjetje pravo</h2>
       <ol>
         <li><strong>Dejavnost iz vira.</strong> Register ali imenik pove, da je podjetje registrirano za gradnjo plovil (ali je obrt »Bootbauer«, razstavljavec v hali s plovili …). To je šele izhodišče – tako se registrirajo tudi servisi in najem.</li>
-        <li><strong>Preverjanje spletne strani.</strong> »Ali res proizvajajo?« prebere domačo stran in do pet podstrani. Za Proform šteje troje: <em>kalupi in modeli</em>, <em>laminiranje</em> ter <em>stekloplastika in kompoziti</em>. Izraze iščemo v jeziku strani (npr. Formenbau, Laminiertechnik, GFK; stampi, vetroresina; moules, fibre de verre; kalupi, stakloplastika) in jih prikažemo s prevodom ter citatom, v katerem so označeni. Upoštevamo tudi znake charterja, trgovine ali servisa.</li>
+        <li><strong>Preverjanje spletne strani.</strong> »Ali res proizvajajo?« prebere domačo stran in do pet podstrani. Za Proform štejejo štiri skupine: <em>navtika in gradnja plovil</em> (Proform najraje rezka velike kose za plovila), <em>kalupi in modeli</em>, <em>laminiranje</em> ter <em>stekloplastika in kompoziti</em>. Izraze iščemo v jeziku strani (npr. Bootswerft, Formenbau, Laminiertechnik, GFK; cantiere navale, stampi, vetroresina; chantier naval, moules, fibre de verre; brodogradilište, kalupi, stakloplastika) in jih prikažemo s prevodom ter citatom, v katerem so označeni. Upoštevamo tudi znake charterja, trgovine ali servisa.</li>
         <li><strong>Velikost.</strong> Iz registra (natančno število ali razred zaposlenih), sicer iz ročnega pregleda ali s strani podjetja. »≈« pomeni oceno, npr. po prometu.</li>
         <li><strong>Ročni pregled.</strong> Za obetavna podjetja pregledamo stran: kaj gradijo, ali imajo nov model, lastno orodjarno ali CNC, koliko so oddaljeni. Iz tega je prednost z razlogom in predlogom pristopa.</li>
         <li><strong>Samodejna ocena</strong> je označena posebej: npr. »na strani so dokazi o proizvodnji, ročna ocena še manjka« ali »iz registra, 10–49 zaposlenih, brez spletne strani – preveri po telefonu«.</li>
@@ -373,7 +375,10 @@ const PD={"1":"Prednost 1 – takoj: primeren profil, dosegljiv za sestanek.","2
 const VF={M:["Proizvajalec","Na spletni strani so dokazi o lastni proizvodnji, kompozitih ali kalupih."],m:["Verjetno proizvaja","Nekaj dokazov o proizvodnji, a ne dovolj za potrditev."],T:["Charter / turizem","Stran govori predvsem o najemu, izletih ali šoli jadranja."],S:["Trgovina / servis","Stran govori predvsem o prodaji, rabljenih plovilih, servisu ali zimovanju."],N:["Ni dokazov","Na prebranih straneh ni dokazov o proizvodnji. Preveri ročno."],X:["Strani ni mogoče prebrati","Stran se naloži šele v brskalniku. Preveri ročno."],D:["Stran ne deluje","Spletni naslov iz imenika se ne odziva – podjetje je morda zaprto ali ima nov naslov."]};
 const FIT={A:"Velika",B:"Srednja",C:"Nizka"};
 // dokazi, pomembni za Proform (iskani v jeziku strani, s slovenskim prevodom)
-const PFG=[["kalupi","Kalupi in modeli"],["laminiranje","Laminiranje, infuzija"],["stekloplastika","Stekloplastika, kompoziti"]];
+const PFG=[["navtika","Navtika, gradnja plovil"],["kalupi","Kalupi in modeli"],["laminiranje","Laminiranje, infuzija"],["stekloplastika","Stekloplastika, kompoziti"]];
+// delujoča spletna stran (naročnik zaenkrat gleda samo podjetja, ki jih lahko pogleda na spletu)
+const webOf=l=>(l.vf&&l.vf.u)||(l.ct&&l.ct.w)||l.w||"";
+const hasWeb=l=>!!webOf(l)&&!(l.vf&&l.vf.v==="D");
 const pfOf=l=>(l.vf&&l.vf.pf&&l.vf.pf.g)||null;
 // velikost podjetja (zaposleni); naročnik išče 10–50, zato so velika privzeto skrita
 const SZ=[["mikro","do 9 zap."],["majhno","10–49 zap."],["srednje","50–249 zap."],["veliko","250+ zap."],["?","velikost neznana"]];
@@ -390,7 +395,7 @@ const $=s=>document.querySelector(s);
 
 let LEADS=[], CUSTOM=[], MAP=[], statusMap={};
 let db=null, usr=null, canWrite=null, downloads=null, myId=null;
-const st={q:"",ring:2,pr:"1",ccs:new Set(),fair:"all",cc:"all",seg:"all",fit:new Set(["A","B","C"]),sz:new Set(["mikro","majhno","?"]),pf:new Set(),status:"all",top:false,ct:false,vf:"all",limit:60,zoom:400,sel:null,mode:"view",lang:null};
+const st={q:"",ring:2,pr:"1",ccs:new Set(),fair:"all",cc:"all",seg:"all",fit:new Set(["A","B","C"]),sz:new Set(["mikro","majhno","?"]),pf:new Set(),web:true,status:"all",top:false,ct:false,vf:"all",limit:60,zoom:400,sel:null,mode:"view",lang:null};
 // Koga iskati v podjetju, po panogi
 const WHO={
   boats:"Tehnična pisarna ali razvoj (novi modeli), vodja nabave, vodja proizvodnje ali laminiranja. Pri manjših ladjedelnicah lastnik.",
@@ -424,6 +429,7 @@ function tpl(lang,l){
   return T[lang]||T.en;
 }
 try{const z=localStorage.getItem("radar.zoom"); if(z&&ZR.includes(+z)) st.zoom=+z;}catch(e){}
+try{const w=localStorage.getItem("radar.web"); if(w==="0") st.web=false;}catch(e){}
 try{const c=JSON.parse(localStorage.getItem("radar.ccs")||"[]"); if(Array.isArray(c)) c.forEach(x=>st.ccs.add(String(x)));}catch(e){}
 try{const z=JSON.parse(localStorage.getItem("radar.sz")||"null"); if(Array.isArray(z)&&z.length){ st.sz=new Set(z.map(String).filter(x=>SZ.some(s=>s[0]===x))); if(!st.sz.size) st.sz=new Set(["mikro","majhno","?"]); }}catch(e){}
 
@@ -475,6 +481,8 @@ function buildFilters(){
 
   ss.onchange=e=>{st.status=e.target.value;st.limit=60;render();};
   $("#topOnly").onchange=e=>{st.top=e.target.checked;st.limit=60;render();};
+  $("#webOnly").checked=st.web;
+  $("#webOnly").onchange=e=>{st.web=e.target.checked;st.limit=60; try{localStorage.setItem("radar.web",st.web?"1":"0");}catch(x){} render(); renderOpps();};
   $("#ctOnly").onchange=e=>{st.ct=e.target.checked;st.limit=60; if(st.ct){st.ring=4;} render();};
   $("#vfSel").onchange=e=>{st.vf=e.target.value;st.limit=60;render();};
   $("#newOnly").onchange=e=>{st.news=e.target.checked;st.limit=60; if(st.news){st.ring=4;st.pr="all";$("#prSel").value="all";} render();};
@@ -523,6 +531,7 @@ function base(l){ // all filters except segment, for chip counts
   if(st.ccs.size&&!st.ccs.has(l.cc)) return false;
   if(!st.fit.has(l.f)) return false;
   if(!st.sz.has(szOf(l))) return false;
+  if(st.web&&!hasWeb(l)) return false;
   if(st.pf.size){ const g=pfOf(l); if(!g) return false; for(const k of st.pf) if(!g[k]) return false; }
   if(st.top&&!l.t) return false;
   if(st.ct&&!l.ct) return false;
@@ -586,7 +595,7 @@ function render(){
   drawPoints(rows);
 }
 function renderStats(){
-  const A=all(); const rc=[0,0,0,0,0]; A.forEach(l=>rc[l.r]++);
+  const A=all().filter(l=>!st.web||hasWeb(l)); const rc=[0,0,0,0,0]; A.forEach(l=>rc[l.r]++);
   const mx=Math.max(...rc,1); const rb=$("#ringBars"); rb.replaceChildren();
   rc.forEach((n,i)=>rb.append(bar(RLAB[i],n,mx)));
   const pc={}; A.forEach(l=>{const s=stOf(l); if(s) pc[s]=(pc[s]||0)+1;});
@@ -617,7 +626,7 @@ function drawPoints(rows){
   const z=pr*2.2; gLabels.append(sv("line",{x1:-z,y1:0,x2:z,y2:0,class:"zero"}),sv("line",{x1:0,y1:-z,x2:0,y2:z,class:"zero"}));
   const zt=sv("text",{x:z*1.2,y:-z*0.9,class:"zero-lab","font-size":fs*0.85}); zt.textContent="Proform3D"; gLabels.append(zt);
   const shown=new Set(rows.map(l=>l.id));
-  const pts=all().filter(l=>l.x!=null&&Math.abs(l.x)<R&&Math.abs(l.y)<R);
+  const pts=all().filter(l=>l.x!=null&&Math.abs(l.x)<R&&Math.abs(l.y)<R&&(!st.web||hasWeb(l)));  // brez spletne strani: brez pike
   pts.sort((a,b)=>(shown.has(a.id)-shown.has(b.id))||(a.t-b.t));
   for(const l of pts){
     const on=shown.has(l.id);
@@ -816,7 +825,8 @@ function renderOpps(){
   box.hidden=false;
   const ids=new Map(all().map(l=>[l.id,l]));
   const inCc=o=>!st.ccs.size||st.ccs.has(o.cc||(ids.get(o.id)||{}).cc);
-  const base=OPPS.filter(inCc), evs=base.filter(o=>oppTy==="all"||o.ty===oppTy);
+  const okWeb=o=>!st.web||!o.id||!ids.get(o.id)||hasWeb(ids.get(o.id));
+  const base=OPPS.filter(o=>inCc(o)&&okWeb(o)), evs=base.filter(o=>oppTy==="all"||o.ty===oppTy);
   $("#oppsSum").textContent="Priložnosti za prodajo ("+base.length+")";
   const ch=$("#oppChips"); ch.replaceChildren();
   for(const k of ["all","narocilo","razvoj","model","zaposlujejo","razpis"]){

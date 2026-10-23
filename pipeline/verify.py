@@ -46,6 +46,15 @@ TRADE = {
 # Dokazi, pomembni za Proform: kalupi in modeli, laminiranje, stekloplastika in kompoziti.
 # Iščemo v jeziku strani; pri vsakem izrazu je slovenski prevod. Vrstni red: najbolj povedni izrazi najprej.
 PF = {
+ "navtika": [("bootsbau", "gradnja čolnov"), ("bootswerft", "ladjedelnica"), ("yachtbau", "gradnja jaht"), ("schiffbau", "ladjedelništvo"),
+            ("cantiere navale", "ladjedelnica"), ("cantiere nautico", "ladjedelnica"), ("costruzione di imbarcazioni", "gradnja plovil"),
+            ("chantier naval", "ladjedelnica"), ("construction navale", "ladjedelništvo"), ("boatbuilding", "gradnja čolnov"), ("boat building", "gradnja čolnov"),
+            ("boatyard", "ladjedelnica"), ("shipyard", "ladjedelnica"), ("brodogradili", "ladjedelnica"), ("brodogradnj", "ladjedelništvo"),
+            ("ladjedelnic", "ladjedelnica"), ("gradnja plovil", "gradnja plovil"), ("izdelava plovil", "gradnja plovil"), ("stocznia", "ladjedelnica"),
+            ("loděnice", "ladjedelnica"), ("hajógyár", "ladjedelnica"), ("imbarcazion", "plovila"), ("barche", "čolni"), ("motorboot", "motorni čoln"),
+            ("segelboot", "jadrnica"), ("segelyacht", "jadrnica"), ("motoryacht", "motorna jahta"), ("bateaux", "čolni"), ("voilier", "jadrnica"),
+            ("plovil", "plovila"), ("čoln", "čolni"), ("jaht", "jahte"), ("brodic", "čolni"), ("gumenjak", "gumenjaki"), ("łodzi", "čolni"), ("člun", "čolni"),
+            ("yachts", "jahte"), ("yacht", "jahta"), ("boats", "čolni"), ("\\bboote?\\b", "čolni"), ("\\bboat\\b", "čoln"), ("nautica", "navtika"), ("nautik", "navtika")],
  "kalupi": [("formenbau", "izdelava kalupov"), ("urmodell", "glavni model"), ("negativform", "kalup"), ("modellbau", "izdelava modelov"),
             ("modelli e stampi", "modeli in kalupi"), (r"\b(?:contro)?stampi\b", "kalupi"), (r"\b(?:contro)?stampo\b", "kalup"), ("modelleria", "izdelava modelov"),
             ("moules", "kalupi"), ("moule", "kalup"), ("moulds", "kalupi"), ("mould", "kalup"), ("molds", "kalupi"), ("mold", "kalup"),
