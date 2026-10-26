@@ -40,14 +40,6 @@
 "src": "Ročno preverjeno"
 },
 {
-"id": "9c9998cf07",
-"n": "Officine TL Compositi",
-"a": "Pradamano",
-"cc": "it",
-"km": 73,
-"src": "Ročno preverjeno"
-},
-{
 "id": "1a8c2c0fdd",
 "n": "Micra S.r.l.",
 "a": "Romans D'isonzo",
@@ -150,14 +142,6 @@
 "cc": "hr",
 "km": 300,
 "src": "CompanyWall (Hrvaška)"
-},
-{
-"id": "bef5481a99",
-"n": "Partenope Yacht S.r.l. - In Liquidazione",
-"a": "Fano",
-"cc": "it",
-"km": 300,
-"src": "Registro Imprese (aziende.it)"
 },
 {
 "id": "01c63a07fa",
@@ -504,6 +488,14 @@
 "src": "Ročno preverjeno"
 },
 {
+"id": "9c9998cf07",
+"n": "Officine TL Compositi",
+"a": "Pradamano",
+"cc": "it",
+"km": 73,
+"src": "Ročno preverjeno"
+},
+{
 "id": "d841e0f4a3",
 "n": "Nautica Mg S.r.l.",
 "a": "Carrara",
@@ -584,6 +576,14 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
+"id": "fa1952cfda",
+"n": "Cantiere Viareggio Societa' A Responsabilita' Limitata",
+"a": "Viareggio",
+"cc": "it",
+"km": 413,
+"src": "Registro Imprese (aziende.it)"
+},
+{
 "id": "cf90493ecc",
 "n": "Ats S.r.l.",
 "a": "Viareggio",
@@ -616,7 +616,7 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "549b55519d",
+"id": "9eaf0c4178",
 "n": "Elettronautica S.r.l.",
 "a": "Viareggio",
 "cc": "it",
@@ -944,14 +944,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "9d6768bfc7",
-"n": "Yacht Building S.r.l. In Liquidazione",
-"a": "",
-"cc": "it",
-"km": 621,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "8a6337cde6",
 "n": "Flying Eye (Flying Eye)",
 "a": "Biot",
@@ -1075,102 +1067,6 @@
 "id": "074301e020",
 "n": "B.M. Plast di Garcia Ramirez Lisangela",
 "a": "Luni",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "f2bb30d8af",
-"n": "M.Y.I. S.r.l.",
-"a": "Olbia",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "c6c8473029",
-"n": "O.T.A.M. S.r.l.",
-"a": "Milano",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "18cf746973",
-"n": "C.N Group S.r.l.",
-"a": "Castelnuovo Parano",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "fa6d696752",
-"n": "3Af Shipyard S.r.l.",
-"a": "Villafranca Tirrena",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "bee72c9d12",
-"n": "E.S.A.O.M.-C.E.S.A. S.p.A.",
-"a": "Parma",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "692a11af85",
-"n": "Nautica Mg S.r.l.",
-"a": "Carrara",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "6e94908465",
-"n": "C.V.S. S.r.l.",
-"a": "Viareggio",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "491ffc6686",
-"n": "C.N.A. Cantiere Nautico S.r.l.",
-"a": "San Mauro Pascoli",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "c1fdde6cad",
-"n": "L K Yacht S.r.l.s",
-"a": "La Spezia",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "43a6150686",
-"n": "Nautica 80 S.r.l.",
-"a": "Carrara",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "0d40f7f11f",
-"n": "Dm S.r.l.",
-"a": "Cologne",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "8d899c3931",
-"n": "K Yacht S.r.l.",
-"a": "Fano",
 "cc": "it",
 "km": null,
 "src": "Registro Imprese (aziende.it)"
@@ -2160,14 +2056,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "7ca8aaa6af",
-"n": "Arzana Cantieri Navali S.r.l. - In Liquidazione",
-"a": "Venezia",
-"cc": "it",
-"km": 173,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "cc4d895fdd",
 "n": "Squero San Trovaso S.n.c. di della Toffola Lorenzo e C.",
 "a": "Venezia",
@@ -2248,14 +2136,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "4c14184d2b",
-"n": "E.Porcelli Propellers S.r.l. In Liquidazione",
-"a": "Marostica",
-"cc": "it",
-"km": 200,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "6214cbdd10",
 "n": "Arzana' Asset Security S.r.l.",
 "a": "Padova",
@@ -2315,14 +2195,6 @@
 "id": "e49234b344",
 "n": "Commerciale N3C S.r.l.",
 "a": "Porto Viro",
-"cc": "it",
-"km": 213,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "622a11b252",
-"n": "Ariadimare S.r.l. - In Liquidazione",
-"a": "Dueville",
 "cc": "it",
 "km": 213,
 "src": "Registro Imprese (aziende.it)"
@@ -2536,14 +2408,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "ffa55df3c5",
-"n": "Servimar S.r.l. In Liquidazione",
-"a": "Cervia",
-"cc": "it",
-"km": 276,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "359ca8b4c9",
 "n": "N.C.F. Nautica Coltri Fratelli di Coltri Marco e C. SAS",
 "a": "Lazise",
@@ -2653,22 +2517,6 @@
 "a": "Cesena",
 "cc": "it",
 "km": 292,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "568f76bd1c",
-"n": "Watergames International S.r.l. In Liquidazione",
-"a": "Villanuova sul Clisi",
-"cc": "it",
-"km": 293,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "fb6197e613",
-"n": "Nereus S.r.l.s In Liquidazione",
-"a": "Cattolica",
-"cc": "it",
-"km": 294,
 "src": "Registro Imprese (aziende.it)"
 },
 {
@@ -2904,22 +2752,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "1fdb16dc2f",
-"n": "Sea Project S.r.l. In Liquidazione",
-"a": "Fano",
-"cc": "it",
-"km": 300,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "cce9e74466",
-"n": "Nautica Ares S.r.l. In Liquidazione",
-"a": "Fano",
-"cc": "it",
-"km": 300,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "e41aff492f",
 "n": "High Performance Composites S.r.l.",
 "a": "Fano",
@@ -2930,14 +2762,6 @@
 {
 "id": "55180e6658",
 "n": "Elite Marine S.r.l.s",
-"a": "Fano",
-"cc": "it",
-"km": 301,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "682e28dedf",
-"n": "Camm S.r.l. - In Liquidazione",
 "a": "Fano",
 "cc": "it",
 "km": 301,
@@ -2973,14 +2797,6 @@
 "a": "Lumezzane",
 "cc": "it",
 "km": 305,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "f8b4d7c803",
-"n": "Nuova Moudhi Nautica S.r.l.S. In Liquidazione",
-"a": "Mombaroccio",
-"cc": "it",
-"km": 308,
 "src": "Registro Imprese (aziende.it)"
 },
 {
@@ -3171,14 +2987,6 @@
 "id": "21a9759759",
 "n": "Har Marine S.r.l.s",
 "a": "Falconara Marittima",
-"cc": "it",
-"km": 319,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "9914225d35",
-"n": "Vittoria Yachts S.r.l. - In Liquidazione",
-"a": "Ancona",
 "cc": "it",
 "km": 319,
 "src": "Registro Imprese (aziende.it)"
@@ -3464,14 +3272,6 @@
 "src": "CompanyWall (Hrvaška)"
 },
 {
-"id": "f516cf0305",
-"n": "RAND SHIPYARD d.o.o. u stečaju",
-"a": "Turjaci",
-"cc": "hr",
-"km": 362,
-"src": "CompanyWall (Hrvaška)"
-},
-{
 "id": "7affa1deb3",
 "n": "Nautica Errepi S.r.l.",
 "a": "Cisano Bergamasco",
@@ -3712,14 +3512,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "ae7aa9d29e",
-"n": "Arbatax Cantieri Nautici S.r.l. In Liquidazione",
-"a": "Como",
-"cc": "it",
-"km": 389,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "a03dafc697",
 "n": "Genergo S.r.l.",
 "a": "Como",
@@ -3826,14 +3618,6 @@
 {
 "id": "18481da79e",
 "n": "Nube S.r.l.",
-"a": "Milano",
-"cc": "it",
-"km": 391,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "aa723168e2",
-"n": "Correnti S.r.l. In Liquidazione",
 "a": "Milano",
 "cc": "it",
 "km": 391,
@@ -4808,22 +4592,6 @@
 "src": "WKO Firmen A-Z (Bootbauer)"
 },
 {
-"id": "15b2b2856b",
-"n": "SAS-VEKTOR d.d. u stečaju",
-"a": "Poličnik",
-"cc": "hr",
-"km": 275,
-"src": "CompanyWall (Hrvaška)"
-},
-{
-"id": "3b02e6a163",
-"n": "Navalia d.o.o.",
-"a": "Obrovac",
-"cc": "hr",
-"km": 280,
-"src": "Ročno preverjeno"
-},
-{
 "id": "25b77a3b13",
 "n": "C.n.a. Cantiere Nautico S.r.l.",
 "a": "Via Cagnona Nuova, San Mauro Pascoli",
@@ -4856,12 +4624,12 @@
 "src": "WKO Firmen A-Z (Bootbauer)"
 },
 {
-"id": "319e40258d",
-"n": "MARINA VINICI, d.o.o. u stečaju",
-"a": "Murter",
+"id": "3b02e6a163",
+"n": "Navalia d.o.o.",
+"a": "Obrovac",
 "cc": "hr",
-"km": 315,
-"src": "CompanyWall (Hrvaška)"
+"km": 290,
+"src": "Ročno preverjeno"
 },
 {
 "id": "674b6811c9",
@@ -5224,14 +4992,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "02cedd5469",
-"n": "Resinfibre S.r.l. In Liquidazione",
-"a": "Carrara",
-"cc": "it",
-"km": 406,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "f07aafa560",
 "n": "Slim Boat S.r.l.",
 "a": "Carrara",
@@ -5347,14 +5107,6 @@
 "id": "c6ce836b21",
 "n": "Sea Best S.r.l.",
 "a": "Olgiate Olona",
-"cc": "it",
-"km": 409,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "8806f54afc",
-"n": "Easy Yacht S.r.l. In Liquidazione",
-"a": "Castelnuovo Magra",
 "cc": "it",
 "km": 409,
 "src": "Registro Imprese (aziende.it)"
@@ -5538,14 +5290,6 @@
 {
 "id": "c6cb9b6a3b",
 "n": "Nautica Service S.a.s. di Lolaico Domenico & C.",
-"a": "Pisa",
-"cc": "it",
-"km": 417,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "fa2162984e",
-"n": "T. Service S.r.l. - Societa In Liquidazione",
 "a": "Pisa",
 "cc": "it",
 "km": 417,
@@ -5896,14 +5640,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "97be07b8ce",
-"n": "Sea Eagle Industrie S.r.l. In Liquidazione",
-"a": "Genova",
-"cc": "it",
-"km": 458,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "277a812780",
 "n": "Aks Societa' A Responsabilita' Limitata Semplificata",
 "a": "Biella",
@@ -5976,19 +5712,19 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
+"id": "b29048f1ab",
+"n": "Am Costruzioni Navali S.r.l.",
+"a": "Cairo Montenotte",
+"cc": "it",
+"km": 501,
+"src": "Registro Imprese (aziende.it)"
+},
+{
 "id": "dfd93a7a18",
 "n": "Fabbroni & Vongher S.r.l.",
 "a": "Monte Argentario",
 "cc": "it",
 "km": 502,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "9227216444",
-"n": "Cantieri Marinesi S.r.l. In Liquidazione",
-"a": "Marciana Marina",
-"cc": "it",
-"km": 506,
 "src": "Registro Imprese (aziende.it)"
 },
 {
@@ -6384,22 +6120,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "06bf1f6a69",
-"n": "Rgm S.r.l. In Liquidazione",
-"a": "Moncalieri",
-"cc": "it",
-"km": 520,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "b9d16b7732",
-"n": "3D Service S.r.l. In Liquidazione",
-"a": "Roma",
-"cc": "it",
-"km": 520,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "3902c63b9e",
 "n": "Magnaghi Aircraft S.r.l.",
 "a": "Roma",
@@ -6418,14 +6138,6 @@
 {
 "id": "a60da11bfc",
 "n": "Alitalia Servizi S.p.A.",
-"a": "Roma",
-"cc": "it",
-"km": 520,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "383f90f805",
-"n": "Helitec S.r.l. In Liquidazione",
 "a": "Roma",
 "cc": "it",
 "km": 520,
@@ -6640,14 +6352,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "c232604f82",
-"n": "Just Slik S.r.l. In Liquidazione",
-"a": "Anzio",
-"cc": "it",
-"km": 566,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "79d386652d",
 "n": "Lemar S.r.l.S.",
 "a": "Foggia",
@@ -6686,14 +6390,6 @@
 "cc": "fr",
 "km": 575,
 "src": "Register podjetij Francije (INSEE)"
-},
-{
-"id": "22ac1df4db",
-"n": "Lg Marine Services S.r.l. In Liquidazione",
-"a": "Terracina",
-"cc": "it",
-"km": 576,
-"src": "Registro Imprese (aziende.it)"
 },
 {
 "id": "ec6ef3432c",
@@ -6770,14 +6466,6 @@
 {
 "id": "446315b52e",
 "n": "Nav.Car S.r.l.",
-"a": "Marcianise",
-"cc": "it",
-"km": 601,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "b2c5768c95",
-"n": "Di Fuccia & Figli S.r.l. In Liquidazione",
 "a": "Marcianise",
 "cc": "it",
 "km": 601,
@@ -7176,14 +6864,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "7e6fbb438f",
-"n": "C.N.L. Cantieri Nautici Lamberti S.r.l. In Liquidazione",
-"a": "Salerno",
-"cc": "it",
-"km": 643,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "1029f6d0bb",
 "n": "Albamar S.r.l.",
 "a": "Amalfi",
@@ -7325,14 +7005,6 @@
 "a": "Santa Teresa Gallura",
 "cc": "it",
 "km": 700,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "9eaf0c4178",
-"n": "Elettronautica S.r.l.",
-"a": "Cattolica",
-"cc": "it",
-"km": 294,
 "src": "Registro Imprese (aziende.it)"
 },
 {
@@ -7912,14 +7584,6 @@
 "src": "Register podjetij Francije (INSEE)"
 },
 {
-"id": "1f40648e9a",
-"n": "Seal Marine S.r.l. In Liquidazione",
-"a": "Borgia",
-"cc": "it",
-"km": 869,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "318e27481a",
 "n": "Solufibre Composite",
 "a": "Meaux",
@@ -7978,14 +7642,6 @@
 {
 "id": "af52fec83b",
 "n": "Fg di Gian Luca Basciu & C. S.a.s.",
-"a": "Cagliari",
-"cc": "it",
-"km": 896,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "936da46dfb",
-"n": "Turismama Sardegna S.r.l. In Liquidazione",
 "a": "Cagliari",
 "cc": "it",
 "km": 896,
@@ -8080,14 +7736,6 @@
 "src": "Register podjetij Francije (INSEE)"
 },
 {
-"id": "1a941f1616",
-"n": "Nautica Diporto S.r.l.s In Liquidazione",
-"a": "Gioiosa Marea",
-"cc": "it",
-"km": 921,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "1b21eb6810",
 "n": "Maestria Nautica S.r.l.S.",
 "a": "Gioiosa Marea",
@@ -8179,14 +7827,6 @@
 "id": "0ea5c38b2e",
 "n": "Rib Service S.r.l.S.",
 "a": "Carini",
-"cc": "it",
-"km": 926,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "082e5974d2",
-"n": "Sasica Yacht S.r.l. Semplificata In Liquidazione",
-"a": "Naso",
 "cc": "it",
 "km": 926,
 "src": "Registro Imprese (aziende.it)"
@@ -8776,46 +8416,6 @@
 "src": "Registro Imprese (aziende.it)"
 },
 {
-"id": "b3bb5fd173",
-"n": "I.B.F. Nautica S.r.l.",
-"a": "Cologne",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "a02d76afb0",
-"n": "Customarine S.n.c. Dei F.Lli Incorvaia Sandro & Angelo",
-"a": "Licata",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "2f294076c1",
-"n": "3F - S.r.l.",
-"a": "Minturno",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "559368a38f",
-"n": "Ag Nautica S.r.l.s",
-"a": "Carrara",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "72f3b83db8",
-"n": "M3We S.r.l.",
-"a": "Arco",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "445c5b1eb4",
 "n": "CNC Boats",
 "a": "",
@@ -9240,22 +8840,6 @@
 "src": "Imenik izdelovalcev (profinautic)"
 },
 {
-"id": "fa1952cfda",
-"n": "Cantiere Viareggio Societa' A Responsabilita' Limitata",
-"a": "Viareggio",
-"cc": "it",
-"km": 413,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "b29048f1ab",
-"n": "Am Costruzioni Navali S.r.l.",
-"a": "Cairo Montenotte",
-"cc": "it",
-"km": 501,
-"src": "Registro Imprese (aziende.it)"
-},
-{
 "id": "20ea7e7fa7",
 "n": "Novamarine S.p.A.",
 "a": "Roma",
@@ -9269,14 +8853,6 @@
 "a": "Leini",
 "cc": "it",
 "km": 527,
-"src": "Registro Imprese (aziende.it)"
-},
-{
-"id": "91e45b9a10",
-"n": "Manta Group S.r.l.",
-"a": "Foggia",
-"cc": "it",
-"km": 566,
 "src": "Registro Imprese (aziende.it)"
 },
 {
@@ -10004,7 +9580,7 @@
 "n": "Nautica Yacht Trading GmbH",
 "a": "Hauptstrasse 78, 8740 Zeltweg",
 "cc": "at",
-"km": 97,
+"km": 98,
 "src": "Poslovni register SKD 30.120"
 },
 {
@@ -10058,14 +9634,6 @@
 {
 "id": "55711669dd",
 "n": "Slavon Plastic d.o.o.",
-"a": "",
-"cc": "hr",
-"km": null,
-"src": "CompanyWall (Hrvaška)"
-},
-{
-"id": "1dbf3e2e1a",
-"n": "Metacraft Jdoo U Stecaju",
 "a": "",
 "cc": "hr",
 "km": null,
@@ -10182,14 +9750,6 @@
 "cc": "de",
 "km": null,
 "src": "Imenik izdelovalcev (profinautic)"
-},
-{
-"id": "b449cc72a9",
-"n": "Mv Marine S.r.l.",
-"a": "Nola",
-"cc": "it",
-"km": null,
-"src": "Registro Imprese (aziende.it)"
 },
 {
 "id": "03d31e11d8",

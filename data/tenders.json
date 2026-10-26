@@ -1,5 +1,16 @@
 [
 {
+"id": "731768-2026",
+"d": "2026-10-22",
+"t": "oddan",
+"cc": "pl",
+"buyer": "Komenda Miejska Państwowej Straży Pożarnej we Wrocławiu",
+"title": "Lekki samochód ratownictwa wodnego, z napędem 4x4, wraz z łodzią na przyczepie dla Komendy Miejskiej PSP we Wrocławiu",
+"win": [],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/731768-2026/html"
+},
+{
 "id": "723192-2026",
 "d": "2026-10-20",
 "t": "oddan",
@@ -3575,40 +3586,5 @@
 ],
 "dl": "",
 "url": "https://ted.europa.eu/sl/notice/276879-2025/html"
-},
-{
-"id": "267792-2025",
-"d": "2025-04-25",
-"t": "odprt",
-"cc": "fr",
-"buyer": "Ville de Toulon",
-"title": "Fournitures d'équipements nautiques pour le Centre Municipal de Voile de la Ville de Toulon en 3 lots",
-"win": [],
-"dl": "2025-05-28",
-"url": "https://ted.europa.eu/sl/notice/267792-2025/html"
-},
-{
-"id": "265791-2025",
-"d": "2025-04-24",
-"t": "oddan",
-"cc": "it",
-"buyer": "STAZIONE UNICA APPALTANTE REGIONALE LIGURIA",
-"title": "Fornitura di una nuova imbarcazione da lavoro per monitoraggi marini",
-"win": [
-"Nuova Tuccoli Srl"
-],
-"dl": "",
-"url": "https://ted.europa.eu/sl/notice/265791-2025/html"
-},
-{
-"id": "263044-2025",
-"d": "2025-04-23",
-"t": "odprt",
-"cc": "pl",
-"buyer": "Ochotnicza Straż Pożarna",
-"title": "Zakup samochodu ratowniczo rozpoznawczego, łodzi ratowniczej, dronu poszukiwawczego oraz wyposażenia osobistego strażaków",
-"win": [],
-"dl": "2025-05-28",
-"url": "https://ted.europa.eu/sl/notice/263044-2025/html"
 }
 ]

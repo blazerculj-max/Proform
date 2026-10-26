@@ -397,5 +397,12 @@
 "town": "Pula (52100)",
 "src": "https://www.euronotus.hr/",
 "n": 1
+},
+"c9d80fd334": {
+"lat": 52.5007,
+"lon": 13.4647,
+"town": "Berlin (10245)",
+"src": "https://www.robsonpaddle.de/impressum/",
+"n": 2
 }
 }

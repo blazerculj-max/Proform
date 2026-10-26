@@ -1,4 +1,69 @@
 {
+"011bc6870d": {
+"d": "2026-10-26",
+"ty": "jobs",
+"tx": "Oglas za delo: «About Online Bootsmarkt Krankalender Menü Menü Tischler / Bootsbauer (m/w/d) Wir suchen für unsere Werft in Lind ob Velden eine/n Tischler /»"
+},
+"fc4e758e40": {
+"d": "2026-10-26",
+"ty": "model",
+"tx": "Omenja nov model: English 980"
+},
+"cc685af5aa": {
+"d": "2026-10-26",
+"ty": "model",
+"tx": "Omenja nov model: Hydra 450"
+},
+"fbfa3e3a1a": {
+"d": "2026-10-26",
+"ty": "up",
+"tx": "Spletna stran spet deluje – verjetno proizvaja."
+},
+"7070db7d5d": {
+"d": "2026-10-26",
+"ty": "down",
+"tx": "Spletna stran ne deluje več (prej: potrjen proizvajalec)."
+},
+"23a715d059": {
+"d": "2026-10-26",
+"ty": "model",
+"tx": "Omenja nov model: Outguard 394"
+},
+"0ff4cf0463": {
+"d": "2026-10-26",
+"ty": "down",
+"tx": "Spletna stran ne deluje več (prej: potrjen proizvajalec)."
+},
+"cfab77af89": {
+"d": "2026-10-26",
+"ty": "down",
+"tx": "Spletna stran ne deluje več (prej: strani ni mogoče prebrati)."
+},
+"6814a1e262": {
+"d": "2026-10-26",
+"ty": "model",
+"tx": "Omenja nov model: ARAZZE 05"
+},
+"785edc7d72": {
+"d": "2026-10-26",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → trgovina / servis."
+},
+"b525ad5399": {
+"d": "2026-10-26",
+"ty": "verdict",
+"tx": "Ocena strani: strani ni mogoče prebrati → verjetno proizvaja."
+},
+"622a035ad1": {
+"d": "2026-10-26",
+"ty": "model",
+"tx": "Omenja nov model: C128 A, CODECASA 57, CODECASA 58"
+},
+"daad272e13": {
+"d": "2026-10-26",
+"ty": "model",
+"tx": "Omenja nov model: Project53"
+},
 "641ba9394d": {
 "d": "2026-10-19",
 "ty": "model",
@@ -18,16 +83,6 @@
 "d": "2026-10-19",
 "ty": "model",
 "tx": "Omenja nov model: ITALYURE 50"
-},
-"cc685af5aa": {
-"d": "2026-10-17",
-"ty": "model",
-"tx": "Omenja nov model: Hydra 380, Hydra 460"
-},
-"daad272e13": {
-"d": "2026-10-17",
-"ty": "model",
-"tx": "Omenja nov model: Project53"
 },
 "b22eebc957": {
 "d": "2026-10-17",
@@ -73,11 +128,6 @@
 "d": "2026-10-17",
 "ty": "model",
 "tx": "Omenja nov model: Performance 90X"
-},
-"fc4e758e40": {
-"d": "2026-10-17",
-"ty": "model",
-"tx": "Omenja nov model: RAB 720, RAB 830"
 },
 "d71fe324c4": {
 "d": "2026-10-17",
