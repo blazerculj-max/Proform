@@ -1,5 +1,42 @@
 [
 {
+"id": "756303-2026",
+"d": "2026-10-30",
+"t": "oddan",
+"cc": "at",
+"buyer": "BMI - Sekt IV/Grp A/Abt 3/Ref a",
+"title": "Einsatzboote bis 7,5 m",
+"win": [
+"Meyer Bootswerft GmbH"
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/756303-2026/html"
+},
+{
+"id": "751355-2026",
+"d": "2026-10-29",
+"t": "oddan",
+"cc": "fr",
+"buyer": "Préfecture de Mayotte",
+"title": "Acquisition et livraison d'un bateau pour la préfecture de Mayotte.",
+"win": [
+"BORD A BORD"
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/751355-2026/html"
+},
+{
+"id": "746288-2026",
+"d": "2026-10-28",
+"t": "odprt",
+"cc": "de",
+"buyer": "Polizei Berlin",
+"title": "PolBln 415_26 PolBoot Typ 1 EU",
+"win": [],
+"dl": "2026-11-27",
+"url": "https://ted.europa.eu/sl/notice/746288-2026/html"
+},
+{
 "id": "731768-2026",
 "d": "2026-10-22",
 "t": "oddan",
@@ -3551,40 +3588,5 @@
 ],
 "dl": "",
 "url": "https://ted.europa.eu/sl/notice/289826-2025/html"
-},
-{
-"id": "280562-2025",
-"d": "2025-04-30",
-"t": "odprt",
-"cc": "pl",
-"buyer": "Uniwersytet Morski w Gdyni",
-"title": "Zakup elementów wyposażenia wraz z instalacją na statku szkoleniowym Uniwersytetu Morskiego w Gdyni - Dar Młodzieży",
-"win": [],
-"dl": "2025-06-02",
-"url": "https://ted.europa.eu/sl/notice/280562-2025/html"
-},
-{
-"id": "274966-2025",
-"d": "2025-04-29",
-"t": "odprt",
-"cc": "it",
-"buyer": "Direzione Nazionale degli Armamenti - Direzione Nazionale degli Armamenti Navali",
-"title": "G393",
-"win": [],
-"dl": "",
-"url": "https://ted.europa.eu/sl/notice/274966-2025/html"
-},
-{
-"id": "276879-2025",
-"d": "2025-04-29",
-"t": "oddan",
-"cc": "de",
-"buyer": "Stadt Essen, Zentrales Vergabe- und Beschaffungsmanagement",
-"title": "Beschaffung eines Hilfeleistungslöschboots (HLB) für die Feuerwehr Essen",
-"win": [
-"ÖSWAG Werft Linz GmbH"
-],
-"dl": "",
-"url": "https://ted.europa.eu/sl/notice/276879-2025/html"
 }
 ]

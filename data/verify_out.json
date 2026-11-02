@@ -2324,88 +2324,9 @@
 },
 {
 "id": "adc7a8c433",
-"v": "M",
-"u": "https://plastika-nova.hr/",
-"s": 10,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"infuzija",
-"…ajemo garanciju! Koristimo dvije vrste tehnologije izrade: a) VAKUM – INFUZIJSKI postupak, u kojem se poliesterska smola ubrizgava u staklena vlakna a stranice se spaj…"
-],
-[
-"stakloplastika",
-"…Plastika Nova - Proizvodi od stakloplastike! Plastika nova O nama Proizvodi Galerija Reference Kontakt EN DE Proizvodi od stakloplas…"
-],
-[
-"GRP",
-"…našoj ponudi još imamo druge razne poliesterske proizvode. Proizvodi GRP (Glass-fibre Reinforced Polyester), PP (Polypropylene) i PE (Polyethylene) SPREMNICI Prem…"
-],
-[
-"kompoziti",
-"…JAČI: SCOTT BADER d.o.o. POLYCHEM d.o.o. VERTEM d.o.o. KELTEKS d.o.o. KOMPOZIT KEMIJA d.o.o. INTERCOMMERCE d.o.o. Plastika nova SJEDIŠTE: Paška ulica 4 48260 Križevci R…"
-]
-],
-"neg": [],
-"pages": 1,
-"mix": 0,
-"pf": {
-"g": {
-"laminiranje": [
-[
-"INFUZIJSKI",
-"infuzija"
-]
-],
-"stekloplastika": [
-[
-"GRP",
-"stekloplastika"
-],
-[
-"stakloplastike",
-"stekloplastika"
-],
-[
-"KOMPOZIT",
-"kompoziti"
-],
-[
-"gelcoatu",
-"gelcoat"
-]
-]
-},
-"q": [
-{
-"t": "… na koje dajemo garanciju! Koristimo dvije vrste tehnologije izrade: a) VAKUM – INFUZIJSKI postupak, u kojem se poliesterska smola ubrizgava u staklena vlakna a stranice se spajaju Crestomer i Crestob…",
-"h": [
-[
-81,
-91,
-"laminiranje"
-]
-]
-},
-{
-"t": "…jačanja. U našoj ponudi još imamo druge razne poliesterske proizvode. Proizvodi GRP (Glass-fibre Reinforced Polyester), PP (Polypropylene) i PE (Polyethylene) SPREMNICI Prema zahtjevu kupca spr…",
-"h": [
-[
-81,
-84,
-"stekloplastika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo",
-"obrat",
-"proizvodnja"
-]
+"v": "X",
+"u": "https://plastika-nova.hr/cgi-sys/suspendedpage.cgi",
+"n": 120
 },
 {
 "id": "57e313efc8",
@@ -3469,7 +3390,7 @@
 "gradnja čolnov"
 ],
 [
-"Sportsegelboote",
+"Segelboote",
 "jadrnica"
 ],
 [
@@ -3477,7 +3398,7 @@
 "jahta"
 ],
 [
-"esseboats",
+"Esseboats",
 "čolni"
 ]
 ],
@@ -4178,42 +4099,6 @@
 "gradnja čolnov",
 "proizvodnja"
 ]
-},
-{
-"id": "bbc083f3f3",
-"v": "N",
-"u": "https://www.schellenbacher.com/",
-"s": 0,
-"m": 1,
-"t": 0,
-"r": 0,
-"ev": [],
-"neg": [],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Boote",
-"čolni"
-]
-]
-},
-"q": [
-{
-"t": "Schellenbacher GmbH Home Geschichte Boote Rennboote Gigboote Renngigboote Riemen und Skulls Croker Oars Braca-Sport Ersatzteile und Zubehör Ruderschuhe…",
-"h": [
-[
-36,
-41,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
 },
 {
 "id": "cc685af5aa",
@@ -5351,6 +5236,97 @@
 ]
 },
 {
+"id": "bbc083f3f3",
+"v": "M",
+"u": "https://www.schellenbacher.com/",
+"s": 4,
+"m": 3,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"steklena vlakna",
+"…d Rennruderboote und er begann die ersten Versuche mit Prototypen aus glasfaserverstärktem Kunststoff. 1966 erreichte die Bootswerft Max Schellenbacher Ihren ersten groß…"
+],
+[
+"vakuum",
+"…ionsfläche. 1980 Parallele Erzeugung von Kunststoffrennruderbooten in Vakuumtechnik mit Epoxidharz, Carbon, Kevlar und Honeycombs zum Holzbootsbau. 1981 tritt Max Jos…"
+],
+[
+"proizvodnja",
+"…9 Vergrößerung der Werft um zwei weitere Abschnitte auf die dreifache Produktionsfläche. 1980 Parallele Erzeugung von Kunststoffrennruderbooten in Vakuumtechnik mit Epoxi…"
+],
+[
+"gradnja čolnov",
+"…n Vakuumtechnik mit Epoxidharz, Carbon, Kevlar und Honeycombs zum Holzbootsbau. 1981 tritt Max Josef Schellenbacher in die Werft ein, welche er seit 1994 alleinverantwo…"
+]
+],
+"neg": [],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Holzbootsbau",
+"gradnja čolnov"
+],
+[
+"Bootswerft",
+"ladjedelnica"
+],
+[
+"Boote",
+"čolni"
+]
+],
+"laminiranje": [
+[
+"Vakuumtechnik",
+"vakuum"
+]
+],
+"stekloplastika": [
+[
+"glasfaserverstärktem",
+"steklena vlakna"
+]
+]
+},
+"q": [
+{
+"t": "… Sport- und Rennruderboote und er begann die ersten Versuche mit Prototypen aus glasfaserverstärktem Kunststoff. 1966 erreichte die Bootswerft Max Schellenbacher Ihren ersten großen internationalen Erfolg im Re…",
+"h": [
+[
+81,
+101,
+"stekloplastika"
+]
+]
+},
+{
+"t": "…he Produktionsfläche. 1980 Parallele Erzeugung von Kunststoffrennruderbooten in Vakuumtechnik mit Epoxidharz, Carbon, Kevlar und Honeycombs zum Holzbootsbau. 1981 tritt Max Josef Schellenbacher in die Werft ein, welc…",
+"h": [
+[
+81,
+94,
+"laminiranje"
+],
+[
+145,
+157,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradnja čolnov",
+"proizvodnja"
+]
+},
+{
 "id": "1263937447",
 "v": "M",
 "u": "https://www.mader-boote.de/",
@@ -6078,12 +6054,6 @@
 ]
 },
 {
-"id": "7070db7d5d",
-"v": "D",
-"u": "https://www.ott-yacht.de/",
-"n": 0
-},
-{
 "id": "855f1404c7",
 "v": "M",
 "u": "https://www.cantierimancini.com/",
@@ -6490,6 +6460,95 @@
 ]
 },
 "pr": [
+"proizvodnja"
+]
+},
+{
+"id": "737b28cde7",
+"v": "M",
+"u": "https://www.bootsbau-liebner.de/",
+"s": 3,
+"m": 1,
+"t": 0,
+"r": 2,
+"ev": [
+[
+"GFK",
+"…rationen von Segel- und Motorbooten, aber auch Neubauten aus Holz und GFK, sowie Reparaturen aller Art an. Detaillierte Informationen zu unserem Leistungsspektrum…"
+],
+[
+"proizvodnja",
+"…hrung mit traditionellen Handwerkstechniken aber auch mit innovativen Fertigungsmethoden, garantieren wir Leistung auf höchstem Niveau. Restaurationen Neubauten aktuelle…"
+],
+[
+"gradnja čolnov",
+"…Home - Bootsbau Liebner Bootsbau Meister Navigation überspringen Home Yacht Racing Manufaktur Zubehör Geb…"
+]
+],
+"neg": [
+[
+"zimovanje",
+"…tlich vorteilhafter erwies, als die unmittelbare Seenähe. Neben einer Winterlagerhalle und einer großen Werfthalle mit Büros und Mitarbeiterräumen, bietet die Werft nun au…"
+],
+[
+"servis",
+"…n Segel- und Motorbooten, aber auch Neubauten aus Holz und GFK, sowie Reparaturen aller Art an. Detaillierte Informationen zu unserem Leistungsspektrum finden Sie bitte…"
+]
+],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Bootsbau",
+"gradnja čolnov"
+],
+[
+"Motorbooten",
+"motorni čoln"
+],
+[
+"Segelbooten",
+"jadrnica"
+],
+[
+"Yacht",
+"jahta"
+]
+],
+"stekloplastika": [
+[
+"GFK",
+"stekloplastika"
+]
+]
+},
+"q": [
+{
+"t": "Home - Bootsbau Liebner Bootsbau Meister Navigation überspringen Home Yacht Racing Manufaktur Zubehör Gebrauchtbörse Presse K…",
+"h": [
+[
+7,
+15,
+"navtika"
+]
+]
+},
+{
+"t": "…ige Restaurationen von Segel- und Motorbooten, aber auch Neubauten aus Holz und GFK, sowie Reparaturen aller Art an. Detaillierte Informationen zu unserem Leistungsspektrum finden Sie bitte unt…",
+"h": [
+[
+81,
+84,
+"stekloplastika"
+]
+]
+}
+]
+},
+"pr": [
+"gradnja čolnov",
 "proizvodnja"
 ]
 },
@@ -7267,62 +7326,90 @@
 },
 {
 "id": "d98a20fb24",
-"v": "N",
+"v": "M",
 "u": "https://www.marservis.hr/",
-"s": 2,
-"m": 0,
-"t": 0,
+"s": 4,
+"m": 1,
+"t": 2,
 "r": 1,
 "ev": [
 [
 "kompoziti",
-"…rojects PROeco 60 Solar-powered eco catamaran built using advanced biocomposite materials for sustainable passenger mobility. Explore Vessel Fisherline 35 Professional…"
+"…installations, tested and documented. 04 Environmental innovation Bio-composite construction and autonomous floating systems that make marinas and coasts measurably cle…"
 ],
 [
 "proizvodnja",
-"…chnical support. Through consistent collaboration with leading marine manufacturers, Marservis built strong technical foundations and expanded its operational scope beyon…"
+"…rd equipment and technical support. Working closely with leading boat manufacturers gave us deep technical foundations — and the confidence to start building vessels of o…"
+],
+[
+"gradimo",
+"…Clean Sea Solutions we develop AQUAPOD+ and ECOcube; with Swiss Bcomp we build PROeco, a solar catamaran in flax-fibre composites. 2024 REVERA enters service Our eco-ca…"
+],
+[
+"gradnja čolnov",
+"…art building vessels of our own. Today we combine traditional Istrian boatbuilding craft with modern engineering, new materials and clean propulsion. 02 — Our path From ser…"
 ]
 ],
 "neg": [
 [
+"charter",
+"…nas and ports Anchorages and mooring fields National and nature parks Charter bases Islands and municipalities Concession areas ecocube.hr Watch the video 04 — Recogni…"
+],
+[
+"izleti",
+"…sherline 35 A versatile 10.94 m workhorse for transport, aquaculture, excursions and diving. View vessel Cabin work & dive vessel Fisherline 35 PRO Fisherline with a for…"
+],
+[
 "servis",
-"…Marservis | Marine Engineering & Innovation About Service Production Fisherline 35 Fisherline 35 PR…"
+"…Marservis — Marine Engineering, Shipbuilding & ECOcube | Istria, Croatia Skip to content About Serv…"
 ]
 ],
-"pages": 2,
+"pages": 4,
 "mix": 0,
 "pf": {
 "g": {
 "navtika": [
 [
-"nautical",
-"navtika"
+"boatbuilding",
+"gradnja čolnov"
+],
+[
+"shipyard",
+"ladjedelnica"
+],
+[
+"Yachting",
+"jahta"
+],
+[
+"boats",
+"čolni"
 ]
 ],
 "stekloplastika": [
 [
-"biocomposite",
+"Bio-composite",
 "kompoziti"
 ]
 ]
 },
 "q": [
 {
-"t": "…s. Selected Projects PROeco 60 Solar-powered eco catamaran built using advanced biocomposite materials for sustainable passenger mobility. Explore Vessel Fisherline 35 Professional work vessel engineere…",
+"t": "…plete onboard installations, tested and documented. 04 Environmental innovation Bio-composite construction and autonomous floating systems that make marinas and coasts measurably cleaner. 02 — Marservis …",
 "h": [
 [
 81,
-93,
+94,
 "stekloplastika"
 ]
 ]
 },
 {
-"t": "…s established in 1994 by professionals with extensive experience in marinas and nautical operations across Europe. The company began as a specialised marine service provider, focusing on electrical …",
+"t": "…ence to start building vessels of our own. Today we combine traditional Istrian boatbuilding craft with modern engineering, new materials and clean propulsion. 02 — Our path From service to shipbuilding…",
 "h": [
 [
 81,
-89,
+93,
 "navtika"
 ]
 ]
@@ -7330,6 +7417,8 @@
 ]
 },
 "pr": [
+"gradimo",
+"gradnja čolnov",
 "proizvodnja"
 ]
 },
@@ -8893,6 +8982,117 @@
 ]
 },
 {
+"id": "56b5fe4499",
+"v": "M",
+"u": "https://www.bellcraft.it/",
+"s": 8,
+"m": 2,
+"t": 0,
+"r": 1,
+"ev": [
+[
+"kalupi",
+"…con il cantiere Tecnokappa/Kappamarine. Successivamente acquista gli stampi ed i disegni per la realizzazione delle imbarcazioni Kappamarine con il marchio Bellcraft…"
+],
+[
+"laminiranje",
+"…truzione inviamo ad un laboratorio specializzato delle carotature del laminato in vetroresina al fine di verificare i parametri richiesti di omologazione, quali resist…"
+],
+[
+"vetroresina",
+"…i anni ’80. Nata dalla passione per la costruzione di imbarcazioni in vetroresina , l’azienda ha evoluto nel tempo le proprie competenze fino a specializzarsi nella proget…"
+],
+[
+"vinilester",
+"…a e fiancate ) è costruita utilizzando gel coat neopentilici e resine vinilestere nelle prime stratificazioni al fine di creare una barriera ed una maggior fortificazione…"
+]
+],
+"neg": [
+[
+"privez",
+"…nfo@bellcraft.it - Tel +39 0584 341191 Home Azienda Metodo Pilotaggio Ormeggio Speciali Servizi Contatti Home Azienda Metodo Pilotaggio Ormeggio Speciali Servizi Conta…"
+]
+],
+"pages": 3,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"costruzione di imbarcazioni",
+"gradnja plovil"
+],
+[
+"Barche",
+"čolni"
+],
+[
+"Boats",
+"čolni"
+]
+],
+"kalupi": [
+[
+"stampi",
+"kalupi"
+],
+[
+"stampo",
+"kalup"
+]
+],
+"laminiranje": [
+[
+"stratificazioni",
+"laminiranje"
+]
+],
+"stekloplastika": [
+[
+"vetroresina",
+"stekloplastika"
+],
+[
+"vinilestere",
+"vinilester"
+]
+]
+},
+"q": [
+{
+"t": "…ttivi nella cantieristica navale sin dagli anni ’80. Nata dalla passione per la costruzione di imbarcazioni in vetroresina , l’azienda ha evoluto nel tempo le proprie competenze fino a specializzarsi nella progettazio…",
+"h": [
+[
+81,
+108,
+"navtika"
+],
+[
+112,
+123,
+"stekloplastika"
+]
+]
+},
+{
+"t": "…ed esteri, con il cantiere Tecnokappa/Kappamarine. Successivamente acquista gli stampi ed i disegni per la realizzazione delle imbarcazioni Kappamarine con il marchio Bellcraft, ampliandone la gam…",
+"h": [
+[
+81,
+87,
+"kalupi"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo",
+"gradnja čolnov",
+"proizvodnja"
+]
+},
+{
 "id": "a68552f9e3",
 "v": "M",
 "u": "https://www.cantieridipisa.com/",
@@ -9161,12 +9361,6 @@
 ]
 },
 "pr": []
-},
-{
-"id": "54e4c3f144",
-"v": "D",
-"u": "https://i-boat.eu/",
-"n": 0
 },
 {
 "id": "4b7816c4ff",
@@ -9573,15 +9767,144 @@
 },
 {
 "id": "b5f1da3e32",
-"v": "D",
+"v": "M",
 "u": "https://www.steiner-nautic.at/",
-"n": 0
+"s": 3,
+"m": 1,
+"t": 2,
+"r": 3,
+"ev": [
+[
+"GFK",
+"…aubetriebes. Seit den 1970ern liegt der Schwerpunkt des Bootsbaus auf GFK Ruder-, Segel- und Elektrobooten, die dadurch nicht nur wesentlich leichter, sondern weit…"
+],
+[
+"proizvodnja",
+"…orboote: Lightstream, Marin 630, Marin 800. | Steiner Nautic: Sonderanfertigungen aus GFK. | Boots-Service / Zubehör in der Werft von Steiner Nautic am Mattsee: Reparatu…"
+],
+[
+"gradnja čolnov",
+"…Steiner Nautic Bootsbauer Elektroboote Segelboote Motorboote Mattsee Salzburg Österreich Steiner Nautic Bootsbaue…"
+]
+],
+"neg": [
+[
+"najem",
+"…utic: Team, Lage und Anreise, Partner. Segelschule Mattsee Surfschule Bootsverleih Salzburger Seenland Schifffahrt Reparatur & Service Bootsservice & Reparaturen bei Steine…"
+],
+[
+"šola jadranja",
+"…le, Motore, Akkus. | Steiner-Nautic: Team, Lage und Anreise, Partner. Segelschule Mattsee Surfschule Bootsverleih Salzburger Seenland Schifffahrt Reparatur & Service Boots…"
+],
+[
+"rabljeni",
+"…assikern versucht das Team um Hermann Steiner Sie zufriedenzustellen. Gebrauchtboote klassisches Handwerk kombiniert mit neuester Technik ergeben seit den 1990er Jahren beei…"
+]
+],
+"pages": 6,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Bootsbauer",
+"gradnja čolnov"
+],
+[
+"Bootswerft",
+"ladjedelnica"
+],
+[
+"Yachtbau",
+"gradnja jaht"
+],
+[
+"Motorboote",
+"motorni čoln"
+]
+],
+"stekloplastika": [
+[
+"GFK",
+"stekloplastika"
+]
+]
+},
+"q": [
+{
+"t": "Steiner Nautic Bootsbauer Elektroboote Segelboote Motorboote Mattsee Salzburg Österreich Steiner Nautic Bootsbauer: neue und gebrauchte…",
+"h": [
+[
+15,
+25,
+"navtika"
+]
+]
+},
+{
+"t": "…hen Bootsbaubetriebes. Seit den 1970ern liegt der Schwerpunkt des Bootsbaus auf GFK Ruder-, Segel- und Elektrobooten, die dadurch nicht nur wesentlich leichter, sondern weitaus stabiler gebaut …",
+"h": [
+[
+81,
+84,
+"stekloplastika"
+]
+]
+}
+]
+},
+"pr": [
+"gradnja čolnov",
+"proizvodnja"
+]
 },
 {
 "id": "efd0e98699",
-"v": "D",
+"v": "N",
 "u": "https://www.carnevaliyachts.com/en/home/",
-"n": 0
+"s": 0,
+"m": 2,
+"t": 0,
+"r": 0,
+"ev": [],
+"neg": [],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"SHIPYARD",
+"ladjedelnica"
+],
+[
+"Yachts",
+"jahte"
+],
+[
+"boat",
+"čoln"
+],
+[
+"nautical",
+"navtika"
+]
+]
+},
+"q": [
+{
+"t": "…Carnevali 180 * Not in production COMPANY PRESENTATION OUR HISTORY OUR SEAT THE SHIPYARD Angelo Carnevali Below the cobalt blue surface of the sea, a hull, smooth and sharp, cuts its way through the…",
+"h": [
+[
+81,
+89,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
 },
 {
 "id": "c7cb6abe8b",
@@ -9708,6 +10031,109 @@
 },
 "pr": [
 "obrat",
+"proizvodnja"
+]
+},
+{
+"id": "7070db7d5d",
+"v": "M",
+"u": "https://www.ott-yacht.de/",
+"s": 6,
+"m": 2,
+"t": 0,
+"r": 2,
+"ev": [
+[
+"laminiranje",
+"…stungen Osmose Behandlung Auf den ersten Blick erscheint ein Polyesterlaminat wasserdicht... Osmose Behandlung Ersatzteile Hier finden jede Menge Ersatzteile für unser…"
+],
+[
+"GFK",
+"…n gehen wir ganz neue und andere Wege. Die Entstehung einer Yacht vom GFK-Bau startend bis zur Auslieferung an den Kunden ist bei uns in 6 Komponenten aufgeglieder…"
+],
+[
+"vakuum",
+"…TE IOI eine neue Außenhaut aus Gel-Coat einer alte GITANA wurde unter Vakuum ein neues Deck aus Flexiteek verpaßt und natürlich haben wir wieder mehrere Osmosesanieru…"
+],
+[
+"proizvodnja",
+"…steller weltweit), eine Baulizenz der ISAF. Moderner Bootsbau Bei der Produktion unserer Yachten gehen wir ganz neue und andere Wege. Die Entstehung einer Yacht vom GFK-B…"
+]
+],
+"neg": [
+[
+"rabljeni",
+"…en Osmose Behandlung Yachtlackierung Winterlager Ersatzteile Bootsbau Gebrauchtboote Aphrodite 101, built 1981 Aphrodite 101, built 2008 Aphrodite 101, built 2025 Aphrodite…"
+],
+[
+"zimovanje",
+"…national 806 H-Boot Werftleistungen Osmose Behandlung Yachtlackierung Winterlager Ersatzteile Bootsbau Gebrauchtboote Aphrodite 101, built 1981 Aphrodite 101, built 2008 A…"
+]
+],
+"pages": 4,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Bootsbau",
+"gradnja čolnov"
+],
+[
+"Segelyachten",
+"jadrnica"
+],
+[
+"Boats",
+"čolni"
+],
+[
+"H-Boot",
+"čolni"
+]
+],
+"laminiranje": [
+[
+"Vakuum",
+"vakuum"
+]
+],
+"stekloplastika": [
+[
+"GFK-Bau",
+"stekloplastika"
+],
+[
+"Polyesterlaminat",
+"poliester"
+]
+]
+},
+"q": [
+{
+"t": "…-Boot Werftleistungen Osmose Behandlung Yachtlackierung Winterlager Ersatzteile Bootsbau Gebrauchtboote Aphrodite 101, built 1981 Aphrodite 101, built 2008 Aphrodite 101, built 2025 Aphrodite 101, b…",
+"h": [
+[
+81,
+89,
+"navtika"
+]
+]
+},
+{
+"t": "…ne APHRODITE IOI eine neue Außenhaut aus Gel-Coat einer alte GITANA wurde unter Vakuum ein neues Deck aus Flexiteek verpaßt und natürlich haben wir wieder mehrere Osmosesanierungen mit Garantie du…",
+"h": [
+[
+81,
+87,
+"laminiranje"
+]
+]
+}
+]
+},
+"pr": [
+"gradnja čolnov",
 "proizvodnja"
 ]
 },
@@ -10468,12 +10894,6 @@
 ]
 },
 {
-"id": "575f652677",
-"v": "D",
-"u": "https://www.faaborg-vaerft.dk/",
-"n": 0
-},
-{
 "id": "96ac21a467",
 "v": "M",
 "u": "https://www.hermes-bootbau.at/",
@@ -10581,7 +11001,7 @@
 "v": "M",
 "u": "https://www.bootswerft-glas.de/",
 "s": 5,
-"m": 3,
+"m": 5,
 "t": 0,
 "r": 4,
 "ev": [
@@ -10591,7 +11011,7 @@
 ],
 [
 "GFK",
-"…Drachen GER916 Hersteller: Markus Glas GmbH Baujahr: 1998 Rumpf/Deck: GFK-Rumpf mit Holzdeck, Unterwasserschiff mit Epacryn-Laminat Zubehör: 1 Satz FRITZ Segel (Fo…"
+"…lbem Raubelag (wie auf Ölbild im BYC) / Unterwasserschiff mit 2 Lagen GFK abgedichtet; Bleikiel restauriert Rigg/Segel: Seldén Alu Mast & Baum & Boom kick mit mode…"
 ],
 [
 "proizvodnja",
@@ -10634,9 +11054,15 @@
 "jadrnica"
 ]
 ],
+"laminiranje": [
+[
+"überlaminiert",
+"laminiranje"
+]
+],
 "stekloplastika": [
 [
-"GFK-Rumpf",
+"GFK",
 "stekloplastika"
 ]
 ]
@@ -10653,11 +11079,16 @@
 ]
 },
 {
-"t": "…chricht . Drachen GER916 Hersteller: Markus Glas GmbH Baujahr: 1998 Rumpf/Deck: GFK-Rumpf mit Holzdeck, Unterwasserschiff mit Epacryn-Laminat Zubehör: 1 Satz FRITZ Segel (Fock, Groß und Spinnaker), 1…",
+"t": "…ieler mit optimiertem Ruderdesign Rumpf/Deck: Mahagoni geplankt/ Sandwichplatte überlaminiert mit hellgelbem Raubelag (wie auf Ölbild im BYC) / Unterwasserschiff mit 2 Lagen GFK abgedichtet; Bleikiel restauriert Rigg/Segel: Seldén Alu Ma…",
 "h": [
 [
 81,
-90,
+94,
+"laminiranje"
+],
+[
+175,
+178,
 "stekloplastika"
 ]
 ]
@@ -11339,6 +11770,12 @@
 "n": 44
 },
 {
+"id": "3cc3205703",
+"v": "D",
+"u": "http://darielboats.com/",
+"n": 0
+},
+{
 "id": "65affb0f31",
 "v": "N",
 "u": "https://flyermarine.it/",
@@ -11614,88 +12051,9 @@
 },
 {
 "id": "eb37069829",
-"v": "M",
+"v": "D",
 "u": "https://www.gcb-ag.com/",
-"s": 4,
-"m": 1,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"steklena vlakna",
-"…2025). HELLWIG THROUGH THE TIME 1955 Dieter Hellwig builds the first fiberglass boats under the GERMAN CRAFT label 1995 Michael Hammermeister acquires HELLWIG BOOTE 1999…"
-],
-[
-"obrat",
-"…elop the site into a center for high-quality water sports brands. The factory produces sports boats and watercraft that meet the highest standards of quality and preci…"
-],
-[
-"proizvodnja",
-"…CRAFTMANSHIP MEETS INNOVATION HELLWIG ORIGIN HELLWIG boats have been manufactured in Germany for 70 years. More than 20,000 high-quality sports boats have established a…"
-],
-[
-"gradnja čolnov",
-"…ft, crafted with precision, sustainability, and a passion for perfect boatbuilding. Learn More WELCOME TO GERMAN CRAFT WHERE CRAFTMANSHIP MEETS INNOVATION HELLWIG ORIGIN HE…"
-]
-],
-"neg": [],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"boatbuilding",
-"gradnja čolnov"
-],
-[
-"Boatyard",
-"ladjedelnica"
-],
-[
-"shipyard",
-"ladjedelnica"
-],
-[
-"iYacht",
-"jahta"
-]
-],
-"stekloplastika": [
-[
-"fiberglass",
-"steklena vlakna"
-]
-]
-},
-"q": [
-{
-"t": "…d watercraft, crafted with precision, sustainability, and a passion for perfect boatbuilding. Learn More WELCOME TO GERMAN CRAFT WHERE CRAFTMANSHIP MEETS INNOVATION HELLWIG ORIGIN HELLWIG boats have bee…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-},
-{
-"t": "…els (as of 2025). HELLWIG THROUGH THE TIME 1955 Dieter Hellwig builds the first fiberglass boats under the GERMAN CRAFT label 1995 Michael Hammermeister acquires HELLWIG BOOTE 1999 The Boatyard moves …",
-"h": [
-[
-81,
-91,
-"stekloplastika"
-]
-]
-}
-]
-},
-"pr": [
-"gradnja čolnov",
-"obrat",
-"proizvodnja"
-]
+"n": 0
 },
 {
 "id": "83227d2922",
@@ -12302,6 +12660,65 @@
 "pr": []
 },
 {
+"id": "575f652677",
+"v": "m",
+"u": "https://www.faaborg-vaerft.dk/",
+"s": 2,
+"m": 1,
+"t": 1,
+"r": 0,
+"ev": [
+[
+"obrat",
+"…is 2022 Fredag d. 25.11.22 var alle medarbejdere og ledelsen samlet i produktionshallen, da formand for DI Fyn Poul Strandmark i selskab med borgmester i Faaborg Midtfyn Kommun…"
+],
+[
+"proizvodnja",
+"…is 2022 Fredag d. 25.11.22 var alle medarbejdere og ledelsen samlet i produktionshallen, da formand for DI Fyn Poul Strandmark i selskab med borgmester i Faaborg Midtfyn…"
+]
+],
+"neg": [
+[
+"charter",
+"…ærgen Elise blev onsdag d. 29.11.23 søsat. Det er Gunnars Båttturer & Charter, som er hjemmehørende i Dyrön på den svenske vestkyst, som har bestilt fartøjet. Fartøjet…"
+]
+],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Workboats",
+"čolni"
+]
+]
+},
+"q": [
+{
+"t": "…aborg Værft - Elfærger - Komposit - Special fartøjer Nybygning E-Cat High Speed Workboats Passagerfartøjer Arbejdsfartøjer Fiskefartøjer NAVY Reparation FACILITETER OMBYGNING KOMPETENCER Om FAABORG V…",
+"h": [
+[
+81,
+90,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"obrat",
+"proizvodnja"
+]
+},
+{
+"id": "5c21c9523c",
+"v": "D",
+"u": "http://www.bootsbaudomenig.at/",
+"n": 0
+},
+{
 "id": "0457f6a683",
 "v": "m",
 "u": "https://www.marineinteriors.it/en",
@@ -12421,6 +12838,12 @@
 "pr": []
 },
 {
+"id": "a882bf757e",
+"v": "D",
+"u": "http://www.tyachts.it/",
+"n": 0
+},
+{
 "id": "f02e749cbf",
 "v": "m",
 "u": "https://gx-superyachts.com/",
@@ -12516,20 +12939,20 @@
 "g": {
 "navtika": [
 [
+"Cantiere nautico",
+"ladjedelnica"
+],
+[
 "imbarcazioni",
 "plovila"
 ],
 [
-"Barche",
+"barche",
 "čolni"
 ],
 [
 "Yachts",
 "jahte"
-],
-[
-"Nautica",
-"navtika"
 ]
 ],
 "laminiranje": [
@@ -12557,11 +12980,11 @@
 ]
 },
 {
-"t": "…iale e innovazione tecnologica, affermandosi come riferimento nel mercato delle imbarcazioni da diporto di alta qualità. Una strategia basata su investimenti mirati e ricerca costante, con un rapporto q…",
+"t": "…igliorare l’esperienza sul sito. Leggi la Privacy Policy Solo necessari Accetta Cantiere nautico Salpa | Vitulazio, dal 1984 IT IT EN DE FR Menu Home Gommoni Cabin Soleil 52 Soleil 42 Soleil 40 Soleil 37 Ne…",
 "h": [
 [
 81,
-93,
+97,
 "navtika"
 ]
 ]
@@ -12870,73 +13293,64 @@
 ]
 },
 {
-"id": "56b5fe4499",
+"id": "0ff4cf0463",
+"v": "D",
+"u": "https://xylon-werk.de/",
+"n": 0
+},
+{
+"id": "54e4c3f144",
 "v": "M",
-"u": "https://www.bellcraft.it/",
-"s": 8,
+"u": "https://i-boat.eu/",
+"s": 4,
 "m": 2,
 "t": 0,
-"r": 1,
+"r": 0,
 "ev": [
 [
-"kalupi",
-"…con il cantiere Tecnokappa/Kappamarine. Successivamente acquista gli stampi ed i disegni per la realizzazione delle imbarcazioni Kappamarine con il marchio Bellcraft…"
-],
-[
-"laminiranje",
-"…truzione inviamo ad un laboratorio specializzato delle carotature del laminato in vetroresina al fine di verificare i parametri richiesti di omologazione, quali resist…"
+"infuzija",
+"…OTORIZZAZIONE HARDTOP Struttura in fibra di carbonio o vetroresina ad infusione che garantisce estrema leggerezza e versatilità sulle opzioni di utilizzo per il prendis…"
 ],
 [
 "vetroresina",
-"…i anni ’80. Nata dalla passione per la costruzione di imbarcazioni in vetroresina , l’azienda ha evoluto nel tempo le proprie competenze fino a specializzarsi nella proget…"
+"…DTOP POZZETTO MOTORIZZAZIONE HARDTOP Struttura in fibra di carbonio o vetroresina ad infusione che garantisce estrema leggerezza e versatilità sulle opzioni di utilizzo pe…"
 ],
 [
-"vinilester",
-"…a e fiancate ) è costruita utilizzando gel coat neopentilici e resine vinilestere nelle prime stratificazioni al fine di creare una barriera ed una maggior fortificazione…"
-]
+"karbon",
+"…#404 Entrobordo HARDTOP POZZETTO MOTORIZZAZIONE HARDTOP Struttura in fibra di carbonio o vetroresina ad infusione che garantisce estrema leggerezza e versatilità sulle opzioni…"
 ],
-"neg": [
 [
-"privez",
-"…nfo@bellcraft.it - Tel +39 0584 341191 Home Azienda Metodo Pilotaggio Ormeggio Speciali Servizi Contatti Facebook YouTube Barche per piloti, ormeggiatori, battellieri…"
+"obrat",
+"…a compromessi. Qui, ogni imbarcazione prende forma all’interno di uno stabilimento moderno affacciato sull’acqua, dove design, artigianalità e innovazione convivono in perf…"
 ]
 ],
-"pages": 3,
+"neg": [],
+"pages": 2,
 "mix": 0,
 "pf": {
 "g": {
 "navtika": [
 [
-"Cantiere Navale",
+"cantiere nautico",
 "ladjedelnica"
 ],
 [
-"costruzione di imbarcazioni",
-"gradnja plovil"
+"SHIPYARDS",
+"ladjedelnica"
 ],
 [
-"Barche",
-"čolni"
+"imbarcazioni",
+"plovila"
 ],
 [
-"Boats",
-"čolni"
-]
-],
-"kalupi": [
-[
-"stampi",
-"kalupi"
-],
-[
-"stampo",
-"kalup"
+"yacht",
+"jahta"
 ]
 ],
 "laminiranje": [
 [
-"stratificazioni",
-"laminiranje"
+"infusione",
+"infuzija"
 ]
 ],
 "stekloplastika": [
@@ -12945,45 +13359,42 @@
 "stekloplastika"
 ],
 [
-"vinilestere",
-"vinilester"
+"fibra di carbonio",
+"karbon"
 ]
 ]
 },
 "q": [
 {
-"t": "Bellcraft – Cantiere Navale, Imbarcazioni da Lavoro Skip to navigation Skip to content Facebook YouTube Instagram Email: info@bellcraft.i…",
-"h": [
-[
-12,
-27,
-"navtika"
-]
-]
-},
-{
-"t": "…e sin dagli anni ’80. Nata dalla passione per la costruzione di imbarcazioni in vetroresina , l’azienda ha evoluto nel tempo le proprie competenze fino a specializzarsi nella progettazione e costruzion…",
+"t": "…obordo HARDTOP POZZETTO MOTORIZZAZIONE HARDTOP Struttura in fibra di carbonio o vetroresina ad infusione che garantisce estrema leggerezza e versatilità sulle opzioni di utilizzo per il prendisole POZZ…",
 "h": [
 [
 81,
 92,
 "stekloplastika"
+],
+[
+96,
+105,
+"laminiranje"
+]
+]
+},
+{
+"t": "… BENEATH THE SURFACE Design Esterni Interni Design Esterni Interni SHIPYARDS Il cantiere nautico a CIÒ CHE AFFASCINA DAVVERO NON È IL PUNTO IN CUI CI TROVIAMO, MA LA ROTTA CHE ABBIAMO SCELTO. DICONO DI NOI …",
+"h": [
+[
+81,
+97,
+"navtika"
 ]
 ]
 }
 ]
 },
 "pr": [
-"gradimo",
-"gradnja čolnov",
-"proizvodnja"
+"obrat"
 ]
-},
-{
-"id": "0ff4cf0463",
-"v": "D",
-"u": "https://xylon-werk.de/",
-"n": 0
 },
 {
 "id": "4b2f7f5188",
@@ -13083,18 +13494,104 @@
 ]
 },
 {
-"id": "b40c4cd4c9",
+"id": "ba167adfb0",
 "v": "M",
-"u": "https://www.akrapovic.com/",
+"u": "https://africancats.com/",
 "s": 5,
-"m": 5,
+"m": 1,
 "t": 0,
 "r": 0,
 "ev": [
 [
-"kalupi",
-"…spheres such as tube making, bending, cold forming and deep drawing, stamping, cutting, welding, assembly processing, modern CNC machining, quality inspection, and m…"
+"infuzija",
+"…rtable lightweight performance leisure catamarans through epoxy resin infusion for sailing enthusiasts that demand the highest levels of performance, comfort, speed, se…"
 ],
+[
+"epoksi",
+"…builds comfortable lightweight performance leisure catamarans through epoxy resin infusion for sailing enthusiasts that demand the highest levels of performance, com…"
+],
+[
+"karbon",
+"…e our catamarans The complete hull is made of basalt fiber (optional: carbon fiber) and is vacuum infused with epoxy. The hulls are reinforced with the Twaron aramid impact…"
+],
+[
+"gradimo",
+"…ues to beauty and ergonomics Read about our design philosophy and how we build the boats. The more you look at the details of how we put these crafts together as well a…"
+]
+],
+"neg": [],
+"pages": 5,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"boat building",
+"gradnja čolnov"
+],
+[
+"yachts",
+"jahte"
+],
+[
+"boats",
+"čolni"
+]
+],
+"laminiranje": [
+[
+"infusion",
+"infuzija"
+]
+],
+"stekloplastika": [
+[
+"carbon fiber",
+"karbon"
+],
+[
+"epoxy",
+"epoksi"
+]
+]
+},
+"q": [
+{
+"t": "…ilds comfortable lightweight performance leisure catamarans through epoxy resin infusion for sailing enthusiasts that demand the highest levels of performance, comfort, speed, security and reliabili…",
+"h": [
+[
+81,
+89,
+"laminiranje"
+]
+]
+},
+{
+"t": "…ing the methods that have been perfected for other technologies into the art of boat building. Extensive use of CAD tools allowed us to put strength where it is needed and remove materials and weight fro…",
+"h": [
+[
+81,
+94,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo",
+"gradnja čolnov"
+]
+},
+{
+"id": "b40c4cd4c9",
+"v": "M",
+"u": "https://www.akrapovic.com/",
+"s": 4,
+"m": 4,
+"t": 0,
+"r": 0,
+"ev": [
 [
 "kompoziti",
 "…el, carbon fibre, aluminium alloys, and more recently ceramics matrix composites, Akrapovič sources only the best materials to produce its high-quality exhaust systems.…"
@@ -13106,6 +13603,10 @@
 [
 "obrat",
 "…cess on two and four wheels at world level for first time 2014 Second factory and Red Dot Award: expansion and celebration 2015 100 world championship titles and new g…"
+],
+[
+"proizvodnja",
+"…foundry and then to production, before evaluation and completion—the manufacture of an Akrapovič exhaust is an internal journey with many facets that are all completed a…"
 ]
 ],
 "neg": [],
@@ -13113,12 +13614,6 @@
 "mix": 0,
 "pf": {
 "g": {
-"kalupi": [
-[
-"tooling",
-"orodja (kalupi)"
-]
-],
 "stekloplastika": [
 [
 "composites",
@@ -13138,16 +13633,6 @@
 81,
 91,
 "stekloplastika"
-]
-]
-},
-{
-"t": "…lity inspection, and many others. Of course, the basis for everything is proper tooling – it is the key to success. The company boasts an in-house tooling design and tooling workshop, and so it is …",
-"h": [
-[
-81,
-88,
-"kalupi"
 ]
 ]
 }
@@ -13909,6 +14394,97 @@
 },
 "pr": [
 "gradnja čolnov",
+"proizvodnja"
+]
+},
+{
+"id": "dedb1522f3",
+"v": "M",
+"u": "https://www.shiptec.ch/maintenance.html",
+"s": 3,
+"m": 2,
+"t": 0,
+"r": 1,
+"ev": [
+[
+"kompoziti",
+"…rleimungen unter Vakuum Herstellung von Formen für die Produktion von Composite Teilen Restaurierungen von historischen Innenausbauten und Möbel Holzdecks und Möbelhers…"
+],
+[
+"vakuum",
+"…au Sanierungen von Holzschiffen 3-dimensionale Formverleimungen unter Vakuum Herstellung von Formen für die Produktion von Composite Teilen Restaurierungen von histor…"
+],
+[
+"proizvodnja",
+"…schaftliche Realisierung ausgerichtet. Michael Gmünder Leiter Werft & Produktion +41 41 367 67 14 m.gmuender@shiptec.ch Service & Reparaturen Service & Reparaturen Verfüg…"
+]
+],
+"neg": [
+[
+"servis",
+"…r Werft & Produktion +41 41 367 67 14 m.gmuender@shiptec.ch Service & Reparaturen Service & Reparaturen Verfügbarkeit und Einsatzbereitschaft sind für Schiffe im profess…"
+]
+],
+"pages": 6,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Schiffbauingenieuren",
+"ladjedelništvo"
+],
+[
+"Yachten",
+"jahta"
+],
+[
+"Boot",
+"čolni"
+]
+],
+"laminiranje": [
+[
+"Vakuum",
+"vakuum"
+]
+],
+"stekloplastika": [
+[
+"Composite",
+"kompoziti"
+]
+]
+},
+"q": [
+{
+"t": "…ineering Schiffsentwurf & Engineering Ein interdisziplinäres Team bestehend aus Schiffbauingenieuren, Maschinenbauingenieuren, Elektroingenieuren und Automatikern entwickelt fortschrittliche Konzepte und Lösung…",
+"h": [
+[
+81,
+101,
+"navtika"
+]
+]
+},
+{
+"t": "…im Schiffbau Sanierungen von Holzschiffen 3-dimensionale Formverleimungen unter Vakuum Herstellung von Formen für die Produktion von Composite Teilen Restaurierungen von historischen Innenausbauten und …",
+"h": [
+[
+81,
+87,
+"laminiranje"
+],
+[
+134,
+143,
+"stekloplastika"
+]
+]
+}
+]
+},
+"pr": [
 "proizvodnja"
 ]
 },
@@ -14861,6 +15437,13 @@
 "pr": []
 },
 {
+"id": "a06d488855",
+"v": "D",
+"u": "http://www.dallapieta.it/",
+"n": 238,
+"parked": 1
+},
+{
 "id": "da011d6700",
 "v": "D",
 "u": "https://www.sly-yachts.com/",
@@ -14873,6 +15456,79 @@
 "u": "http://albatrointernational.com/",
 "n": 457,
 "parked": 1
+},
+{
+"id": "85473053fa",
+"v": "D",
+"u": "http://www.solemar-nautica.com/",
+"n": 0
+},
+{
+"id": "b96a600f05",
+"v": "m",
+"u": "http://www.lillia.it/",
+"s": 2,
+"m": 1,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"kalupi",
+"…a acquistò dal Coni un’imbarcazione classe Star dalla quale ricavò lo stampo. Ebbe un grande intuito dato che da lì a poco la Star ritornò ad essere classe olimpica e…"
+],
+[
+"proizvodnja",
+"…ruzione della Star si è affiancata, soprattutto negli ultimi anni, la produzione del Dinghy 12p., dello Snipe e dal 1998 del monotipo Fun. Cantiere Nautico Lillia Lorem i…"
+]
+],
+"neg": [],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Cantiere Nautico",
+"ladjedelnica"
+],
+[
+"imbarcazione",
+"plovila"
+]
+],
+"kalupi": [
+[
+"stampo",
+"kalup"
+]
+]
+},
+"q": [
+{
+"t": "Cantiere Nautico Lillia Cantiere Nautico Lillia La Storia Contatti New Lillia Star LJK_19 Scopri LJK21 Optimist Cantiere nauti…",
+"h": [
+[
+0,
+16,
+"navtika"
+]
+]
+},
+{
+"t": "…anni Lillia acquistò dal Coni un’imbarcazione classe Star dalla quale ricavò lo stampo. Ebbe un grande intuito dato che da lì a poco la Star ritornò ad essere classe olimpica e tuttora riscuote un…",
+"h": [
+[
+81,
+87,
+"kalupi"
+]
+]
+}
+]
+},
+"pr": [
+"proizvodnja"
+]
 },
 {
 "id": "a1927954fa",
@@ -15608,6 +16264,118 @@
 "pr": []
 },
 {
+"id": "d9f6522e04",
+"v": "N",
+"u": "https://www.alson.it/",
+"s": 1,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"vetroresina",
+"…oni vara, unico in Italia, il primo canotto in VTR (chiglia rigida in vetroresina). Questa intuizione rivoluzionaria trasforma radicalmente il concetto di battello pneumat…"
+]
+],
+"neg": [],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"imbarcazione",
+"plovila"
+],
+[
+"nautica",
+"navtika"
+]
+],
+"stekloplastika": [
+[
+"vetroresina",
+"stekloplastika"
+]
+]
+},
+"q": [
+{
+"t": "… di Alson Le Origini: Il Sogno Artigianale Il primo gommone, o meglio, la prima imbarcazione planante Alson, nasce a Milano nel 1971. A quel tempo, la Alson è una piccolissima fabbrica artigianale. È in…",
+"h": [
+[
+81,
+93,
+"navtika"
+]
+]
+},
+{
+"t": "… 1978 Falsoni vara, unico in Italia, il primo canotto in VTR (chiglia rigida in vetroresina). Questa intuizione rivoluzionaria trasforma radicalmente il concetto di battello pneumatico, unendo i vantag…",
+"h": [
+[
+81,
+92,
+"stekloplastika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
+"id": "40ea634d9f",
+"v": "N",
+"u": "https://www.apreamare.it/",
+"s": 1,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"gradimo",
+"…ce di coniugare tradizione e innovazione Heritage Heritage / Identità Costruiamo emozioni La maestria dei nostri artigiani al servizio degli armatori più esigenti. Ogni b…"
+]
+],
+"neg": [],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"imbarcazione",
+"plovila"
+],
+[
+"Yachts",
+"jahte"
+],
+[
+"Yachting",
+"jahta"
+]
+]
+},
+"q": [
+{
+"t": "… che risponde agli stili di vita più moderni. Il punto di forza di questa nuova imbarcazione è una carena progettata dallo studio Marine Design, che ha già firmato gran parte dei progetti di successo de…",
+"h": [
+[
+81,
+93,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo"
+]
+},
+{
 "id": "662116d74f",
 "v": "N",
 "u": "https://www.arcadiayachts.it/",
@@ -16071,7 +16839,7 @@
 ],
 [
 "gradnja čolnov",
-"…UPs, Wakeboards, Tubes, uvm. Zum Shop Willkommen bei RaJo Boote Ihrem Bootsbaumeisterbetrieb & Bootshändler für hochwertige Motorboote, professionellen Bootsservice und…"
+"…innerhalb gesetzlicher Öffnungszeiten Willkommen bei RaJo Boote Ihrem Bootsbaumeisterbetrieb & Bootshändler für hochwertige Motorboote, professionellen Bootsservice und…"
 ]
 ],
 "neg": [
@@ -16115,7 +16883,7 @@
 },
 "q": [
 {
-"t": "…len JOBE SUPs, Wakeboards, Tubes, uvm. Zum Shop Willkommen bei RaJo Boote Ihrem Bootsbaumeisterbetrieb & Bootshändler für hochwertige Motorboote, professionellen Bootsservice und umfangreiches Zubehör. Ob Einstei…",
+"t": "…rkauf nur innerhalb gesetzlicher Öffnungszeiten Willkommen bei RaJo Boote Ihrem Bootsbaumeisterbetrieb & Bootshändler für hochwertige Motorboote, professionellen Bootsservice und umfangreiches Zubehör. Ob Einstei…",
 "h": [
 [
 81,
@@ -16242,12 +17010,6 @@
 ]
 },
 {
-"id": "e1c28fb6fc",
-"v": "D",
-"u": "https://www.bootswerft-inselmann.de/",
-"n": 0
-},
-{
 "id": "ab0f43824f",
 "v": "m",
 "u": "https://ideamarine.eu/",
@@ -16304,22 +17066,13 @@
 },
 {
 "id": "bae6412382",
-"v": "m",
+"v": "N",
 "u": "https://ribo-repair.de/de",
-"s": 2,
+"s": 0,
 "m": 1,
 "t": 0,
 "r": 1,
-"ev": [
-[
-"GFK",
-"…estätigen unseren Erfolg. Leistungen Rettungswesten Wartung & Verkauf GFK & Gelcoat Reparatur Pauschalangebote Schriftzüge & Beschriftungen Reinigung, Politur & Ko…"
-],
-[
-"gelcoat",
-"…gen unseren Erfolg. Leistungen Rettungswesten Wartung & Verkauf GFK & Gelcoat Reparatur Pauschalangebote Schriftzüge & Beschriftungen Reinigung, Politur & Konservierun…"
-]
-],
+"ev": [],
 "neg": [
 [
 "servis",
@@ -16335,16 +17088,6 @@
 "Boote",
 "čolni"
 ]
-],
-"stekloplastika": [
-[
-"GFK",
-"stekloplastika"
-],
-[
-"Gelcoat",
-"gelcoat"
-]
 ]
 },
 "q": [
@@ -16355,16 +17098,6 @@
 81,
 86,
 "navtika"
-]
-]
-},
-{
-"t": "…n Kunden bestätigen unseren Erfolg. Leistungen Rettungswesten Wartung & Verkauf GFK & Gelcoat Reparatur Pauschalangebote Schriftzüge & Beschriftungen Reinigung, Politur & Konservierung Unterneh…",
-"h": [
-[
-81,
-84,
-"stekloplastika"
 ]
 ]
 }
@@ -16611,95 +17344,6 @@
 ]
 },
 "pr": [
-"proizvodnja"
-]
-},
-{
-"id": "737b28cde7",
-"v": "M",
-"u": "https://www.bootsbau-liebner.de/",
-"s": 3,
-"m": 1,
-"t": 0,
-"r": 2,
-"ev": [
-[
-"GFK",
-"…rationen von Segel- und Motorbooten, aber auch Neubauten aus Holz und GFK, sowie Reparaturen aller Art an. Detaillierte Informationen zu unserem Leistungsspektrum…"
-],
-[
-"proizvodnja",
-"…hrung mit traditionellen Handwerkstechniken aber auch mit innovativen Fertigungsmethoden, garantieren wir Leistung auf höchstem Niveau. Restaurationen Neubauten aktuelle…"
-],
-[
-"gradnja čolnov",
-"…Home - Bootsbau Liebner Bootsbau Meister Navigation überspringen Home Yacht Racing Manufaktur Zubehör Geb…"
-]
-],
-"neg": [
-[
-"zimovanje",
-"…tlich vorteilhafter erwies, als die unmittelbare Seenähe. Neben einer Winterlagerhalle und einer großen Werfthalle mit Büros und Mitarbeiterräumen, bietet die Werft nun au…"
-],
-[
-"servis",
-"…n Segel- und Motorbooten, aber auch Neubauten aus Holz und GFK, sowie Reparaturen aller Art an. Detaillierte Informationen zu unserem Leistungsspektrum finden Sie bitte…"
-]
-],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Bootsbau",
-"gradnja čolnov"
-],
-[
-"Motorbooten",
-"motorni čoln"
-],
-[
-"Segelbooten",
-"jadrnica"
-],
-[
-"Yacht",
-"jahta"
-]
-],
-"stekloplastika": [
-[
-"GFK",
-"stekloplastika"
-]
-]
-},
-"q": [
-{
-"t": "Home - Bootsbau Liebner Bootsbau Meister Navigation überspringen Home Yacht Racing Manufaktur Zubehör Gebrauchtbörse Presse K…",
-"h": [
-[
-7,
-15,
-"navtika"
-]
-]
-},
-{
-"t": "…ige Restaurationen von Segel- und Motorbooten, aber auch Neubauten aus Holz und GFK, sowie Reparaturen aller Art an. Detaillierte Informationen zu unserem Leistungsspektrum finden Sie bitte unt…",
-"h": [
-[
-81,
-84,
-"stekloplastika"
-]
-]
-}
-]
-},
-"pr": [
-"gradnja čolnov",
 "proizvodnja"
 ]
 },
@@ -16955,6 +17599,84 @@
 "gradimo",
 "obrat",
 "proizvodnja"
+]
+},
+{
+"id": "c8ee58bae6",
+"v": "M",
+"u": "https://www.intermarine.it/",
+"s": 4,
+"m": 2,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"steklena vlakna",
+"…Established as a shipyard specialized in the design and production of fibreglass ships, INTERMARINE was initially dedicated to the production of recreational crafts. As e…"
+],
+[
+"kompoziti",
+"…Fast Ferries Contattaci Highly specialised vessels built in advanced composite materials, designed for Mine Warfare and Seabed Surveillance, expressing a significant m…"
+],
+[
+"gradimo",
+"…ary technology and through cutting edge and disruptive breakthroughs, we build high-performance naval platforms designed to ensure operational advantage, deterrence, re…"
+]
+],
+"neg": [],
+"pages": 5,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"shipyard",
+"ladjedelnica"
+],
+[
+"Boats",
+"čolni"
+]
+],
+"stekloplastika": [
+[
+"fibreglass",
+"steklena vlakna"
+],
+[
+"fiberglass-reinforced",
+"steklena vlakna"
+],
+[
+"composite",
+"kompoziti"
+],
+[
+"polyester",
+"poliester"
+]
+]
+},
+"q": [
+{
+"t": "…st Ferries Contattaci Quality, Environment and Safety INTERMARINE is an Italian shipyard that develops, designs and produces vessels for defence and civil use. Established as a shipyard specialized in the design and production of fibreglass ships, INTERMARINE was initially dedicated to the productio…",
+"h": [
+[
+81,
+89,
+"navtika"
+],
+[
+231,
+241,
+"stekloplastika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo"
 ]
 },
 {
@@ -17994,9 +18716,87 @@
 ]
 },
 {
+"id": "a67af826d4",
+"v": "D",
+"u": "https://www.italiayachts.it:443/",
+"n": 0
+},
+{
+"id": "5ebba22830",
+"v": "D",
+"u": "http://nextmarine.it/",
+"n": 0
+},
+{
+"id": "229ea319de",
+"v": "D",
+"u": "http://www.cantierebaruffaldi.it/",
+"n": 0
+},
+{
+"id": "c1324bcf81",
+"v": "D",
+"u": "http://www.blumartin.com/",
+"n": 0
+},
+{
+"id": "c80522c16e",
+"v": "D",
+"u": "http://www.replicraft.cz/",
+"n": 0
+},
+{
+"id": "694178d5b9",
+"v": "D",
+"u": "http://www.custom-f-line.com/",
+"n": 0
+},
+{
+"id": "b0582e08a6",
+"v": "D",
+"u": "http://www.dinamicayachts.com/",
+"n": 0
+},
+{
 "id": "fbe0a486e2",
 "v": "D",
 "u": "https://raffaelliyacht.com/",
+"n": 0
+},
+{
+"id": "4ab99cb628",
+"v": "D",
+"u": "http://www.stefini.com/",
+"n": 0
+},
+{
+"id": "4f7090a62f",
+"v": "D",
+"u": "http://www.costadellestyachting.com/",
+"n": 0
+},
+{
+"id": "64dc3d8e0f",
+"v": "D",
+"u": "http://www.vryacht.it/",
+"n": 0
+},
+{
+"id": "9fa85f4ddb",
+"v": "D",
+"u": "http://planundtatbootsbau.de/",
+"n": 0
+},
+{
+"id": "0e52292dc9",
+"v": "D",
+"u": "http://insidiasmarine.com/",
+"n": 0
+},
+{
+"id": "582622bdd5",
+"v": "D",
+"u": "http://more-boats.hr/",
 "n": 0
 },
 {
@@ -18046,6 +18846,60 @@
 ]
 },
 "pr": []
+},
+{
+"id": "6deb6339ff",
+"v": "D",
+"u": "http://www.antares-patrol690.com/",
+"n": 0
+},
+{
+"id": "2713a0118a",
+"v": "D",
+"u": "http://venzor.hr/",
+"n": 0
+},
+{
+"id": "8c80cc7203",
+"v": "D",
+"u": "http://www.manikela.hr/",
+"n": 0
+},
+{
+"id": "64d2cb5b8f",
+"v": "D",
+"u": "http://www.salonayachts.com/",
+"n": 0
+},
+{
+"id": "e37ee5f9b9",
+"v": "D",
+"u": "http://www.queensyachts.it/",
+"n": 0
+},
+{
+"id": "843b5f0794",
+"v": "D",
+"u": "http://www.admiralyachts.it/",
+"n": 0
+},
+{
+"id": "0e296a4a35",
+"v": "D",
+"u": "http://www.cerricantierinavali.it/",
+"n": 0
+},
+{
+"id": "a1a1f93ea6",
+"v": "D",
+"u": "http://www.cantieri-navali.com/",
+"n": 0
+},
+{
+"id": "3a9bdb9285",
+"v": "D",
+"u": "http://www.piolti.it/",
+"n": 0
 },
 {
 "id": "80cb3d324d",
@@ -18402,62 +19256,6 @@
 "pr": []
 },
 {
-"id": "6719ad024e",
-"v": "S",
-"u": "https://seagame.it/",
-"s": 1,
-"m": 1,
-"t": 0,
-"r": 2,
-"ev": [
-[
-"gradimo",
-"…scegliere ogni dettaglio, dai materiali alla configurazione tecnica. Costruiamo l'imbarcazione perfetta per le tue esigenze, garantendo massime prestazioni e comfort. Ri…"
-]
-],
-"neg": [
-[
-"rabljeni",
-"…assione per il mare. Personalizzazione Crea la barca perfetta per te. Usato garantito Qualità certificata anche nell'usato. Contatti Parla con noi per ogni tua esige…"
-],
-[
-"servis",
-"…cnologie moderne per una navigazione sicura e performante. Servizi di manutenzione Manutenzione e riparazione per mantenere la tua barca in perfette condizioni. Accessori p…"
-]
-],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"imbarcazioni",
-"plovila"
-],
-[
-"barche",
-"čolni"
-]
-]
-},
-"q": [
-{
-"t": "…ca è progettata e costruita con passione, precisione e artigianalità. Le nostre imbarcazioni sono il risultato di ricerca e innovazione, pensate per offrire il massimo del comfort e delle prestazioni, s…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo"
-]
-},
-{
 "id": "5e8b6a89d7",
 "v": "N",
 "u": "https://dallair.it/",
@@ -18686,7 +19484,7 @@
 ]
 ],
 "neg": [],
-"pages": 5,
+"pages": 4,
 "mix": 0,
 "pf": {
 "g": {
@@ -18699,7 +19497,7 @@
 },
 "q": [
 {
-"t": "…chen. In diesen Bereichen haben wir Jobs zu vergeben: Maschinen- und Anlagenbau Schiffbau Food und Pharma Medizintechnik Software und IT Fahrzeug- und Bahntechnik Energietechnik Elektro- und Automati…",
+"t": "… Maschinen- und Anlagenbau über Elektro- und Automatisierungstechnik bis hin zu Schiffbau und Kerntechnik: Wir kennen die Branchen, für die wir arbeiten, sehr gut und wissen um die Anforderungen, die…",
 "h": [
 [
 81,
@@ -19044,10 +19842,22 @@
 "pr": []
 },
 {
+"id": "d83edba14a",
+"v": "D",
+"u": "http://www.assoprestige.it/",
+"n": 0
+},
+{
 "id": "319aa3c77d",
 "v": "D",
 "u": "http://www.emysyachtssrl.it/",
 "n": 0
+},
+{
+"id": "e203c75363",
+"v": "X",
+"u": "http://www.baiayacht.it/",
+"n": 79
 },
 {
 "id": "6869127ce5",
@@ -19116,6 +19926,59 @@
 81,
 92,
 "stekloplastika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
+"id": "33f3b04c83",
+"v": "N",
+"u": "https://www.sibma.it/index.php/it/",
+"s": 0,
+"m": 1,
+"t": 0,
+"r": 1,
+"ev": [],
+"neg": [
+[
+"zimovanje",
+"…ro Valentina Restauro Vision Dragoni Riparazioni Video Press Contatti Rimessaggio/Service Barche Rimessaggio/Service Barche Rimessaggio/Service Barche Restauro barche in l…"
+]
+],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Cantiere navale",
+"ladjedelnica"
+],
+[
+"imbarcazioni",
+"plovila"
+],
+[
+"Barche",
+"čolni"
+],
+[
+"Yacht",
+"jahta"
+]
+]
+},
+"q": [
+{
+"t": "… Innovazione Calendario Currently no events are available Sibma Navale Italiana Cantiere navale di grande esperienza che costruisce e restaura barche in legno. Sibma Navale Italiana nasce nel 1962, è una r…",
+"h": [
+[
+81,
+96,
+"navtika"
 ]
 ]
 }
@@ -19233,6 +20096,12 @@
 "pr": [
 "proizvodnja"
 ]
+},
+{
+"id": "097ff33843",
+"v": "D",
+"u": "http://www.cantieri-ranieri.it/",
+"n": 0
 },
 {
 "id": "e42ec1f285",
@@ -19489,84 +20358,6 @@
 },
 "pr": [
 "proizvodnja"
-]
-},
-{
-"id": "c8ee58bae6",
-"v": "M",
-"u": "https://www.intermarine.it/",
-"s": 4,
-"m": 2,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"steklena vlakna",
-"…Established as a shipyard specialized in the design and production of fibreglass ships, INTERMARINE was initially dedicated to the production of recreational crafts. As e…"
-],
-[
-"kompoziti",
-"…Fast Ferries Contattaci Highly specialised vessels built in advanced composite materials, designed for Mine Warfare and Seabed Surveillance, expressing a significant m…"
-],
-[
-"gradimo",
-"…ary technology and through cutting edge and disruptive breakthroughs, we build high-performance naval platforms designed to ensure operational advantage, deterrence, re…"
-]
-],
-"neg": [],
-"pages": 5,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"shipyard",
-"ladjedelnica"
-],
-[
-"Boats",
-"čolni"
-]
-],
-"stekloplastika": [
-[
-"fibreglass",
-"steklena vlakna"
-],
-[
-"fiberglass-reinforced",
-"steklena vlakna"
-],
-[
-"composite",
-"kompoziti"
-],
-[
-"polyester",
-"poliester"
-]
-]
-},
-"q": [
-{
-"t": "…st Ferries Contattaci Quality, Environment and Safety INTERMARINE is an Italian shipyard that develops, designs and produces vessels for defence and civil use. Established as a shipyard specialized in the design and production of fibreglass ships, INTERMARINE was initially dedicated to the productio…",
-"h": [
-[
-81,
-89,
-"navtika"
-],
-[
-231,
-241,
-"stekloplastika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo"
 ]
 },
 {
@@ -20033,12 +20824,6 @@
 ]
 },
 {
-"id": "3cc3205703",
-"v": "D",
-"u": "http://darielboats.com/",
-"n": 0
-},
-{
 "id": "4cf128fcd4",
 "v": "N",
 "u": "https://www.gommonibsc.com/",
@@ -20102,7 +20887,7 @@
 "ev": [
 [
 "proizvodnja",
-"…t werden. Die Reling wird aus robustem Material wie Alu und Edelstahl hergestellt, um eine lange Lebensdauer und Widerstandsfähigkeit gegen extreme Bedingungen im Gelände…"
+"…SEN *** Tippen Sie auf die Funktionen für weitere Details 01 Speziell gefertigte Seitenführungen, (5 mm dick) 02 Seitenschienenteile mit eingebauten T-Nuten für eine ein…"
 ]
 ],
 "neg": [
@@ -20111,7 +20896,7 @@
 "…tik Ihres Fahrzeugs verbessern und ihm ein professionelleres Aussehen verleihen, während Sie gleichzeitig die Funktionalität Ihrer Ladefläche Ladekantenschutz Robust,…"
 ]
 ],
-"pages": 3,
+"pages": 5,
 "mix": 0,
 "pf": {},
 "pr": [
@@ -20466,9 +21251,68 @@
 },
 {
 "id": "a04d4a36ff",
-"v": "X",
+"v": "N",
 "u": "https://www.desmoulespolyester.com/",
-"n": 70
+"s": 2,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"kompoziti",
+"…lyester à acquit une grande expérience dans le domaine du moulage des composites. Ce savoir-faire est mis au service du secteur de la distribution de l’eau potable par…"
+]
+],
+"neg": [],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"kalupi": [
+[
+"DESMOULES",
+"kalupi"
+],
+[
+"moulage",
+"oblikovanje v kalupu"
+]
+],
+"stekloplastika": [
+[
+"composites",
+"kompoziti"
+],
+[
+"POLYESTER",
+"poliester"
+]
+]
+},
+"q": [
+{
+"t": "DESMOULES POLYESTER DESMOULES POLYESTER Accueil PRESENTATION PRODUITS FABRICATIONS SUR MESURE LE POLYESTER CONTACT ACCU…",
+"h": [
+[
+0,
+9,
+"kalupi"
+]
+]
+},
+{
+"t": "…smoules Polyester à acquit une grande expérience dans le domaine du moulage des composites. Ce savoir-faire est mis au service du secteur de la distribution de l’eau potable par la conception, la fabr…",
+"h": [
+[
+81,
+91,
+"stekloplastika"
+]
+]
+}
+]
+},
+"pr": []
 },
 {
 "id": "29b05624cc",
@@ -21630,18 +22474,6 @@
 "pr": []
 },
 {
-"id": "5c21c9523c",
-"v": "D",
-"u": "http://www.bootsbaudomenig.at/",
-"n": 0
-},
-{
-"id": "a882bf757e",
-"v": "D",
-"u": "http://www.tyachts.it/",
-"n": 0
-},
-{
 "id": "924ad6a234",
 "v": "N",
 "u": "https://asse.it/",
@@ -22221,6 +23053,21 @@
 "pr": []
 },
 {
+"id": "27e85d3708",
+"v": "N",
+"u": "https://segel.de/dyas",
+"s": 0,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [],
+"neg": [],
+"pages": 1,
+"mix": 0,
+"pf": {},
+"pr": []
+},
+{
 "id": "8fffc4cf35",
 "v": "N",
 "u": "http://nauticvision.eu/",
@@ -22437,6 +23284,59 @@
 "pr": []
 },
 {
+"id": "ab5b87e54c",
+"v": "N",
+"u": "https://futura-yachtsystems.de/",
+"s": 0,
+"m": 1,
+"t": 1,
+"r": 0,
+"ev": [],
+"neg": [
+[
+"charter",
+"…m aller Schifftypen und eröffnet damit dem Eigner, Betreiber oder der Chartergesellschaft vollkommen neue Nutzungsmöglichkeiten, sondern bietet barrierefreien Wohnkomf…"
+]
+],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Motoryacht",
+"motorna jahta"
+],
+[
+"futura-yachtsystems",
+"jahte"
+],
+[
+"boot",
+"čolni"
+],
+[
+"Boat",
+"čoln"
+]
+]
+},
+"q": [
+{
+"t": "… ein einfaches Umrüsten erlaubt. Ob Loftversion zum Segeln, Fährgastschiff oder Motoryacht – die FUTURA passt sich ohne viel Aufwand Ihren Bedürfnissen an. Erfahren Sie hier mehr über die unschlagbare…",
+"h": [
+[
+81,
+91,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
 "id": "abe40f6fe3",
 "v": "N",
 "u": "https://bluboats.com/",
@@ -22530,6 +23430,58 @@
 },
 "pr": [
 "gradnja čolnov",
+"proizvodnja"
+]
+},
+{
+"id": "ac1462ee3a",
+"v": "N",
+"u": "https://www.scannerboats.com/",
+"s": 1,
+"m": 0,
+"t": 1,
+"r": 0,
+"ev": [
+[
+"proizvodnja",
+"…haracteristics and measurements requested by its customers as well as manufacturing small, medium and large luxury tenders for some years. High - quality production of Sc…"
+]
+],
+"neg": [
+[
+"charter",
+"…l Scanner models Our Services Villa + Scanner Villa + Scanner Scanner Charter Scanner for Luxury Yachts - tenders Info Elegance line Touring line Tender line Custom -…"
+]
+],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"yachts",
+"jahte"
+],
+[
+"boats",
+"čolni"
+]
+]
+},
+"q": [
+{
+"t": "…E CUSTOM LINE SUPEROCEAN LINE PREOWNED SCANNERS SCANNERS FOR RENT Search Select yachts Any Tender line Touring line Elegance line Professional line Custom line SuperOcean line Preowned Scanners Sc…",
+"h": [
+[
+81,
+87,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
 "proizvodnja"
 ]
 },
@@ -22676,9 +23628,15 @@
 "n": 53
 },
 {
+"id": "8be3514bcb",
+"v": "X",
+"u": "https://tauscheck-bootswerft.ch/",
+"n": 16
+},
+{
 "id": "5c19ad2bf6",
 "v": "N",
-"u": "https://www.ccbscrl.it/",
+"u": "https://www.casino-non-aams-affidabile.it/",
 "s": 0,
 "m": 0,
 "t": 0,
@@ -22828,10 +23786,6 @@
 [
 "boats",
 "čolni"
-],
-[
-"Nautical",
-"navtika"
 ]
 ]
 },
@@ -22985,6 +23939,110 @@
 "pr": []
 },
 {
+"id": "4a3b4264fc",
+"v": "N",
+"u": "https://ameryachts.it/",
+"s": 1,
+"m": 1,
+"t": 0,
+"r": 1,
+"ev": [
+[
+"proizvodnja",
+"…tents. No more than a few boats are produced each year, all designed, manufactured and tested under the direct supervision of Fernando and Rodolfo Amerio. They remain at…"
+]
+],
+"neg": [
+[
+"servis",
+"…FLEET explore THE COMPANY Explore LOW IMPACT STRATEGY explore REFIT & REPAIR explore RESALE explore Customer service Explore Customer service Explore news & events Ex…"
+]
+],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"shipyard",
+"ladjedelnica"
+],
+[
+"Yachts",
+"jahte"
+],
+[
+"boats",
+"čolni"
+],
+[
+"nautical",
+"navtika"
+]
+]
+},
+"q": [
+{
+"t": "…o content MENU The company Amer Yachts is a groundbreaking, independent Italian shipyard that masterfully fuses the art of yacht building with the horizon of innovation. Its award-winning fleet, fea…",
+"h": [
+[
+81,
+89,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"proizvodnja"
+]
+},
+{
+"id": "69d20ea516",
+"v": "N",
+"u": "https://www.posillipoyachts.com/en",
+"s": 0,
+"m": 2,
+"t": 0,
+"r": 0,
+"ev": [],
+"neg": [],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"shipyard",
+"ladjedelnica"
+],
+[
+"Yachts",
+"jahte"
+],
+[
+"BOAT",
+"čoln"
+]
+]
+},
+"q": [
+{
+"t": "…QUIPMENT 16 16 CONSTRUCTION MATERIALS VTR VTR The Technema 90’ is currently the shipyard’s flagship. The Galeazzi design firm has masterfully combined design with exceptional onboard comfort, ensuri…",
+"h": [
+[
+81,
+89,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
 "id": "7f08330e0c",
 "v": "X",
 "u": "http://cantiericasa.it/",
@@ -23028,7 +24086,7 @@
 },
 "q": [
 {
-"t": "…ce 1994, these principles have spurred us to create some of the most emblematic yachts afloat. Our only rule is that there are no rules. Read more Fort Lauderdale International Boat Show 2026 Wall…",
+"t": "…ce 1994, these principles have spurred us to create some of the most emblematic yachts afloat. Our only rule is that there are no rules. Read more Ferretti Group sets its sights on FLIBS 2026 and …",
 "h": [
 [
 81,
@@ -23136,9 +24194,9 @@
 },
 {
 "id": "fbdab2577f",
-"v": "D",
+"v": "X",
 "u": "http://www.cantieridelmediterraneo.net/",
-"n": 0
+"n": 159
 },
 {
 "id": "1fd9e991e4",
@@ -23207,7 +24265,7 @@
 "neg": [
 [
 "servis",
-"…, la Nautica Massa offre anche il servizio di ricovero invernale e di manutenzione prima e dopo lutilizzo stagionale . leggi tutto >>> 1531 Nautica Massa (c) 2014 | P.Iva 0…"
+"…, la Nautica Massa offre anche il servizio di ricovero invernale e di manutenzione prima e dopo lutilizzo stagionale . leggi tutto >>> 1708 Nautica Massa (c) 2014 | P.Iva 0…"
 ]
 ],
 "pages": 3,
@@ -23506,6 +24564,69 @@
 "n": 213
 },
 {
+"id": "675143b32d",
+"v": "N",
+"u": "https://www.folkeboot-centrale.de/",
+"s": 2,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"GFK",
+"…AUCHT KATALOG BESCHLÄGE BLÖCKE UND KLEMMEN ZUBEHÖR PERSENNINGE HOLZ | GFK 1 HOLZ | GFK 2 HOLZ | GFK 3 RIGG SEGEL TRAILER KONTAKT FOLKEBOOT AKTUELL GEBRAUCHT KATALO…"
+],
+[
+"proizvodnja",
+"…rale - Schön, dass Sie bei uns rein schauen. Haubold Yachting hat die Produktion von Folkebooten und den Vertrieb von Zubehör und Ersatzteilen für das Folkeboot von der F…"
+]
+],
+"neg": [],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Yachting",
+"jahta"
+]
+],
+"stekloplastika": [
+[
+"GFK",
+"stekloplastika"
+]
+]
+},
+"q": [
+{
+"t": "…TUELL GEBRAUCHT KATALOG BESCHLÄGE BLÖCKE UND KLEMMEN ZUBEHÖR PERSENNINGE HOLZ | GFK 1 HOLZ | GFK 2 HOLZ | GFK 3 RIGG SEGEL TRAILER KONTAKT FOLKEBOOT AKTUELL GEBRAUCHT KATALOG BESCHLÄGE BLÖCKE U…",
+"h": [
+[
+81,
+84,
+"stekloplastika"
+]
+]
+},
+{
+"t": "…keboot! - Die Folkboat Centrale - Schön, dass Sie bei uns rein schauen. Haubold Yachting hat die Produktion von Folkebooten und den Vertrieb von Zubehör und Ersatzteilen für das Folkeboot von der Fo…",
+"h": [
+[
+81,
+89,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"proizvodnja"
+]
+},
+{
 "id": "6ebf7b904e",
 "v": "N",
 "u": "http://regayacht.com/pl",
@@ -23565,9 +24686,21 @@
 "n": 128
 },
 {
-"id": "b96a600f05",
+"id": "797eb49f53",
 "v": "D",
-"u": "http://www.lillia.it/",
+"u": "http://www.jokerboatgommoni.com/",
+"n": 0
+},
+{
+"id": "a2a678ff56",
+"v": "X",
+"u": "http://www.wayachts.it/",
+"n": 64
+},
+{
+"id": "398c6004c1",
+"v": "D",
+"u": "http://www.nadirmarine.com/",
 "n": 0
 },
 {
@@ -23687,7 +24820,7 @@
 "v": "M",
 "u": "https://www.mastergommoni.it/",
 "s": 3,
-"m": 3,
+"m": 2,
 "t": 1,
 "r": 0,
 "ev": [
@@ -23735,7 +24868,7 @@
 },
 "q": [
 {
-"t": "…uarda MODELLI Battelli da diporto Battelli da lavoro Linea Fishing EVENTI GENOA BOAT SHOW 66ª edizione del Salone Nautico Internazionale NAUTA 2026 24ª edizione del Salone Nautico Mediterraneo M…",
+"t": "…MASTER GOMMONI A SEACILY Seacily Salone Nautico a Castellammare del Golfo GENOA BOAT SHOW 66ª edizione del Salone Nautico Internazionale NAUTA 2026 24ª edizione del Salone Nautico Mediterraneo M…",
 "h": [
 [
 81,
@@ -24107,6 +25240,114 @@
 ]
 },
 {
+"id": "18273c85d9",
+"v": "N",
+"u": "https://eurovinil.it/it/",
+"s": 2,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"proizvodnja",
+"…dard per la salute e la sicurezza sul lavoro ISO 45001 Certificato di produzione ISO9650 RINA La qualità incontra l'esperienza La nostra missione Esistiamo per salvare vi…"
+],
+[
+"gradimo",
+"…Superiamo i limiti individuali, mettiamo insieme le nostre capacità e realizziamo grandi risultati grazie alla forza del gruppo. Innovazione Abbiamo uno spirito pionierist…"
+]
+],
+"neg": [],
+"pages": 6,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"imbarcazioni",
+"plovila"
+],
+[
+"nautica",
+"navtika"
+]
+]
+},
+"q": [
+{
+"t": "…re di sopravvivenza indossabili, le soluzioni antincendio e la tecnologia delle imbarcazioni di sopravvivenza mantengono le persone al sicuro quando la loro vita dipende da questo. Abbiamo 3.000 persone…",
+"h": [
+[
+81,
+93,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo",
+"proizvodnja"
+]
+},
+{
+"id": "6719ad024e",
+"v": "S",
+"u": "https://seagame.it/",
+"s": 1,
+"m": 1,
+"t": 0,
+"r": 2,
+"ev": [
+[
+"gradimo",
+"…scegliere ogni dettaglio, dai materiali alla configurazione tecnica. Costruiamo l'imbarcazione perfetta per le tue esigenze, garantendo massime prestazioni e comfort. Ri…"
+]
+],
+"neg": [
+[
+"rabljeni",
+"…assione per il mare. Personalizzazione Crea la barca perfetta per te. Usato garantito Qualità certificata anche nell'usato. Contatti Parla con noi per ogni tua esige…"
+],
+[
+"servis",
+"…cnologie moderne per una navigazione sicura e performante. Servizi di manutenzione Manutenzione e riparazione per mantenere la tua barca in perfette condizioni. Accessori p…"
+]
+],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"imbarcazioni",
+"plovila"
+],
+[
+"barche",
+"čolni"
+]
+]
+},
+"q": [
+{
+"t": "…ca è progettata e costruita con passione, precisione e artigianalità. Le nostre imbarcazioni sono il risultato di ricerca e innovazione, pensate per offrire il massimo del comfort e delle prestazioni, s…",
+"h": [
+[
+81,
+93,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo"
+]
+},
+{
 "id": "39f973b36c",
 "v": "S",
 "u": "https://www.fratelliaprea.com/",
@@ -24310,13 +25551,6 @@
 "pr": []
 },
 {
-"id": "a06d488855",
-"v": "D",
-"u": "http://www.dallapieta.it/",
-"n": 238,
-"parked": 1
-},
-{
 "id": "3ef2acb83a",
 "v": "N",
 "u": "https://www.mochicraft-yacht.com/en-us/",
@@ -24369,12 +25603,6 @@
 "v": "X",
 "u": "http://www.sibenik800.com/",
 "n": 27
-},
-{
-"id": "85473053fa",
-"v": "D",
-"u": "http://www.solemar-nautica.com/",
-"n": 0
 },
 {
 "id": "320665fec7",
@@ -24725,10 +25953,70 @@
 "n": 0
 },
 {
+"id": "5caf54850c",
+"v": "N",
+"u": "https://www.sailart.de/",
+"s": 2,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"proizvodnja",
+"…Starkwind, profitieren. Neben unseren hohen Qualitätsstandards in der Produktion setzen wir auf herausragende Partner, die Renommiertesten unserer Branche – wie z.B. Hark…"
+],
+[
+"gradimo",
+"…oot maßgeschneidert auf Ansprüche, Bedürfnisse und Revierbedingungen. Wir bauen ausschließlich Trailerboote und können unsere Erfahrungen hier konzentrieren. Um den unte…"
+]
+],
+"neg": [],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Segelboote",
+"jadrnica"
+]
+]
+},
+"q": [
+{
+"t": "SAILART – …Segelboote, Daysailer und Kleinkreuzer – Qualität aus Deutschland seit 1993! ↓ Zum Inhalt Secondary Navigation Hauptnavi…",
+"h": [
+[
+11,
+21,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo",
+"proizvodnja"
+]
+},
+{
+"id": "a01d04f766",
+"v": "X",
+"u": "http://www.mantra-yachts.de/",
+"n": 138
+},
+{
 "id": "c204a00109",
 "v": "X",
 "u": "http://www.solinayacht.pl/",
 "n": 59
+},
+{
+"id": "0999d57ec2",
+"v": "D",
+"u": "https://sun-marine.de/",
+"n": 0
 },
 {
 "id": "6bf483ce35",
@@ -24798,6 +26086,50 @@
 "u": "https://www.nahema.fr/",
 "n": 377,
 "parked": 1
+},
+{
+"id": "1ce8b6fbec",
+"v": "N",
+"u": "http://www.okiboats.com/pl/",
+"s": 0,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [],
+"neg": [],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Boatyard",
+"ladjedelnica"
+],
+[
+"Łodzie",
+"čolni"
+],
+[
+"OKIBOATS",
+"čolni"
+]
+]
+},
+"q": [
+{
+"t": "OKIBOATS - Famous European Boatyard 1 2 3 4 5 6 7 8 Adres ul. Bp.H. Wierzbowskiego 2/1 Skrzatusz 64-930 Szydłowo POLAND Łodzie Barracuda 464 Wave…",
+"h": [
+[
+27,
+35,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
 },
 {
 "id": "6784f55dcc",
@@ -25225,6 +26557,55 @@
 "pr": []
 },
 {
+"id": "53d88881de",
+"v": "N",
+"u": "https://www.feltz-werft.de/",
+"s": 0,
+"m": 1,
+"t": 0,
+"r": 1,
+"ev": [],
+"neg": [
+[
+"servis",
+"…aut Neben Neubauten bieten wir auch umfangreiche Dienstleistungen wie Reparaturen und individuelle Umbauten an. Unser Team aus Experten setzt Ihre Visionen mit höchster…"
+]
+],
+"pages": 3,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Schiffbaus",
+"ladjedelništvo"
+],
+[
+"Segelyacht-Hafen",
+"jadrnica"
+],
+[
+"Traumyacht",
+"jahta"
+]
+]
+},
+"q": [
+{
+"t": "…auf den Seiten Schiffe und Referenzen gewinnen. Tauchen Sie ein in die Welt des Schiffbaus und lassen Sie sich von unseren jüngsten Projekten inspirieren. Kontaktieren Sie uns für eine persönliche Ber…",
+"h": [
+[
+81,
+91,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
 "id": "7727d80f28",
 "v": "N",
 "u": "http://trimaran-yacht.com/",
@@ -25421,34 +26802,59 @@
 "id": "7747defdc5",
 "v": "N",
 "u": "http://www.yacht-service.com.pl/",
-"s": 0,
+"s": 2,
 "m": 0,
 "t": 0,
 "r": 0,
-"ev": [],
+"ev": [
+[
+"laminiranje",
+"…ązania dla przemysłu kompozytowego, obejmujące materiały do produkcji laminatów, żywice syntetyczne, kompozyty polimerowe oraz kompozytowe zbrojenia. Oferta obejmuje ż…"
+],
+[
+"kompoziti",
+"…e Aktualizacja wpisu: 01.11.2026 Wskaźnik zaufania 98.4 Materials for composite production - C-L NIP: 8392588250 • Chemia Aktualizacja wpisu: 01.11.2026 Wskaźnik zaufan…"
+]
+],
 "neg": [],
-"pages": 1,
+"pages": 2,
 "mix": 0,
 "pf": {
 "g": {
 "navtika": [
 [
-"młodzieży",
+"łodziami",
 "čolni"
 ],
 [
 "YachtCraft",
 "jahta"
 ]
+],
+"stekloplastika": [
+[
+"composite",
+"kompoziti"
+]
 ]
 },
 "q": [
 {
-"t": "…Chemia Aktualizacja wpisu: 01.10.2026 Wskaźnik zaufania 99.6 Obozy dla dzieci i młodzieży ATAS NIP: 5320101254 • Rozrywka i hobby Aktualizacja wpisu: 01.10.2026 Wskaźnik zaufania 99.4 NajlepszyFiltr.…",
+"t": "…przemysłowe Aktualizacja wpisu: 01.11.2026 Wskaźnik zaufania 98.4 Materials for composite production - C-L NIP: 8392588250 • Chemia Aktualizacja wpisu: 01.11.2026 Wskaźnik zaufania 97.0 Center-Gaz - …",
 "h": [
 [
 81,
 90,
+"stekloplastika"
+]
+]
+},
+{
+"t": "… z tematyki marine, ale nie zamyka się wyłącznie na firmy związane z jachtami i łodziami. To branżowy katalog wykonawców, dostawców, usługodawców oraz biznesów online, który pomaga szybciej odnaleźć…",
+"h": [
+[
+81,
+89,
 "navtika"
 ]
 ]
@@ -25475,7 +26881,7 @@
 "neg": [
 [
 "turizem",
-"…Domki na Wodzie Mielno - nad Morzem, przy Plaży - Hotel na Wodzie Rezerwacja Kontakt 24h pl Polski (PL) Deutsch (DE) menu Domki Wyżywienie Efekt…"
+"…Domki na Wodzie Mielno - nad Morzem, przy Plaży - Hotel na Wodzie Rezerwacja Kontakt pl Polski (PL) Deutsch (DE) menu Domki Wyżywienie Efekt WOW…"
 ]
 ],
 "pages": 1,
@@ -25819,6 +27225,12 @@
 ]
 },
 "pr": []
+},
+{
+"id": "0d4c64a3f7",
+"v": "X",
+"u": "http://www.sirius-werft.de/",
+"n": 16
 },
 {
 "id": "bef713bd73",
@@ -26463,7 +27875,7 @@
 },
 "q": [
 {
-"t": "The House of ReCraft - Balk Shipyard The House of ReCraft - Balk Shipyard Enquire Enquire Survey Refit ReCraft Our shipyard About us News Vacancie…",
+"t": "The House of ReCraft - Balk Shipyard The House of ReCraft - Balk Shipyard Enquire Enquire Recraft opportunity Survey Refit ReCraft Our shipyard Ab…",
 "h": [
 [
 28,
@@ -27230,7 +28642,7 @@
 "v": "N",
 "u": "https://www.hollandjachtbouw.nl/",
 "s": 0,
-"m": 2,
+"m": 1,
 "t": 1,
 "r": 0,
 "ev": [],
@@ -27262,6 +28674,55 @@
 [
 81,
 90,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
+"id": "6626d50755",
+"v": "S",
+"u": "https://royaltshipyards.com/",
+"s": 0,
+"m": 2,
+"t": 1,
+"r": 2,
+"ev": [],
+"neg": [
+[
+"charter",
+"…fleet and also for ship owners, offering brokerage services for time-charter and spot-market, technical advice, procurement advice, cargo management and security serv…"
+],
+[
+"posrednik",
+"…ship management for its own fleet and also for ship owners, offering brokerage services for time-charter and spot-market, technical advice, procurement advice, cargo ma…"
+],
+[
+"servis",
+"…, Privacy statement ACCEPT SELECT YOUR LANGUAGE HOME NEW VESSELS SHIPREPAIR RENTAL LENGTHENING PROJECTS SPARE PARTS LOCATIONS PUBLICATIONS VACANCIES CONTACT ROYAL T…"
+]
+],
+"pages": 5,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Shipyards",
+"ladjedelnica"
+]
+]
+},
+"q": [
+{
+"t": "Royal T Shipyards Deze website maakt gebruik van Cookies. Wilt U meer weten? Cookie policy , Privacy statement ACCEPT SELECT YO…",
+"h": [
+[
+8,
+17,
 "navtika"
 ]
 ]
@@ -27483,9 +28944,9 @@
 },
 {
 "id": "c837671241",
-"v": "D",
+"v": "X",
 "u": "https://admiralboats.com/",
-"n": 0
+"n": 346
 },
 {
 "id": "49bba6b3a6",
@@ -27720,6 +29181,12 @@
 "n": 0
 },
 {
+"id": "9d9117580e",
+"v": "D",
+"u": "http://www.stadtdesign.com/",
+"n": 0
+},
+{
 "id": "103733709c",
 "v": "N",
 "u": "https://waterspoor.com/",
@@ -27826,7 +29293,7 @@
 },
 "q": [
 {
-"t": "…rp, innovatie en kwaliteit. Lees de klantverhalen Bekijk awards & media Actueel Motorboot Sneek 2026 Twee Discovery's en Maréva-primeur op Motorboot Sneek 2026 Leer meer Maréva Super Lauwersmeer kond…",
+"t": "…Actueel Maréva 55 Coupé Gebouwd voor verre reizen: SL Maréva 55 Coupé Leer meer Motorboot Sneek 2026 Twee Discovery's en Maréva-primeur op Motorboot Sneek 2026 Leer meer Maréva Super Lauwersmeer kond…",
 "h": [
 [
 81,
@@ -28133,9 +29600,50 @@
 },
 {
 "id": "f1bc3ab906",
-"v": "D",
+"v": "N",
 "u": "https://younique-yachts.com/",
-"n": 0
+"s": 1,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"gradimo",
+"…’s not just something we say, it’s how we work. When others hesitate, we build. When things get complicated, we dive in. Not because it’s easy, but because it’s worth i…"
+]
+],
+"neg": [],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"YACHTS",
+"jahte"
+],
+[
+"Boats",
+"čolni"
+]
+]
+},
+"q": [
+{
+"t": "YOUNIQUE YACHTS Skip to content Home Culture Legends Reborn Workshop wood the workshop paint utility design lab shop-in-shop …",
+"h": [
+[
+9,
+15,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo"
+]
 },
 {
 "id": "1051f65ff7",
@@ -28344,6 +29852,61 @@
 ]
 },
 "pr": []
+},
+{
+"id": "1176bfbefb",
+"v": "M",
+"u": "http://www.cantierebluline.it/",
+"s": 3,
+"m": 1,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"kompoziti",
+"…Prodotta in otto differenti modelli, grazie a innovazioni tecnologico-compositive, materiali di prima scelta e manodopera specializzata, raggiunge elevati standard di q…"
+],
+[
+"proizvodnja",
+"…opria strada. Noi abbiamo scelto la via del mare. Azienda Bluline SRL PRODUZIONE: Contrada Feudotto, snc – Menfi, Ag, 92013 SEDE LEGALE: Via degli Olmi, n°25- Sciacca, Ag…"
+]
+],
+"neg": [],
+"pages": 3,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Cantiere Nautico",
+"ladjedelnica"
+],
+[
+"imbarcazioni",
+"plovila"
+],
+[
+"nautica",
+"navtika"
+]
+]
+},
+"q": [
+{
+"t": "…sign Made in Italy Sviluppo personalizzato per incontrare ogni esigenza / 4 / 4 Cantiere Nautico Bluline La passione per il mare Ognuno sceglie di percorrere la propria strada. Noi abbiamo scelto la via del…",
+"h": [
+[
+81,
+97,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"proizvodnja"
+]
 },
 {
 "id": "35fc6905a4",
@@ -28870,39 +30433,18 @@
 "ev": [
 [
 "proizvodnja",
-"…vacy Policy Cookies Policy Manage Personal Data Contacts Farem Custom Manufacturer of Precision Aerospace Equipment Company Founded in 1948, Farem is highly specialized i…"
+"…roducts APPROVALS Contacts PRECISION AEROSPACE EQUIPMENT Engineered · Manufactured · Maintained MADE IN MILAN SINCE 1948 NEW INSTRUMENT TO DEVELOP, OR A UNIT TO REPAIR? W…"
 ]
 ],
 "neg": [
 [
 "servis",
-"…Aerospace Equipment Home Company Family Legacy Services Retrofit NVG Repair Station Products Privacy Privacy Policy Cookies Policy Manage Personal Data Contacts Home…"
+"…ined MADE IN MILAN SINCE 1948 NEW INSTRUMENT TO DEVELOP, OR A UNIT TO REPAIR? WRITE TO US. FAREM S.R.L. Via G. Di Vittorio, 317 · 20099 Sesto San Giovanni (MI), Italy…"
 ]
 ],
-"pages": 5,
+"pages": 1,
 "mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"aeronautical",
-"navtika"
-]
-]
-},
-"q": [
-{
-"t": "…arem Aerospace Equipment? Contact us! Qualified supplier to several top ranking aeronautical companies Privacy Policy Cookies Policy Manage Personal Data Home Company Services Products Contacts Farem S.…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-}
-]
-},
+"pf": {},
 "pr": [
 "proizvodnja"
 ]
@@ -29334,10 +30876,6 @@
 [
 "boats",
 "čolni"
-],
-[
-"Nautical",
-"navtika"
 ]
 ]
 },
@@ -29682,66 +31220,6 @@
 "pr": []
 },
 {
-"id": "4a3b4264fc",
-"v": "N",
-"u": "https://ameryachts.it/",
-"s": 1,
-"m": 1,
-"t": 0,
-"r": 1,
-"ev": [
-[
-"proizvodnja",
-"…tents. No more than a few boats are produced each year, all designed, manufactured and tested under the direct supervision of Fernando and Rodolfo Amerio. They remain at…"
-]
-],
-"neg": [
-[
-"servis",
-"…FLEET explore THE COMPANY Explore LOW IMPACT STRATEGY explore REFIT & REPAIR explore RESALE explore Customer service Explore Customer service Explore news & events Ex…"
-]
-],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"shipyard",
-"ladjedelnica"
-],
-[
-"Yachts",
-"jahte"
-],
-[
-"boats",
-"čolni"
-],
-[
-"nautical",
-"navtika"
-]
-]
-},
-"q": [
-{
-"t": "…o content MENU The company Amer Yachts is a groundbreaking, independent Italian shipyard that masterfully fuses the art of yacht building with the horizon of innovation. Its award-winning fleet, fea…",
-"h": [
-[
-81,
-89,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"proizvodnja"
-]
-},
-{
 "id": "13f7a78af4",
 "v": "N",
 "u": "https://profiseal.com/",
@@ -29838,118 +31316,6 @@
 "pr": []
 },
 {
-"id": "d9f6522e04",
-"v": "N",
-"u": "https://www.alson.it/",
-"s": 1,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"vetroresina",
-"…oni vara, unico in Italia, il primo canotto in VTR (chiglia rigida in vetroresina). Questa intuizione rivoluzionaria trasforma radicalmente il concetto di battello pneumat…"
-]
-],
-"neg": [],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"imbarcazione",
-"plovila"
-],
-[
-"nautica",
-"navtika"
-]
-],
-"stekloplastika": [
-[
-"vetroresina",
-"stekloplastika"
-]
-]
-},
-"q": [
-{
-"t": "… di Alson Le Origini: Il Sogno Artigianale Il primo gommone, o meglio, la prima imbarcazione planante Alson, nasce a Milano nel 1971. A quel tempo, la Alson è una piccolissima fabbrica artigianale. È in…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-},
-{
-"t": "… 1978 Falsoni vara, unico in Italia, il primo canotto in VTR (chiglia rigida in vetroresina). Questa intuizione rivoluzionaria trasforma radicalmente il concetto di battello pneumatico, unendo i vantag…",
-"h": [
-[
-81,
-92,
-"stekloplastika"
-]
-]
-}
-]
-},
-"pr": []
-},
-{
-"id": "40ea634d9f",
-"v": "N",
-"u": "https://www.apreamare.it/",
-"s": 1,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"gradimo",
-"…ce di coniugare tradizione e innovazione Heritage Heritage / Identità Costruiamo emozioni La maestria dei nostri artigiani al servizio degli armatori più esigenti. Ogni b…"
-]
-],
-"neg": [],
-"pages": 1,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"imbarcazione",
-"plovila"
-],
-[
-"Yachts",
-"jahte"
-],
-[
-"Yachting",
-"jahta"
-]
-]
-},
-"q": [
-{
-"t": "… che risponde agli stili di vita più moderni. Il punto di forza di questa nuova imbarcazione è una carena progettata dallo studio Marine Design, che ha già firmato gran parte dei progetti di successo de…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo"
-]
-},
-{
 "id": "97946745da",
 "v": "N",
 "u": "https://www.wwg-gmbh.de/de/",
@@ -30005,51 +31371,6 @@
 "v": "X",
 "u": "http://www.skipperoase.de/",
 "n": 11
-},
-{
-"id": "d99767d88d",
-"v": "S",
-"u": "https://www.xn--bootshandel-kpenick-26b.de/",
-"s": 0,
-"m": 0,
-"t": 0,
-"r": 2,
-"ev": [],
-"neg": [
-[
-"zimovanje",
-"…nd setzen es auf Ihren Trailer, oder verholen es in unser großzügiges Winterlager. Über uns Ihr kompetenter Bootshändler Bootshandel Köpenick ist Ihr zuverlässiger Ansprec…"
-],
-[
-"servis",
-"…mpletten Service rund um ihr Boote an. Motorwartung und Inspektionen, Reparaturen am Bootskörper und Einbauten. Ein- oder Anbau von Zubehörteilen und Ausstattungselement…"
-]
-],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Boote",
-"čolni"
-]
-]
-},
-"q": [
-{
-"t": "Bootshandel Köpenick - Drago Boote Berlin Drago Boote Berlin Drago 550 Drago 601 Drago 665 Über uns Kontakt Impressum Datenschutzerklärung Drago…",
-"h": [
-[
-29,
-34,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
 },
 {
 "id": "46237c79e8",
@@ -30921,7 +32242,7 @@
 "u": "https://www.neumann-boats.de/",
 "s": 9,
 "m": 2,
-"t": 0,
+"t": 1,
 "r": 0,
 "ev": [
 [
@@ -30941,7 +32262,12 @@
 "…fski White Marlin Besonders schnell und widerstandsfähig, aus Gfk mit Vinylester, Pedalsteueranlage für gutes Manövrieren, ein Decknetz am Heck für Gepäck, Debrito Bailer…"
 ]
 ],
-"neg": [],
+"neg": [
+[
+"najem",
+"…kippsicher, sehr einfache Handhabung, auch für Anfänger, Vereine und Verleih auf allen Gewässern Lieferzeit: von nicht vorrätig bis Auf Lager, 1-3 Werktage UVP 510,00…"
+]
+],
 "pages": 2,
 "mix": 0,
 "pf": {
@@ -31276,40 +32602,10 @@
 "pr": []
 },
 {
-"id": "a67af826d4",
-"v": "D",
-"u": "https://www.italiayachts.it:443/",
-"n": 0
-},
-{
-"id": "5ebba22830",
-"v": "D",
-"u": "http://nextmarine.it/",
-"n": 0
-},
-{
-"id": "229ea319de",
-"v": "D",
-"u": "http://www.cantierebaruffaldi.it/",
-"n": 0
-},
-{
-"id": "c1324bcf81",
-"v": "D",
-"u": "http://www.blumartin.com/",
-"n": 0
-},
-{
 "id": "8fc4f8fa0c",
 "v": "X",
 "u": "http://www.enavigo.hr/",
 "n": 10
-},
-{
-"id": "c80522c16e",
-"v": "D",
-"u": "http://www.replicraft.cz/",
-"n": 0
 },
 {
 "id": "54f14ee5f4",
@@ -31331,24 +32627,6 @@
 "v": "X",
 "u": "http://www.rimaryachts.it/",
 "n": 243
-},
-{
-"id": "694178d5b9",
-"v": "D",
-"u": "http://www.custom-f-line.com/",
-"n": 0
-},
-{
-"id": "b0582e08a6",
-"v": "D",
-"u": "http://www.dinamicayachts.com/",
-"n": 0
-},
-{
-"id": "4ab99cb628",
-"v": "D",
-"u": "http://www.stefini.com/",
-"n": 0
 },
 {
 "id": "f19d5ec016",
@@ -31437,12 +32715,6 @@
 "n": 267
 },
 {
-"id": "4f7090a62f",
-"v": "D",
-"u": "http://www.costadellestyachting.com/",
-"n": 0
-},
-{
 "id": "d884627286",
 "v": "N",
 "u": "http://www.montisolabarche.it/",
@@ -31471,12 +32743,6 @@
 "mix": 0,
 "pf": {},
 "pr": []
-},
-{
-"id": "64dc3d8e0f",
-"v": "D",
-"u": "http://www.vryacht.it/",
-"n": 0
 },
 {
 "id": "8779f49675",
@@ -31525,7 +32791,7 @@
 },
 "q": [
 {
-"t": "…finium aero black Skladem 1-3 ks Kód: A05146 7 990 Kč Porovnat Novinka Rybářský člun Rapid Angler 430 matte black Skladem 1-3 ks Kód: A05137 105 557 Kč Porovnat Novinka -20% Elektromotor Thrustm…",
+"t": "… obsahem 362 ccm3 Skladem 3+ ks Kód: A10338 85 000 Kč Porovnat Novinka Rybářský člun Rapid Angler 430 matte black Skladem 1-3 ks Kód: A05137 105 557 Kč Porovnat Novinka Bunda Musto LPX GTX Infin…",
 "h": [
 [
 81,
@@ -31575,50 +32841,25 @@
 "pr": []
 },
 {
-"id": "9fa85f4ddb",
-"v": "D",
-"u": "http://planundtatbootsbau.de/",
-"n": 0
-},
-{
 "id": "59cf7061fc",
 "v": "N",
 "u": "https://www.pirelli.com/global/en-ww/homepage/",
-"s": 1,
+"s": 0,
 "m": 0,
 "t": 0,
 "r": 0,
-"ev": [
-[
-"proizvodnja",
-"…LI ENDS THE 2026 FIA EUROPEAN RALLY CHAMPIONSHIP SEASON WITH THE TYRE MANUFACTURERS' TITLE AND FIRST AND THIRD IN THE DRIVERS' STANDINGS 24, October, 2026 Antonelli chase…"
-]
-],
+"ev": [],
 "neg": [],
 "pages": 2,
 "mix": 0,
 "pf": {},
-"pr": [
-"proizvodnja"
-]
-},
-{
-"id": "0e52292dc9",
-"v": "D",
-"u": "http://insidiasmarine.com/",
-"n": 0
+"pr": []
 },
 {
 "id": "8c76da7caf",
 "v": "X",
 "u": "https://www.folliboats.com/",
 "n": 127
-},
-{
-"id": "582622bdd5",
-"v": "D",
-"u": "http://more-boats.hr/",
-"n": 0
 },
 {
 "id": "d245306040",
@@ -31652,7 +32893,7 @@
 },
 "q": [
 {
-"t": "…rmací Lodní motor Mercury F100 EFI 330 600,- Kč ihned k dispozici 5% Nafukovací člun Adventure M-360 s motorem Mercury F5 MH 89 395,- Kč na cestě Lodní motor Mercury F5 MLH SailPower 42 700,- Kč…",
+"t": "…ejnáročnějších podmínkách. Žádné kompromisy. Více informací Nafukovací motorový člun Adventure M-400 R.E.D. 88 000,- Kč ihned k dispozici Lodní motor Mercury F150 EFI 426 899,- Kč ihned k dispoz…",
 "h": [
 [
 81,
@@ -31664,30 +32905,6 @@
 ]
 },
 "pr": []
-},
-{
-"id": "6deb6339ff",
-"v": "D",
-"u": "http://www.antares-patrol690.com/",
-"n": 0
-},
-{
-"id": "2713a0118a",
-"v": "D",
-"u": "http://venzor.hr/",
-"n": 0
-},
-{
-"id": "8c80cc7203",
-"v": "D",
-"u": "http://www.manikela.hr/",
-"n": 0
-},
-{
-"id": "64d2cb5b8f",
-"v": "D",
-"u": "http://www.salonayachts.com/",
-"n": 0
 },
 {
 "id": "b145ae19c3",
@@ -31743,18 +32960,6 @@
 "pr": []
 },
 {
-"id": "e37ee5f9b9",
-"v": "D",
-"u": "http://www.queensyachts.it/",
-"n": 0
-},
-{
-"id": "843b5f0794",
-"v": "D",
-"u": "http://www.admiralyachts.it/",
-"n": 0
-},
-{
 "id": "f76d45529f",
 "v": "N",
 "u": "https://www.hausbot.info/",
@@ -31770,28 +32975,10 @@
 "pr": []
 },
 {
-"id": "0e296a4a35",
-"v": "D",
-"u": "http://www.cerricantierinavali.it/",
-"n": 0
-},
-{
-"id": "a1a1f93ea6",
-"v": "D",
-"u": "http://www.cantieri-navali.com/",
-"n": 0
-},
-{
 "id": "20f03475f9",
 "v": "X",
 "u": "https://www.giorgimarine.com/",
 "n": 1
-},
-{
-"id": "3a9bdb9285",
-"v": "D",
-"u": "http://www.piolti.it/",
-"n": 0
 },
 {
 "id": "5e9ed9a193",
@@ -32657,11 +33844,11 @@
 },
 "q": [
 {
-"t": "fischereitechnik.de - Leine, Köder, Netz, Angel, Knoten, Boot, Fischereitechnik fischereitechnik.de Suchen Suchen Leine Köder Netz Angel Knoten Boot Leine Köder Netz Angel…",
+"t": "fischereitechnik.de - Angel, Boot, Knoten, Leine, Netz, Köder, Fischereitechnik fischereitechnik.de Suchen Suchen Angel Boot Knoten Leine Netz …",
 "h": [
 [
-57,
-61,
+29,
+33,
 "navtika"
 ]
 ]
@@ -33031,6 +34218,98 @@
 "parked": 1
 },
 {
+"id": "e1c28fb6fc",
+"v": "M",
+"u": "https://www.bootswerft-inselmann.de/",
+"s": 3,
+"m": 1,
+"t": 0,
+"r": 2,
+"ev": [
+[
+"GFK",
+"…Waschplatz Maler- und Lackierarbeiten Holz-, Stahl-, und Niroarbeiten Gfk- und Gelcoatarbeiten Teakdeck Innenausbauten und vieles mehr Klicken Sie auf eine Rubrik,…"
+],
+[
+"gelcoat",
+"…z Maler- und Lackierarbeiten Holz-, Stahl-, und Niroarbeiten Gfk- und Gelcoatarbeiten Teakdeck Innenausbauten und vieles mehr Klicken Sie auf eine Rubrik, um unsere Re…"
+],
+[
+"gradnja čolnov",
+"…n und Team Aktuell Wir suchen zum 01.09.2022 einen Auszubildenden zum Bootsbauer. 80 und 20 t Bootslifte 30 to 2-Rumpfversorger 40 to Pilot 65 to Stahlyacht 75 to Feuer…"
+]
+],
+"neg": [
+[
+"zimovanje",
+"…rund um Ihre Yacht anbieten, wie z. B. Kranservice , Reparaturen und Winterlager . Unser Kranservice mit zwei professionellen Bootsliften (20 und 80 t) ist überregional b…"
+],
+[
+"servis",
+"…Dienstleistungen rund um Ihre Yacht anbieten, wie z. B. Kranservice , Reparaturen und Winterlager . Unser Kranservice mit zwei professionellen Bootsliften (20 und 80 t)…"
+]
+],
+"pages": 3,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Bootsbauer",
+"gradnja čolnov"
+],
+[
+"Bootswerft",
+"ladjedelnica"
+],
+[
+"Schiffbauermeister",
+"ladjedelništvo"
+],
+[
+"Yacht",
+"jahta"
+]
+],
+"stekloplastika": [
+[
+"Gfk",
+"stekloplastika"
+],
+[
+"Gelcoatarbeiten",
+"gelcoat"
+]
+]
+},
+"q": [
+{
+"t": "…ftanleger Waschplatz Maler- und Lackierarbeiten Holz-, Stahl-, und Niroarbeiten Gfk- und Gelcoatarbeiten Teakdeck Innenausbauten und vieles mehr Klicken Sie auf eine Rubrik, um unsere Referenzen…",
+"h": [
+[
+81,
+85,
+"stekloplastika"
+]
+]
+},
+{
+"t": "…c Inselmann und Team Aktuell Wir suchen zum 01.09.2022 einen Auszubildenden zum Bootsbauer. 80 und 20 t Bootslifte 30 to 2-Rumpfversorger 40 to Pilot 65 to Stahlyacht 75 to Feuerlöschboot 75 to Tradit…",
+"h": [
+[
+81,
+91,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradnja čolnov"
+]
+},
+{
 "id": "72eee498bd",
 "v": "X",
 "u": "https://www.frank-hauke.de/",
@@ -33149,6 +34428,79 @@
 ]
 },
 {
+"id": "cb2f560810",
+"v": "N",
+"u": "https://www.novamarine.com/en/",
+"s": 2,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"GRP",
+"…ional rubberized fabric hulls into hulls entirely made of fibreglass (GRP). This turning point opened new horizons for the company, with a range from 260 to 430 cm…"
+],
+[
+"steklena vlakna",
+"…ubulars represent the company’s first steps. 1985 – New horizons with fibreglass 1985 New horizons with fibreglass In 1985, an innovative technique transformed traditiona…"
+]
+],
+"neg": [],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"yachts",
+"jahte"
+],
+[
+"boats",
+"čolni"
+],
+[
+"nautical",
+"navtika"
+]
+],
+"stekloplastika": [
+[
+"GRP",
+"stekloplastika"
+],
+[
+"fibreglass",
+"steklena vlakna"
+]
+]
+},
+"q": [
+{
+"t": "…med traditional rubberized fabric hulls into hulls entirely made of fibreglass (GRP). This turning point opened new horizons for the company, with a range from 260 to 430 cm, redefining the exp…",
+"h": [
+[
+81,
+84,
+"stekloplastika"
+]
+]
+},
+{
+"t": "… the company grew, producing up to 600 units a year, adopted as tenders by most yachts. 1990 – 1991 – Tender Jet Project 1990 – 1991 Tender Jet Project In the early 1990s, Novamarine launched the …",
+"h": [
+[
+81,
+87,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
 "id": "2f73e7a58e",
 "v": "T",
 "u": "https://stilmar.com/",
@@ -33159,7 +34511,7 @@
 "ev": [
 [
 "proizvodnja",
-"…bellissimi battelli veloci. Battelli da “crociera” e gommoni di lusso Produzione Luxury Rib’s Stilmar Stilmar 600 20 Maggio 2022 / da Francesco Fiorentino Stilmar 34 Comm…"
+"…bellissimi battelli veloci. Battelli da “crociera” e gommoni di lusso Produzione Luxury Rib’s Stilmar Stilmar 34 Cabin 24 Maggio 2022 / da Francesco Fiorentino Stilmar 34…"
 ]
 ],
 "neg": [
@@ -33605,6 +34957,12 @@
 "n": 0
 },
 {
+"id": "a45a8adf21",
+"v": "D",
+"u": "http://www.brodogradiliste-cres.hr/",
+"n": 0
+},
+{
 "id": "424196ce73",
 "v": "T",
 "u": "https://www.segelschule-mondsee.at/",
@@ -33662,6 +35020,24 @@
 "pr": []
 },
 {
+"id": "010deff93a",
+"v": "D",
+"u": "http://www.yacht.co.at/",
+"n": 0
+},
+{
+"id": "d2ee391846",
+"v": "D",
+"u": "https://www.weilandboats.at/",
+"n": 0
+},
+{
+"id": "b3c0fe7531",
+"v": "D",
+"u": "https://www.vittoria.biz/",
+"n": 0
+},
+{
 "id": "f387545680",
 "v": "T",
 "u": "https://witti-zille.com/",
@@ -33691,6 +35067,12 @@
 "pr": [
 "proizvodnja"
 ]
+},
+{
+"id": "1fa29ffc5f",
+"v": "D",
+"u": "http://remia-plast.hr/",
+"n": 0
 },
 {
 "id": "04e5b9371a",
@@ -33822,6 +35204,12 @@
 ]
 },
 "pr": []
+},
+{
+"id": "658f1f6e5f",
+"v": "D",
+"u": "https://bootsbau-merlin.de/",
+"n": 0
 },
 {
 "id": "7299ffcc61",
@@ -34089,6 +35477,70 @@
 "pr": []
 },
 {
+"id": "a572686173",
+"v": "S",
+"u": "http://www.gruben.de/",
+"s": 1,
+"m": 1,
+"t": 1,
+"r": 2,
+"ev": [
+[
+"gradnja čolnov",
+"…Willkommen bei Gruben - Bootsbau » Startseite « Werft Boote Shop Wissenswertes Archiv Kontakt Sie befinden sich hier: Star…"
+]
+],
+"neg": [
+[
+"charter",
+"…rainer Gebrauchtboote - Übersicht der angebotenen Gebrauchtboote Yachtcharter - Weiterführender Link zum chartern von Yachten Shop - Übersicht der einzelnen Kategorien…"
+],
+[
+"rabljeni",
+"…- Vorstellung der Jolle Jeton Trainer - Vorstellung der Jolle Trainer Gebrauchtboote - Übersicht der angebotenen Gebrauchtboote Yachtcharter - Weiterführender Link zum chart…"
+],
+[
+"servis",
+"…elanleitung Pflegeanleitung - Informationen zum Thema Pflegeanleitung Reparaturhinweise - Informationen zum Thema Reparaturhinweise Sicherheitshinweise - Informationen z…"
+]
+],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Bootsbau",
+"gradnja čolnov"
+],
+[
+"Yachtcharter",
+"jahta"
+],
+[
+"Boote",
+"čolni"
+]
+]
+},
+"q": [
+{
+"t": "Willkommen bei Gruben - Bootsbau » Startseite « Werft Boote Shop Wissenswertes Archiv Kontakt Sie befinden sich hier: Startseite Messetermine …",
+"h": [
+[
+24,
+32,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradnja čolnov"
+]
+},
+{
 "id": "e36c221352",
 "v": "T",
 "u": "https://euronautic.eu/hr/",
@@ -34113,7 +35565,7 @@
 ],
 [
 "turizem",
-"…osim boravišne pristojbe i osiguranja depozita). Kontaktirajte nas na booking@euronautic.hr za više informacija. Više informacija Baza u Pirovcu Baza smještena u centr…"
+"…ti . Kontaktirajte nas sada EURONAUTIC d.o.o ID: HR – B- 23-080415204 booking@euronautic.hr +385 (0)23 385 205 facebook instagram youtube linkedin google karte Korisni…"
 ]
 ],
 "pages": 6,
@@ -34137,7 +35589,7 @@
 },
 "q": [
 {
-"t": "…nformacija 1 2 3 4 O nama Naš tim Blog BENETEAU First 36 Kontakt EN HR DE Najam plovila Euronautic flota Baza Biograd na Moru Baza Pirovac Opći uvjet najma Check-in/Check-out Popis posade Važne inf…",
+"t": "…tinskog sela 1 2 3 O nama Naš tim Blog BENETEAU First 36 Kontakt EN HR DE Najam plovila Euronautic flota Baza Biograd na Moru Opći uvjet najma Check-in/Check-out Popis posade Važne informacije Rute…",
 "h": [
 [
 81,
@@ -34151,77 +35603,6 @@
 "pr": [
 "gradnja čolnov"
 ]
-},
-{
-"id": "d83edba14a",
-"v": "D",
-"u": "http://www.assoprestige.it/",
-"n": 0
-},
-{
-"id": "e203c75363",
-"v": "X",
-"u": "http://www.baiayacht.it/",
-"n": 79
-},
-{
-"id": "33f3b04c83",
-"v": "N",
-"u": "https://www.sibma.it/index.php/it/",
-"s": 0,
-"m": 1,
-"t": 0,
-"r": 1,
-"ev": [],
-"neg": [
-[
-"zimovanje",
-"…ro Valentina Restauro Vision Dragoni Riparazioni Video Press Contatti Rimessaggio/Service Barche Rimessaggio/Service Barche Rimessaggio/Service Barche Restauro barche in l…"
-]
-],
-"pages": 1,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Cantiere navale",
-"ladjedelnica"
-],
-[
-"imbarcazioni",
-"plovila"
-],
-[
-"Barche",
-"čolni"
-],
-[
-"Yacht",
-"jahta"
-]
-]
-},
-"q": [
-{
-"t": "… Innovazione Calendario Currently no events are available Sibma Navale Italiana Cantiere navale di grande esperienza che costruisce e restaura barche in legno. Sibma Navale Italiana nasce nel 1962, è una r…",
-"h": [
-[
-81,
-96,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
-},
-{
-"id": "097ff33843",
-"v": "D",
-"u": "http://www.cantieri-ranieri.it/",
-"n": 0
 },
 {
 "id": "db7baf45d8",
@@ -34326,7 +35707,7 @@
 ],
 [
 "gradnja čolnov",
-"…UPs, Wakeboards, Tubes, uvm. Zum Shop Willkommen bei RaJo Boote Ihrem Bootsbaumeisterbetrieb & Bootshändler für hochwertige Motorboote, professionellen Bootsservice und…"
+"…innerhalb gesetzlicher Öffnungszeiten Willkommen bei RaJo Boote Ihrem Bootsbaumeisterbetrieb & Bootshändler für hochwertige Motorboote, professionellen Bootsservice und…"
 ]
 ],
 "neg": [
@@ -34370,7 +35751,7 @@
 },
 "q": [
 {
-"t": "…len JOBE SUPs, Wakeboards, Tubes, uvm. Zum Shop Willkommen bei RaJo Boote Ihrem Bootsbaumeisterbetrieb & Bootshändler für hochwertige Motorboote, professionellen Bootsservice und umfangreiches Zubehör. Ob Einstei…",
+"t": "…rkauf nur innerhalb gesetzlicher Öffnungszeiten Willkommen bei RaJo Boote Ihrem Bootsbaumeisterbetrieb & Bootshändler für hochwertige Motorboote, professionellen Bootsservice und umfangreiches Zubehör. Ob Einstei…",
 "h": [
 [
 81,
@@ -34562,6 +35943,86 @@
 },
 "pr": [
 "gradnja čolnov",
+"proizvodnja"
+]
+},
+{
+"id": "41df7ddf20",
+"v": "M",
+"u": "https://coenenboats.com/",
+"s": 3,
+"m": 2,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"GFK",
+"…en, Aluminium Arbeits- und Sportboote “Made in Germany” Stahl rostet, GFK ist Osmoseanfällig und Holz kann verrotten, darum setzten wir bei Coenen Yachts auf Alumi…"
+],
+[
+"proizvodnja",
+"…Alle unsere Boote werden in unserer Werft in Emmerich am Niederrhein hergestellt, dabei gelten höchste Qualitätsstandarts. Boote, gebaut in “Handarbeit” unterstützt durch…"
+],
+[
+"gradimo",
+"…nium Ein perfekter Werkstoff. HANDCRAFTED Boats for every requirement WE BUILD FOR strong partners who trust in our quality Coenen, Aluminium Arbeits- und Sportboote “M…"
+]
+],
+"neg": [],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Bootswerft",
+"ladjedelnica"
+],
+[
+"Yachts",
+"jahte"
+],
+[
+"Boats",
+"čolni"
+],
+[
+"Boote",
+"čolni"
+]
+],
+"stekloplastika": [
+[
+"GFK",
+"stekloplastika"
+]
+]
+},
+"q": [
+{
+"t": "…ality Coenen, Aluminium Arbeits- und Sportboote “Made in Germany” Stahl rostet, GFK ist Osmoseanfällig und Holz kann verrotten, darum setzten wir bei Coenen Yachts auf Aluminium. Qualität und S…",
+"h": [
+[
+81,
+84,
+"stekloplastika"
+]
+]
+},
+{
+"t": "…nen Inhalt entsperren Erforderlichen Service akzeptieren und Inhalte entsperren Bootswerft am Niederrhein in Emmerich | Coenen Yachts  +49 (0) 2822 9765330  info@coenenboats.com Folgen Folgen Folgen…",
+"h": [
+[
+81,
+91,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo",
 "proizvodnja"
 ]
 },
@@ -35603,96 +37064,6 @@
 ]
 },
 {
-"id": "ba167adfb0",
-"v": "M",
-"u": "https://africancats.com/",
-"s": 5,
-"m": 1,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"infuzija",
-"…rtable lightweight performance leisure catamarans through epoxy resin infusion for sailing enthusiasts that demand the highest levels of performance, comfort, speed, se…"
-],
-[
-"epoksi",
-"…builds comfortable lightweight performance leisure catamarans through epoxy resin infusion for sailing enthusiasts that demand the highest levels of performance, com…"
-],
-[
-"karbon",
-"…e our catamarans The complete hull is made of basalt fiber (optional: carbon fiber) and is vacuum infused with epoxy. The hulls are reinforced with the Twaron aramid impact…"
-],
-[
-"gradimo",
-"…ues to beauty and ergonomics Read about our design philosophy and how we build the boats. The more you look at the details of how we put these crafts together as well a…"
-]
-],
-"neg": [],
-"pages": 5,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"boat building",
-"gradnja čolnov"
-],
-[
-"yachts",
-"jahte"
-],
-[
-"boats",
-"čolni"
-]
-],
-"laminiranje": [
-[
-"infusion",
-"infuzija"
-]
-],
-"stekloplastika": [
-[
-"carbon fiber",
-"karbon"
-],
-[
-"epoxy",
-"epoksi"
-]
-]
-},
-"q": [
-{
-"t": "…ilds comfortable lightweight performance leisure catamarans through epoxy resin infusion for sailing enthusiasts that demand the highest levels of performance, comfort, speed, security and reliabili…",
-"h": [
-[
-81,
-89,
-"laminiranje"
-]
-]
-},
-{
-"t": "…ing the methods that have been perfected for other technologies into the art of boat building. Extensive use of CAD tools allowed us to put strength where it is needed and remove materials and weight fro…",
-"h": [
-[
-81,
-94,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo",
-"gradnja čolnov"
-]
-},
-{
 "id": "5a3f2b584b",
 "v": "M",
 "u": "http://www.en.caravela.pl/",
@@ -35929,7 +37300,7 @@
 },
 "q": [
 {
-"t": "…ay of visit * MM slash DD slash YYYY Interested in: Boarncruiser (Steel) Marex (Polyester) Type Name * Email * Phone * Privacy Statement * I have read, and agree to the privacy statement CAPTCHA Comm…",
+"t": "…ay of visit * MM slash DD slash YYYY Interested in: Boarncruiser (Steel) Marex (Polyester) Type Name * Email * Phone * Privacy Statement * I have read, and agree to the privacy statement CAPTCHA Emai…",
 "h": [
 [
 81,
@@ -37004,7 +38375,7 @@
 "neg": [
 [
 "charter",
-"…Stärke. Tradition, Technik, Erlebnis Werft, Bootshandel, Seefahrten, Charter Start-Webseite Werft, Bootshandel, Seefahrten, Charter Start-Webseite Werft, Bootshandel…"
+"…fahrt, Boote & Werft am Vierwaldstättersee Verkauf, Seefahrt, Events, Charter: +41 41 368 08 08 Kundendienst/Werft: +41 41 368 08 06   Erlebnisse Y Schlacht-Schiff T…"
 ],
 [
 "najem",
@@ -37121,6 +38492,70 @@
 },
 "pr": [
 "proizvodnja"
+]
+},
+{
+"id": "98f497af52",
+"v": "S",
+"u": "https://www.arkosboats.com/",
+"s": 1,
+"m": 1,
+"t": 0,
+"r": 2,
+"ev": [
+[
+"gradimo",
+"…ssi. In Arkos non assembliamo idee altrui: progettiamo, sviluppiamo e costruiamo ogni imbarcazione e gommone interamente all’interno dei nostri stabilimenti italiani. Une…"
+]
+],
+"neg": [
+[
+"rabljeni",
+"…ella potenza richiesta Gommoni Vai ai prodotti Barche Vai ai prodotti Usato Premium Vai ai prodotti 9 months ago 9 months ago 2 years ago 2 years ago 2 years ago 2 y…"
+],
+[
+"servis",
+"…dedicati Offriamo finanziamenti personalizzati in base alle esigenze Manutenzione garantita Per offrire ai nostri clienti la massima tranquillità ogni mezzo Arkos Usato Pr…"
+]
+],
+"pages": 4,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"imbarcazione",
+"plovila"
+],
+[
+"Barche",
+"čolni"
+],
+[
+"arkosboats",
+"čolni"
+],
+[
+"nautica",
+"navtika"
+]
+]
+},
+"q": [
+{
+"t": "…n Arkos non assembliamo idee altrui: progettiamo, sviluppiamo e costruiamo ogni imbarcazione e gommone interamente all’interno dei nostri stabilimenti italiani. Unendo nuove tecnologie idrodinamiche a u…",
+"h": [
+[
+81,
+93,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradimo"
 ]
 },
 {
@@ -37314,6 +38749,66 @@
 "pr": []
 },
 {
+"id": "4842cafaa4",
+"v": "S",
+"u": "https://www.nadirbattelli.it/",
+"s": 1,
+"m": 0,
+"t": 0,
+"r": 3,
+"ev": [
+[
+"proizvodnja",
+"…NZLFRZ64P14H501J- Via delle Scienze 4 - 01016 Tarquinia (VT) \n Nadir Produzione Gommoni Nadir Vocazione all'eccellenza Azienda Assistenza Prodotti Occasioni Contatti Nad…"
+]
+],
+"neg": [
+[
+"zimovanje",
+"…a motore fino ai 12 metri di lunghezza per l’Italia e per l’estero. x Rimessaggio Imbarcazioni rimessaggio imbarcazioni estiva, assistenza tecnica e custodia invernale anc…"
+],
+[
+"servis",
+"…l’estero. x Rimessaggio Imbarcazioni rimessaggio imbarcazioni estiva, assistenza tecnica e custodia invernale anche al coperto Nadir Battelli nascere con stile per vivere di pass…"
+]
+],
+"pages": 3,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"imbarcazioni",
+"plovila"
+],
+[
+"barche",
+"čolni"
+],
+[
+"Boat",
+"čoln"
+]
+]
+},
+"q": [
+{
+"t": "…r tutti i brand, offriamo la nostra presenza anche nei luoghi di ormeggio delle imbarcazioni, durante tutta la stagione invernale e estiva. x Trasporto Imbarcazioni attrezzati per il trasporto di imbarc…",
+"h": [
+[
+81,
+93,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"proizvodnja"
+]
+},
+{
 "id": "db28bb282c",
 "v": "S",
 "u": "http://www.esaom.it/il-cantiere-2/cantiere-edilnauticacalle/",
@@ -37456,11 +38951,11 @@
 "neg": [
 [
 "rabljeni",
-"…im LM1x URU ruderte im X17 WM Shanghai 2025 Entdecken Sie hier unsere Gebrauchtboote Mehr erfahren EMPACHER BEACH SPRINT CUP 2026 Previous Next Willkommen bei Empacher Willk…"
+"…im LM1x URU ruderte im X17 WM Shanghai 2025 Entdecken Sie hier unsere Gebrauchtboote Mehr erfahren Previous Next Willkommen bei Empacher Willkommen in der Welt der Qualitäts…"
 ],
 [
 "servis",
-"…cher Bootswerft- Empacher Bootswerft DE EN Startseite Ersatzteil-Shop Reparatur-Shop Buchungen Coastal WM Qingdao (CN) & EM La Linea (ES) Buchungen World Masters 2026 Em…"
+"…cher Bootswerft- Empacher Bootswerft DE EN Startseite Ersatzteil-Shop Reparatur-Shop Neuigkeiten Produkte Rennboote Empacher Renn-Skiff Empacher Renn-Zweier Empacher Ren…"
 ]
 ],
 "pages": 6,
@@ -37496,7 +38991,7 @@
 },
 "q": [
 {
-"t": "Empacher Bootswerft- Empacher Bootswerft DE EN Startseite Ersatzteil-Shop Reparatur-Shop Buchungen Coastal WM Qingdao (CN) & EM La…",
+"t": "Empacher Bootswerft- Empacher Bootswerft DE EN Startseite Ersatzteil-Shop Reparatur-Shop Neuigkeiten Produkte Rennboote Empacher R…",
 "h": [
 [
 9,
@@ -38208,6 +39703,51 @@
 ]
 },
 {
+"id": "d99767d88d",
+"v": "S",
+"u": "https://www.xn--bootshandel-kpenick-26b.de/",
+"s": 0,
+"m": 0,
+"t": 0,
+"r": 2,
+"ev": [],
+"neg": [
+[
+"zimovanje",
+"…nd setzen es auf Ihren Trailer, oder verholen es in unser großzügiges Winterlager. Über uns Ihr kompetenter Bootshändler Bootshandel Köpenick ist Ihr zuverlässiger Ansprec…"
+],
+[
+"servis",
+"…mpletten Service rund um ihr Boote an. Motorwartung und Inspektionen, Reparaturen am Bootskörper und Einbauten. Ein- oder Anbau von Zubehörteilen und Ausstattungselement…"
+]
+],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Boote",
+"čolni"
+]
+]
+},
+"q": [
+{
+"t": "Bootshandel Köpenick - Drago Boote Berlin Drago Boote Berlin Drago 550 Drago 601 Drago 665 Über uns Kontakt Impressum Datenschutzerklärung Drago…",
+"h": [
+[
+29,
+34,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
 "id": "a838d0d86a",
 "v": "T",
 "u": "https://wassersportzentrum.de/",
@@ -38328,9 +39868,60 @@
 ]
 },
 {
+"id": "208885742d",
+"v": "D",
+"u": "https://fdtvo.com/?di=f3ef8b5d-ab0c-4b13-a068-ae03a176deef",
+"n": 0
+},
+{
+"id": "58bc63044a",
+"v": "T",
+"u": "https://www.solarwaterworld.de/",
+"s": 0,
+"m": 1,
+"t": 2,
+"r": 0,
+"ev": [],
+"neg": [
+[
+"charter",
+"…Spreefahrt Berlin | Nachhaltige Schiffstouren & Schiffe chartern Jobs Berlin Highlight Tour Solarschiff chartern Solarboot mieten Folge auf Instagram Fol…"
+],
+[
+"najem",
+"…r-Ahoi. Schifffahrt neu erleben! Bootstour Berlin Schiff chartern Bootverleih Berlin Die Solarwaterworld AG entwickelt Konzepte für den öffentlichen Nahverkehr unter E…"
+]
+],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Boot",
+"čolni"
+]
+]
+},
+"q": [
+{
+"t": "…bot anfragen Noch Fragen? Solarboot mieten Solar-Ahoi Sonnenkapitäne Mehr Infos Boot mieten Noch Fragen? Folgen Sie Solarwaterworld und erleben Sie Berlin vom Wasser aus – mit exklusiven Einblic…",
+"h": [
+[
+81,
+85,
+"navtika"
+]
+]
+}
+]
+},
+"pr": []
+},
+{
 "id": "eb0e2a22a9",
 "v": "T",
-"u": "https://www.bootscenter-keser.de/",
+"u": "https://bootscenter-keser.de/",
 "s": 1,
 "m": 1,
 "t": 2,
@@ -38875,7 +40466,7 @@
 },
 "q": [
 {
-"t": "Bootsoase Porsch - Ihre Bootswerft am Steinhuder Meer - Bootsoase Fabrice Porsch Zum Inhalt springen Suche nach: Leistungen Shop Kontakt Vertrag…",
+"t": "Bootsoase Porsch - Ihre Bootswerft am Steinhuder Meer - Bootsoase Fabrice Porsch Zum Inhalt springen Suche nach: Leistungen Kontakt Onlineshop L…",
 "h": [
 [
 24,
@@ -39497,12 +41088,6 @@
 ]
 },
 {
-"id": "6626d50755",
-"v": "D",
-"u": "https://royaltshipyards.com/",
-"n": 0
-},
-{
 "id": "bec147951f",
 "v": "T",
 "u": "https://www.heechbydemar.de/",
@@ -39708,10 +41293,83 @@
 ]
 },
 {
+"id": "ed87a0df4b",
+"v": "S",
+"u": "https://scalaryachten.de/",
+"s": 1,
+"m": 1,
+"t": 0,
+"r": 2,
+"ev": [
+[
+"gradnja čolnov",
+"…Gemeinsam mit unserem Team präsentieren wir die ganze Bandbreite des Bootsbaus. Es erwartet Sie unser aktueller Neubau einer SCALAR 40 sowie zwei Refit-Projekte: eine…"
+]
+],
+"neg": [
+[
+"zimovanje",
+"…ftbetrieb mit dem familiären Yachthafen, Scalar-Yachtbau, Fullservice Winterlager und dem umfangreichen Reparaturbetrieb an. Gemeinsam mit unserem Team präsentieren wir di…"
+],
+[
+"servis",
+"…hafen, Scalar-Yachtbau, Fullservice Winterlager und dem umfangreichen Reparaturbetrieb an. Gemeinsam mit unserem Team präsentieren wir die ganze Bandbreite des Bootsbaus…"
+]
+],
+"pages": 1,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"Bootsbaus",
+"gradnja čolnov"
+],
+[
+"Bootswerft",
+"ladjedelnica"
+],
+[
+"Scalar-Yachtbau",
+"gradnja jaht"
+],
+[
+"Scalar-Yachten",
+"jahta"
+]
+]
+},
+"q": [
+{
+"t": "…etrieb an. Gemeinsam mit unserem Team präsentieren wir die ganze Bandbreite des Bootsbaus. Es erwartet Sie unser aktueller Neubau einer SCALAR 40 sowie zwei Refit-Projekte: eine SCALAR 34 und SCALAR …",
+"h": [
+[
+81,
+90,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradnja čolnov"
+]
+},
+{
 "id": "ad417f6cf2",
-"v": "X",
+"v": "N",
 "u": "https://bloemsma-holland.com/",
-"n": 126
+"s": 0,
+"m": 0,
+"t": 0,
+"r": 0,
+"ev": [],
+"neg": [],
+"pages": 1,
+"mix": 0,
+"pf": {},
+"pr": []
 },
 {
 "id": "8d8a05b63a",
@@ -40025,10 +41683,6 @@
 "ladjedelnica"
 ],
 [
-"Motorboot",
-"motorni čoln"
-],
-[
 "motoryachts",
 "motorna jahta"
 ],
@@ -40054,6 +41708,110 @@
 "pr": [
 "gradimo",
 "obrat",
+"proizvodnja"
+]
+},
+{
+"id": "e797b79e14",
+"v": "M",
+"u": "https://www.aschenez.com/it/",
+"s": 5,
+"m": 2,
+"t": 0,
+"r": 0,
+"ev": [
+[
+"infuzija",
+"…divisa dell’eccellenza. STAMPAGGIO VETRORESINA E FIBRA DI CARBONIO IN INFUSIONE L’intero processo di stampaggio avviene internamente, attraverso tecnologie di infusione…"
+],
+[
+"vetroresina",
+"…cisione, coerenza e una visione condivisa dell’eccellenza. STAMPAGGIO VETRORESINA E FIBRA DI CARBONIO IN INFUSIONE L’intero processo di stampaggio avviene internamente, at…"
+],
+[
+"karbon",
+"…nza e una visione condivisa dell’eccellenza. STAMPAGGIO VETRORESINA E FIBRA DI CARBONIO IN INFUSIONE L’intero processo di stampaggio avviene internamente, attraverso tecnologie…"
+],
+[
+"proizvodnja",
+"…Cantieri Aschenez Vai al contenuto Home Cantiere R&S Produzione Awards Brands INVICTUS YACHT CAPOFORTE MARCOPOLO Contatti Italiano English Italiano Home…"
+]
+],
+"neg": [],
+"pages": 3,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"costruzione di imbarcazioni",
+"gradnja plovil"
+],
+[
+"Shipyard",
+"ladjedelnica"
+],
+[
+"barche",
+"čolni"
+],
+[
+"YACHTS",
+"jahte"
+]
+],
+"kalupi": [
+[
+"Stampaggio",
+"oblikovanje v kalupu"
+]
+],
+"laminiranje": [
+[
+"INFUSIONE",
+"infuzija"
+],
+[
+"RTM",
+"RTM (injekcija smole)"
+]
+],
+"stekloplastika": [
+[
+"VETRORESINA",
+"stekloplastika"
+],
+[
+"FIBRA DI CARBONIO",
+"karbon"
+]
+]
+},
+"q": [
+{
+"t": "…in stretta sinergia. Uffici Verniciatura Capoforte Magazzino Impianto Elettrico Stampaggio Invictus Vasca di prova Finitura Reparto RTM Stampaggio Capoforte Assemblaggio Invictus Carpenteria Divisione…",
+"h": [
+[
+81,
+91,
+"kalupi"
+]
+]
+},
+{
+"t": "…I VERTICALI I cantieri Aschenez racchiudono oltre vent’anni di esperienza nella costruzione di imbarcazioni da diporto, all’interno di un sistema produttivo fortemente integrato, in cui fino al 90% delle lavorazioni è…",
+"h": [
+[
+81,
+108,
+"navtika"
+]
+]
+}
+]
+},
+"pr": [
+"gradnja čolnov",
 "proizvodnja"
 ]
 },
@@ -40725,7 +42483,7 @@
 "id": "08836a669e",
 "v": "X",
 "u": "http://www.yachtwerft-wirz.ch/",
-"n": 56
+"n": 23
 },
 {
 "id": "8ae0ad2869",
@@ -41040,237 +42798,11 @@
 ]
 },
 {
-"id": "27e85d3708",
-"v": "N",
-"u": "https://segel.de/dyas",
-"s": 0,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [],
-"neg": [],
-"pages": 1,
-"mix": 0,
-"pf": {},
-"pr": []
-},
-{
-"id": "ab5b87e54c",
-"v": "N",
-"u": "https://futura-yachtsystems.de/",
-"s": 0,
-"m": 1,
-"t": 1,
-"r": 0,
-"ev": [],
-"neg": [
-[
-"charter",
-"…m aller Schifftypen und eröffnet damit dem Eigner, Betreiber oder der Chartergesellschaft vollkommen neue Nutzungsmöglichkeiten, sondern bietet barrierefreien Wohnkomf…"
-]
-],
-"pages": 1,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Motoryacht",
-"motorna jahta"
-],
-[
-"futura-yachtsystems",
-"jahte"
-],
-[
-"boot",
-"čolni"
-],
-[
-"Boat",
-"čoln"
-]
-]
-},
-"q": [
-{
-"t": "… ein einfaches Umrüsten erlaubt. Ob Loftversion zum Segeln, Fährgastschiff oder Motoryacht – die FUTURA passt sich ohne viel Aufwand Ihren Bedürfnissen an. Erfahren Sie hier mehr über die unschlagbare…",
-"h": [
-[
-81,
-91,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
-},
-{
-"id": "ac1462ee3a",
-"v": "N",
-"u": "https://www.scannerboats.com/",
-"s": 1,
-"m": 0,
-"t": 1,
-"r": 0,
-"ev": [
-[
-"proizvodnja",
-"…haracteristics and measurements requested by its customers as well as manufacturing small, medium and large luxury tenders for some years. High - quality production of Sc…"
-]
-],
-"neg": [
-[
-"charter",
-"…l Scanner models Our Services Villa + Scanner Villa + Scanner Scanner Charter Scanner for Luxury Yachts - tenders Info Elegance line Touring line Tender line Custom -…"
-]
-],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"yachts",
-"jahte"
-],
-[
-"boats",
-"čolni"
-]
-]
-},
-"q": [
-{
-"t": "…E CUSTOM LINE SUPEROCEAN LINE PREOWNED SCANNERS SCANNERS FOR RENT Search Select yachts Any Tender line Touring line Elegance line Professional line Custom line SuperOcean line Preowned Scanners Sc…",
-"h": [
-[
-81,
-87,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"proizvodnja"
-]
-},
-{
-"id": "8be3514bcb",
-"v": "X",
-"u": "https://tauscheck-bootswerft.ch/",
-"n": 16
-},
-{
-"id": "69d20ea516",
-"v": "N",
-"u": "https://www.posillipoyachts.com/en",
-"s": 0,
-"m": 2,
-"t": 0,
-"r": 0,
-"ev": [],
-"neg": [],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"shipyard",
-"ladjedelnica"
-],
-[
-"Yachts",
-"jahte"
-],
-[
-"BOAT",
-"čoln"
-]
-]
-},
-"q": [
-{
-"t": "…QUIPMENT 16 16 CONSTRUCTION MATERIALS VTR VTR The Technema 90’ is currently the shipyard’s flagship. The Galeazzi design firm has masterfully combined design with exceptional onboard comfort, ensuri…",
-"h": [
-[
-81,
-89,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
-},
-{
-"id": "675143b32d",
-"v": "N",
-"u": "https://www.folkeboot-centrale.de/",
-"s": 2,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"GFK",
-"…AUCHT KATALOG BESCHLÄGE BLÖCKE UND KLEMMEN ZUBEHÖR PERSENNINGE HOLZ | GFK 1 HOLZ | GFK 2 HOLZ | GFK 3 RIGG SEGEL TRAILER KONTAKT FOLKEBOOT AKTUELL GEBRAUCHT KATALO…"
-],
-[
-"proizvodnja",
-"…rale - Schön, dass Sie bei uns rein schauen. Haubold Yachting hat die Produktion von Folkebooten und den Vertrieb von Zubehör und Ersatzteilen für das Folkeboot von der F…"
-]
-],
-"neg": [],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Yachting",
-"jahta"
-]
-],
-"stekloplastika": [
-[
-"GFK",
-"stekloplastika"
-]
-]
-},
-"q": [
-{
-"t": "…TUELL GEBRAUCHT KATALOG BESCHLÄGE BLÖCKE UND KLEMMEN ZUBEHÖR PERSENNINGE HOLZ | GFK 1 HOLZ | GFK 2 HOLZ | GFK 3 RIGG SEGEL TRAILER KONTAKT FOLKEBOOT AKTUELL GEBRAUCHT KATALOG BESCHLÄGE BLÖCKE U…",
-"h": [
-[
-81,
-84,
-"stekloplastika"
-]
-]
-},
-{
-"t": "…keboot! - Die Folkboat Centrale - Schön, dass Sie bei uns rein schauen. Haubold Yachting hat die Produktion von Folkebooten und den Vertrieb von Zubehör und Ersatzteilen für das Folkeboot von der Fo…",
-"h": [
-[
-81,
-89,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"proizvodnja"
-]
+"id": "c9d80fd334",
+"v": "D",
+"u": "https://www.robsonpaddle.de/",
+"n": 23855,
+"parked": 1
 },
 {
 "id": "9875c9f280",
@@ -41452,28 +42984,10 @@
 ]
 },
 {
-"id": "797eb49f53",
-"v": "D",
-"u": "http://www.jokerboatgommoni.com/",
-"n": 0
-},
-{
-"id": "a2a678ff56",
-"v": "X",
-"u": "http://www.wayachts.it/",
-"n": 64
-},
-{
-"id": "398c6004c1",
-"v": "D",
-"u": "http://www.nadirmarine.com/",
-"n": 0
-},
-{
 "id": "d722c9c89d",
 "v": "X",
 "u": "http://www.sillinger.com/",
-"n": 395
+"n": 393
 },
 {
 "id": "e77fd495b2",
@@ -42795,7 +44309,7 @@
 "neg": [
 [
 "rabljeni",
-"…en Yachthafen Lager & Service J/Boats Sargo Makai X Shore Bootshandel Gebrauchtboote Kontakt MAKAI 37 Demoboot Aktuell MAKAI 37 Demoboot SARGO 28 mit Außenbordern Aktuell SA…"
+"…en Yachthafen Lager & Service J/Boats Sargo Makai X Shore Bootshandel Gebrauchtboote Kontakt Die neue SARGO 32 Aktuell Die neue SARGO 32 MAKAI 37 Demoboot Aktuell MAKAI 37 D…"
 ],
 [
 "zimovanje",
@@ -42842,6 +44356,79 @@
 "gradnja čolnov",
 "proizvodnja"
 ]
+},
+{
+"id": "14411e34f5",
+"v": "m",
+"u": "https://www.centronauticolignano.com/",
+"s": 1,
+"m": 2,
+"t": 0,
+"r": 4,
+"ev": [],
+"neg": [
+[
+"trgovec",
+"…conferme entro il 2025. SCOPRI Barche Nuove Centro Nautico Lignano è concessionario ufficiale di alcuni brand prestigiosi nel settore dello yachting. Il nostro portale offre…"
+],
+[
+"rabljeni",
+"…ai allo shop! Home Chi siamo Servizi Marchi Configuratore Nuovo Stock Usato Shop Rimessaggio News & Eventi Contatti Area Personale Home Chi siamo Storia & Staff Serv…"
+]
+],
+"pages": 2,
+"mix": 0,
+"pf": {
+"g": {
+"navtika": [
+[
+"imbarcazione",
+"plovila"
+],
+[
+"Barche",
+"čolni"
+],
+[
+"yachting",
+"jahta"
+],
+[
+"Boats",
+"čolni"
+]
+],
+"stekloplastika": [
+[
+"poliestere",
+"poliester"
+]
+]
+},
+"q": [
+{
+"t": "…achting. Il nostro portale offre la possibilità di configurare la propria nuova imbarcazione e ottenere nell'immediato una indicazione di prezzo. Siamo a vostra disposizione per incontrarvi e affrontare…",
+"h": [
+[
+81,
+93,
+"navtika"
+]
+]
+},
+{
+"t": "… mm 16 INDISPENSABILI € 16,50 € 13,00 Dettagli - 20,00 % Dettagli Sospendite in poliestere 3mt 2000Kg VERDE per sollevamento EN 1492-1 INDISPENSABILI € 54,00 € 43,20 Dettagli - 20,00 % Dettagli Sospen…",
+"h": [
+[
+81,
+91,
+"stekloplastika"
+]
+]
+}
+]
+},
+"pr": []
 },
 {
 "id": "b1ab45d769",
@@ -42920,58 +44507,6 @@
 ]
 },
 "pr": [
-"proizvodnja"
-]
-},
-{
-"id": "18273c85d9",
-"v": "N",
-"u": "https://eurovinil.it/it/",
-"s": 2,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"proizvodnja",
-"…dard per la salute e la sicurezza sul lavoro ISO 45001 Certificato di produzione ISO9650 RINA La qualità incontra l'esperienza La nostra missione Esistiamo per salvare vi…"
-],
-[
-"gradimo",
-"…Superiamo i limiti individuali, mettiamo insieme le nostre capacità e realizziamo grandi risultati grazie alla forza del gruppo. Innovazione Abbiamo uno spirito pionierist…"
-]
-],
-"neg": [],
-"pages": 6,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"imbarcazioni",
-"plovila"
-],
-[
-"nautica",
-"navtika"
-]
-]
-},
-"q": [
-{
-"t": "…re di sopravvivenza indossabili, le soluzioni antincendio e la tecnologia delle imbarcazioni di sopravvivenza mantengono le persone al sicuro quando la loro vita dipende da questo. Abbiamo 3.000 persone…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo",
 "proizvodnja"
 ]
 },
@@ -43479,257 +45014,6 @@
 "n": 70
 },
 {
-"id": "5caf54850c",
-"v": "N",
-"u": "https://www.sailart.de/",
-"s": 2,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"proizvodnja",
-"…Starkwind, profitieren. Neben unseren hohen Qualitätsstandards in der Produktion setzen wir auf herausragende Partner, die Renommiertesten unserer Branche – wie z.B. Hark…"
-],
-[
-"gradimo",
-"…oot maßgeschneidert auf Ansprüche, Bedürfnisse und Revierbedingungen. Wir bauen ausschließlich Trailerboote und können unsere Erfahrungen hier konzentrieren. Um den unte…"
-]
-],
-"neg": [],
-"pages": 1,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Segelboote",
-"jadrnica"
-]
-]
-},
-"q": [
-{
-"t": "SAILART – …Segelboote, Daysailer und Kleinkreuzer – Qualität aus Deutschland seit 1993! ↓ Zum Inhalt Secondary Navigation Hauptnavi…",
-"h": [
-[
-11,
-21,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo",
-"proizvodnja"
-]
-},
-{
-"id": "a01d04f766",
-"v": "X",
-"u": "http://www.mantra-yachts.de/",
-"n": 138
-},
-{
-"id": "0999d57ec2",
-"v": "D",
-"u": "https://sun-marine.de/",
-"n": 0
-},
-{
-"id": "1ce8b6fbec",
-"v": "N",
-"u": "http://www.okiboats.com/pl/",
-"s": 0,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [],
-"neg": [],
-"pages": 1,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Boatyard",
-"ladjedelnica"
-],
-[
-"Łodzie",
-"čolni"
-],
-[
-"OKIBOATS",
-"čolni"
-]
-]
-},
-"q": [
-{
-"t": "OKIBOATS - Famous European Boatyard 1 2 3 4 5 6 7 8 Adres ul. Bp.H. Wierzbowskiego 2/1 Skrzatusz 64-930 Szydłowo POLAND Łodzie Barracuda 464 Wave…",
-"h": [
-[
-27,
-35,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
-},
-{
-"id": "41df7ddf20",
-"v": "M",
-"u": "https://coenenboats.com/",
-"s": 3,
-"m": 2,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"GFK",
-"…en, Aluminium Arbeits- und Sportboote “Made in Germany” Stahl rostet, GFK ist Osmoseanfällig und Holz kann verrotten, darum setzten wir bei Coenen Yachts auf Alumi…"
-],
-[
-"proizvodnja",
-"…Alle unsere Boote werden in unserer Werft in Emmerich am Niederrhein hergestellt, dabei gelten höchste Qualitätsstandarts. Boote, gebaut in “Handarbeit” unterstützt durch…"
-],
-[
-"gradimo",
-"…nium Ein perfekter Werkstoff. HANDCRAFTED Boats for every requirement WE BUILD FOR strong partners who trust in our quality Coenen, Aluminium Arbeits- und Sportboote “M…"
-]
-],
-"neg": [],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Bootswerft",
-"ladjedelnica"
-],
-[
-"Yachts",
-"jahte"
-],
-[
-"Boats",
-"čolni"
-],
-[
-"Boote",
-"čolni"
-]
-],
-"stekloplastika": [
-[
-"GFK",
-"stekloplastika"
-]
-]
-},
-"q": [
-{
-"t": "…ality Coenen, Aluminium Arbeits- und Sportboote “Made in Germany” Stahl rostet, GFK ist Osmoseanfällig und Holz kann verrotten, darum setzten wir bei Coenen Yachts auf Aluminium. Qualität und S…",
-"h": [
-[
-81,
-84,
-"stekloplastika"
-]
-]
-},
-{
-"t": "…nen Inhalt entsperren Erforderlichen Service akzeptieren und Inhalte entsperren Bootswerft am Niederrhein in Emmerich | Coenen Yachts  +49 (0) 2822 9765330  info@coenenboats.com Folgen Folgen Folgen…",
-"h": [
-[
-81,
-91,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo",
-"proizvodnja"
-]
-},
-{
-"id": "53d88881de",
-"v": "N",
-"u": "https://www.feltz-werft.de/",
-"s": 0,
-"m": 1,
-"t": 0,
-"r": 1,
-"ev": [],
-"neg": [
-[
-"servis",
-"…aut Neben Neubauten bieten wir auch umfangreiche Dienstleistungen wie Reparaturen und individuelle Umbauten an. Unser Team aus Experten setzt Ihre Visionen mit höchster…"
-]
-],
-"pages": 3,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Schiffbaus",
-"ladjedelništvo"
-],
-[
-"Segelyacht-Hafen",
-"jadrnica"
-],
-[
-"Traumyacht",
-"jahta"
-]
-]
-},
-"q": [
-{
-"t": "…auf den Seiten Schiffe und Referenzen gewinnen. Tauchen Sie ein in die Welt des Schiffbaus und lassen Sie sich von unseren jüngsten Projekten inspirieren. Kontaktieren Sie uns für eine persönliche Ber…",
-"h": [
-[
-81,
-91,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
-},
-{
-"id": "0d4c64a3f7",
-"v": "X",
-"u": "http://www.sirius-werft.de/",
-"n": 16
-},
-{
-"id": "9d9117580e",
-"v": "D",
-"u": "http://www.stadtdesign.com/",
-"n": 0
-},
-{
-"id": "1176bfbefb",
-"v": "X",
-"u": "http://www.cantierebluline.it/",
-"n": 55
-},
-{
 "id": "8aae05928c",
 "v": "M",
 "u": "https://www.lurssen.com/de/",
@@ -43910,97 +45194,6 @@
 ]
 },
 {
-"id": "dedb1522f3",
-"v": "M",
-"u": "https://www.shiptec.ch/maintenance.html",
-"s": 3,
-"m": 2,
-"t": 0,
-"r": 1,
-"ev": [
-[
-"kompoziti",
-"…rleimungen unter Vakuum Herstellung von Formen für die Produktion von Composite Teilen Restaurierungen von historischen Innenausbauten und Möbel Holzdecks und Möbelhers…"
-],
-[
-"vakuum",
-"…au Sanierungen von Holzschiffen 3-dimensionale Formverleimungen unter Vakuum Herstellung von Formen für die Produktion von Composite Teilen Restaurierungen von histor…"
-],
-[
-"proizvodnja",
-"…schaftliche Realisierung ausgerichtet. Michael Gmünder Leiter Werft & Produktion +41 41 367 67 14 m.gmuender@shiptec.ch Service & Reparaturen Service & Reparaturen Verfüg…"
-]
-],
-"neg": [
-[
-"servis",
-"…r Werft & Produktion +41 41 367 67 14 m.gmuender@shiptec.ch Service & Reparaturen Service & Reparaturen Verfügbarkeit und Einsatzbereitschaft sind für Schiffe im profess…"
-]
-],
-"pages": 6,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Schiffbauingenieuren",
-"ladjedelništvo"
-],
-[
-"Yachten",
-"jahta"
-],
-[
-"Boot",
-"čolni"
-]
-],
-"laminiranje": [
-[
-"Vakuum",
-"vakuum"
-]
-],
-"stekloplastika": [
-[
-"Composite",
-"kompoziti"
-]
-]
-},
-"q": [
-{
-"t": "…ineering Schiffsentwurf & Engineering Ein interdisziplinäres Team bestehend aus Schiffbauingenieuren, Maschinenbauingenieuren, Elektroingenieuren und Automatikern entwickelt fortschrittliche Konzepte und Lösung…",
-"h": [
-[
-81,
-101,
-"navtika"
-]
-]
-},
-{
-"t": "…im Schiffbau Sanierungen von Holzschiffen 3-dimensionale Formverleimungen unter Vakuum Herstellung von Formen für die Produktion von Composite Teilen Restaurierungen von historischen Innenausbauten und …",
-"h": [
-[
-81,
-87,
-"laminiranje"
-],
-[
-134,
-143,
-"stekloplastika"
-]
-]
-}
-]
-},
-"pr": [
-"proizvodnja"
-]
-},
-{
 "id": "edd1923cbf",
 "v": "m",
 "u": "https://www.bootswerft-rehberg.de/",
@@ -44064,14 +45257,18 @@
 "id": "4aef98a1f0",
 "v": "m",
 "u": "https://hanseyachts.com/gb/",
-"s": 1,
+"s": 2,
 "m": 5,
 "t": 0,
 "r": 1,
 "ev": [
 [
 "proizvodnja",
-"…ime demands, our philosophy has made Hanse one of the world's leading manufacturers of ocean-going sailing yachts. Looking to the future, we are committed to continuing t…"
+"…ision and thoroughness, we build every sailing yacht using the latest manufacturing techniques. Each Hanse is carefully finished by our highly motivated team. And each ne…"
+],
+[
+"gradimo",
+"…tate-of-the-art innovation, with passion, precision and thoroughness, we build every sailing yacht using the latest manufacturing techniques. Each Hanse is carefully fi…"
 ]
 ],
 "neg": [
@@ -44117,6 +45314,7 @@
 ]
 },
 "pr": [
+"gradimo",
 "proizvodnja"
 ]
 },
@@ -44194,79 +45392,6 @@
 "pr": [
 "proizvodnja"
 ]
-},
-{
-"id": "14411e34f5",
-"v": "m",
-"u": "https://www.centronauticolignano.com/",
-"s": 1,
-"m": 2,
-"t": 0,
-"r": 4,
-"ev": [],
-"neg": [
-[
-"trgovec",
-"…conferme entro il 2025. SCOPRI Barche Nuove Centro Nautico Lignano è concessionario ufficiale di alcuni brand prestigiosi nel settore dello yachting. Il nostro portale offre…"
-],
-[
-"rabljeni",
-"…ai allo shop! Home Chi siamo Servizi Marchi Configuratore Nuovo Stock Usato Shop Rimessaggio News & Eventi Contatti Area Personale Home Chi siamo Storia & Staff Serv…"
-]
-],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"imbarcazione",
-"plovila"
-],
-[
-"Barche",
-"čolni"
-],
-[
-"yachting",
-"jahta"
-],
-[
-"Boats",
-"čolni"
-]
-],
-"stekloplastika": [
-[
-"poliestere",
-"poliester"
-]
-]
-},
-"q": [
-{
-"t": "…achting. Il nostro portale offre la possibilità di configurare la propria nuova imbarcazione e ottenere nell'immediato una indicazione di prezzo. Siamo a vostra disposizione per incontrarvi e affrontare…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-},
-{
-"t": "… mm 16 INDISPENSABILI € 16,50 € 13,00 Dettagli - 20,00 % Dettagli Sospendite in poliestere 3mt 2000Kg VERDE per sollevamento EN 1492-1 INDISPENSABILI € 54,00 € 43,20 Dettagli - 20,00 % Dettagli Sospen…",
-"h": [
-[
-81,
-91,
-"stekloplastika"
-]
-]
-}
-]
-},
-"pr": []
 },
 {
 "id": "7158b88286",
@@ -44782,7 +45907,7 @@
 "id": "70d599d0bb",
 "v": "D",
 "u": "https://pontonboot.de/en-gb",
-"n": 1662,
+"n": 1633,
 "parked": 1
 },
 {
@@ -44856,13 +45981,6 @@
 ]
 },
 "pr": []
-},
-{
-"id": "c9d80fd334",
-"v": "D",
-"u": "https://www.robsonpaddle.de/",
-"n": 23855,
-"parked": 1
 },
 {
 "id": "15d01198da",
@@ -45219,153 +46337,47 @@
 },
 {
 "id": "a47c1dd8b4",
-"v": "m",
+"v": "X",
 "u": "https://www.shipyard-losinj.hr/",
-"s": 2,
-"m": 1,
+"n": 15
+},
+{
+"id": "16b8ed18c4",
+"v": "m",
+"u": "https://www.crn-yacht.com/en-us/",
+"s": 1,
+"m": 3,
 "t": 0,
 "r": 0,
 "ev": [
 [
 "proizvodnja",
-"…aganje tvrtke Lošinjska plovidba – Brodogradilište d.o.o. u sustav za proizvodnju električne energije iz obnovljivih izvora Referentni broj projekta: MF-2023-1-1-86 Nosit…"
-],
-[
-"gradnja čolnov",
-"…njsko brodogradilište datira iz 1850. godine, kada je bilo poznato po izgradnji najvećeg drvenog broda na Mediteranu i prvog čeličnog jedrenjaka u dvorištima istočnog J…"
+"…aves the way for a strategic expansion of Ferretti Group’s superyacht manufacturing capabilities. The expansion will increase the maximum yacht-building capability from 9…"
 ]
 ],
 "neg": [],
-"pages": 6,
+"pages": 1,
 "mix": 0,
 "pf": {
 "g": {
 "navtika": [
-[
-"Brodogradilište",
-"ladjedelnica"
-],
-[
-"brodogradnje",
-"ladjedelništvo"
-],
-[
-"PLOVILA",
-"plovila"
-]
-]
-},
-"q": [
-{
-"t": "Lošinjska plovidba - Brodogradilište d.o.o. - Lošinjska plovidba - Brodogradilište d.o.o. O nama Toggle Profil Kratke informacije Povijest Ulaganj…",
-"h": [
-[
-21,
-36,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradnja čolnov",
-"proizvodnja"
-]
-},
-{
-"id": "e797b79e14",
-"v": "M",
-"u": "https://www.aschenez.com/it/",
-"s": 5,
-"m": 2,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"infuzija",
-"…divisa dell’eccellenza. STAMPAGGIO VETRORESINA E FIBRA DI CARBONIO IN INFUSIONE L’intero processo di stampaggio avviene internamente, attraverso tecnologie di infusione…"
-],
-[
-"vetroresina",
-"…cisione, coerenza e una visione condivisa dell’eccellenza. STAMPAGGIO VETRORESINA E FIBRA DI CARBONIO IN INFUSIONE L’intero processo di stampaggio avviene internamente, at…"
-],
-[
-"karbon",
-"…nza e una visione condivisa dell’eccellenza. STAMPAGGIO VETRORESINA E FIBRA DI CARBONIO IN INFUSIONE L’intero processo di stampaggio avviene internamente, attraverso tecnologie…"
-],
-[
-"proizvodnja",
-"…Cantieri Aschenez Vai al contenuto Home Cantiere R&S Produzione Awards Brands INVICTUS YACHT CAPOFORTE MARCOPOLO Contatti Italiano English Italiano Home…"
-]
-],
-"neg": [],
-"pages": 3,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"costruzione di imbarcazioni",
-"gradnja plovil"
-],
 [
 "Shipyard",
 "ladjedelnica"
 ],
 [
-"barche",
-"čolni"
-],
-[
-"YACHTS",
+"megayachts",
 "jahte"
-]
-],
-"kalupi": [
-[
-"Stampaggio",
-"oblikovanje v kalupu"
-]
-],
-"laminiranje": [
-[
-"INFUSIONE",
-"infuzija"
-],
-[
-"RTM",
-"RTM (injekcija smole)"
-]
-],
-"stekloplastika": [
-[
-"VETRORESINA",
-"stekloplastika"
-],
-[
-"FIBRA DI CARBONIO",
-"karbon"
 ]
 ]
 },
 "q": [
 {
-"t": "…in stretta sinergia. Uffici Verniciatura Capoforte Magazzino Impianto Elettrico Stampaggio Invictus Vasca di prova Finitura Reparto RTM Stampaggio Capoforte Assemblaggio Invictus Carpenteria Divisione…",
+"t": "…September 23 - 9/26/2026 Monaco Yacht Show 2026 Read More Discover Visit us CRN Shipyard Via Enrico Mattei, 26 60125 Ancona Italy Get in touch Contacts Careers Media Center Member of ENG / ITA / 中文 …",
 "h": [
 [
 81,
-91,
-"kalupi"
-]
-]
-},
-{
-"t": "…I VERTICALI I cantieri Aschenez racchiudono oltre vent’anni di esperienza nella costruzione di imbarcazioni da diporto, all’interno di un sistema produttivo fortemente integrato, in cui fino al 90% delle lavorazioni è…",
-"h": [
-[
-81,
-108,
+89,
 "navtika"
 ]
 ]
@@ -45373,7 +46385,6 @@
 ]
 },
 "pr": [
-"gradnja čolnov",
 "proizvodnja"
 ]
 },
@@ -45475,79 +46486,6 @@
 "pr": []
 },
 {
-"id": "cb2f560810",
-"v": "N",
-"u": "https://www.novamarine.com/en/",
-"s": 2,
-"m": 0,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"GRP",
-"…ional rubberized fabric hulls into hulls entirely made of fibreglass (GRP). This turning point opened new horizons for the company, with a range from 260 to 430 cm…"
-],
-[
-"steklena vlakna",
-"…ubulars represent the company’s first steps. 1985 – New horizons with fibreglass 1985 New horizons with fibreglass In 1985, an innovative technique transformed traditiona…"
-]
-],
-"neg": [],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"yachts",
-"jahte"
-],
-[
-"boats",
-"čolni"
-],
-[
-"nautical",
-"navtika"
-]
-],
-"stekloplastika": [
-[
-"GRP",
-"stekloplastika"
-],
-[
-"fibreglass",
-"steklena vlakna"
-]
-]
-},
-"q": [
-{
-"t": "…med traditional rubberized fabric hulls into hulls entirely made of fibreglass (GRP). This turning point opened new horizons for the company, with a range from 260 to 430 cm, redefining the exp…",
-"h": [
-[
-81,
-84,
-"stekloplastika"
-]
-]
-},
-{
-"t": "… the company grew, producing up to 600 units a year, adopted as tenders by most yachts. 1990 – 1991 – Tender Jet Project 1990 – 1991 Tender Jet Project In the early 1990s, Novamarine launched the …",
-"h": [
-[
-81,
-87,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
-},
-{
 "id": "83bbe3bb60",
 "v": "N",
 "u": "https://www.tunenautic.si/",
@@ -45618,7 +46556,7 @@
 "g": {
 "navtika": [
 [
-"shipyard",
+"shipyards",
 "ladjedelnica"
 ],
 [
@@ -45629,11 +46567,11 @@
 },
 "q": [
 {
-"t": "…orials social media 23 Oct Fincantieri hosts acting Navy Secretary at Wisconsin shipyard Trieste, October 23, 2026 - Fincantieri Marine Group welcomed Acting Secretary of the Navy Hung Cao to its Ma…",
+"t": "…y qualified professionals who will contribute to the technological evolution of shipyards and to the integration of new technologies into production processes and onboard vessels... ) . 26 Oct Explor…",
 "h": [
 [
 81,
-89,
+90,
 "navtika"
 ]
 ]
@@ -45948,17 +46886,13 @@
 },
 {
 "id": "8dc843239a",
-"v": "N",
+"v": "T",
 "u": "https://www.morski.hr/",
-"s": 2,
-"m": 0,
-"t": 1,
+"s": 1,
+"m": 1,
+"t": 2,
 "r": 0,
 "ev": [
-[
-"obrat",
-"…a U Splitu se pokvario Jadrolinijin katamaran: \"Problem je na glavnom pogonskom motoru\" 22 lis. 2026 1 min. čitanja POKVARILA SE \"DALMACIJA\" Ništa od međunarodnih li…"
-],
 [
 "gradnja čolnov",
 "…rski.hr trebao bi biti upravo takva virtualna lokacija. Obala, otoci, brodogradnja, nautika, turizam, ribarstvo, ribolov, gastronomija, morska povijest i sadašnjost, ekolo…"
@@ -45968,9 +46902,13 @@
 [
 "charter",
 "…da stigla u London 23 lis. 2026 1 min. čitanja Jučer zatvoren Croatia Charter Expo, a jutros otvoren Croatia Luxury and Adventure Travel Show u Biogradu 22 lis. 2026 2…"
+],
+[
+"turizem",
+"…SVE 01 stu. 2026 6 min. čitanja CIJENA BEZ STRATEGIJE Slijedi li nam \"apartmanizacija\" mora? Hrvatski nautički turizam došao je do opasne prekretnice Pitanje rastu li…"
 ]
 ],
-"pages": 3,
+"pages": 2,
 "mix": 0,
 "pf": {
 "g": {
@@ -45980,16 +46918,16 @@
 "ladjedelništvo"
 ],
 [
-"zaplovili",
+"PLOVILO",
 "plovila"
 ],
 [
-"BRODICA",
+"brodici",
 "čolni"
 ],
 [
-"Yacht",
-"jahta"
+"Boat",
+"čoln"
 ]
 ]
 },
@@ -46007,8 +46945,7 @@
 ]
 },
 "pr": [
-"gradnja čolnov",
-"obrat"
+"gradnja čolnov"
 ]
 },
 {
@@ -46125,18 +47062,6 @@
 ]
 },
 {
-"id": "a45a8adf21",
-"v": "D",
-"u": "http://www.brodogradiliste-cres.hr/",
-"n": 0
-},
-{
-"id": "010deff93a",
-"v": "D",
-"u": "http://www.yacht.co.at/",
-"n": 0
-},
-{
 "id": "97d029f7a9",
 "v": "N",
 "u": "https://www.poessl-group.de/de/marken/roadcar",
@@ -46158,18 +47083,6 @@
 "n": 40
 },
 {
-"id": "d2ee391846",
-"v": "D",
-"u": "https://www.weilandboats.at/",
-"n": 0
-},
-{
-"id": "b3c0fe7531",
-"v": "D",
-"u": "https://www.vittoria.biz/",
-"n": 0
-},
-{
 "id": "59e063272d",
 "v": "N",
 "u": "https://www.zille.at/",
@@ -46183,12 +47096,6 @@
 "mix": 0,
 "pf": {},
 "pr": []
-},
-{
-"id": "1fa29ffc5f",
-"v": "D",
-"u": "http://remia-plast.hr/",
-"n": 0
 },
 {
 "id": "7c94b67822",
@@ -46251,12 +47158,6 @@
 ]
 },
 {
-"id": "658f1f6e5f",
-"v": "D",
-"u": "https://bootsbau-merlin.de/",
-"n": 0
-},
-{
 "id": "2c121c9255",
 "v": "N",
 "u": "https://terybet.it/it-it/",
@@ -46270,53 +47171,6 @@
 "mix": 0,
 "pf": {},
 "pr": []
-},
-{
-"id": "16b8ed18c4",
-"v": "m",
-"u": "https://www.crn-yacht.com/en-us/",
-"s": 1,
-"m": 3,
-"t": 0,
-"r": 0,
-"ev": [
-[
-"proizvodnja",
-"…aves the way for a strategic expansion of Ferretti Group’s superyacht manufacturing capabilities. The expansion will increase the maximum yacht-building capability from 9…"
-]
-],
-"neg": [],
-"pages": 1,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Shipyard",
-"ladjedelnica"
-],
-[
-"megayachts",
-"jahte"
-]
-]
-},
-"q": [
-{
-"t": "…September 23 - 9/26/2026 Monaco Yacht Show 2026 Read More Discover Visit us CRN Shipyard Via Enrico Mattei, 26 60125 Ancona Italy Get in touch Contacts Careers Media Center Member of ENG / ITA / 中文 …",
-"h": [
-[
-81,
-89,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"proizvodnja"
-]
 },
 {
 "id": "03a6b12001",
@@ -46353,70 +47207,6 @@
 ]
 },
 "pr": []
-},
-{
-"id": "a572686173",
-"v": "S",
-"u": "http://www.gruben.de/",
-"s": 1,
-"m": 1,
-"t": 1,
-"r": 2,
-"ev": [
-[
-"gradnja čolnov",
-"…Willkommen bei Gruben - Bootsbau » Startseite « Werft Boote Shop Wissenswertes Archiv Kontakt Sie befinden sich hier: Star…"
-]
-],
-"neg": [
-[
-"charter",
-"…rainer Gebrauchtboote - Übersicht der angebotenen Gebrauchtboote Yachtcharter - Weiterführender Link zum chartern von Yachten Shop - Übersicht der einzelnen Kategorien…"
-],
-[
-"rabljeni",
-"…- Vorstellung der Jolle Jeton Trainer - Vorstellung der Jolle Trainer Gebrauchtboote - Übersicht der angebotenen Gebrauchtboote Yachtcharter - Weiterführender Link zum chart…"
-],
-[
-"servis",
-"…elanleitung Pflegeanleitung - Informationen zum Thema Pflegeanleitung Reparaturhinweise - Informationen zum Thema Reparaturhinweise Sicherheitshinweise - Informationen z…"
-]
-],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Bootsbau",
-"gradnja čolnov"
-],
-[
-"Yachtcharter",
-"jahta"
-],
-[
-"Boote",
-"čolni"
-]
-]
-},
-"q": [
-{
-"t": "Willkommen bei Gruben - Bootsbau » Startseite « Werft Boote Shop Wissenswertes Archiv Kontakt Sie befinden sich hier: Startseite Messetermine …",
-"h": [
-[
-24,
-32,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradnja čolnov"
-]
 },
 {
 "id": "37c7128c4d",
@@ -46490,70 +47280,6 @@
 ]
 },
 {
-"id": "98f497af52",
-"v": "S",
-"u": "https://www.arkosboats.com/",
-"s": 1,
-"m": 1,
-"t": 0,
-"r": 2,
-"ev": [
-[
-"gradimo",
-"…ssi. In Arkos non assembliamo idee altrui: progettiamo, sviluppiamo e costruiamo ogni imbarcazione e gommone interamente all’interno dei nostri stabilimenti italiani. Une…"
-]
-],
-"neg": [
-[
-"rabljeni",
-"…ella potenza richiesta Gommoni Vai ai prodotti Barche Vai ai prodotti Usato Premium Vai ai prodotti 8 months ago 8 months ago 2 years ago 2 years ago 2 years ago 2 y…"
-],
-[
-"servis",
-"…dedicati Offriamo finanziamenti personalizzati in base alle esigenze Manutenzione garantita Per offrire ai nostri clienti la massima tranquillità ogni mezzo Arkos Usato Pr…"
-]
-],
-"pages": 4,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"imbarcazione",
-"plovila"
-],
-[
-"Barche",
-"čolni"
-],
-[
-"arkosboats",
-"čolni"
-],
-[
-"nautica",
-"navtika"
-]
-]
-},
-"q": [
-{
-"t": "…n Arkos non assembliamo idee altrui: progettiamo, sviluppiamo e costruiamo ogni imbarcazione e gommone interamente all’interno dei nostri stabilimenti italiani. Unendo nuove tecnologie idrodinamiche a u…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradimo"
-]
-},
-{
 "id": "fd2abfff6f",
 "v": "m",
 "u": "https://www.mondomarine.it/",
@@ -46603,121 +47329,6 @@
 },
 "pr": [
 "proizvodnja"
-]
-},
-{
-"id": "208885742d",
-"v": "D",
-"u": "https://fdtvo.com/?di=f3ef8b5d-ab0c-4b13-a068-ae03a176deef",
-"n": 0
-},
-{
-"id": "58bc63044a",
-"v": "T",
-"u": "https://www.solarwaterworld.de/",
-"s": 0,
-"m": 1,
-"t": 2,
-"r": 0,
-"ev": [],
-"neg": [
-[
-"charter",
-"…Spreefahrt Berlin | Nachhaltige Schiffstouren & Schiffe chartern Jobs Berlin Highlight Tour Solarschiff chartern Solarboot mieten Folge auf Instagram Fol…"
-],
-[
-"najem",
-"…r-Ahoi. Schifffahrt neu erleben! Bootstour Berlin Schiff chartern Bootverleih Berlin Die Solarwaterworld AG entwickelt Konzepte für den öffentlichen Nahverkehr unter E…"
-]
-],
-"pages": 2,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Boot",
-"čolni"
-]
-]
-},
-"q": [
-{
-"t": "…bot anfragen Noch Fragen? Solarboot mieten Solar-Ahoi Sonnenkapitäne Mehr Infos Boot mieten Noch Fragen? Folgen Sie Solarwaterworld und erleben Sie Berlin vom Wasser aus – mit exklusiven Einblic…",
-"h": [
-[
-81,
-85,
-"navtika"
-]
-]
-}
-]
-},
-"pr": []
-},
-{
-"id": "ed87a0df4b",
-"v": "S",
-"u": "https://scalaryachten.de/",
-"s": 1,
-"m": 1,
-"t": 0,
-"r": 2,
-"ev": [
-[
-"gradnja čolnov",
-"…Gemeinsam mit unserem Team präsentieren wir die ganze Bandbreite des Bootsbaus. Es erwartet Sie unser aktueller Neubau einer SCALAR 40 sowie zwei Refit-Projekte: eine…"
-]
-],
-"neg": [
-[
-"zimovanje",
-"…ftbetrieb mit dem familiären Yachthafen, Scalar-Yachtbau, Fullservice Winterlager und dem umfangreichen Reparaturbetrieb an. Gemeinsam mit unserem Team präsentieren wir di…"
-],
-[
-"servis",
-"…hafen, Scalar-Yachtbau, Fullservice Winterlager und dem umfangreichen Reparaturbetrieb an. Gemeinsam mit unserem Team präsentieren wir die ganze Bandbreite des Bootsbaus…"
-]
-],
-"pages": 1,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"Bootsbaus",
-"gradnja čolnov"
-],
-[
-"Bootswerft",
-"ladjedelnica"
-],
-[
-"Scalar-Yachtbau",
-"gradnja jaht"
-],
-[
-"Scalar-Yachten",
-"jahta"
-]
-]
-},
-"q": [
-{
-"t": "…etrieb an. Gemeinsam mit unserem Team präsentieren wir die ganze Bandbreite des Bootsbaus. Es erwartet Sie unser aktueller Neubau einer SCALAR 40 sowie zwei Refit-Projekte: eine SCALAR 34 und SCALAR …",
-"h": [
-[
-81,
-90,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
-"gradnja čolnov"
 ]
 },
 {
@@ -46834,9 +47445,9 @@
 "v": "M",
 "u": "https://www.fassmer.de/",
 "s": 5,
-"m": 1,
+"m": 2,
 "t": 0,
-"r": 0,
+"r": 1,
 "ev": [
 [
 "GRP",
@@ -46852,10 +47463,15 @@
 ],
 [
 "proizvodnja",
-"…@amazone_group 🚜 Unsere Azubis und Dualis haben sich die Landmaschinenproduktion… View post Quick access to our business areas Business areas Company Career English Germa…"
+"…contract … Learn more Fassmer 4 Dec 2025 Fassmer strengthens maritime manufacturing capabilities Berne/Stralsund, 4 December 2025 – The Fassmer Group is expanding its pro…"
 ]
 ],
-"neg": [],
+"neg": [
+[
+"servis",
+"…Stralsund ⚓ Die „Krebs Helios“ @krebsunternehmensgruppe ist der erste Reparaturauftrag für… View post Instagram 28 Oct 2026 Moin aus Stralsund!… View post Instagram 23 O…"
+]
+],
 "pages": 6,
 "mix": 0,
 "pf": {
@@ -46915,66 +47531,6 @@
 "pr": [
 "gradnja čolnov",
 "obrat",
-"proizvodnja"
-]
-},
-{
-"id": "4842cafaa4",
-"v": "S",
-"u": "https://www.nadirbattelli.it/",
-"s": 1,
-"m": 0,
-"t": 0,
-"r": 3,
-"ev": [
-[
-"proizvodnja",
-"…NZLFRZ64P14H501J- Via delle Scienze 4 - 01016 Tarquinia (VT) \n Nadir Produzione Gommoni Nadir Vocazione all'eccellenza Azienda Assistenza Prodotti Occasioni Contatti Nad…"
-]
-],
-"neg": [
-[
-"zimovanje",
-"…a motore fino ai 12 metri di lunghezza per l’Italia e per l’estero. x Rimessaggio Imbarcazioni rimessaggio imbarcazioni estiva, assistenza tecnica e custodia invernale anc…"
-],
-[
-"servis",
-"…l’estero. x Rimessaggio Imbarcazioni rimessaggio imbarcazioni estiva, assistenza tecnica e custodia invernale anche al coperto Nadir Battelli nascere con stile per vivere di pass…"
-]
-],
-"pages": 3,
-"mix": 0,
-"pf": {
-"g": {
-"navtika": [
-[
-"imbarcazioni",
-"plovila"
-],
-[
-"barche",
-"čolni"
-],
-[
-"Boat",
-"čoln"
-]
-]
-},
-"q": [
-{
-"t": "…r tutti i brand, offriamo la nostra presenza anche nei luoghi di ormeggio delle imbarcazioni, durante tutta la stagione invernale e estiva. x Trasporto Imbarcazioni attrezzati per il trasporto di imbarc…",
-"h": [
-[
-81,
-93,
-"navtika"
-]
-]
-}
-]
-},
-"pr": [
 "proizvodnja"
 ]
 },

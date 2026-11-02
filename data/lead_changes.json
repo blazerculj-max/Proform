@@ -1,4 +1,84 @@
 {
+"bf3157ec17": {
+"d": "2026-11-02",
+"ty": "model",
+"tx": "Omenja nov model: ICE 56ST, ICE56 ST"
+},
+"d98a20fb24": {
+"d": "2026-11-02",
+"ty": "model",
+"tx": "Omenja nov model: Media 10"
+},
+"e1c28fb6fc": {
+"d": "2026-11-02",
+"ty": "jobs",
+"tx": "Nov oglas za delo: «auer Wir freuen uns auf Ihre Aufgabe. Eric Inselmann und Team Aktuell Wir suchen zum 01.09.2022 einen Auszubildenden zum Bootsbauer. 80 und »"
+},
+"90ed193c22": {
+"d": "2026-11-02",
+"ty": "model",
+"tx": "Omenja nov model: Oasis 36M"
+},
+"5c19ad2bf6": {
+"d": "2026-11-02",
+"ty": "up",
+"tx": "Spletna stran spet deluje – ni dokazov."
+},
+"a954429dea": {
+"d": "2026-11-02",
+"ty": "model",
+"tx": "Omenja nov model: GTO 70"
+},
+"4e064f7a61": {
+"d": "2026-11-02",
+"ty": "down",
+"tx": "Spletna stran ne deluje več (prej: ni dokazov)."
+},
+"9d9117580e": {
+"d": "2026-11-02",
+"ty": "down",
+"tx": "Spletna stran ne deluje več (prej: potrjen proizvajalec)."
+},
+"fbe20a5f2e": {
+"d": "2026-11-02",
+"ty": "verdict",
+"tx": "Ocena strani: verjetno proizvaja → potrjen proizvajalec."
+},
+"3743314ffe": {
+"d": "2026-11-02",
+"ty": "down",
+"tx": "Spletna stran ne deluje več (prej: strani ni mogoče prebrati)."
+},
+"393f4e8354": {
+"d": "2026-11-02",
+"ty": "model",
+"tx": "Omenja nov model: Sturdy 470"
+},
+"03242eacf7": {
+"d": "2026-11-02",
+"ty": "up",
+"tx": "Spletna stran spet deluje – verjetno proizvaja."
+},
+"e81243656b": {
+"d": "2026-11-02",
+"ty": "verdict",
+"tx": "Ocena strani: verjetno proizvaja → strani ni mogoče prebrati."
+},
+"16b8ed18c4": {
+"d": "2026-11-02",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → verjetno proizvaja."
+},
+"a5deb3f8da": {
+"d": "2026-11-02",
+"ty": "model",
+"tx": "Omenja nov model: Instagram 30"
+},
+"daad272e13": {
+"d": "2026-11-02",
+"ty": "verdict",
+"tx": "Ocena strani: strani ni mogoče prebrati → verjetno proizvaja."
+},
 "011bc6870d": {
 "d": "2026-10-26",
 "ty": "jobs",
@@ -59,11 +139,6 @@
 "ty": "model",
 "tx": "Omenja nov model: C128 A, CODECASA 57, CODECASA 58"
 },
-"daad272e13": {
-"d": "2026-10-26",
-"ty": "model",
-"tx": "Omenja nov model: Project53"
-},
 "641ba9394d": {
 "d": "2026-10-19",
 "ty": "model",
@@ -114,11 +189,6 @@
 "ty": "model",
 "tx": "Omenja nov model: PEHN 532, PEHN 595"
 },
-"bf3157ec17": {
-"d": "2026-10-17",
-"ty": "model",
-"tx": "Omenja nov model: ICE 70, ICE80"
-},
 "cdeb0c2293": {
 "d": "2026-10-17",
 "ty": "model",
@@ -163,11 +233,6 @@
 "d": "2026-10-17",
 "ty": "model",
 "tx": "Omenja nov model: GRANSPORT 34, GRANSPORT 50, ICONA 70"
-},
-"90ed193c22": {
-"d": "2026-10-17",
-"ty": "model",
-"tx": "Omenja nov model: FB291"
 },
 "f9fc785f77": {
 "d": "2026-10-17",
