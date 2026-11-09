@@ -1,5 +1,68 @@
 [
 {
+"id": "772366-2026",
+"d": "2026-11-06",
+"t": "oddan",
+"cc": "hr",
+"buyer": "PLOVPUT d.o.o.",
+"title": "Izgradnja brodice – 15 m",
+"win": [
+"ISKRA brodogradilište 1 d.o.o."
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/772366-2026/html"
+},
+{
+"id": "774270-2026",
+"d": "2026-11-06",
+"t": "oddan",
+"cc": "at",
+"buyer": "BMI - Sekt IV/Grp A/Abt 3/Ref a",
+"title": "Einsatzboote bis 6,5 m",
+"win": [
+"Meyer Bootswerft"
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/774270-2026/html"
+},
+{
+"id": "774740-2026",
+"d": "2026-11-06",
+"t": "oddan",
+"cc": "at",
+"buyer": "BMI - Sekt IV/Grp A/Abt 3/Ref a",
+"title": "Einsatzboote bis 6,5 m",
+"win": [
+"Meyer Bootswerft GmbH"
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/774740-2026/html"
+},
+{
+"id": "767541-2026",
+"d": "2026-11-04",
+"t": "oddan",
+"cc": "de",
+"buyer": "Regierungspräsidium Stuttgart",
+"title": "Beschaffung eines Arbeitsbootes mit Bodenseezulassung für das LAD im Regierungspräsidium Stuttgart",
+"win": [
+"Kiebitzberg GmbH & Co.KG"
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/767541-2026/html"
+},
+{
+"id": "762235-2026",
+"d": "2026-11-03",
+"t": "odprt",
+"cc": "hr",
+"buyer": "PLOVPUT d.o.o.",
+"title": "Operativna brodica za potrebe plovnih područja",
+"win": [],
+"dl": "2026-12-03",
+"url": "https://ted.europa.eu/sl/notice/762235-2026/html"
+},
+{
 "id": "756303-2026",
 "d": "2026-10-30",
 "t": "oddan",
@@ -3526,67 +3589,5 @@
 "win": [],
 "dl": "2025-06-10",
 "url": "https://ted.europa.eu/sl/notice/300232-2025/html"
-},
-{
-"id": "292333-2025",
-"d": "2025-05-07",
-"t": "odprt",
-"cc": "fr",
-"buyer": "Régie du Port de Plaisance des Marines de Cogolin",
-"title": "Conception, Construction et fourniture d'une barge pour travaux portuaires",
-"win": [],
-"dl": "2025-06-10",
-"url": "https://ted.europa.eu/sl/notice/292333-2025/html"
-},
-{
-"id": "292494-2025",
-"d": "2025-05-07",
-"t": "oddan",
-"cc": "fr",
-"buyer": "Communauté de Communes Granville Terre et Mer",
-"title": "Achat de matériels nautique mis à disposition de la SPL 8 Milles Nautic Fourniture et livraison de pièces détachées du matériel nautique pour les besoins SPL 8 Milles Nautic",
-"win": [
-"CLINIQUE DE LA PLANCHE",
-"PORT STL NAUTISME",
-"Sextant centrale"
-],
-"dl": "",
-"url": "https://ted.europa.eu/sl/notice/292494-2025/html"
-},
-{
-"id": "294064-2025",
-"d": "2025-05-07",
-"t": "odprt",
-"cc": "sk",
-"buyer": "Slovenská technická univerzita v Bratislave",
-"title": "MATCHING GRANTY SVF STU – LABORATÓRNE PRÍSTROJE A VYBAVENIE“",
-"win": [],
-"dl": "2025-06-09",
-"url": "https://ted.europa.eu/sl/notice/294064-2025/html"
-},
-{
-"id": "294624-2025",
-"d": "2025-05-07",
-"t": "odprt",
-"cc": "pl",
-"buyer": "Gmina Miasto Augustów",
-"title": "Poprawa bezpieczeństwa w obszarze transgranicznym Polski i Ukrainy w zakresie ratownictwa",
-"win": [],
-"dl": "2025-06-10",
-"url": "https://ted.europa.eu/sl/notice/294624-2025/html"
-},
-{
-"id": "289826-2025",
-"d": "2025-05-06",
-"t": "oddan",
-"cc": "fr",
-"buyer": "Ville de la Seyne sur Mer",
-"title": "Fourniture, livraison et pose de matériels et d'équipements sportifs",
-"win": [
-"CASAL SPORT - SPORTS ET LOISIRS SAS",
-"ERPLAST"
-],
-"dl": "",
-"url": "https://ted.europa.eu/sl/notice/289826-2025/html"
 }
 ]

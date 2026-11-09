@@ -1,5 +1,95 @@
 [
 {
+"d": "2026-11-09",
+"id": "6b127d3cc3",
+"n": "Pehn Bootsbau",
+"ty": "model",
+"tx": "Omenja nov model: PEHN 532, PEHN 595",
+"t": "1",
+"km": 162
+},
+{
+"d": "2026-11-09",
+"id": "bbc083f3f3",
+"n": "Schellenbacher GmbH",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → potrjen proizvajalec.",
+"t": "1",
+"km": 209
+},
+{
+"d": "2026-11-09",
+"id": "d98a20fb24",
+"n": "MARSERVIS d. o. o.",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → potrjen proizvajalec.",
+"t": "2",
+"km": 137
+},
+{
+"d": "2026-11-09",
+"id": "89f7c73a3a",
+"n": "Sacs Marine",
+"ty": "model",
+"tx": "Omenja nov model: SACS 22",
+"t": "2",
+"km": 369
+},
+{
+"d": "2026-11-09",
+"id": "2d4675a828",
+"n": "KTM",
+"ty": "model",
+"tx": "Omenja nov model: KTM 250 SX, Racing 250",
+"t": "2",
+"km": 198
+},
+{
+"d": "2026-11-09",
+"id": "99709c0bd9",
+"n": "Pershing",
+"ty": "model",
+"tx": "Omenja nov model: All 140",
+"t": "2",
+"km": 308
+},
+{
+"d": "2026-11-09",
+"id": "6814a1e262",
+"n": "Azimut",
+"ty": "model",
+"tx": "Omenja nov model: Grande 30M",
+"t": "2",
+"km": 538
+},
+{
+"d": "2026-11-09",
+"id": "bae6412382",
+"n": "RIBO REPAIR GmbH",
+"ty": "verdict",
+"tx": "Ocena strani: verjetno proizvaja → ni dokazov.",
+"t": "",
+"km": 890
+},
+{
+"d": "2026-11-09",
+"id": "7189d7a92e",
+"n": "RS Sailing",
+"ty": "model",
+"tx": "Omenja nov model: RS21",
+"t": "3",
+"km": 851
+},
+{
+"d": "2026-11-09",
+"id": "8dc843239a",
+"n": "Morski Vuk d.o.o.",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → charter / turizem.",
+"t": "3",
+"km": null
+},
+{
 "d": "2026-11-02",
 "id": "bf3157ec17",
 "n": "Ice Yachts",

@@ -1,13 +1,58 @@
 {
+"6b127d3cc3": {
+"d": "2026-11-09",
+"ty": "model",
+"tx": "Omenja nov model: PEHN 532, PEHN 595"
+},
+"bbc083f3f3": {
+"d": "2026-11-09",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → potrjen proizvajalec."
+},
+"d98a20fb24": {
+"d": "2026-11-09",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → potrjen proizvajalec."
+},
+"89f7c73a3a": {
+"d": "2026-11-09",
+"ty": "model",
+"tx": "Omenja nov model: SACS 22"
+},
+"2d4675a828": {
+"d": "2026-11-09",
+"ty": "model",
+"tx": "Omenja nov model: KTM 250 SX, Racing 250"
+},
+"99709c0bd9": {
+"d": "2026-11-09",
+"ty": "model",
+"tx": "Omenja nov model: All 140"
+},
+"6814a1e262": {
+"d": "2026-11-09",
+"ty": "model",
+"tx": "Omenja nov model: Grande 30M"
+},
+"bae6412382": {
+"d": "2026-11-09",
+"ty": "verdict",
+"tx": "Ocena strani: verjetno proizvaja → ni dokazov."
+},
+"7189d7a92e": {
+"d": "2026-11-09",
+"ty": "model",
+"tx": "Omenja nov model: RS21"
+},
+"8dc843239a": {
+"d": "2026-11-09",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → charter / turizem."
+},
 "bf3157ec17": {
 "d": "2026-11-02",
 "ty": "model",
 "tx": "Omenja nov model: ICE 56ST, ICE56 ST"
-},
-"d98a20fb24": {
-"d": "2026-11-02",
-"ty": "model",
-"tx": "Omenja nov model: Media 10"
 },
 "e1c28fb6fc": {
 "d": "2026-11-02",
@@ -119,11 +164,6 @@
 "ty": "down",
 "tx": "Spletna stran ne deluje več (prej: strani ni mogoče prebrati)."
 },
-"6814a1e262": {
-"d": "2026-10-26",
-"ty": "model",
-"tx": "Omenja nov model: ARAZZE 05"
-},
 "785edc7d72": {
 "d": "2026-10-26",
 "ty": "verdict",
@@ -183,11 +223,6 @@
 "d": "2026-10-17",
 "ty": "model",
 "tx": "Omenja nov model: Leidi 660, Leidi 800R, Leidi 990"
-},
-"6b127d3cc3": {
-"d": "2026-10-17",
-"ty": "model",
-"tx": "Omenja nov model: PEHN 532, PEHN 595"
 },
 "cdeb0c2293": {
 "d": "2026-10-17",
