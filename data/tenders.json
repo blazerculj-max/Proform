@@ -1,5 +1,66 @@
 [
 {
+"id": "792902-2026",
+"d": "2026-11-16",
+"t": "oddan",
+"cc": "de",
+"buyer": "Carl von Ossietzky Universität Oldenburg",
+"title": "Lieferung eines Forschungskatamarans",
+"win": [
+"Blyth Catamarans"
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/792902-2026/html"
+},
+{
+"id": "795917-2026",
+"d": "2026-11-16",
+"t": "oddan",
+"cc": "pl",
+"buyer": "Dyrekcja Rozbudowy Miasta Gdańska działająca w imieniu i na rzecz Gminy Miasta Gdańska",
+"title": "Dostawa wyposażenia do pracowni w Zespole Szkół Morskich w Gdańsku przy ul. Wyzwolenia, w ramach projektu: Gdańsk miastem zawodowców rozwój infrastruktury i wyposażenie szkół zawodowych w Gdańsku – etap II – Część C",
+"win": [],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/795917-2026/html"
+},
+{
+"id": "791846-2026",
+"d": "2026-11-13",
+"t": "oddan",
+"cc": "at",
+"buyer": "BMI - Sekt IV/Grp A/Abt 3/Ref a",
+"title": "Einsatzboote bis 7,5 m",
+"win": [
+"Meyer Bootswerft GmbH"
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/791846-2026/html"
+},
+{
+"id": "791860-2026",
+"d": "2026-11-13",
+"t": "oddan",
+"cc": "pl",
+"buyer": "Państwowe Gospodarstwo Wodne Wody Polskie",
+"title": "Zakup pojazdów specjalistycznych dla Zarządu Zlewni w Elblągu",
+"win": [
+"Firma Handlowo Usługowa HERO Tomasz Giza"
+],
+"dl": "",
+"url": "https://ted.europa.eu/sl/notice/791860-2026/html"
+},
+{
+"id": "780578-2026",
+"d": "2026-11-10",
+"t": "odprt",
+"cc": "pl",
+"buyer": "KOMENDA GŁÓWNA POLICJI",
+"title": "Dostawa 1 szt. + 1 sztuki w ramach prawa opcji policyjnej łodzi morskiej typu RIB kategorii R – 1",
+"win": [],
+"dl": "2026-12-07",
+"url": "https://ted.europa.eu/sl/notice/780578-2026/html"
+},
+{
 "id": "772366-2026",
 "d": "2026-11-06",
 "t": "oddan",
@@ -3541,53 +3602,5 @@
 ],
 "dl": "",
 "url": "https://ted.europa.eu/sl/notice/319906-2025/html"
-},
-{
-"id": "304379-2025",
-"d": "2025-05-13",
-"t": "odprt",
-"cc": "hr",
-"buyer": "MINISTARSTVO UNUTARNJIH POSLOVA",
-"title": "Kompleti za osposobljavanje",
-"win": [],
-"dl": "2025-05-27",
-"url": "https://ted.europa.eu/sl/notice/304379-2025/html"
-},
-{
-"id": "304588-2025",
-"d": "2025-05-13",
-"t": "oddan",
-"cc": "pl",
-"buyer": "Morska Służba Poszukiwania i Ratownictwa",
-"title": "Dostawa 2 specjalistycznych ratowniczych jednostek pływających (łodzi ratowniczych kabinowych) na Zalew Wiślany oraz Zalew Szczeciński wraz ze współdziałającymi urządzeniami wspomagającymi.",
-"win": [
-"Swede Ship Marine Aktiebolag"
-],
-"dl": "",
-"url": "https://ted.europa.eu/sl/notice/304588-2025/html"
-},
-{
-"id": "307551-2025",
-"d": "2025-05-13",
-"t": "oddan",
-"cc": "de",
-"buyer": "Bundesamt für Ausrüstung, Informationstechnik und Nutzung der Bundeswehr",
-"title": "Abgasanlagenteilbaugruppe, Abgasschnorchel, Schleuse",
-"win": [
-"thyssenkrupp Marine Systems Services GmbH"
-],
-"dl": "",
-"url": "https://ted.europa.eu/sl/notice/307551-2025/html"
-},
-{
-"id": "300232-2025",
-"d": "2025-05-12",
-"t": "odprt",
-"cc": "pl",
-"buyer": "Komenda Wojewódzka Policji w Łodzi",
-"title": "Dostawa dwóch samochodów wraz z łodziami typu RIB i przyczepami podłodziowymi",
-"win": [],
-"dl": "2025-06-10",
-"url": "https://ted.europa.eu/sl/notice/300232-2025/html"
 }
 ]

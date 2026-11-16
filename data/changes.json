@@ -1,5 +1,167 @@
 [
 {
+"d": "2026-11-16",
+"id": "ef0f4229cc",
+"n": "Cantieri Mimi",
+"ty": "model",
+"tx": "Omenja nov model: Libeccio 13",
+"t": "2",
+"km": 621
+},
+{
+"d": "2026-11-16",
+"id": "50b7f20fc5",
+"n": "Canados",
+"ty": "verdict",
+"tx": "Ocena strani: potrjen proizvajalec → strani ni mogoče prebrati.",
+"t": "2",
+"km": null
+},
+{
+"d": "2026-11-16",
+"id": "e1c28fb6fc",
+"n": "Inselmann H. & Sohn Bootswerft GmbH",
+"ty": "jobs",
+"tx": "Nov oglas za delo: «auer Wir freuen uns auf Ihre Aufgabe. Eric Inselmann und Team Aktuell Wir suchen zum 01.09.2022 einen Auszubildenden zum Bootsbauer. 80 und »",
+"t": "2",
+"km": 876
+},
+{
+"d": "2026-11-16",
+"id": "9c2b017cbd",
+"n": "Janmor",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → verjetno proizvaja.",
+"t": "2",
+"km": 739
+},
+{
+"d": "2026-11-16",
+"id": "44dac067ee",
+"n": "Scheepswerf Vooruit",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → verjetno proizvaja.",
+"t": "2",
+"km": 941
+},
+{
+"d": "2026-11-16",
+"id": "9d08476e15",
+"n": "Ferretti Group - Ravenna",
+"ty": "model",
+"tx": "Omenja nov model: Riva 96",
+"t": "2",
+"km": 261
+},
+{
+"d": "2026-11-16",
+"id": "192427a16f",
+"n": "Ferretti Yachts",
+"ty": "model",
+"tx": "Omenja nov model: Riva 96",
+"t": "2",
+"km": 292
+},
+{
+"d": "2026-11-16",
+"id": "6b85937d58",
+"n": "Riva",
+"ty": "model",
+"tx": "Omenja nov model: Riva 96",
+"t": "2",
+"km": 327
+},
+{
+"d": "2026-11-16",
+"id": "90ed193c22",
+"n": "Benetti",
+"ty": "model",
+"tx": "Omenja nov model: OASIS 36M",
+"t": "2",
+"km": 413
+},
+{
+"d": "2026-11-16",
+"id": "2d4675a828",
+"n": "KTM",
+"ty": "verdict",
+"tx": "Ocena strani: potrjen proizvajalec → ni dokazov.",
+"t": "2",
+"km": 198
+},
+{
+"d": "2026-11-16",
+"id": "59cf7061fc",
+"n": "Pirelli",
+"ty": "model",
+"tx": "Omenja nov model: LEVEL 16",
+"t": "3",
+"km": 367
+},
+{
+"d": "2026-11-16",
+"id": "0429a6987d",
+"n": "Oswald Iden Engineering Bremen",
+"ty": "verdict",
+"tx": "Ocena strani: verjetno proizvaja → ni dokazov.",
+"t": "",
+"km": 828
+},
+{
+"d": "2026-11-16",
+"id": "795b56d48b",
+"n": "Beaconax UG",
+"ty": "up",
+"tx": "Spletna stran spet deluje – strani ni mogoče prebrati.",
+"t": "",
+"km": 868
+},
+{
+"d": "2026-11-16",
+"id": "d82fc3aae5",
+"n": "Conit Solutions S.r.l.",
+"ty": "up",
+"tx": "Spletna stran spet deluje – strani ni mogoče prebrati.",
+"t": "3",
+"km": 83
+},
+{
+"d": "2026-11-16",
+"id": "59e063272d",
+"n": "Zillenbau Königsdorfer",
+"ty": "down",
+"tx": "Spletna stran ne deluje več (prej: ni dokazov).",
+"t": "",
+"km": 219
+},
+{
+"d": "2026-11-16",
+"id": "9d9117580e",
+"n": "Van den Andel, Papendrecht",
+"ty": "up",
+"tx": "Spletna stran spet deluje – potrjen proizvajalec.",
+"t": "3",
+"km": 948
+},
+{
+"d": "2026-11-16",
+"id": "814c9056f3",
+"n": "Numo Yachts",
+"ty": "up",
+"tx": "Spletna stran spet deluje – strani ni mogoče prebrati.",
+"t": "3",
+"km": null
+},
+{
+"d": "2026-11-16",
+"id": "a5deb3f8da",
+"n": "Fassmer",
+"ty": "model",
+"tx": "Omenja nov model: Instagram 12",
+"t": "3",
+"km": 849
+},
+{
 "d": "2026-11-09",
 "id": "6b127d3cc3",
 "n": "Pehn Bootsbau",

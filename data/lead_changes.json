@@ -1,4 +1,94 @@
 {
+"ef0f4229cc": {
+"d": "2026-11-16",
+"ty": "model",
+"tx": "Omenja nov model: Libeccio 13"
+},
+"50b7f20fc5": {
+"d": "2026-11-16",
+"ty": "verdict",
+"tx": "Ocena strani: potrjen proizvajalec → strani ni mogoče prebrati."
+},
+"e1c28fb6fc": {
+"d": "2026-11-16",
+"ty": "jobs",
+"tx": "Nov oglas za delo: «auer Wir freuen uns auf Ihre Aufgabe. Eric Inselmann und Team Aktuell Wir suchen zum 01.09.2022 einen Auszubildenden zum Bootsbauer. 80 und »"
+},
+"9c2b017cbd": {
+"d": "2026-11-16",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → verjetno proizvaja."
+},
+"44dac067ee": {
+"d": "2026-11-16",
+"ty": "verdict",
+"tx": "Ocena strani: ni dokazov → verjetno proizvaja."
+},
+"9d08476e15": {
+"d": "2026-11-16",
+"ty": "model",
+"tx": "Omenja nov model: Riva 96"
+},
+"192427a16f": {
+"d": "2026-11-16",
+"ty": "model",
+"tx": "Omenja nov model: Riva 96"
+},
+"6b85937d58": {
+"d": "2026-11-16",
+"ty": "model",
+"tx": "Omenja nov model: Riva 96"
+},
+"90ed193c22": {
+"d": "2026-11-16",
+"ty": "model",
+"tx": "Omenja nov model: OASIS 36M"
+},
+"2d4675a828": {
+"d": "2026-11-16",
+"ty": "verdict",
+"tx": "Ocena strani: potrjen proizvajalec → ni dokazov."
+},
+"59cf7061fc": {
+"d": "2026-11-16",
+"ty": "model",
+"tx": "Omenja nov model: LEVEL 16"
+},
+"0429a6987d": {
+"d": "2026-11-16",
+"ty": "verdict",
+"tx": "Ocena strani: verjetno proizvaja → ni dokazov."
+},
+"795b56d48b": {
+"d": "2026-11-16",
+"ty": "up",
+"tx": "Spletna stran spet deluje – strani ni mogoče prebrati."
+},
+"d82fc3aae5": {
+"d": "2026-11-16",
+"ty": "up",
+"tx": "Spletna stran spet deluje – strani ni mogoče prebrati."
+},
+"59e063272d": {
+"d": "2026-11-16",
+"ty": "down",
+"tx": "Spletna stran ne deluje več (prej: ni dokazov)."
+},
+"9d9117580e": {
+"d": "2026-11-16",
+"ty": "up",
+"tx": "Spletna stran spet deluje – potrjen proizvajalec."
+},
+"814c9056f3": {
+"d": "2026-11-16",
+"ty": "up",
+"tx": "Spletna stran spet deluje – strani ni mogoče prebrati."
+},
+"a5deb3f8da": {
+"d": "2026-11-16",
+"ty": "model",
+"tx": "Omenja nov model: Instagram 12"
+},
 "6b127d3cc3": {
 "d": "2026-11-09",
 "ty": "model",
@@ -18,11 +108,6 @@
 "d": "2026-11-09",
 "ty": "model",
 "tx": "Omenja nov model: SACS 22"
-},
-"2d4675a828": {
-"d": "2026-11-09",
-"ty": "model",
-"tx": "Omenja nov model: KTM 250 SX, Racing 250"
 },
 "99709c0bd9": {
 "d": "2026-11-09",
@@ -54,16 +139,6 @@
 "ty": "model",
 "tx": "Omenja nov model: ICE 56ST, ICE56 ST"
 },
-"e1c28fb6fc": {
-"d": "2026-11-02",
-"ty": "jobs",
-"tx": "Nov oglas za delo: «auer Wir freuen uns auf Ihre Aufgabe. Eric Inselmann und Team Aktuell Wir suchen zum 01.09.2022 einen Auszubildenden zum Bootsbauer. 80 und »"
-},
-"90ed193c22": {
-"d": "2026-11-02",
-"ty": "model",
-"tx": "Omenja nov model: Oasis 36M"
-},
 "5c19ad2bf6": {
 "d": "2026-11-02",
 "ty": "up",
@@ -78,11 +153,6 @@
 "d": "2026-11-02",
 "ty": "down",
 "tx": "Spletna stran ne deluje več (prej: ni dokazov)."
-},
-"9d9117580e": {
-"d": "2026-11-02",
-"ty": "down",
-"tx": "Spletna stran ne deluje več (prej: potrjen proizvajalec)."
 },
 "fbe20a5f2e": {
 "d": "2026-11-02",
@@ -113,11 +183,6 @@
 "d": "2026-11-02",
 "ty": "verdict",
 "tx": "Ocena strani: ni dokazov → verjetno proizvaja."
-},
-"a5deb3f8da": {
-"d": "2026-11-02",
-"ty": "model",
-"tx": "Omenja nov model: Instagram 30"
 },
 "daad272e13": {
 "d": "2026-11-02",
@@ -253,16 +318,6 @@
 "d": "2026-10-17",
 "ty": "model",
 "tx": "Omenja nov model: A62"
-},
-"192427a16f": {
-"d": "2026-10-17",
-"ty": "model",
-"tx": "Omenja nov model: Itama 70"
-},
-"6b85937d58": {
-"d": "2026-10-17",
-"ty": "model",
-"tx": "Omenja nov model: Division 54, Riva 54"
 },
 "6f265375c6": {
 "d": "2026-10-17",

@@ -371,7 +371,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.b-yachts.com/",
-"pend": null
+"pend": "D"
 },
 "d71fe324c4": {
 "v": "N",
@@ -517,22 +517,6 @@
 "web": "http://www.cantieridisarnico.it/",
 "pend": null
 },
-"f28ead467d": {
-"v": "m",
-"mo": [],
-"jobs": "",
-"web": "https://mylius.it/",
-"pend": null
-},
-"5f17730a85": {
-"v": "M",
-"mo": [
-"Solaris 44"
-],
-"jobs": "",
-"web": "https://www.solarisyachts.com/",
-"pend": null
-},
 "b5f1da3e32": {
 "v": "M",
 "mo": [],
@@ -575,13 +559,6 @@
 "web": "https://www.jonascatamaran.cz/",
 "pend": null
 },
-"0a71c5141b": {
-"v": "M",
-"mo": [],
-"jobs": "",
-"web": "https://filippettiyachts.com/",
-"pend": null
-},
 "630e0a14fc": {
 "v": "M",
 "mo": [],
@@ -595,6 +572,13 @@
 "jobs": "",
 "web": "https://bwc-illmensee.de/",
 "pend": null
+},
+"7070db7d5d": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "https://www.ott-yacht.de/",
+"pend": "M"
 },
 "855f1404c7": {
 "v": "M",
@@ -663,7 +647,9 @@
 },
 "ef0f4229cc": {
 "v": "M",
-"mo": [],
+"mo": [
+"Libeccio 13"
+],
 "jobs": "",
 "web": "https://gozzimimi.it/",
 "pend": null
@@ -684,6 +670,13 @@
 "jobs": "",
 "web": "https://nauticaesposito.com/",
 "pend": null
+},
+"f28ead467d": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "https://mylius.it/",
+"pend": "D"
 },
 "19b00e3eb1": {
 "v": "N",
@@ -762,15 +755,6 @@
 "web": "https://www.sea-and-yachting.com/",
 "pend": null
 },
-"641ba9394d": {
-"v": "M",
-"mo": [
-"Solaris 44"
-],
-"jobs": "",
-"web": "https://www.solarisyachts.com/",
-"pend": null
-},
 "c1067b1037": {
 "v": "m",
 "mo": [],
@@ -841,6 +825,13 @@
 "web": "https://www.cantiericapelli.com/",
 "pend": null
 },
+"5f17730a85": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://www.solarisyachts.com/",
+"pend": "D"
+},
 "db351244b9": {
 "v": "M",
 "mo": [],
@@ -880,6 +871,13 @@
 "web": "https://www.swisscatyacht.com/",
 "pend": null
 },
+"54e4c3f144": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://i-boat.eu/",
+"pend": null
+},
 "4b7816c4ff": {
 "v": "M",
 "mo": [],
@@ -913,6 +911,13 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.carnevaliyachts.com/en/home/",
+"pend": null
+},
+"0a71c5141b": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://filippettiyachts.com/",
 "pend": "D"
 },
 "c7cb6abe8b": {
@@ -934,13 +939,6 @@
 "mo": [],
 "jobs": "",
 "web": "http://www.lolivul.com/hr/",
-"pend": null
-},
-"7070db7d5d": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "https://www.ott-yacht.de/",
 "pend": null
 },
 "3c0da3cbda": {
@@ -1006,6 +1004,13 @@
 "web": "https://www.modelleriatardivo.it/it/modelleria-tardivo/",
 "pend": null
 },
+"575f652677": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "https://www.faaborg-vaerft.dk/",
+"pend": null
+},
 "96ac21a467": {
 "v": "M",
 "mo": [],
@@ -1048,27 +1053,6 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.charles.cz/",
-"pend": null
-},
-"a6e32d8a01": {
-"v": "m",
-"mo": [],
-"jobs": "",
-"web": "https://tuccolitechnologyboats.com/",
-"pend": null
-},
-"a5ccb5e4b9": {
-"v": "m",
-"mo": [],
-"jobs": "",
-"web": "https://sangiorgiomarine.com/",
-"pend": null
-},
-"8b72eb60dd": {
-"v": "m",
-"mo": [],
-"jobs": "",
-"web": "https://nassimayacht.com/it/",
 "pend": null
 },
 "f23c2a4307": {
@@ -1129,13 +1113,6 @@
 "web": "https://www.gcb-ag.com/",
 "pend": null
 },
-"83227d2922": {
-"v": "M",
-"mo": [],
-"jobs": "",
-"web": "https://aiconyachts.com/",
-"pend": null
-},
 "546d54b71e": {
 "v": "M",
 "mo": [],
@@ -1187,13 +1164,6 @@
 "web": "https://www.absoluteyachts.com/en/",
 "pend": null
 },
-"575f652677": {
-"v": "m",
-"mo": [],
-"jobs": "",
-"web": "https://www.faaborg-vaerft.dk/",
-"pend": "D"
-},
 "5c21c9523c": {
 "v": "D",
 "mo": [],
@@ -1229,11 +1199,16 @@
 "web": "http://www.tyachts.it/",
 "pend": null
 },
+"641ba9394d": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://www.solarisyachts.com/",
+"pend": "D"
+},
 "f02e749cbf": {
 "v": "m",
-"mo": [
-"GX42"
-],
+"mo": [],
 "jobs": "",
 "web": "https://gx-superyachts.com/",
 "pend": null
@@ -1245,12 +1220,33 @@
 "web": "http://www.francescocrosera.com/",
 "pend": null
 },
+"a6e32d8a01": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "https://tuccolitechnologyboats.com/",
+"pend": "D"
+},
+"a5ccb5e4b9": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "https://sangiorgiomarine.com/",
+"pend": "D"
+},
 "1163b10803": {
 "v": "M",
 "mo": [],
 "jobs": "",
 "web": "https://www.salpa.com/",
 "pend": null
+},
+"8b72eb60dd": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "https://nassimayacht.com/it/",
+"pend": "D"
 },
 "dbb6cc0565": {
 "v": "m",
@@ -1287,32 +1283,18 @@
 "web": "https://xylon-werk.de/",
 "pend": null
 },
-"54e4c3f144": {
-"v": "M",
-"mo": [],
-"jobs": "",
-"web": "https://i-boat.eu/",
-"pend": "D"
-},
 "50b7f20fc5": {
-"v": "M",
+"v": "X",
 "mo": [],
 "jobs": "",
 "web": "https://www.canados.com/",
-"pend": "X"
+"pend": null
 },
 "4b2f7f5188": {
 "v": "M",
 "mo": [],
 "jobs": "",
 "web": "https://gade-boote.de/",
-"pend": null
-},
-"ba167adfb0": {
-"v": "M",
-"mo": [],
-"jobs": "",
-"web": "https://africancats.com/",
 "pend": null
 },
 "b40c4cd4c9": {
@@ -1369,13 +1351,6 @@
 "mo": [],
 "jobs": "",
 "web": "http://www.pro-nautik.ch/",
-"pend": null
-},
-"6df8572a7a": {
-"v": "M",
-"mo": [],
-"jobs": "",
-"web": "https://fwag.ch/",
 "pend": null
 },
 "4ac0820c3e": {
@@ -1499,13 +1474,6 @@
 "web": "http://www.solemar-nautica.com/",
 "pend": null
 },
-"b96a600f05": {
-"v": "m",
-"mo": [],
-"jobs": "",
-"web": "http://www.lillia.it/",
-"pend": "D"
-},
 "a1927954fa": {
 "v": "M",
 "mo": [],
@@ -1567,12 +1535,26 @@
 "web": "https://bwa.it/",
 "pend": null
 },
+"925e762b36": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://ris-marine.hr/",
+"pend": "D"
+},
 "17f614e328": {
 "v": "m",
 "mo": [],
 "jobs": "",
 "web": "https://www.laika.it/en/",
 "pend": null
+},
+"78bd9aefdc": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://pavliqoti.com/",
+"pend": "D"
 },
 "19f48e9fdb": {
 "v": "m",
@@ -1651,26 +1633,33 @@
 "web": "https://bootswerft-maleika.de/",
 "pend": null
 },
-"ab0f43824f": {
+"e1c28fb6fc": {
+"v": "D",
+"mo": [],
+"jobs": "auer Wir freuen uns auf Ihre Aufgabe. Eric Inselmann und Team Aktuell Wir suchen zum 01.09.2022 einen Auszubildenden zum Bootsbauer. 80 und 20 t Bootslifte 30 to 2-Rumpfversorger 40 to Pilot",
+"web": "https://www.bootswerft-inselmann.de/",
+"pend": "M"
+},
+"83227d2922": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://aiconyachts.com/",
+"pend": "X"
+},
+"9c2b017cbd": {
 "v": "m",
 "mo": [],
 "jobs": "",
-"web": "https://ideamarine.eu/",
+"web": "https://janmor.com.pl/",
 "pend": null
 },
-"9c2b017cbd": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://janmor.com.pl/",
-"pend": "m"
-},
 "44dac067ee": {
-"v": "N",
+"v": "m",
 "mo": [],
 "jobs": "",
 "web": "https://amsterdamyachtservice.com/",
-"pend": "m"
+"pend": null
 },
 "34c58a8530": {
 "v": "M",
@@ -1682,7 +1671,7 @@
 "9d08476e15": {
 "v": "M",
 "mo": [
-"Itama 70"
+"Riva 96"
 ],
 "jobs": "",
 "web": "https://www.ferrettigroup.com/en-us/",
@@ -1691,7 +1680,7 @@
 "192427a16f": {
 "v": "M",
 "mo": [
-"Itama 70"
+"Riva 96"
 ],
 "jobs": "",
 "web": "https://www.ferrettigroup.com/en-us/",
@@ -1699,7 +1688,9 @@
 },
 "6b85937d58": {
 "v": "M",
-"mo": [],
+"mo": [
+"Riva 96"
+],
 "jobs": "",
 "web": "https://www.riva-yacht.com/en-us/",
 "pend": null
@@ -1738,6 +1729,13 @@
 "jobs": "",
 "web": "https://www.nussbaumerboote.ch/",
 "pend": null
+},
+"6df8572a7a": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://fwag.ch/",
+"pend": "m"
 },
 "1d16be67b8": {
 "v": "M",
@@ -1865,13 +1863,6 @@
 "web": "http://www.dinamicayachts.com/",
 "pend": null
 },
-"fbe0a486e2": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "https://raffaelliyacht.com/",
-"pend": null
-},
 "4ab99cb628": {
 "v": "D",
 "mo": [],
@@ -1986,6 +1977,13 @@
 "web": "http://www.piolti.it/",
 "pend": null
 },
+"ab0f43824f": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "https://ideamarine.eu/",
+"pend": "D"
+},
 "80cb3d324d": {
 "v": "D",
 "mo": [],
@@ -2037,6 +2035,13 @@
 "jobs": "",
 "web": "https://www.marumo-composit.com/",
 "pend": null
+},
+"6719ad024e": {
+"v": "S",
+"mo": [],
+"jobs": "",
+"web": "https://seagame.it/",
+"pend": "D"
 },
 "5e8b6a89d7": {
 "v": "N",
@@ -2155,7 +2160,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://bimax.it/",
-"pend": null
+"pend": "D"
 },
 "6824fcc2a4": {
 "v": "N",
@@ -2203,9 +2208,7 @@
 },
 "0f641ddb36": {
 "v": "m",
-"mo": [
-"Weiterlesen 06"
-],
+"mo": [],
 "jobs": "",
 "web": "https://www.knaustabbert.de/",
 "pend": null
@@ -2214,7 +2217,7 @@
 "v": "m",
 "mo": [
 "FB291",
-"Oasis 36M"
+"OASIS 36M"
 ],
 "jobs": "",
 "web": "https://benettiyachts.com/",
@@ -2451,14 +2454,14 @@
 "pend": null
 },
 "2d4675a828": {
-"v": "M",
+"v": "N",
 "mo": [
 "KTM 250 SX",
 "Racing 250"
 ],
 "jobs": "",
 "web": "https://www.ktm.com/en-si.html",
-"pend": "N"
+"pend": null
 },
 "d15eaf4f7e": {
 "v": "D",
@@ -2746,7 +2749,7 @@
 "v": "N",
 "mo": [],
 "jobs": "",
-"web": "https://www.andoc.info/",
+"web": "https://www.allianzbellaria.it/",
 "pend": null
 },
 "87bafe5769": {
@@ -2922,7 +2925,7 @@
 "mo": [],
 "jobs": "",
 "web": "http://www.cantieridelmediterraneo.net/",
-"pend": "D"
+"pend": null
 },
 "1fd9e991e4": {
 "v": "N",
@@ -2978,7 +2981,7 @@
 "mo": [],
 "jobs": "",
 "web": "http://www.expression-boat.com/",
-"pend": null
+"pend": "N"
 },
 "007172fe9e": {
 "v": "D",
@@ -3071,6 +3074,13 @@
 "web": "http://vikoyachts.com/",
 "pend": null
 },
+"b96a600f05": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "http://www.lillia.it/",
+"pend": null
+},
 "797eb49f53": {
 "v": "D",
 "mo": [],
@@ -3146,13 +3156,6 @@
 "mo": [],
 "jobs": "",
 "web": "https://eurovinil.it/it/",
-"pend": null
-},
-"6719ad024e": {
-"v": "S",
-"mo": [],
-"jobs": "",
-"web": "https://seagame.it/",
 "pend": null
 },
 "39f973b36c": {
@@ -3288,7 +3291,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://sun-marine.de/",
-"pend": null
+"pend": "N"
 },
 "6bf483ce35": {
 "v": "D",
@@ -3344,7 +3347,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.woterfitz.de/",
-"pend": null
+"pend": "D"
 },
 "1665ee3fad": {
 "v": "D",
@@ -3574,8 +3577,8 @@
 "v": "D",
 "mo": [],
 "jobs": "",
-"web": "http://www.spirit-yacht.com/",
-"pend": null
+"web": "https://sedo.com/search/details/?domain=www.spirit-yacht.com&campaignId=329145&origin=sales_lander_15",
+"pend": "X"
 },
 "44984e2014": {
 "v": "N",
@@ -3661,13 +3664,6 @@
 "web": "https://www.breejen-shipyard.nl/nl/",
 "pend": null
 },
-"7ae0cdcfbb": {
-"v": "m",
-"mo": [],
-"jobs": "",
-"web": "https://www.vanquish-yachts.com/",
-"pend": "N"
-},
 "4ed7a16c7e": {
 "v": "N",
 "mo": [],
@@ -3680,7 +3676,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://holtermanshipyard.nl/",
-"pend": null
+"pend": "D"
 },
 "25d6fd5ba3": {
 "v": "D",
@@ -3806,7 +3802,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.onj.nl/",
-"pend": null
+"pend": "D"
 },
 "95cb91e7c5": {
 "v": "M",
@@ -3840,8 +3836,8 @@
 "v": "N",
 "mo": [],
 "jobs": "",
-"web": "https://ompong188alt.online/register",
-"pend": null
+"web": "https://ompong188alt.online/register/",
+"pend": "D"
 },
 "0c4197d57e": {
 "v": "X",
@@ -3976,6 +3972,13 @@
 "web": "https://smelne.nl/",
 "pend": null
 },
+"009637c389": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "https://sunreef-yachts.com/en/",
+"pend": "D"
+},
 "8e46cd9a73": {
 "v": "N",
 "mo": [],
@@ -4004,19 +4007,19 @@
 "web": "http://www.konspaw.com/",
 "pend": null
 },
+"0b1aaea315": {
+"v": "S",
+"mo": [],
+"jobs": "",
+"web": "https://www.vmgyachtbuilders.nl/",
+"pend": "N"
+},
 "6dfef1a21b": {
 "v": "N",
 "mo": [],
 "jobs": "",
 "web": "https://www.hollandjachtbouw.nl/",
 "pend": null
-},
-"6626d50755": {
-"v": "S",
-"mo": [],
-"jobs": "",
-"web": "https://royaltshipyards.com/",
-"pend": "D"
 },
 "bdaecf7344": {
 "v": "N",
@@ -4058,7 +4061,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://admiralboats.com/",
-"pend": "D"
+"pend": null
 },
 "49bba6b3a6": {
 "v": "X",
@@ -4247,7 +4250,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://younique-yachts.com/",
-"pend": "D"
+"pend": null
 },
 "1051f65ff7": {
 "v": "N",
@@ -4326,13 +4329,6 @@
 "web": "https://www.sport-mare.hr/",
 "pend": null
 },
-"925e762b36": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://ris-marine.hr/",
-"pend": null
-},
 "45f3d87e76": {
 "v": "N",
 "mo": [],
@@ -4359,13 +4355,6 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.euroavia.it/aeronautical-maintenance/it/",
-"pend": null
-},
-"78bd9aefdc": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://pavliqoti.com/",
 "pend": null
 },
 "bd3bb31795": {
@@ -4727,6 +4716,13 @@
 "web": "http://www.rimaryachts.it/",
 "pend": null
 },
+"fbe0a486e2": {
+"v": "D",
+"mo": [],
+"jobs": "",
+"web": "https://raffaelliyacht.com/",
+"pend": "N"
+},
 "f19d5ec016": {
 "v": "N",
 "mo": [],
@@ -4785,7 +4781,9 @@
 },
 "59cf7061fc": {
 "v": "N",
-"mo": [],
+"mo": [
+"LEVEL 16"
+],
 "jobs": "",
 "web": "https://www.pirelli.com/global/en-ww/homepage/",
 "pend": null
@@ -4867,15 +4865,6 @@
 "web": "https://www.woy-yachts.com/",
 "pend": null
 },
-"3435417093": {
-"v": "M",
-"mo": [
-"Salina 42"
-],
-"jobs": "",
-"web": "https://lilybaeumyacht.com/it_it/",
-"pend": null
-},
 "362f98e94c": {
 "v": "m",
 "mo": [],
@@ -4930,7 +4919,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://paulsenwerft.de/",
-"pend": null
+"pend": "N"
 },
 "03e2d1be36": {
 "v": "X",
@@ -4989,11 +4978,11 @@
 "pend": null
 },
 "0429a6987d": {
-"v": "m",
+"v": "N",
 "mo": [],
 "jobs": "",
 "web": "https://oswald-iden-engineering.de/",
-"pend": "N"
+"pend": null
 },
 "0818e48615": {
 "v": "X",
@@ -5059,17 +5048,10 @@
 "pend": null
 },
 "795b56d48b": {
-"v": "D",
+"v": "X",
 "mo": [],
 "jobs": "",
 "web": "https://www.hugedomains.com/domain_profile.cfm?d=beaconax.com",
-"pend": "X"
-},
-"e1c28fb6fc": {
-"v": "D",
-"mo": [],
-"jobs": "",
-"web": "https://www.bootswerft-inselmann.de/",
 "pend": null
 },
 "72eee498bd": {
@@ -5133,7 +5115,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.novamarine.com/en/",
-"pend": null
+"pend": "D"
 },
 "2f73e7a58e": {
 "v": "T",
@@ -5178,11 +5160,11 @@
 "pend": null
 },
 "d82fc3aae5": {
-"v": "D",
+"v": "X",
 "mo": [],
 "jobs": "",
 "web": "https://www.hugedomains.com/domain_profile.cfm?d=conitsolutions.com",
-"pend": "X"
+"pend": null
 },
 "f518817672": {
 "v": "N",
@@ -5243,11 +5225,11 @@
 "pend": null
 },
 "59e063272d": {
-"v": "N",
+"v": "D",
 "mo": [],
 "jobs": "",
 "web": "https://www.zille.at/",
-"pend": "D"
+"pend": null
 },
 "f387545680": {
 "v": "T",
@@ -5291,12 +5273,26 @@
 "web": "https://www.cantierearchettiercole.it/",
 "pend": null
 },
+"03a6b12001": {
+"v": "N",
+"mo": [],
+"jobs": "",
+"web": "https://www.gumotex.cz/",
+"pend": "D"
+},
 "5a72ed2d54": {
 "v": "M",
 "mo": [],
 "jobs": "",
 "web": "https://www.persico.com/en",
 "pend": null
+},
+"c22f9a9f31": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://www.parmamodelli.it/",
+"pend": "D"
 },
 "4cc24f480d": {
 "v": "S",
@@ -5438,6 +5434,13 @@
 "web": "https://www.magazzu.com/",
 "pend": null
 },
+"ba167adfb0": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://africancats.com/",
+"pend": null
+},
 "5a3f2b584b": {
 "v": "M",
 "mo": [],
@@ -5460,11 +5463,11 @@
 "pend": null
 },
 "9d9117580e": {
-"v": "D",
+"v": "M",
 "mo": [],
 "jobs": "",
 "web": "http://www.stadtdesign.com/",
-"pend": "M"
+"pend": null
 },
 "b41a836fd4": {
 "v": "M",
@@ -5662,7 +5665,7 @@
 "513ca99dbb": {
 "v": "M",
 "mo": [],
-"jobs": "0.2026 Bleifrei95 CHF 2.25/L Diesel CHF 2.54/L ARCHIV.... ältere News Wir suchen per Herbst/ende Jahr 2018 MARINE MECHANIKER 80 - 100 % siehe Details JUBILÄUMSJAHR 2018 (1898 - 2018) 120 Jah",
+"jobs": "1.2026 Bleifrei95 CHF 2.10/L Diesel CHF 2.47/L ARCHIV.... ältere News Wir suchen per Herbst/ende Jahr 2018 MARINE MECHANIKER 80 - 100 % siehe Details JUBILÄUMSJAHR 2018 (1898 - 2018) 120 Jah",
 "web": "https://www.rohn-boote.ch/",
 "pend": null
 },
@@ -5932,11 +5935,11 @@
 "web": "http://www.alumarine.nl/",
 "pend": null
 },
-"0b1aaea315": {
+"6626d50755": {
 "v": "S",
 "mo": [],
 "jobs": "",
-"web": "https://www.vmgyachtbuilders.nl/",
+"web": "https://royaltshipyards.com/",
 "pend": null
 },
 "bec147951f": {
@@ -6170,6 +6173,13 @@
 "web": "https://www.finewoodwork.de/",
 "pend": null
 },
+"3435417093": {
+"v": "M",
+"mo": [],
+"jobs": "",
+"web": "https://lilybaeumyacht.com/it_it/",
+"pend": "D"
+},
 "d722c9c89d": {
 "v": "X",
 "mo": [],
@@ -6263,6 +6273,13 @@
 "web": "https://www.ya-ro.de/",
 "pend": null
 },
+"7ae0cdcfbb": {
+"v": "m",
+"mo": [],
+"jobs": "",
+"web": "https://www.vanquish-yachts.com/",
+"pend": null
+},
 "116dae15bd": {
 "v": "m",
 "mo": [],
@@ -6296,15 +6313,6 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.c-yacht.com/nl/geschiedenis/",
-"pend": null
-},
-"009637c389": {
-"v": "m",
-"mo": [
-"Sunreef 100"
-],
-"jobs": "",
-"web": "https://sunreef-yachts.com/en/",
 "pend": null
 },
 "ca87b801d6": {
@@ -6347,13 +6355,6 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.woodensailboat.de/",
-"pend": null
-},
-"c22f9a9f31": {
-"v": "M",
-"mo": [],
-"jobs": "",
-"web": "https://www.parmamodelli.it/",
 "pend": null
 },
 "1492ea44e4": {
@@ -6529,7 +6530,7 @@
 "mo": [],
 "jobs": "",
 "web": "https://www.falconyachts.com/",
-"pend": null
+"pend": "X"
 },
 "632a78c5bf": {
 "v": "X",
@@ -6539,11 +6540,11 @@
 "pend": null
 },
 "814c9056f3": {
-"v": "D",
+"v": "X",
 "mo": [],
 "jobs": "",
 "web": "https://www.hugedomains.com/domain_profile.cfm?d=numoyachts.com",
-"pend": "X"
+"pend": null
 },
 "c6b59233a7": {
 "v": "X",
@@ -6939,13 +6940,6 @@
 "web": "https://terybet.it/it-it/",
 "pend": null
 },
-"03a6b12001": {
-"v": "N",
-"mo": [],
-"jobs": "",
-"web": "https://www.gumotex.cz/",
-"pend": null
-},
 "37c7128c4d": {
 "v": "m",
 "mo": [],
@@ -7012,6 +7006,7 @@
 "a5deb3f8da": {
 "v": "M",
 "mo": [
+"Instagram 12",
 "Instagram 30"
 ],
 "jobs": "",
